@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "benchmark": {
+    "path": "build/benchmark-release/benchmark/mimalloc-bench",
+    "sha256": "46ac4545b6c8375e08ac4894c71032ca9ec55e6e31b454bfc61275595a957b39",
+    "compiler": "GCC 8.5.0 (Rocky Linux 8 container)",
+    "build_type": "Release"
+  },
+  "builds": [
+    {
+      "version": "v2.1.2",
+      "commit": "43ce4bd7fd34bcc730c1c7471c99995597415488",
+      "profile": "release",
+      "source_directory": "extern/mimalloc-v2.1.2",
+      "build_directory": "build/mimalloc-v2.1.2/release",
+      "install_prefix": "opt/mimalloc-v2.1.2/release",
+      "library_path": "opt/mimalloc-v2.1.2/release/lib64/libmimalloc.so",
+      "library_sha256": "03a21de3a984a745c1bfe8ae6a6ad2ee79e4202c3364745ccba541e539c51f06",
+      "compiler": "GCC 8.5.0 (Rocky Linux 8 container)",
+      "build_type": "Release",
+      "status": "measured-r6-r9"
+    },
+    {
+      "version": "v3.4.3",
+      "commit": "152fbf2634aeafca3774df791b0a77683035f076",
+      "profile": "release",
+      "source_directory": "extern/mimalloc-v3.4.3",
+      "build_directory": "build/mimalloc-v3.4.3/release",
+      "install_prefix": "opt/mimalloc-v3.4.3/release",
+      "library_path": "opt/mimalloc-v3.4.3/release/lib64/libmimalloc.so",
+      "library_sha256": "192b3a11694cbb86bbd54b5e2e63ed51942f16ad4a11e55fb0bd8fa2ad38bfb2",
+      "compiler": "GCC 8.5.0 (Rocky Linux 8 container)",
+      "build_type": "Release",
+      "status": "measured-r6-r9"
+    },
+    {
+      "version": "v2.1.2",
+      "commit": "43ce4bd7fd34bcc730c1c7471c99995597415488",
+      "profile": "secure",
+      "source_directory": "extern/mimalloc-v2.1.2",
+      "build_directory": "build/mimalloc-v2.1.2/secure",
+      "install_prefix": "opt/mimalloc-v2.1.2/secure",
+      "library_path": "opt/mimalloc-v2.1.2/secure/lib64/libmimalloc-secure.so",
+      "library_sha256": "9cfe41c42a966772400736926b77120a3a04014d5a94aeb2084aac969ac2d9fe",
+      "cmake_option": "MI_SECURE=ON",
+      "build_type": "Release",
+      "status": "measured-r10"
+    },
+    {
+      "version": "v3.4.3",
+      "commit": "152fbf2634aeafca3774df791b0a77683035f076",
+      "profile": "secure",
+      "source_directory": "extern/mimalloc-v3.4.3",
+      "build_directory": "build/mimalloc-v3.4.3/secure",
+      "install_prefix": "opt/mimalloc-v3.4.3/secure",
+      "library_path": "opt/mimalloc-v3.4.3/secure/lib64/libmimalloc-secure.so",
+      "library_sha256": "a018d8d5f9b083de1612fbda3f38bf8ba775671393c25e47522708834e3129b7",
+      "cmake_option": "MI_SECURE=ON",
+      "build_type": "Release",
+      "status": "measured-r10"
+    },
+    {
+      "version": "v2.1.2",
+      "commit": "43ce4bd7fd34bcc730c1c7471c99995597415488",
+      "profile": "local-dynamic-tls",
+      "source_directory": "extern/mimalloc-v2.1.2",
+      "build_directory": "build/mimalloc-v2.1.2/local-dynamic-tls",
+      "install_prefix": "opt/mimalloc-v2.1.2/local-dynamic-tls",
+      "library_path": "opt/mimalloc-v2.1.2/local-dynamic-tls/lib64/libmimalloc.so",
+      "library_sha256": "fc299f4cdd5ea94ea585bdc2a641b681de6e95b3a81691fbdb815babbf24ebe3",
+      "cmake_option": "MI_LOCAL_DYNAMIC_TLS=ON",
+      "build_type": "Release",
+      "status": "measured-r10"
+    },
+    {
+      "version": "v3.4.3",
+      "commit": "152fbf2634aeafca3774df791b0a77683035f076",
+      "profile": "local-dynamic-tls",
+      "source_directory": "extern/mimalloc-v3.4.3",
+      "build_directory": "build/mimalloc-v3.4.3/local-dynamic-tls",
+      "install_prefix": "opt/mimalloc-v3.4.3/local-dynamic-tls",
+      "library_path": "opt/mimalloc-v3.4.3/local-dynamic-tls/lib64/libmimalloc.so",
+      "library_sha256": "e6291955ef620407407bf7499abae0e8147ec3029b8ad95f28e9bb816c2132c8",
+      "cmake_option": "MI_LOCAL_DYNAMIC_TLS=ON",
+      "build_type": "Release",
+      "status": "measured-r10"
+    }
+  ]
+}

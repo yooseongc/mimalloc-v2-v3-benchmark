@@ -1,0 +1,9 @@
+include:
+  - smoke.yaml
+  - core.yaml
+  - extended.yaml
+comparison_versions: [v2.1.2, v3.4.3]
+randomization:
+  strategy: paired-block
+  seed: 20260725
+

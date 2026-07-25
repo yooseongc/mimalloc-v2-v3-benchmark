@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "design_status": "Frozen",
+  "randomization_seed": 20260725,
+  "runs": [
+    {
+      "experiment_id": "tier1-local-small-1",
+      "block_id": "tier1-local-small-1",
+      "allocator_name": "mimalloc",
+      "allocator_version": "v2.1.2",
+      "allocator_library_path": "/work/opt/mimalloc-v2.1.2/release/lib64/libmimalloc.so",
+      "benchmark_path": "/work/build/benchmark-release/benchmark/mimalloc-bench",
+      "scenario": "local_churn",
+      "thread_count": 1,
+      "size_bytes": 64,
+      "operation_count": 1000000000,
+      "warmup_count": 0,
+      "seed": 20260725,
+      "runtime_options": {},
+      "thp_mode": "madvise",
+      "repetitions": 15
+    },
+    {
+      "experiment_id": "tier1-local-small-1",
+      "block_id": "tier1-local-small-1",
+      "allocator_name": "mimalloc",
+      "allocator_version": "v3.4.3",
+      "allocator_library_path": "/work/opt/mimalloc-v3.4.3/release/lib64/libmimalloc.so",
+      "benchmark_path": "/work/build/benchmark-release/benchmark/mimalloc-bench",
+      "scenario": "local_churn",
+      "thread_count": 1,
+      "size_bytes": 64,
+      "operation_count": 1000000000,
+      "warmup_count": 0,
+      "seed": 20260725,
+      "runtime_options": {},
+      "thp_mode": "madvise",
+      "repetitions": 15
+    }
+  ]
+}

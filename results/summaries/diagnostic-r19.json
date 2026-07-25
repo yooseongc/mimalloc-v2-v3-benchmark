@@ -1,0 +1,282 @@
+{
+  "diagnostic": "r19",
+  "valid_records": 12,
+  "groups": [
+    {
+      "policy_label": "upstream-default",
+      "allocator_version": 212,
+      "valid_repetitions": 3,
+      "elapsed_ns": {
+        "count": 3,
+        "median": 14432796026,
+        "minimum": 14429638040,
+        "maximum": 14435622615
+      },
+      "page_faults_minor": {
+        "count": 3,
+        "median": 131990,
+        "minimum": 131990,
+        "maximum": 131990
+      },
+      "syscall_calls": {
+        "mmap": {
+          "count": 3,
+          "median": 28,
+          "minimum": 28,
+          "maximum": 28
+        },
+        "munmap": {
+          "count": 3,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 1
+        },
+        "madvise": {
+          "count": 3,
+          "median": 30,
+          "minimum": 30,
+          "maximum": 30
+        },
+        "brk": {
+          "count": 3,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 1
+        }
+      },
+      "maximum_process_memory_bytes": {
+        "AnonHugePages": {
+          "count": 3,
+          "median": 0,
+          "minimum": 0,
+          "maximum": 0
+        },
+        "Rss": {
+          "count": 3,
+          "median": 88072192,
+          "minimum": 88051712,
+          "maximum": 88154112
+        },
+        "VmRSS": {
+          "count": 3,
+          "median": 87912448,
+          "minimum": 87912448,
+          "maximum": 88043520
+        },
+        "VmHWM": {
+          "count": 3,
+          "median": 87912448,
+          "minimum": 87912448,
+          "maximum": 88043520
+        }
+      }
+    },
+    {
+      "policy_label": "upstream-default",
+      "allocator_version": 30403,
+      "valid_repetitions": 3,
+      "elapsed_ns": {
+        "count": 3,
+        "median": 14273336304,
+        "minimum": 14271255064,
+        "maximum": 14275754299
+      },
+      "page_faults_minor": {
+        "count": 3,
+        "median": 11751,
+        "minimum": 11751,
+        "maximum": 11751
+      },
+      "syscall_calls": {
+        "mmap": {
+          "count": 3,
+          "median": 29,
+          "minimum": 29,
+          "maximum": 29
+        },
+        "munmap": {
+          "count": 3,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 1
+        },
+        "madvise": {
+          "count": 3,
+          "median": 748,
+          "minimum": 748,
+          "maximum": 748
+        },
+        "brk": {
+          "count": 3,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 1
+        }
+      },
+      "maximum_process_memory_bytes": {
+        "AnonHugePages": {
+          "count": 3,
+          "median": 90177536,
+          "minimum": 90177536,
+          "maximum": 90177536
+        },
+        "Rss": {
+          "count": 3,
+          "median": 94081024,
+          "minimum": 93954048,
+          "maximum": 94121984
+        },
+        "VmRSS": {
+          "count": 3,
+          "median": 94015488,
+          "minimum": 93884416,
+          "maximum": 94015488
+        },
+        "VmHWM": {
+          "count": 3,
+          "median": 94015488,
+          "minimum": 93884416,
+          "maximum": 94015488
+        }
+      }
+    },
+    {
+      "policy_label": "version-native-large-os-pages",
+      "allocator_version": 212,
+      "valid_repetitions": 3,
+      "elapsed_ns": {
+        "count": 3,
+        "median": 14044362849,
+        "minimum": 14035756135,
+        "maximum": 14049353100
+      },
+      "page_faults_minor": {
+        "count": 3,
+        "median": 42,
+        "minimum": 42,
+        "maximum": 42
+      },
+      "syscall_calls": {
+        "mmap": {
+          "count": 3,
+          "median": 32,
+          "minimum": 32,
+          "maximum": 32
+        },
+        "munmap": {
+          "count": 3,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 1
+        },
+        "madvise": {
+          "count": 3,
+          "median": 2,
+          "minimum": 2,
+          "maximum": 2
+        },
+        "brk": {
+          "count": 3,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 1
+        }
+      },
+      "maximum_process_memory_bytes": {
+        "AnonHugePages": {
+          "count": 3,
+          "median": 88080384,
+          "minimum": 88080384,
+          "maximum": 88080384
+        },
+        "Rss": {
+          "count": 3,
+          "median": 91832320,
+          "minimum": 91738112,
+          "maximum": 91926528
+        },
+        "VmRSS": {
+          "count": 3,
+          "median": 91725824,
+          "minimum": 91136000,
+          "maximum": 91860992
+        },
+        "VmHWM": {
+          "count": 3,
+          "median": 91725824,
+          "minimum": 91136000,
+          "maximum": 91860992
+        }
+      }
+    },
+    {
+      "policy_label": "version-native-large-os-pages",
+      "allocator_version": 30403,
+      "valid_repetitions": 3,
+      "elapsed_ns": {
+        "count": 3,
+        "median": 14268105090,
+        "minimum": 14264796431,
+        "maximum": 14272463185
+      },
+      "page_faults_minor": {
+        "count": 3,
+        "median": 11751,
+        "minimum": 11751,
+        "maximum": 11751
+      },
+      "syscall_calls": {
+        "mmap": {
+          "count": 3,
+          "median": 32,
+          "minimum": 32,
+          "maximum": 32
+        },
+        "munmap": {
+          "count": 3,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 1
+        },
+        "madvise": {
+          "count": 3,
+          "median": 748,
+          "minimum": 748,
+          "maximum": 748
+        },
+        "brk": {
+          "count": 3,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 1
+        }
+      },
+      "maximum_process_memory_bytes": {
+        "AnonHugePages": {
+          "count": 3,
+          "median": 90177536,
+          "minimum": 90177536,
+          "maximum": 90177536
+        },
+        "Rss": {
+          "count": 3,
+          "median": 94056448,
+          "minimum": 93831168,
+          "maximum": 94138368
+        },
+        "VmRSS": {
+          "count": 3,
+          "median": 94019584,
+          "minimum": 93757440,
+          "maximum": 94019584
+        },
+        "VmHWM": {
+          "count": 3,
+          "median": 94019584,
+          "minimum": 93757440,
+          "maximum": 94019584
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+tier: 1
+seed: 20260725
+policy: normalized-policy
+repetitions_minimum: 15
+target_duration_seconds: [10, 30]
+pilot_selected_operation_count:
+  local_churn_fixed_small_threads_1: 500000000
+  remote_free_fixed_small_1_to_1: 125000000
+thp_mode: fixed-after-pilot
+numa: single-node
+touch_mode: first-and-last
+scenarios:
+  - name: local_churn
+    thread_counts: [1, P]
+    size_profiles: [fixed-small, mixed-wide]
+    patterns: [allocate-free, batch-fifo, batch-lifo, batch-random]
+  - name: remote_free
+    topologies: [1:1, N:N]
+    thread_counts: [1, P]
+    size_profiles: [fixed-small, mixed-wide]
+    queue_capacity: pilot-selected

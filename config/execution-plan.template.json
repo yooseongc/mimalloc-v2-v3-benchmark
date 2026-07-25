@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "design_status": "Draft",
+  "randomization_seed": 20260725,
+  "runs": [
+    {
+      "experiment_id": "replace-after-pilot",
+      "block_id": "replace-after-pilot",
+      "allocator_name": "mimalloc",
+      "allocator_version": "replace-after-pilot",
+      "allocator_library_path": "/work/opt/mimalloc-vX/release/lib64/libmimalloc.so",
+      "benchmark_path": "/work/build/benchmark-release/benchmark/mimalloc-bench",
+      "scenario": "local_churn",
+      "thread_count": 1,
+      "size_bytes": 64,
+      "operation_count": 1000000000,
+      "warmup_count": 0,
+      "seed": 20260725,
+      "runtime_options": {},
+      "thp_mode": "madvise"
+    }
+  ]
+}
+

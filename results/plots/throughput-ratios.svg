@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="955" viewBox="0 0 1040 955">
+<style>text{font:13px sans-serif;fill:#202124}.small{font-size:11px;fill:#5f6368}.axis{stroke:#9aa0a6}.ci{stroke:#5f6368;stroke-width:2}.dot{fill:#1a73e8}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="27" style="font-size:18px;font-weight:600">Measured median throughput ratio (v3.4.3 / v2.1.2)</text>
+<line class="axis" x1="330.0" y1="42" x2="330.0" y2="925"/>
+<text class="small" x="320.0" y="945">0.9</text>
+<line class="axis" x1="378.1" y1="42" x2="378.1" y2="925"/>
+<text class="small" x="368.1" y="945">1</text>
+<line class="axis" x1="498.5" y1="42" x2="498.5" y2="925"/>
+<text class="small" x="488.5" y="945">1.25</text>
+<line class="axis" x1="618.9" y1="42" x2="618.9" y2="925"/>
+<text class="small" x="608.9" y="945">1.5</text>
+<line class="axis" x1="859.6" y1="42" x2="859.6" y2="925"/>
+<text class="small" x="849.6" y="945">2</text>
+<line class="axis" x1="980.0" y1="42" x2="980.0" y2="925"/>
+<text class="small" x="970.0" y="945">2.25</text>
+<text x="10" y="59">tier1-full-local-fixed-t8-r6-cpuset-r12</text>
+<line class="ci" x1="389.5" y1="55" x2="400.8" y2="55"/>
+<circle class="dot" cx="393.5" cy="55" r="5"/>
+<text class="small" x="401.5" y="59">1.032</text>
+<text x="10" y="93">tier1-full-local-mixed-wide-t1-r6-cpuset-r12</text>
+<line class="ci" x1="364.6" y1="89" x2="378.6" y2="89"/>
+<circle class="dot" cx="373.5" cy="89" r="5"/>
+<text class="small" x="381.5" y="93">0.990</text>
+<text x="10" y="127">tier1-full-local-mixed-wide-t8-r6-cpuset-r12</text>
+<line class="ci" x1="365.0" y1="123" x2="388.5" y2="123"/>
+<circle class="dot" cx="377.3" cy="123" r="5"/>
+<text class="small" x="385.3" y="127">0.998</text>
+<text x="10" y="161">tier1-full-remote-fixed-4x4-r6-cpuset-r12</text>
+<line class="ci" x1="364.4" y1="157" x2="421.2" y2="157"/>
+<circle class="dot" cx="383.8" cy="157" r="5"/>
+<text class="small" x="391.8" y="161">1.012</text>
+<text x="10" y="195">tier1-full-remote-mixed-wide-4x4-r6-cpuset-r12</text>
+<line class="ci" x1="357.2" y1="191" x2="416.0" y2="191"/>
+<circle class="dot" cx="383.6" cy="191" r="5"/>
+<text class="small" x="391.6" y="195">1.011</text>
+<text x="10" y="229">tier2-burst-purge-r7-cpuset-r12</text>
+<line class="ci" x1="377.1" y1="225" x2="378.8" y2="225"/>
+<circle class="dot" cx="377.9" cy="225" r="5"/>
+<text class="small" x="385.9" y="229">0.999</text>
+<text x="10" y="263">tier2-large-alloc-r7-cpuset-r12</text>
+<line class="ci" x1="1020.4" y1="259" x2="1822.4" y2="259"/>
+<circle class="dot" cx="1020.3" cy="259" r="5"/>
+<text class="small" x="1028.3" y="263">2.334</text>
+<text x="10" y="297">tier2-lifetime-mix-r7-cpuset-r12</text>
+<line class="ci" x1="372.0" y1="293" x2="386.7" y2="293"/>
+<circle class="dot" cx="382.6" cy="293" r="5"/>
+<text class="small" x="390.6" y="297">1.009</text>
+<text x="10" y="331">tier2-purge--1-r8-cpuset-r12</text>
+<line class="ci" x1="378.5" y1="327" x2="379.6" y2="327"/>
+<circle class="dot" cx="379.2" cy="327" r="5"/>
+<text class="small" x="387.2" y="331">1.002</text>
+<text x="10" y="365">tier2-purge-0-r8-cpuset-r12</text>
+<line class="ci" x1="372.2" y1="361" x2="378.7" y2="361"/>
+<circle class="dot" cx="376.4" cy="361" r="5"/>
+<text class="small" x="384.4" y="365">0.996</text>
+<text x="10" y="399">tier2-purge-1000-r8-cpuset-r12</text>
+<line class="ci" x1="376.3" y1="395" x2="377.9" y2="395"/>
+<circle class="dot" cx="377.1" cy="395" r="5"/>
+<text class="small" x="385.1" y="399">0.998</text>
+<text x="10" y="433">tier2-thread-churn-r7-cpuset-r12</text>
+<line class="ci" x1="523.1" y1="429" x2="537.6" y2="429"/>
+<circle class="dot" cx="527.1" cy="429" r="5"/>
+<text class="small" x="535.1" y="433">1.309</text>
+<text x="10" y="467">tier3-large-os-pages-large-alloc-r11-cpuset-r12</text>
+<line class="ci" x1="173.0" y1="463" x2="574.3" y2="463"/>
+<circle class="dot" cx="325.2" cy="463" r="5"/>
+<text class="small" x="333.2" y="467">0.890</text>
+<text x="10" y="501">tier3-local-dynamic-tls-local-fixed-r10-cpuset-r12</text>
+<line class="ci" x1="379.2" y1="497" x2="400.0" y2="497"/>
+<circle class="dot" cx="383.9" cy="497" r="5"/>
+<text class="small" x="391.9" y="501">1.012</text>
+<text x="10" y="535">tier3-numa-nodes-1-large-alloc-r11-cpuset-r12</text>
+<line class="ci" x1="866.5" y1="531" x2="1362.6" y2="531"/>
+<circle class="dot" cx="1001.5" cy="531" r="5"/>
+<text class="small" x="1009.5" y="535">2.295</text>
+<text x="10" y="569">tier3-secure-local-fixed-r10-cpuset-r12</text>
+<line class="ci" x1="413.2" y1="565" x2="428.3" y2="565"/>
+<circle class="dot" cx="421.3" cy="565" r="5"/>
+<text class="small" x="429.3" y="569">1.090</text>
+<text x="10" y="603">tier2-burst-purge-thp-never-r9-cpuset-r13</text>
+<line class="ci" x1="375.6" y1="599" x2="376.9" y2="599"/>
+<circle class="dot" cx="375.9" cy="599" r="5"/>
+<text class="small" x="383.9" y="603">0.995</text>
+<text x="10" y="637">tier2-large-alloc-thp-never-r9-cpuset-r13</text>
+<line class="ci" x1="361.6" y1="633" x2="386.4" y2="633"/>
+<circle class="dot" cx="379.1" cy="633" r="5"/>
+<text class="small" x="387.1" y="637">1.002</text>
+<text x="10" y="671">tier2-lifetime-mix-thp-never-r9-cpuset-r13</text>
+<line class="ci" x1="378.7" y1="667" x2="390.8" y2="667"/>
+<circle class="dot" cx="383.7" cy="667" r="5"/>
+<text class="small" x="391.7" y="671">1.012</text>
+<text x="10" y="705">tier2-thread-churn-thp-never-r9-cpuset-r13</text>
+<line class="ci" x1="514.5" y1="701" x2="569.7" y2="701"/>
+<circle class="dot" cx="529.7" cy="701" r="5"/>
+<text class="small" x="537.7" y="705">1.315</text>
+<text x="10" y="739">tier3-smt-local-fixed-r14</text>
+<line class="ci" x1="370.2" y1="735" x2="422.5" y2="735"/>
+<circle class="dot" cx="397.8" cy="735" r="5"/>
+<text class="small" x="405.8" y="739">1.041</text>
+<text x="10" y="773">tier3-oversubscription-local-fixed-r16</text>
+<line class="ci" x1="395.1" y1="769" x2="419.6" y2="769"/>
+<circle class="dot" cx="402.2" cy="769" r="5"/>
+<text class="small" x="410.2" y="773">1.050</text>
+<text x="10" y="807">tier3-api-aligned-local-fixed-r17</text>
+<line class="ci" x1="368.8" y1="803" x2="394.4" y2="803"/>
+<circle class="dot" cx="392.8" cy="803" r="5"/>
+<text class="small" x="400.8" y="807">1.030</text>
+<text x="10" y="841">tier3-api-cpp-new-local-fixed-r17</text>
+<line class="ci" x1="385.3" y1="837" x2="399.9" y2="837"/>
+<circle class="dot" cx="397.8" cy="837" r="5"/>
+<text class="small" x="405.8" y="841">1.041</text>
+<text x="10" y="875">tier3-api-realloc-local-fixed-r17</text>
+<line class="ci" x1="393.4" y1="871" x2="400.5" y2="871"/>
+<circle class="dot" cx="397.2" cy="871" r="5"/>
+<text class="small" x="405.2" y="875">1.040</text>
+</svg>

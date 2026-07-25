@@ -1,0 +1,138 @@
+{
+  "diagnostic": "r21",
+  "valid_records": 30,
+  "by_allocator_version": {
+    "212": {
+      "throughput_ops_per_second": {
+        "count": 15,
+        "median": 5742569.197232966,
+        "minimum": 5141114.125670213,
+        "maximum": 6570887.312271297
+      },
+      "user_cpu_ns": {
+        "count": 15,
+        "median": 135795642000,
+        "minimum": 118266538000,
+        "maximum": 151114354000
+      },
+      "system_cpu_ns": {
+        "count": 15,
+        "median": 799096000,
+        "minimum": 656193000,
+        "maximum": 984963000
+      },
+      "minor_faults": {
+        "count": 15,
+        "median": 230683,
+        "minimum": 212378,
+        "maximum": 246068
+      },
+      "maximum_sampled_rss_bytes": {
+        "count": 15,
+        "median": 952983552,
+        "minimum": 878112768,
+        "maximum": 1014685696
+      },
+      "last_sampled_rss_bytes": {
+        "count": 15,
+        "median": 952983552,
+        "minimum": 878112768,
+        "maximum": 1014685696
+      },
+      "maximum_anon_huge_pages_bytes": {
+        "count": 15,
+        "median": 4194304,
+        "minimum": 4194304,
+        "maximum": 4194304
+      }
+    },
+    "30403": {
+      "throughput_ops_per_second": {
+        "count": 15,
+        "median": 6044089.830183319,
+        "minimum": 5136047.192729875,
+        "maximum": 6639978.845813571
+      },
+      "user_cpu_ns": {
+        "count": 15,
+        "median": 129305392000,
+        "minimum": 116729156000,
+        "maximum": 151656771000
+      },
+      "system_cpu_ns": {
+        "count": 15,
+        "median": 2024363000,
+        "minimum": 1590879000,
+        "maximum": 2830197000
+      },
+      "minor_faults": {
+        "count": 15,
+        "median": 220463,
+        "minimum": 116474,
+        "maximum": 303976
+      },
+      "maximum_sampled_rss_bytes": {
+        "count": 15,
+        "median": 570060800,
+        "minimum": 552411136,
+        "maximum": 593248256
+      },
+      "last_sampled_rss_bytes": {
+        "count": 15,
+        "median": 537829376,
+        "minimum": 13803520,
+        "maximum": 570044416
+      },
+      "maximum_anon_huge_pages_bytes": {
+        "count": 15,
+        "median": 406847488,
+        "minimum": 396361728,
+        "maximum": 434110464
+      }
+    }
+  },
+  "paired_v3_over_v2": {
+    "throughput_ops_per_second_ratio_v3_over_v2": {
+      "count": 15,
+      "median": 1.015361587331693,
+      "minimum": 0.8007055097296419,
+      "maximum": 1.2570767090885169
+    },
+    "user_cpu_ns_ratio_v3_over_v2": {
+      "count": 15,
+      "median": 0.9903201809056478,
+      "minimum": 0.7891898450294563,
+      "maximum": 1.2470725552193958
+    },
+    "system_cpu_ns_ratio_v3_over_v2": {
+      "count": 15,
+      "median": 2.548073928131264,
+      "minimum": 1.8831846443160756,
+      "maximum": 3.721754692460106
+    },
+    "minor_faults_ratio_v3_over_v2": {
+      "count": 15,
+      "median": 0.964261658371021,
+      "minimum": 0.488899709113194,
+      "maximum": 1.43129702699903
+    },
+    "maximum_sampled_rss_bytes_ratio_v3_over_v2": {
+      "count": 15,
+      "median": 0.5966204825281807,
+      "minimum": 0.5658267602108782,
+      "maximum": 0.6353319968943146
+    },
+    "last_sampled_rss_bytes_ratio_v3_over_v2": {
+      "count": 15,
+      "median": 0.5703620056895915,
+      "minimum": 0.014484531208362345,
+      "maximum": 0.6076791142655361
+    },
+    "maximum_anon_huge_pages_bytes_ratio_v3_over_v2": {
+      "count": 15,
+      "median": 97.0,
+      "minimum": 94.5,
+      "maximum": 103.5
+    }
+  }
+}

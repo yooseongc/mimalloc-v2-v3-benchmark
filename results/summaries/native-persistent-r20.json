@@ -1,0 +1,73 @@
+{
+  "diagnostic": "r20",
+  "paired_groups": [
+    {
+      "block_id": "r20-native-persistent-remote-fixed-small",
+      "paired_repetitions": 15,
+      "throughput_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 1.0185265814109892,
+        "minimum": 0.8788933323736098,
+        "maximum": 1.1996408001293888
+      },
+      "user_cpu_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 0.986350714368291,
+        "minimum": 0.8345205359284901,
+        "maximum": 1.1382134658002918
+      },
+      "system_cpu_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 0.04521982260790461,
+        "minimum": 0.0,
+        "maximum": 0.10300442737774185
+      },
+      "minor_fault_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 0.013222389594242403,
+        "minimum": 0.01099783633632215,
+        "maximum": 0.027734105484611644
+      },
+      "rss_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 1.4323873121869783,
+        "minimum": 1.072662462297779,
+        "maximum": 1.6665247018739353
+      }
+    },
+    {
+      "block_id": "r20-native-persistent-remote-mixed-wide",
+      "paired_repetitions": 15,
+      "throughput_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 1.0121662098521573,
+        "minimum": 0.8874749626622789,
+        "maximum": 1.3029211748714729
+      },
+      "user_cpu_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 0.9863110459472275,
+        "minimum": 0.7634007044498963,
+        "maximum": 1.113828227145222
+      },
+      "system_cpu_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 2.1253274570056773,
+        "minimum": 1.3765945068601995,
+        "maximum": 4.663936879635539
+      },
+      "minor_fault_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 0.7012045300943033,
+        "minimum": 0.4798113006741906,
+        "maximum": 1.3812996061032903
+      },
+      "rss_ratio_v3_over_v2": {
+        "count": 15,
+        "median": 1.129784066860361,
+        "minimum": 0.028990547736635057,
+        "maximum": 58.1374321880651
+      }
+    }
+  ]
+}

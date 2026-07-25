@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mimalloc v2.1.2와 v3.4.3 실험 보고서</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#5f6b7a; --line:#d8dee9; --panel:#f7f9fc; --accent:#146c94; --good:#096a47; --warn:#875d00; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#eef2f7; color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { max-width:1120px; margin:32px auto; padding:42px 52px; background:#fff; box-shadow:0 3px 20px #17203318; }
+    h1,h2,h3 { line-height:1.25; }
+    h1 { margin:0 0 8px; font-size:2rem; }
+    h2 { margin:42px 0 14px; padding-bottom:8px; border-bottom:2px solid var(--accent); font-size:1.4rem; }
+    h3 { margin:28px 0 8px; font-size:1.12rem; }
+    p { margin:10px 0; }
+    .subtitle,.meta { color:var(--muted); }
+    .status { margin:24px 0; padding:16px 18px; border-left:5px solid var(--good); background:#eef9f4; }
+    .scope { margin:16px 0; padding:16px 18px; border-left:5px solid var(--warn); background:#fff8e8; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin:18px 0; }
+    .card { padding:16px; border:1px solid var(--line); background:var(--panel); border-radius:6px; }
+    .card strong { display:block; font-size:1.3rem; color:var(--accent); }
+    table { width:100%; margin:14px 0 22px; border-collapse:collapse; font-size:.94rem; }
+    caption { padding:8px; text-align:left; font-weight:700; }
+    th,td { padding:10px; text-align:left; vertical-align:top; border:1px solid var(--line); }
+    th { background:#eaf2f8; }
+    td.num,th.num { text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+    code { padding:1px 4px; border-radius:3px; background:#eef1f5; font-family:ui-monospace,Consolas,monospace; }
+    ul { padding-left:1.25rem; }
+    figure { margin:22px 0; padding:16px; border:1px solid var(--line); }
+    figure img { display:block; max-width:100%; height:auto; }
+    figcaption { margin-top:9px; color:var(--muted); font-size:.92rem; }
+    .note { color:var(--muted); font-size:.93rem; }
+    footer { margin-top:42px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+    @media print { body { background:#fff; } main { max-width:none; margin:0; padding:0; box-shadow:none; } }
+    @media (max-width:650px) { main { margin:0; padding:24px 18px; } h1 { font-size:1.6rem; } table { font-size:.82rem; } th,td { padding:7px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>mimalloc v2.1.2와 v3.4.3 비교 실험 보고서</h1>
+    <p class="subtitle">Rocky Linux 8 컨테이너 · 동일 benchmark 바이너리 · <code>LD_PRELOAD</code> 주입 비교</p>
+    <p class="meta">한국어 HTML 판 · 원본 데이터와 영문 Markdown 보고서를 바탕으로 작성</p>
+  </header>
+
+  <section class="status" aria-label="실행 상태">
+    <strong>실행 상태: 승인된 범위에서 완료</strong><br>
+    최종 비교 범위는 CPU가 통제된 r12(THP=<code>madvise</code>)와 r13(THP=<code>never</code>)이다.
+  </section>
+  <section class="scope" aria-label="제외 범위">
+    <strong>미실행 범위:</strong> HugeTLB 예약과 cross-NUMA. 두 항목은 사용자 결정으로 제외되었고, cross-NUMA는 단일 NUMA 노드 호스트에서는 구조적으로 수행할 수 없다.
+  </section>
+
+  <h2>요약</h2>
+  <p>최종 비교 데이터는 유효 raw record 600건으로 구성된다. r12는 Tier 1, Tier 2 및 공통 Tier 3 빌드·런타임 통제 실험 480건이며, r13은 THP=<code>never</code> 실험 120건이다. 보고된 각 비교 블록은 v2/v3 쌍 15회씩의 유효 반복을 포함한다.</p>
+  <div class="grid">
+    <div class="card"><strong>600건</strong>최종 범위 유효 raw record</div>
+    <div class="card"><strong>15쌍</strong>보고된 블록별 유효 반복</div>
+    <div class="card"><strong>8개 CPU</strong>비-SMT 물리 코어 형제 스레드</div>
+    <div class="card"><strong>NUMA 0</strong>고정 CPU·메모리 노드</div>
+  </div>
+  <p>결과는 이 workload와 이 호스트에 한정된다. 모든 상황에 적용되는 allocator 순위를 뜻하지 않는다. 특히 large allocation 및 large-page 요청 cell은 변동성이 크므로 중앙값만으로 일반화해서는 안 된다.</p>
+
+  <h2>실험 환경과 통제</h2>
+  <table>
+    <tbody>
+      <tr><th>비교 대상</th><td><code>microsoft/mimalloc</code> v2.1.2 (<code>43ce4bd7fd34bcc730c1c7471c99995597415488</code>) / v3.4.3 (<code>152fbf2634aeafca3774df791b0a77683035f076</code>)</td></tr>
+      <tr><th>실행 환경</th><td>동일 Rocky Linux 8 컨테이너, 동일 benchmark 실행 파일, <code>LD_PRELOAD</code>로 allocator만 교체, 측정 중 네트워크 없음</td></tr>
+      <tr><th>CPU 집합</th><td><code>0,2,4,6,8,10,12,14</code> — NUMA node 0의 비-SMT 논리 CPU</td></tr>
+      <tr><th>호스트 토폴로지</th><td>NUMA node 1개, 물리 코어 8개 / 논리 CPU 16개</td></tr>
+      <tr><th>affinity 검증</th><td>실행기가 커널의 <code>Cpus_allowed_list</code>를 기록하며, 계획과 cpuset이 다르면 해당 실행을 거부</td></tr>
+      <tr><th>보존된 정보</th><td>빌드 경로·CMake profile·라이브러리 hash·이미지 digest·환경 수집 결과는 <code>manifests/</code>에 보존</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Tier 1: 핵심 성능 비교</h2>
+  <p>r12, THP=<code>madvise</code> 조건이다. 비율은 <strong>v3 throughput / v2 throughput</strong>이며, 1보다 크면 v3 처리량이 높다.</p>
+  <table>
+    <thead><tr><th>workload</th><th class="num">중앙값 비율</th><th class="num">평균 비율 95% CI</th><th>해석</th></tr></thead>
+    <tbody>
+      <tr><td>fixed-small local, 8 threads</td><td class="num">1.032</td><td class="num">1.024–1.047</td><td>이 cell에서는 v3가 높음</td></tr>
+      <tr><td>mixed-wide local, 1 thread</td><td class="num">0.990</td><td class="num">0.972–1.001</td><td>거의 동등</td></tr>
+      <tr><td>mixed-wide local, 8 threads</td><td class="num">0.998</td><td class="num">0.973–1.021</td><td>거의 동등</td></tr>
+      <tr><td>fixed-small remote-free, 4:4</td><td class="num">1.012</td><td class="num">0.971–1.089</td><td>신뢰구간이 동등성 1을 포함</td></tr>
+      <tr><td>mixed-wide remote-free, 4:4</td><td class="num">1.011</td><td class="num">0.956–1.079</td><td>신뢰구간이 동등성 1을 포함</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Tier 2: 메모리 정책</h2>
+  <h3>THP=<code>madvise</code> (r12)</h3>
+  <table>
+    <thead><tr><th>scenario</th><th class="num">중앙값 v3/v2</th><th class="num">평균 비율 95% CI</th></tr></thead>
+    <tbody>
+      <tr><td>burst/purge</td><td class="num">0.999</td><td class="num">0.998–1.001</td></tr>
+      <tr><td>large allocation</td><td class="num">2.334</td><td class="num">2.334–4.000</td></tr>
+      <tr><td>lifetime mix</td><td class="num">1.009</td><td class="num">0.987–1.018</td></tr>
+      <tr><td>thread churn</td><td class="num">1.309</td><td class="num">1.301–1.331</td></tr>
+    </tbody>
+  </table>
+  <p class="note">v3의 large-allocation 변동계수(CV)는 약 51%이다. 따라서 이 큰 비율은 안정적인 권장 결론이 아니라 고변동 관측값이다.</p>
+
+  <h3>THP=<code>never</code> (r13)</h3>
+  <p>권한 있는 controller가 기존 <code>madvise</code> 상태를 저장하고 <code>never</code>를 적용하여 120건을 수집한 후 <code>madvise</code>로 복원했다. 컨테이너 종료 후 복원 상태를 별도로 검증했다.</p>
+  <table>
+    <thead><tr><th>scenario</th><th class="num">중앙값 v3/v2</th><th class="num">평균 비율 95% CI</th></tr></thead>
+    <tbody>
+      <tr><td>burst/purge</td><td class="num">0.995</td><td class="num">0.995–0.997</td></tr>
+      <tr><td>large allocation</td><td class="num">1.002</td><td class="num">0.966–1.017</td></tr>
+      <tr><td>lifetime mix</td><td class="num">1.012</td><td class="num">1.001–1.026</td></tr>
+      <tr><td>thread churn</td><td class="num">1.315</td><td class="num">1.283–1.398</td></tr>
+    </tbody>
+  </table>
+
+  <h3>공통 purge 정책 (r12, THP=<code>madvise</code>)</h3>
+  <table>
+    <thead><tr><th class="num"><code>MIMALLOC_PURGE_DELAY</code></th><th class="num">중앙값 v3/v2</th><th class="num">평균 비율 95% CI</th></tr></thead>
+    <tbody>
+      <tr><td class="num">-1</td><td class="num">1.002</td><td class="num">1.001–1.003</td></tr>
+      <tr><td class="num">0</td><td class="num">0.996</td><td class="num">0.988–1.001</td></tr>
+      <tr><td class="num">1000</td><td class="num">0.998</td><td class="num">0.996–0.999</td></tr>
+    </tbody>
+  </table>
+  <p><code>MIMALLOC_PURGE_DELAY=0</code>은 두 버전 모두의 절대 처리량을 낮췄다. 이는 버전 우위가 아닌 정책 효과다.</p>
+
+  <h2>Tier 3: 지원되는 확장 비교</h2>
+  <table>
+    <thead><tr><th>통제 항목 (r12)</th><th class="num">중앙값 v3/v2</th><th class="num">평균 비율 95% CI</th><th>해석</th></tr></thead>
+    <tbody>
+      <tr><td>secure build, fixed local 1 thread</td><td class="num">1.090</td><td class="num">1.073–1.104</td><td>해당 profile 내부 비교</td></tr>
+      <tr><td>local-dynamic-TLS, fixed local 8 threads</td><td class="num">1.012</td><td class="num">1.002–1.045</td><td>해당 profile 내부 비교</td></tr>
+      <tr><td>large-OS-page 요청</td><td class="num">0.890</td><td class="num">0.574–1.407</td><td>실제 페이지 할당 미검증, 고변동</td></tr>
+      <tr><td><code>MIMALLOC_USE_NUMA_NODES=1</code></td><td class="num">2.295</td><td class="num">2.014–3.045</td><td>단일 노드 호스트의 page-fault 민감 workload</td></tr>
+    </tbody>
+  </table>
+  <p class="note">large-page 요청은 각 버전의 문서화된 환경 변수명을 사용했다. timed process의 <code>AnonHugePages</code>를 수집하지 않았으므로 실제 large-page 할당의 증거로 제시하지 않는다. secure/TLS 행은 동일 build profile 안의 버전 비교이며 profile 자체의 overhead 측정이 아니다.</p>
+
+  <h3>CPU 토폴로지 확장</h3>
+  <table>
+    <thead><tr><th>CPU domain</th><th class="num">중앙값 v3/v2</th><th class="num">평균 비율 95% CI</th><th>해석</th></tr></thead>
+    <tbody>
+      <tr><td>SMT: 논리 CPU 16개, worker 16개 (r14)</td><td class="num">1.041</td><td class="num">0.984–1.092</td><td>신뢰구간이 동등성을 포함</td></tr>
+      <tr><td>oversubscription: 물리 CPU 8개, worker 16개 (r16)</td><td class="num">1.050</td><td class="num">1.035–1.086</td><td>명시적 round-robin pinning</td></tr>
+    </tbody>
+  </table>
+  <p>oversubscription harness는 8개 CPU cpuset 내부에서 worker를 round-robin으로 pinning하므로 worker가 고정 CPU domain 밖으로 나갈 수 없다. 이전 r15는 실행 전 benchmark SHA 검증에 실패했으며, invalid 감사 기록으로만 보존했다.</p>
+
+  <h3>보조 allocation API (r17)</h3>
+  <p>이 블록은 명시적 API 선택 기능이 추가된 별도 harness revision을 사용한다. 따라서 primary <code>malloc/free</code> 결과와 합산하지 않는다. 각 API는 물리 코어 cpuset에서 유효한 15쌍을 가진다.</p>
+  <table>
+    <thead><tr><th>API</th><th class="num">중앙값 v3/v2</th><th class="num">평균 비율 95% CI</th></tr></thead>
+    <tbody>
+      <tr><td>C++ <code>new/delete</code></td><td class="num">1.041</td><td class="num">1.015–1.045</td></tr>
+      <tr><td>64-byte aligned allocation</td><td class="num">1.030</td><td class="num">0.981–1.034</td></tr>
+      <tr><td><code>realloc</code> (half-size → target-size)</td><td class="num">1.040</td><td class="num">1.032–1.046</td></tr>
+    </tbody>
+  </table>
+
+  <figure>
+    <img src="../results/plots/throughput-ratios.svg" alt="최종 CPU 통제 측정의 v3 대 v2 처리량 비율 그래프">
+    <figcaption>최종 CPU 통제 측정의 처리량 비율 그래프. 사전 r12 기록은 고정 cpuset 없이 실행되어 이 그래프와 최종 비율에서 제외했다.</figcaption>
+  </figure>
+
+  <h2>제외 항목과 한계</h2>
+  <ul>
+    <li>r12 이전의 raw record는 변경하지 않는 감사 증거로 보존하지만, 컨테이너가 frozen cpuset으로 실행되지 않았으므로 최종 비율에서 제외했다.</li>
+    <li>cross-NUMA는 호스트에 NUMA node가 하나뿐이라 구조적으로 지원되지 않으며, 사용자 결정으로도 제외했다.</li>
+    <li>HugeTLB 예약도 사용자 결정으로 제외했다. 호스트에는 현재 1GiB huge page 예약이 없고, 공통 mimalloc 설정은 host-wide 예약 변경이 필요하다.</li>
+    <li><code>manifests/execution-plan-tier3-hugetlb-r18.json</code> 및 <code>scripts/host/set_hugetlb_1g.sh</code>, <code>restore_hugetlb_1g.sh</code>는 준비되어 있으나 의도적으로 실행하지 않았다.</li>
+    <li>컨테이너에서 사용할 수 없는 perf counter는 0이 아니라 <em>unavailable</em>로 기록했다.</li>
+  </ul>
+
+  <h2>재현과 원시 데이터</h2>
+  <p>r12는 <code>manifests/execution-plan-cpuset-r12.json</code>을 Docker cpuset <code>0,2,4,6,8,10,12,14</code>, memory node <code>0</code>으로 사용한다. r13의 <code>manifests/execution-plan-tier2-thp-never-cpuset-r13.json</code>은 승인된 privileged controller의 <code>scripts/container/run_thp_never.sh</code>를 통해서만 실행한다.</p>
+  <pre><code>python scripts/analyze_results.py --plan manifests/execution-plan-cpuset-r12.json
+python scripts/generate_report.py
+python scripts/generate_ratio_plot.py</code></pre>
+  <p>원시 record는 <code>results/raw/</code>, 로그는 <code>results/logs/</code>, 최종 범위 표는 <code>results/summaries/summary-r12.json</code> 및 <code>summary-r13.json</code>, 그래프는 <code>results/plots/throughput-ratios.svg</code>에 있다.</p>
+
+  <footer>
+    <p>이 HTML은 확정된 측정값만 담는다. 실제로 측정하지 않은 수치나 결론은 추가하지 않았다.</p>
+    <p>원본 보고서: <code>docs/experiment-report.md</code></p>
+  </footer>
+</main>
+</body>
+</html>

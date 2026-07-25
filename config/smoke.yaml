@@ -1,0 +1,18 @@
+tier: 0
+seed: 20260725
+policy: normalized-policy
+warmup_count: 1000
+operation_count: 10000
+repetitions: 1
+thp_mode: unchanged-host
+touch_mode: first-and-last
+scenarios:
+  - name: local_churn
+    thread_counts: [1, 2]
+    size_profiles: [fixed-small]
+    patterns: [allocate-free]
+  - name: remote_free
+    producer_consumer: [[1, 1]]
+    size_profiles: [fixed-small]
+    queue_capacity: 1024
+

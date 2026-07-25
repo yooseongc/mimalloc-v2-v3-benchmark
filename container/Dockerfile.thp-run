@@ -1,0 +1,3 @@
+FROM mimalloc-comparison:local
+COPY . /work
+WORKDIR /work

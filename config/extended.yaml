@@ -1,0 +1,46 @@
+tier: 2-and-3
+seed: 20260725
+policy_blocks:
+  - name: thp-never
+    thp: never
+  - name: thp-madvise
+    thp: madvise
+  - name: purge-delay-0
+    purge_delay: 0
+  - name: purge-delay-1000
+    purge_delay: 1000
+  - name: purge-delay-disabled
+    purge_delay: -1
+scenarios:
+  - name: burst_purge
+    touch_modes: [per-page, full-write]
+    burst_object_counts: [64, 1024]
+    object_sizes: [4096, 1048576]
+    idle_ms: [0, 10, 100, 1000, 5000]
+  - name: lifetime_mix
+    lifetime_distribution: {short: 70, medium: 20, long: 10}
+    retention_slots: {medium: 16, long: 128}
+    touch_modes: [first-and-last]
+  - name: thread_churn
+    cross_thread_free: true
+    cycles: pilot-selected
+  - name: large_alloc
+    allocation_sizes: [65536, 262144, 1048576, 2097152, 4194304, 16777216, 67108864]
+    touch_modes: [none, per-page]
+  - name: remote_free
+    topologies:
+      - {producers: 1, consumers: 1}
+      - {producers: P_div_2, consumers: P_div_2}
+      - {producers: 1, consumers: P_minus_1}
+      - {producers: P_minus_1, consumers: 1}
+    queue_capacity: [1024, 65536]
+    queue_only_control: true
+optional_tier_3:
+  - upstream-default
+  - local-dynamic-tls
+  - secure-build
+  - explicit-large-os-pages
+  - hugetlb
+  - cross-numa
+  - smt
+  - oversubscription
