@@ -1,7 +1,7 @@
 # mimalloc v2.1.2 vs v3.4.3 experiment design
 
-Design status: Frozen  
-Design revision: frozen execution manifests r6--r9 (no repository commit available)  
+Design status: Frozen
+Design revision: frozen execution manifests r6--r9 (no repository commit available)
 Frozen at: 2026-07-25T09:51:05Z
 
 ## 1. Purpose and scope
@@ -194,3 +194,48 @@ versions. It samples the timed child PID's RSS and AnonHugePages every 100 ms,
 without strace, for 15 paired fixed-worker remote-free repetitions. It remains
 separate because only purge delay is normalized; the native large-page request
 variables are version specific.
+
+2026-07-26: r22 adds a separate, frozen single-NUMA diagnostic for the
+`tcpio -> policy -> origin tcpio -> record -> free` ownership pipeline while
+host NUMA balancing is disabled. It separates isolated and service-like worker
+topologies, allocator-only and service stage work, upstream defaults and a
+normalized policy. Its 100 ms process-memory samples, queue-only controls,
+paired pilot/final plans, suitability gates, and conclusions are never pooled
+with r19--r21. The complete frozen amendment is
+`docs/tcpio-r22-design.ko.md`.
+
+2026-07-26: r22 amendment v2 permits a kernel with
+`CONFIG_NUMA_BALANCING` compiled out to run without the absent
+`/proc/sys/kernel/numa_balancing` control. Such runs record the control as
+unavailable and must not be described as an explicit balancing-off or on/off
+comparison. ASAN is also removed as an execution prerequisite because the
+pinned image lacks its runtime; this is documented as unverified rather than
+silently treated as passed. The original r22 v1 plans remain frozen and
+separate.
+
+2026-07-26: r22 amendment v3 responds to the v2 pilot's isolated record/return
+queue saturation without relaxing the frozen 5% backpressure criterion.
+Isolated topology changes from 3 tcpio + 4 policy + 1 record to
+3 tcpio + 3 policy + 2 record while retaining eight pinned physical-core
+workers. New `r22b-` blocks are never pooled with r22/r22a blocks.
+
+2026-07-26: r22 amendment v4 treats bounded-queue backpressure as an observed
+pipeline metric instead of an invalidity reason. This change applies only to
+new `r22c-` blocks and does not reclassify earlier records. Exact-once
+correctness, provenance, affinity, host-state, throttling/OOM/swap, and record
+bank saturation checks remain validity requirements.
+
+2026-07-26: r22 amendment v5 excludes every v2--v4 performance record after a
+Docker process audit found two orphaned small-queue benchmark containers on
+overlapping CPUs. Raw files remain immutable; exclusion provenance is stored
+in `manifests/exclusions-tcpio-r22.json`. New `r22d-` blocks restart smoke and
+pilot on a clean host, and calibration/analysis require the exact v5 design
+revision. The host controller also terminates its child before restoring THP
+on signals.
+
+2026-07-26: r22 amendment v6 recalibrates only the service-like topology after
+the v5 final-duration audit found measured runs below the frozen five-second
+minimum. The new r22e blocks target 20 seconds using a version-independent
+operation count derived from the combined v5 final median rate. Final analysis
+selects isolated v5 and service-like v6 as non-overlapping topology cells; it
+does not pool repetitions across revisions.

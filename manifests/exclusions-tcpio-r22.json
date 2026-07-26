@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "experiment_id": "r22",
+  "created_at": "2026-07-26T17:17:27+09:00",
+  "exclusions": [
+    {
+      "design_revisions": [
+        "tcpio-r22-amendment-v2",
+        "tcpio-r22-amendment-v3",
+        "tcpio-r22-amendment-v4"
+      ],
+      "reason": "Two orphaned small-queue benchmark containers occupied overlapping CPUs throughout these runs. Host background load was therefore not controlled.",
+      "discovered_by": "docker ps --no-trunc",
+      "container_ids": [
+        "7d4d216c275a1441f4de21eb5ad7a8f33e81f45e8f85cd4a295ccbc0f75388ca",
+        "14a74cb9a7c68fda2c637147b7a30d3f865999968cf1e4ba042a5d947b3e11e4"
+      ],
+      "treatment": "Raw records remain immutable and are excluded by exact design-revision filtering. They are not pooled, calibrated, analyzed, or used for suitability conclusions."
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 #include "remote_free.hpp"
 #include "memory_scenarios.hpp"
 #include "proc_metrics.hpp"
+#include "tcp_policy_record.hpp"
 #include <atomic>
 #include <algorithm>
 #include <chrono>
@@ -35,15 +36,41 @@ bool parse_args(int argc, char** argv, RunOptions& o) {
     else if (std::strcmp(argv[i], "--producers") == 0 && i + 1 < argc) o.producer_count = static_cast<unsigned>(parse_u64(argv[++i]));
     else if (std::strcmp(argv[i], "--consumers") == 0 && i + 1 < argc) o.consumer_count = static_cast<unsigned>(parse_u64(argv[++i]));
     else if (std::strcmp(argv[i], "--queue-capacity") == 0 && i + 1 < argc) o.queue_capacity = static_cast<std::size_t>(parse_u64(argv[++i]));
+    else if (std::strcmp(argv[i], "--tcpio") == 0 && i + 1 < argc) o.tcpio_count = static_cast<unsigned>(parse_u64(argv[++i]));
+    else if (std::strcmp(argv[i], "--policy") == 0 && i + 1 < argc) o.policy_count = static_cast<unsigned>(parse_u64(argv[++i]));
+    else if (std::strcmp(argv[i], "--record") == 0 && i + 1 < argc) o.record_count = static_cast<unsigned>(parse_u64(argv[++i]));
+    else if (std::strcmp(argv[i], "--return-queue-capacity") == 0 && i + 1 < argc) o.return_queue_capacity = static_cast<std::size_t>(parse_u64(argv[++i]));
+    else if (std::strcmp(argv[i], "--record-queue-capacity") == 0 && i + 1 < argc) o.record_queue_capacity = static_cast<std::size_t>(parse_u64(argv[++i]));
+    else if (std::strcmp(argv[i], "--record-bank-bytes") == 0 && i + 1 < argc) o.record_bank_bytes = static_cast<std::size_t>(parse_u64(argv[++i]));
+    else if (std::strcmp(argv[i], "--record-bank-items") == 0 && i + 1 < argc) o.record_bank_items = static_cast<std::size_t>(parse_u64(argv[++i]));
+    else if (std::strcmp(argv[i], "--payload-profile") == 0 && i + 1 < argc) o.payload_profile = argv[++i];
+    else if (std::strcmp(argv[i], "--stage-work") == 0 && i + 1 < argc) o.stage_work = argv[++i];
+    else if (std::strcmp(argv[i], "--topology") == 0 && i + 1 < argc) o.topology = argv[++i];
+    else if (std::strcmp(argv[i], "--warmup-count") == 0 && i + 1 < argc) o.warmup_count = parse_u64(argv[++i]);
+    else if (std::strcmp(argv[i], "--seed") == 0 && i + 1 < argc) o.seed = parse_u64(argv[++i]);
+    else if (std::strcmp(argv[i], "--latency-sample-rate") == 0 && i + 1 < argc) o.latency_sample_rate = parse_u64(argv[++i]);
+    else if (std::strcmp(argv[i], "--post-drain-observe-ms") == 0 && i + 1 < argc) o.post_drain_observe_ms = parse_u64(argv[++i]);
+    else if (std::strcmp(argv[i], "--post-drain-sample-ms") == 0 && i + 1 < argc) o.post_drain_sample_ms = parse_u64(argv[++i]);
     else return false;
   }
-  return o.threads > 0 && o.size > 0 && o.batch_size > 0 && o.producer_count > 0 && o.consumer_count > 0 && o.queue_capacity > 1 && (o.size_profile == "fixed" || o.size_profile == "mixed-small" || o.size_profile == "mixed-wide") && (o.free_order == "fifo" || o.free_order == "lifo" || o.free_order == "random") && (o.touch_mode == "none" || o.touch_mode == "first-byte" || o.touch_mode == "first-and-last" || o.touch_mode == "per-cache-line" || o.touch_mode == "per-page" || o.touch_mode == "full-write") && (o.allocation_api == "malloc" || o.allocation_api == "cpp-new" || o.allocation_api == "aligned" || o.allocation_api == "realloc");
+  return o.threads > 0 && o.size > 0 && o.batch_size > 0 && o.producer_count > 0 && o.consumer_count > 0 && o.queue_capacity > 1
+      && o.tcpio_count > 0 && o.policy_count > 0 && o.record_count > 0
+      && o.return_queue_capacity > 1 && o.record_queue_capacity > 1
+      && o.record_bank_bytes > 0 && o.record_bank_items > 0 && o.latency_sample_rate > 0
+      && o.post_drain_sample_ms > 0
+      && o.payload_profile == "tcp-proxy-v1"
+      && (o.stage_work == "allocator" || o.stage_work == "service")
+      && (o.topology == "isolated" || o.topology == "service-like")
+      && (o.size_profile == "fixed" || o.size_profile == "mixed-small" || o.size_profile == "mixed-wide")
+      && (o.free_order == "fifo" || o.free_order == "lifo" || o.free_order == "random")
+      && (o.touch_mode == "none" || o.touch_mode == "first-byte" || o.touch_mode == "first-and-last" || o.touch_mode == "per-cache-line" || o.touch_mode == "per-page" || o.touch_mode == "full-write")
+      && (o.allocation_api == "malloc" || o.allocation_api == "cpp-new" || o.allocation_api == "aligned" || o.allocation_api == "realloc");
 }
 }
 
 int main(int argc, char** argv) {
   RunOptions options;
-  if (!parse_args(argc, argv, options) || (options.scenario != "local_churn" && options.scenario != "remote_free" && options.scenario != "queue_only" && options.scenario != "lifetime_mix" && options.scenario != "burst_purge" && options.scenario != "thread_churn" && options.scenario != "large_alloc")) {
+  if (!parse_args(argc, argv, options) || (options.scenario != "local_churn" && options.scenario != "remote_free" && options.scenario != "queue_only" && options.scenario != "lifetime_mix" && options.scenario != "burst_purge" && options.scenario != "thread_churn" && options.scenario != "large_alloc" && options.scenario != "tcp_policy_record" && options.scenario != "tcp_policy_record_queue_only")) {
     std::cerr << "usage: mimalloc-bench --scenario local_churn --operations N --threads N --size N\n";
     return 2;
   }
@@ -52,7 +79,9 @@ int main(int argc, char** argv) {
     std::cerr << "allocator validation failed: mi_version was not resolved\n";
     return 3;
   }
-  if (!options.diagnostic_ready_file.empty()) {
+  const bool pipeline_scenario = options.scenario == "tcp_policy_record" ||
+                                 options.scenario == "tcp_policy_record_queue_only";
+  if (!options.diagnostic_ready_file.empty() && !pipeline_scenario) {
     std::ofstream ready(options.diagnostic_ready_file, std::ios::trunc);
     if (!ready) {
       std::cerr << "cannot write diagnostic ready file\n";
@@ -62,6 +91,8 @@ int main(int argc, char** argv) {
   }
   if (options.scenario == "remote_free") return run_remote_free(options, allocator);
   if (options.scenario == "queue_only") return run_queue_only(options, allocator);
+  if (options.scenario == "tcp_policy_record" || options.scenario == "tcp_policy_record_queue_only")
+    return run_tcp_policy_record(options, allocator);
   if (options.scenario != "local_churn") return run_memory_scenario(options, allocator);
   const auto allowed = current_affinity();
   if (allowed.empty()) {

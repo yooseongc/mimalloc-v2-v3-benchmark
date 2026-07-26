@@ -1,0 +1,28 @@
+{
+  "_evidence": {
+    "isolated/allocator": {
+      "source_revision": "tcpio-r22-amendment-v5",
+      "treatment": "unchanged; every measured run was at least 5 seconds"
+    },
+    "isolated/service": {
+      "source_revision": "tcpio-r22-amendment-v5",
+      "treatment": "unchanged; every measured run was at least 5 seconds"
+    },
+    "service-like/allocator": {
+      "source_revision": "tcpio-r22-amendment-v5 final",
+      "median_operations_per_second": 3171033.390144256,
+      "target_seconds": 20.0,
+      "reason": "v5 final had measured runs below the frozen 5 second minimum"
+    },
+    "service-like/service": {
+      "source_revision": "tcpio-r22-amendment-v5 final",
+      "median_operations_per_second": 1701111.1296234536,
+      "target_seconds": 20.0,
+      "reason": "v5 final had measured runs below the frozen 5 second minimum"
+    }
+  },
+  "isolated/allocator": 69113376,
+  "isolated/service": 31348273,
+  "service-like/allocator": 63420667,
+  "service-like/service": 34022222
+}

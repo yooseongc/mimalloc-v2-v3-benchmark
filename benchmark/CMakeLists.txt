@@ -1,6 +1,7 @@
 add_executable(mimalloc-bench
   src/main.cpp
   src/remote_free.cpp
+  src/tcp_policy_record.cpp
   src/memory_scenarios.cpp
   src/proc_metrics.cpp
   src/allocator_detector.cpp
