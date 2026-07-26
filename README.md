@@ -8,6 +8,7 @@
 
 - [실험 설계서](docs/experiment-design.md)
 - [상세 실험 보고서](docs/experiment-report.md)
+- [Linux 메모리·mimalloc 한글 용어집](docs/memory-allocator-glossary.ko.md)
 - [한글 HTML 보고서](docs/experiment-report.ko.html)
 - [고정 worker 진단 보고서](docs/native-persistent-r20-report.ko.md)
 - [purge delay 일치 RSS 검증 보고서](docs/purge-matched-r21-report.ko.md)
