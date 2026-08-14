@@ -239,3 +239,37 @@ minimum. The new r22e blocks target 20 seconds using a version-independent
 operation count derived from the combined v5 final median rate. Final analysis
 selects isolated v5 and service-like v6 as non-overlapping topology cells; it
 does not pool repetitions across revisions.
+
+2026-08-14: r23 adds an isolated patch-release comparison between mimalloc
+v3.4.3 (`152fbf2634aeafca3774df791b0a77683035f076`) and v3.4.5
+(`acf2fdd329f9dc2a7ffe3f12a133fe7175e39378`). Existing v2.1.2/v3.4.3 raw
+records, exclusions, hypotheses, and conclusions remain unchanged. The r23
+comparison reuses the same Rocky Linux 8 image and benchmark executable and
+holds cpuset, NUMA node, THP mode, workload seed, queue capacity, and operation
+count equal within each paired block. It begins with correctness/smoke and
+three pilot repetitions. Core operation counts are calibrated from the pilot
+to target the existing 10--30 second measured duration, then frozen in a new
+manifest before at least 15 paired repetitions. Until that calibration is
+recorded, the generated core plan remains `Draft` and the runner must reject
+it. r23 results are analyzed and reported separately as v3.4.5/v3.4.3 ratios;
+they are never pooled with v3/v2 ratios. This amendment was recorded before
+any r23 performance result was inspected.
+
+2026-08-14: r23 amendment v2 excludes all initial r23 pilot performance
+records after the pre-core Docker audit found five unrelated, unrestricted
+containers able to run on the same logical CPUs. The immutable pilot records
+remain usable only as correctness evidence. Their derived calibration and core
+manifest are marked superseded and must not be executed or reported. A new
+`r23a-` pilot must be run under a clean or externally isolated CPU domain;
+only that new pilot may calibrate and freeze an r23a core plan. This amendment
+was recorded before any core repetition was executed.
+
+2026-08-14: r23a completed after the five overlapping service containers were
+stopped for the measurement epoch. The clean pilot produced 30 valid records;
+the combined-version duration rule retained four operation counts and changed
+only local mixed-wide/8-thread from 400,000,000 to 1,047,000,000 operations.
+The resulting frozen core plan completed 150/150 valid records (15 complete
+pairs in each of five cells), with measured durations from 14.50 to 20.82
+seconds. The stopped containers were restored after completeness validation.
+The r23a results are reported only in `docs/v3.4.3-v3.4.5-report.md` and remain
+separate from every earlier comparison epoch.

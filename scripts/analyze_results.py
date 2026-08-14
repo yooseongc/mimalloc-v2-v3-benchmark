@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Derive summaries without modifying immutable raw result records."""
-import argparse, json, math, pathlib, statistics
+import argparse, json, math, pathlib, re, statistics
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--plan", type=pathlib.Path,
                     help="optional frozen plan; restrict derived groups to its block IDs")
+parser.add_argument("--output", type=pathlib.Path,
+                    default=ROOT / "results/summaries/summary.json")
 args = parser.parse_args()
 candidate_blocks = None
 if args.plan:
@@ -67,33 +69,57 @@ for key, rows in sorted(groups.items(), key=str):
                     "throughput_ops_per_second": describe(throughput),
                     "elapsed_ns": describe(elapsed)})
 
-# Pair versions by frozen block and repetition.  Existing legacy raw records
-# without a matching pair are deliberately not used in a cross-version ratio.
+# Pair the exact two versions declared by a frozen plan. Existing legacy raw
+# records without a matching pair are deliberately not used in a ratio.
+comparison_versions = None
+if args.plan:
+    declared = plan.get("comparison_versions")
+    if declared:
+        if len(declared) != 2 or len(set(declared)) != 2:
+            raise SystemExit("comparison_versions must contain exactly two distinct versions")
+        comparison_versions = tuple(declared)
 paired = {}
+def comparison_version(row):
+    match = re.search(r"mimalloc-(v\d+\.\d+\.\d+)", str(row.get("allocator_library_path", "")))
+    return match.group(1) if match else str(row.get("allocator_version"))
+
 for row in scoped_rows:
-    paired.setdefault((row.get("block_id"), row.get("repetition")), {})[str(row.get("allocator_version"))] = row
+    paired.setdefault((row.get("block_id"), row.get("repetition")), {})[comparison_version(row)] = row
 ratios = []
 for (block_id, repetition), row_by_version in sorted(paired.items()):
-    v2 = next((row for version, row in row_by_version.items() if version.startswith("2")), None)
-    v3 = next((row for version, row in row_by_version.items() if version.startswith("3")), None)
-    if not v2 or not v3 or not v2.get("elapsed_ns") or not v3.get("elapsed_ns"):
+    versions = comparison_versions
+    if versions is None:
+        v2 = next((row for version, row in row_by_version.items() if version.startswith("2")), None)
+        v3 = next((row for version, row in row_by_version.items() if version.startswith("3")), None)
+        if not v2 or not v3:
+            continue
+        versions, numerator, denominator = ("v2", "v3"), v3, v2
+    else:
+        denominator = row_by_version.get(versions[0]) or row_by_version.get(versions[0].lstrip("v"))
+        numerator = row_by_version.get(versions[1]) or row_by_version.get(versions[1].lstrip("v"))
+    if not denominator or not numerator or not denominator.get("elapsed_ns") or not numerator.get("elapsed_ns"):
         continue
     ratios.append({"block_id": block_id, "repetition": repetition,
-                   "throughput_ratio_v3_over_v2": v2["elapsed_ns"] / v3["elapsed_ns"],
-                   "elapsed_ratio_v3_over_v2": v3["elapsed_ns"] / v2["elapsed_ns"]})
+                   "numerator_version": versions[1], "denominator_version": versions[0],
+                   "throughput_ratio": denominator["elapsed_ns"] / numerator["elapsed_ns"],
+                   "elapsed_ratio": numerator["elapsed_ns"] / denominator["elapsed_ns"]})
 ratio_groups = {}
 for ratio in ratios:
     ratio_groups.setdefault(ratio["block_id"], []).append(ratio)
 paired_summary = []
 for block_id, rows in sorted(ratio_groups.items()):
     paired_summary.append({"block_id": block_id, "paired_repetitions": len(rows),
-                           "throughput_ratio_v3_over_v2": describe([r["throughput_ratio_v3_over_v2"] for r in rows]),
-                           "elapsed_ratio_v3_over_v2": describe([r["elapsed_ratio_v3_over_v2"] for r in rows])})
+                           "numerator_version": rows[0]["numerator_version"],
+                           "denominator_version": rows[0]["denominator_version"],
+                           "throughput_ratio": describe([r["throughput_ratio"] for r in rows]),
+                           "elapsed_ratio": describe([r["elapsed_ratio"] for r in rows])})
 
-out = ROOT / "results/summaries/summary.json"
+out = args.output
 out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(json.dumps({"raw_records": len(raw), "valid_records": len(valid_rows),
                            "scoped_valid_records": len(scoped_rows),
                            "analysis_scope": str(args.plan) if args.plan else "all-valid-records",
                            "duplicate_records_excluded": duplicates, "groups": summary,
-                           "paired_v3_over_v2": paired_summary}, indent=2) + "\n")
+                           "comparison_versions": comparison_versions,
+                           "paired_comparison": paired_summary,
+                           "paired_v3_over_v2": paired_summary if comparison_versions is None else []}, indent=2) + "\n")

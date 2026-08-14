@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "comparison_id": "v3.4.3-v3.4.5-r23",
+  "recorded_at": "2026-08-14T02:55:00Z",
+  "scope": "all r23-pilot-* performance records and their derived calibration",
+  "reason": "Pre-core Docker audit found five unrelated proxy-tester containers running without cpuset or CPU quota, allowing them to execute on the r23 CPUs. The overlap was present during pilot and host load was observed, so the pilot cannot calibrate a controlled performance comparison.",
+  "raw_records_mutated": false,
+  "correctness_use": "allowed",
+  "performance_or_calibration_use": "excluded",
+  "superseded_artifacts": [
+    "manifests/calibration-v3-patch-r23.json",
+    "manifests/execution-plan-v3-patch-r23-core.json"
+  ],
+  "required_restart": "Repeat three paired pilot repetitions under new r23a block IDs after overlapping workloads are absent or isolated from CPUs 0,2,4,6,8,10,12,14."
+}

@@ -84,6 +84,25 @@
       "cmake_option": "MI_LOCAL_DYNAMIC_TLS=ON",
       "build_type": "Release",
       "status": "measured-r10"
+    },
+    {
+      "version": "v3.4.5",
+      "commit": "acf2fdd329f9dc2a7ffe3f12a133fe7175e39378",
+      "profile": "release",
+      "source_directory": "extern/mimalloc-v3.4.5",
+      "build_directory": "build/mimalloc-v3.4.5/release",
+      "install_prefix": "opt/mimalloc-v3.4.5/release",
+      "library_path": "opt/mimalloc-v3.4.5/release/lib64/libmimalloc.so",
+      "library_sha256": "75286e8ef4959504032b3af13b0aca82e3f7ec4ec7e80633084bf4da60f96e0d",
+      "installed_header_sha256": "ad053de727da9c2e33937f6793305e4027b1a414c9a5ada75c609ccfbd28f3e1",
+      "cmake_command": "cmake -S /work/extern/mimalloc-v3.4.5 -B /work/build/mimalloc-v3.4.5/release -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/work/opt/mimalloc-v3.4.5/release -DCMAKE_C_FLAGS_RELEASE=-O3 -DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-O3 -DNDEBUG -DMI_OVERRIDE=ON -DMI_BUILD_SHARED=ON -DMI_BUILD_STATIC=OFF -DMI_BUILD_OBJECT=OFF -DMI_BUILD_TESTS=OFF -DMI_SECURE=OFF -DMI_TRACK_VALGRIND=OFF -DMI_TRACK_ASAN=OFF -DMI_SHOW_ERRORS=OFF",
+      "cmake_cache": "build/mimalloc-v3.4.5/release/CMakeCache.txt",
+      "compiler": "GCC 8.5.0 (Rocky Linux 8 container)",
+      "compiler_flags": "-O3 -DNDEBUG",
+      "build_type": "Release",
+      "build_timestamp_utc": "2026-08-14T02:38:00Z",
+      "container_image_id": "sha256:73353c7a70d01f098f4adc96480273ce5d5b295bea3733c1f2faac2017e05877",
+      "status": "measured-r23a-core"
     }
   ]
 }

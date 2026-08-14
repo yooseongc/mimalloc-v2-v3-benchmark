@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "comparison_id": "v3.4.3-v3.4.5-r23a",
+  "source_plan": "manifests\\execution-plan-v3-patch-r23a-pilot.json",
+  "valid_pilot_records": 30,
+  "target_seconds": 15.0,
+  "cells": [
+    {
+      "name": "local-fixed-t8",
+      "valid_records": 6,
+      "paired_repetitions": 3,
+      "pilot_operation_count": 1000000000,
+      "combined_median_elapsed_seconds": 14.4782249165,
+      "combined_median_operations_per_second": 69069260.800152,
+      "core_operation_count": 1000000000,
+      "calibration_rule": "retain when median is 10-30s; otherwise combined-version median rate * 15s, rounded to 1M"
+    },
+    {
+      "name": "local-mixed-wide-t1",
+      "valid_records": 6,
+      "paired_repetitions": 3,
+      "pilot_operation_count": 200000000,
+      "combined_median_elapsed_seconds": 16.733989788000002,
+      "combined_median_operations_per_second": 11951806.296735257,
+      "core_operation_count": 200000000,
+      "calibration_rule": "retain when median is 10-30s; otherwise combined-version median rate * 15s, rounded to 1M"
+    },
+    {
+      "name": "local-mixed-wide-t8",
+      "valid_records": 6,
+      "paired_repetitions": 3,
+      "pilot_operation_count": 400000000,
+      "combined_median_elapsed_seconds": 5.731061220000001,
+      "combined_median_operations_per_second": 69796692.98973784,
+      "core_operation_count": 1047000000,
+      "calibration_rule": "retain when median is 10-30s; otherwise combined-version median rate * 15s, rounded to 1M"
+    },
+    {
+      "name": "remote-fixed-4x4",
+      "valid_records": 6,
+      "paired_repetitions": 3,
+      "pilot_operation_count": 100000000,
+      "combined_median_elapsed_seconds": 15.920890258,
+      "combined_median_operations_per_second": 6285118.918069061,
+      "core_operation_count": 100000000,
+      "calibration_rule": "retain when median is 10-30s; otherwise combined-version median rate * 15s, rounded to 1M"
+    },
+    {
+      "name": "remote-mixed-wide-4x4",
+      "valid_records": 6,
+      "paired_repetitions": 3,
+      "pilot_operation_count": 100000000,
+      "combined_median_elapsed_seconds": 15.969821376999999,
+      "combined_median_operations_per_second": 6269687.611961958,
+      "core_operation_count": 100000000,
+      "calibration_rule": "retain when median is 10-30s; otherwise combined-version median rate * 15s, rounded to 1M"
+    }
+  ]
+}
