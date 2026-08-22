@@ -1,0 +1,28 @@
+comparison_id: v2.1.2-v3.4.3-v3.5.0-r24
+comparison_versions: [v2.1.2, v3.4.3, v3.5.0]
+reference_version: v2.1.2
+historical_bridge_version: v3.4.3
+policy_families: [upstream-default, normalized-policy]
+container: mimalloc-comparison:local
+cpu_list: "0,2,4,6,8,10,12,14"
+numa_nodes: "0"
+thp_mode: madvise
+randomization:
+  strategy: matched-three-version-block
+  seed: 20260822
+  permute_all_versions_once_per_block: true
+stages:
+  smoke:
+    repetitions: 1
+  pilot:
+    repetitions: 3
+    operation_counts_are_provisional: true
+  core:
+    repetitions: 15
+    status: draft-until-pilot-calibration
+reporting:
+  primary_ratios:
+    - v3.4.3 / v2.1.2
+    - v3.5.0 / v2.1.2
+  upgrade_ratio: v3.5.0 / v3.4.3
+  pool_with_prior_epochs: false

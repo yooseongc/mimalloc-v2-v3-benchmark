@@ -1,15 +1,16 @@
 프로젝트 루트의 `AGENTS.md`로 바로 사용할 수 있는 형태입니다. Codex는 저장소 루트부터 현재 작업 디렉터리까지의 `AGENTS.md`를 계층적으로 읽으며, 기본 합산 한도는 32KiB입니다.
 
-mimalloc v2.1.2와 v3.4.3은 지원 빌드 옵션, THP 제어, 기본 purge 정책이 다르므로 **기본값 비교**와 **동일 정책 비교**를 분리하도록 구성했습니다. 또한 allocator 벤치마크에서 중요한 동일 스레드 해제, 원격 스레드 해제, 비대칭 producer/consumer, thread churn 패턴을 포함했습니다.
+mimalloc v2.1.2, v3.4.3, v3.5.0은 지원 빌드 옵션, THP 제어, 기본 purge 정책이 다르므로 **기본값 비교**와 **동일 정책 비교**를 분리하도록 구성했습니다. 또한 allocator 벤치마크에서 중요한 동일 스레드 해제, 원격 스레드 해제, 비대칭 producer/consumer, thread churn 패턴을 포함했습니다.
 
 # AGENTS.md
 
 ## 1. 프로젝트 목표
 
-이 저장소의 목적은 Microsoft mimalloc의 다음 두 버전을 동일한 Rocky Linux 8 컨테이너 환경에서 재현 가능하게 비교하는 것이다.
+이 저장소의 목적은 Microsoft mimalloc의 다음 세 버전을 동일한 Rocky Linux 8 컨테이너 환경에서 재현 가능하게 비교하는 것이다.
 
 * mimalloc `v2.1.2`
 * mimalloc `v3.4.3`
+* mimalloc `v3.5.0`
 
 주요 비교 대상은 다음과 같다.
 
@@ -21,7 +22,8 @@ mimalloc v2.1.2와 v3.4.3은 지원 빌드 옵션, THP 제어, 기본 purge 정�
 
 단순히 어느 버전이 더 빠른지 판단하지 말고 다음 질문에 답할 수 있도록 실험한다.
 
-* 어떤 workload에서 v3.4.3이 v2.1.2보다 빠르거나 느린가?
+* 어떤 workload에서 v3.4.3과 v3.5.0이 v2.1.2보다 빠르거나 느린가?
+* v3.5.0은 v3.4.3보다 어떤 workload에서 개선되거나 회귀하는가?
 * cross-thread free 비율에 따라 차이가 어떻게 변하는가?
 * 최대 RSS와 해제 후 RSS 감소 특성은 어떻게 다른가?
 * THP, NUMA, purge delay가 결과에 얼마나 영향을 주는가?
@@ -97,14 +99,14 @@ docs/experiment-report.md
 * 컨테이너 이미지와 digest
 * cgroup 설정
 * THP, HugeTLB, NUMA 설정
-* 두 mimalloc의 tag, commit SHA 및 빌드 옵션
+* 세 mimalloc의 tag, commit SHA 및 빌드 옵션
 * workload별 결과
 * throughput 비교
 * latency 비교
 * CPU 및 perf counter 비교
 * peak RSS 및 메모리 반환 비교
 * 통계적 변동성과 신뢰구간
-* v3.4.3 / v2.1.2 비율
+* v3.4.3 / v2.1.2, v3.5.0 / v2.1.2 및 v3.5.0 / v3.4.3 비율
 * 이상치 및 실패한 실행
 * 제외한 결과와 명확한 제외 이유
 * 주요 발견
@@ -249,6 +251,7 @@ Reason: <실행하지 못한 구체적인 이유>
 ```text
 microsoft/mimalloc v2.1.2
 microsoft/mimalloc v3.4.3
+microsoft/mimalloc v3.5.0
 ```
 
 `main`, `master`, `dev`, `dev2`, `dev3` 또는 움직이는 branch를 비교 대상으로 사용하지 않는다.
@@ -283,6 +286,10 @@ mimalloc:
     repository: microsoft/mimalloc
     tag: v3.4.3
     commit: "<resolved SHA>"
+  v3.5.0:
+    repository: microsoft/mimalloc
+    tag: v3.5.0
+    commit: "18b08671c9302247bfb682286e6bf3cc1773f801"
 ```
 
 ### 5.2 upstream source 수정 금지
@@ -298,19 +305,22 @@ primary benchmark에서는 upstream mimalloc source를 수정하지 않는다.
 
 ### 5.3 build 분리
 
-두 버전의 source, build, install prefix를 완전히 분리한다.
+세 버전의 source, build, install prefix를 완전히 분리한다.
 
 예:
 
 ```text
 extern/mimalloc-v2.1.2/
 extern/mimalloc-v3.4.3/
+extern/mimalloc-v3.5.0/
 
 build/mimalloc-v2.1.2/<profile>/
 build/mimalloc-v3.4.3/<profile>/
+build/mimalloc-v3.5.0/<profile>/
 
 opt/mimalloc-v2.1.2/<profile>/
 opt/mimalloc-v3.4.3/<profile>/
+opt/mimalloc-v3.5.0/<profile>/
 ```
 
 동일한 이름의 shared library가 서로 덮어써지지 않게 한다.
@@ -1670,8 +1680,9 @@ benchmark harness 변경으로 기존 결과와 호환성이 깨지면 result sc
 다음 조건을 모두 만족해야 작업이 완료된 것으로 본다.
 
 * v2.1.2와 v3.4.3 source SHA가 고정됨
-* 동일 Rocky Linux 8 image에서 두 버전이 빌드됨
-* 동일 benchmark binary로 두 allocator가 실행됨
+* v3.5.0 source SHA가 고정되고 fetch/build 상태가 정직하게 기록됨
+* 동일 Rocky Linux 8 image에서 세 버전이 빌드됨
+* 동일 benchmark binary로 세 allocator가 실행됨
 * 실제 로드된 allocator가 검증됨
 * CPU와 NUMA affinity가 검증됨
 * THP 상태가 기록됨

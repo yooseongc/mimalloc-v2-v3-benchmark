@@ -23,3 +23,4 @@ fetch_one() {
 fetch_one v2.1.2 43ce4bd7fd34bcc730c1c7471c99995597415488 "$root/extern/mimalloc-v2.1.2"
 fetch_one v3.4.3 152fbf2634aeafca3774df791b0a77683035f076 "$root/extern/mimalloc-v3.4.3"
 fetch_one v3.4.5 acf2fdd329f9dc2a7ffe3f12a133fe7175e39378 "$root/extern/mimalloc-v3.4.5"
+fetch_one v3.5.0 18b08671c9302247bfb682286e6bf3cc1773f801 "$root/extern/mimalloc-v3.5.0"

@@ -81,9 +81,9 @@ def main():
             entry["repetition"] = repetition + 1
             if (entry.get("block_id"), entry.get("allocator_library_path"), entry["repetition"]) not in completed:
                 blocks.setdefault((entry["block_id"], entry["repetition"]), []).append(entry)
-    # A block contains the two allocator versions of one repetition.  Shuffle
+    # A block contains all allocator versions of one repetition. Shuffle
     # blocks and their internal order deterministically, but never separate the
-    # pair across a long sequence of unrelated configurations.
+    # the matched set so versions are not separated by unrelated configurations.
     block_keys = sorted(blocks)
     random.Random(plan["randomization_seed"]).shuffle(block_keys)
     entries = []

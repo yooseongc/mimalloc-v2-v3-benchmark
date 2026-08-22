@@ -1,13 +1,17 @@
-# mimalloc v2.1.2 vs v3.4.3 benchmark
+# mimalloc v2.1.2 vs v3.4.3 vs v3.5.0 benchmark
 
-동일한 Rocky Linux 8 컨테이너 환경에서 Microsoft mimalloc `v2.1.2`와 `v3.4.3`을 재현 가능하게 비교하는 C++17 benchmark 프로젝트입니다. 동일 스레드 churn, remote free, burst/purge, 대형 할당, 고정 worker 장기 실행 패턴을 다룹니다.
+동일한 Rocky Linux 8 컨테이너 환경에서 Microsoft mimalloc `v2.1.2`, `v3.4.3`, `v3.5.0`을 재현 가능하게 비교하는 C++17 benchmark 프로젝트입니다. 동일 스레드 churn, remote free, burst/purge, 대형 할당, 고정 worker 장기 실행 패턴을 다룹니다.
 
 ## 실행 상태와 결과
 
 설계는 동결되었고 CPU/THP 통제 비교(r12/r13), 대형 페이지 진단(r19), 고정 worker native large-page request 비교(r20), purge delay를 맞춘 RSS/AnonHugePages 샘플링(r21)을 실행했습니다.
 
+기존 동결 결과는 `v2.1.2`/`v3.4.3` 및 별도 r23a `v3.4.3`/`v3.4.5` epoch에 해당합니다. `v3.5.0`은 r24 amendment로 추가되었고, 최종 비교는 고정된 r25 하네스로 세 버전을 모두 다시 실행했습니다. r25 core 225건, memory-return 450건, latency 90건의 유효 레코드를 확보했으며 perf counter는 커널 권한 거부로 unavailable 처리했습니다. 각 epoch의 결과는 서로 합치지 않습니다.
+
 - [실험 설계서](docs/experiment-design.md)
 - [상세 실험 보고서](docs/experiment-report.md)
+- [v3.5.0 r24 3버전 비교 보고서](docs/v3.5.0-r24-report.md)
+- [r25 고정 하네스 통합 비교 보고서](docs/experiment-report-r25.md)
 - [Linux 메모리·mimalloc 한글 용어집](docs/memory-allocator-glossary.ko.md)
 - [한글 HTML 보고서](docs/experiment-report.ko.html)
 - [고정 worker 진단 보고서](docs/native-persistent-r20-report.ko.md)

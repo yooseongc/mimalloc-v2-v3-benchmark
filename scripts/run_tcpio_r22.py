@@ -202,11 +202,12 @@ def paired_entries(plan, policy, topology=None):
     random.Random(plan["randomization_seed"]).shuffle(keys)
     ordered = []
     for index, key in enumerate(keys):
-        pair = blocks[key]
-        if len(pair) != 2:
-            raise SystemExit("refusing: each paired block/repetition must have exactly two allocator arms")
-        random.Random(plan["randomization_seed"] + index + key[1]).shuffle(pair)
-        ordered.extend(pair)
+        matched = blocks[key]
+        expected = len(plan.get("comparison_versions", [])) or 2
+        if len(matched) != expected:
+            raise SystemExit("refusing: matched block/repetition has %d arms; expected %d" % (len(matched), expected))
+        random.Random(plan["randomization_seed"] + index + key[1]).shuffle(matched)
+        ordered.extend(matched)
     return ordered
 
 

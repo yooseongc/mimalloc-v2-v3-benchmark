@@ -1,4 +1,4 @@
-# mimalloc v2.1.2 vs v3.4.3 experiment design
+# mimalloc v2.1.2 vs v3.4.3 vs v3.5.0 experiment design
 
 Design status: Frozen
 Design revision: frozen execution manifests r6--r9 (no repository commit available)
@@ -6,14 +6,14 @@ Frozen at: 2026-07-25T09:51:05Z
 
 ## 1. Purpose and scope
 
-This study compares Microsoft mimalloc `v2.1.2` and `v3.4.3` in the same Rocky Linux 8 OCI container and host allocation domain. It measures allocation throughput, latency, CPU efficiency, RSS and release of OS memory. It does not claim that either version is universally faster.
+This study originally compared Microsoft mimalloc `v2.1.2` and `v3.4.3` in the same Rocky Linux 8 OCI container and host allocation domain. Amendment r24 adds `v3.5.0` as a separate three-version epoch. It measures allocation throughput, latency, CPU efficiency, RSS and release of OS memory. It does not claim that any version is universally faster.
 
 Two result families are always reported separately:
 
 1. **Upstream-default**: each Release build and runtime uses its upstream default policy; this quantifies the user-visible version change.
 2. **Normalized-policy**: only settings supported by both tags and with equivalent documented meaning are set identically; this reduces policy drift when studying implementation differences.
 
-The primary allocation API is `std::malloc`, `std::free`, and `std::realloc`. One C++17 benchmark executable is used for both versions; allocator selection is solely by `LD_PRELOAD`.
+The primary allocation API is `std::malloc`, `std::free`, and `std::realloc`. One C++17 benchmark executable is used for all compared versions; allocator selection is solely by `LD_PRELOAD`.
 
 ## 2. Compared sources
 
@@ -21,6 +21,7 @@ The primary allocation API is `std::malloc`, `std::free`, and `std::realloc`. On
 |---|---|---|---|
 | mimalloc v2 | `https://github.com/microsoft/mimalloc.git` | `v2.1.2` | `43ce4bd7fd34bcc730c1c7471c99995597415488` |
 | mimalloc v3 | `https://github.com/microsoft/mimalloc.git` | `v3.4.3` | `152fbf2634aeafca3774df791b0a77683035f076` |
+| mimalloc v3 current | `https://github.com/microsoft/mimalloc.git` | `v3.5.0` | `18b08671c9302247bfb682286e6bf3cc1773f801` |
 
 `manifests/sources.lock` will additionally record the fetch time, source path, `git describe`, and clean-tree result after sources are fetched. No upstream source is patched for primary results.
 
@@ -273,3 +274,17 @@ pairs in each of five cells), with measured durations from 14.50 to 20.82
 seconds. The stopped containers were restored after completeness validation.
 The r23a results are reported only in `docs/v3.4.3-v3.4.5-report.md` and remain
 separate from every earlier comparison epoch.
+
+2026-08-22: r24 adds mimalloc v3.5.0
+(`18b08671c9302247bfb682286e6bf3cc1773f801`) as a third comparison version.
+The original frozen v2.1.2/v3.4.3 design and every existing raw record,
+exclusion, hypothesis, and conclusion remain unchanged. r24 uses matched
+three-version blocks: each block contains v2.1.2, v3.4.3, and v3.5.0 exactly
+once in a seeded random order, under identical benchmark binary, CPU/NUMA,
+THP, policy, seed, queue capacity, and operation count. Results report
+v3.4.3/v2.1.2 and v3.5.0/v2.1.2 primary ratios plus the
+v3.5.0/v3.4.3 upgrade ratio. r24 starts at correctness/smoke and three pilot
+repetitions; operation counts and the core manifest remain draft until pilot
+calibration is recorded, after which at least 15 complete matched blocks are
+required. No r24 result may be pooled with earlier epochs. At amendment time,
+v3.5.0 had not been fetched, built, or measured.

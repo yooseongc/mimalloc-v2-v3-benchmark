@@ -23,3 +23,11 @@ mimalloc:
     fetch_timestamp_utc: 2026-08-14T02:37:08Z
     source_directory: extern/mimalloc-v3.4.5
     source_tree_status: clean-at-fetch
+  v3.5.0:
+    repository: https://github.com/microsoft/mimalloc.git
+    requested_tag: v3.5.0
+    commit: 18b08671c9302247bfb682286e6bf3cc1773f801
+    git_describe: 18b0867
+    fetch_timestamp_utc: 2026-08-21T23:44:27Z
+    source_directory: extern/mimalloc-v3.5.0
+    source_tree_status: clean-at-fetch

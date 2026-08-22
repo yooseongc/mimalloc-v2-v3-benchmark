@@ -2,8 +2,7 @@ include:
   - smoke.yaml
   - core.yaml
   - extended.yaml
-comparison_versions: [v2.1.2, v3.4.3]
+comparison_versions: [v2.1.2, v3.4.3, v3.5.0]
 randomization:
-  strategy: paired-block
-  seed: 20260725
-
+  strategy: matched-three-version-block
+  seed: 20260822
