@@ -9,7 +9,7 @@
   "design_status": "Frozen",
   "design_revision": "r26-baseline-v1",
   "contract_path": "experiments/r26-baseline-v1/contract.md",
-  "contract_sha256": "391883ad7704cb81617beec469f20a0141a51783b4517e080e2ee8f346a25615",
+  "contract_sha256": "54ef85097fd5ef224870652709be4de5bbc0bdc5e974a654e75a060ef686f9d0",
   "result_namespace": "r26-baseline-v1",
   "randomization_seed": 20260823,
   "container_image_digest": "sha256:73353c7a70d01f098f4adc96480273ce5d5b295bea3733c1f2faac2017e05877",
@@ -26,7 +26,7 @@
   },
   "runner": {
     "path": "scripts/run_active_benchmark.py",
-    "sha256": "0962005ce0cf918f9f178f4a5de0e8b474ee2521b08f2f540f53a61df26392dc"
+    "sha256": "275887b027f87a66f97aa7fd9bf6174a0b0fb8da0847d4a26affb10a41a0a91b"
   },
   "allocators": [
     {

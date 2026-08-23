@@ -1,4 +1,5 @@
 /extern/mimalloc-v*/
+/extern/mimalloc-dev3-*/
 /build/*
 !/build/.gitkeep
 /opt/

@@ -31,3 +31,14 @@ mimalloc:
     fetch_timestamp_utc: 2026-08-21T23:44:27Z
     source_directory: extern/mimalloc-v3.5.0
     source_tree_status: clean-at-fetch
+  dev3-622d421f:
+    repository: https://github.com/microsoft/mimalloc.git
+    requested_ref: refs/heads/dev3
+    resolved_ref_at_utc: 2026-08-23T05:25:00Z
+    commit: 622d421f647fc41a2dfe90bc45174770129d78b4
+    commit_timestamp: 2026-08-22T03:49:29-07:00
+    commit_subject: fix natural alignment
+    git_describe: 622d421
+    source_directory: extern/mimalloc-dev3-622d421f
+    source_tree_status: clean-at-fetch
+    moving_ref_policy: branch resolved once; measurement uses commit only

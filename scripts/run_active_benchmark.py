@@ -5,8 +5,6 @@ Historical runners remain available for reproducing historical epochs.  This
 runner deliberately accepts no arbitrary plan path: experiments/ACTIVE is the
 only entry point, preventing an old manifest from being mixed into new data.
 """
-from __future__ import annotations
-
 import argparse
 import contextlib
 import datetime as dt
@@ -19,7 +17,7 @@ import re
 import subprocess
 import sys
 from collections import defaultdict
-from typing import Any, Iterable
+from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 ACTIVE_FILE = ROOT / "experiments" / "ACTIVE"
@@ -38,7 +36,7 @@ def sha256_file(path: pathlib.Path) -> str:
     return digest.hexdigest()
 
 
-def atomic_json(path: pathlib.Path, value: dict[str, Any]) -> None:
+def atomic_json(path: pathlib.Path, value: Dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(path.name + ".tmp")
     temporary.write_text(json.dumps(value, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -78,7 +76,7 @@ def execution_lock(result_root: pathlib.Path):
             stream.close()
 
 
-def active_plan() -> tuple[pathlib.Path, dict[str, Any]]:
+def active_plan() -> Tuple[pathlib.Path, Dict[str, Any]]:
     experiment_id = ACTIVE_FILE.read_text(encoding="utf-8").strip()
     if not SAFE_ID.fullmatch(experiment_id):
         raise ValueError("experiments/ACTIVE contains an unsafe experiment id")
@@ -89,10 +87,10 @@ def active_plan() -> tuple[pathlib.Path, dict[str, Any]]:
     return plan_path, plan
 
 
-def canonical_cpu_list(value: str | None) -> tuple[int, ...] | None:
+def canonical_cpu_list(value: Optional[str]) -> Optional[Tuple[int, ...]]:
     if value is None:
         return None
-    cpus: set[int] = set()
+    cpus: Set[int] = set()
     for part in value.split(","):
         part = part.strip()
         if not part:
@@ -107,7 +105,7 @@ def canonical_cpu_list(value: str | None) -> tuple[int, ...] | None:
     return tuple(sorted(cpus))
 
 
-def proc_status_list(name: str) -> str | None:
+def proc_status_list(name: str) -> Optional[str]:
     try:
         for line in pathlib.Path("/proc/self/status").read_text(encoding="utf-8").splitlines():
             if line.startswith(name + ":"):
@@ -117,7 +115,7 @@ def proc_status_list(name: str) -> str | None:
     return None
 
 
-def active_thp_mode() -> str | None:
+def active_thp_mode() -> Optional[str]:
     path = pathlib.Path("/sys/kernel/mm/transparent_hugepage/enabled")
     try:
         match = re.search(r"\[([^]]+)\]", path.read_text(encoding="utf-8"))
@@ -126,12 +124,12 @@ def active_thp_mode() -> str | None:
         return None
 
 
-def read_cpu_stat() -> dict[str, int] | None:
+def read_cpu_stat() -> Optional[Dict[str, int]]:
     candidates = (pathlib.Path("/sys/fs/cgroup/cpu.stat"),
                   pathlib.Path("/sys/fs/cgroup/cpu/cpu.stat"))
     for path in candidates:
         try:
-            result: dict[str, int] = {}
+            result: Dict[str, int] = {}
             for line in path.read_text(encoding="utf-8").splitlines():
                 key, value = line.split()[:2]
                 result[key] = int(value)
@@ -141,7 +139,7 @@ def read_cpu_stat() -> dict[str, int] | None:
     return None
 
 
-def validate_plan(plan_path: pathlib.Path, plan: dict[str, Any]) -> None:
+def validate_plan(plan_path: pathlib.Path, plan: Dict[str, Any]) -> None:
     if plan.get("schema_version") != 3:
         raise ValueError("active plan schema_version must be 3")
     if plan.get("design_status") != "Frozen":
@@ -166,8 +164,8 @@ def validate_plan(plan_path: pathlib.Path, plan: dict[str, Any]) -> None:
         raise ValueError("plan must live in its comparison_id directory")
 
 
-def expand_entries(plan: dict[str, Any], profiles: set[str], stage: str) -> list[dict[str, Any]]:
-    entries: list[dict[str, Any]] = []
+def expand_entries(plan: Dict[str, Any], profiles: Set[str], stage: str) -> List[Dict[str, Any]]:
+    entries: List[Dict[str, Any]] = []
     environment = plan["environment"]
     defaults = plan.get("block_defaults", {})
     for specific in plan["blocks"]:
@@ -194,17 +192,17 @@ def expand_entries(plan: dict[str, Any], profiles: set[str], stage: str) -> list
     return entries
 
 
-def run_identity(item: dict[str, Any]) -> tuple[str, int, str]:
+def run_identity(item: Dict[str, Any]) -> Tuple[str, int, str]:
     return item["block_id"], int(item["repetition"]), item["version"]
 
 
-def run_slug(item: dict[str, Any]) -> str:
+def run_slug(item: Dict[str, Any]) -> str:
     return f"{item['block_id']}--r{int(item['repetition']):03d}--{item['version']}"
 
 
-def prior_state(raw_dir: pathlib.Path) -> tuple[set[tuple[str, int, str]], dict[tuple[str, int, str], int]]:
-    valid: set[tuple[str, int, str]] = set()
-    attempts: dict[tuple[str, int, str], int] = defaultdict(int)
+def prior_state(raw_dir: pathlib.Path) -> Tuple[Set[Tuple[str, int, str]], Dict[Tuple[str, int, str], int]]:
+    valid: Set[Tuple[str, int, str]] = set()
+    attempts: Dict[Tuple[str, int, str], int] = defaultdict(int)
     if not raw_dir.exists():
         return valid, attempts
     for path in raw_dir.glob("*.json"):
@@ -219,11 +217,11 @@ def prior_state(raw_dir: pathlib.Path) -> tuple[set[tuple[str, int, str]], dict[
     return valid, attempts
 
 
-def scheduled_blocks(entries: Iterable[dict[str, Any]], completed: set[tuple[str, int, str]],
-                     seed: int, max_blocks: int) -> list[list[dict[str, Any]]]:
+def scheduled_blocks(entries: Iterable[Dict[str, Any]], completed: Set[Tuple[str, int, str]],
+                     seed: int, max_blocks: int) -> List[List[Dict[str, Any]]]:
     entries = list(entries)
     expected_arms = len({entry["version"] for entry in entries})
-    grouped: dict[tuple[str, int], list[dict[str, Any]]] = defaultdict(list)
+    grouped: Dict[Tuple[str, int], List[Dict[str, Any]]] = defaultdict(list)
     for entry in entries:
         if run_identity(entry) not in completed:
             grouped[(entry["block_id"], int(entry["repetition"]))].append(entry)
@@ -266,7 +264,7 @@ CLI_FIELDS = (
 )
 
 
-def command_for(item: dict[str, Any]) -> list[str]:
+def command_for(item: Dict[str, Any]) -> List[str]:
     command = [str(pathlib.Path(item["benchmark_path"]).resolve())]
     for field, option in CLI_FIELDS:
         if field in item and item[field] is not None:
@@ -274,12 +272,12 @@ def command_for(item: dict[str, Any]) -> list[str]:
     return command
 
 
-def preflight(plan: dict[str, Any], plan_digest: str) -> dict[str, Any]:
+def preflight(plan: Dict[str, Any], plan_digest: str) -> Dict[str, Any]:
     expected_cpu = canonical_cpu_list(plan["environment"]["cpu_list"])
     expected_mems = tuple(int(x) for x in plan["environment"]["numa_nodes"])
     actual_cpu_text = proc_status_list("Cpus_allowed_list")
     actual_mems_text = proc_status_list("Mems_allowed_list")
-    errors: list[str] = []
+    errors: List[str] = []
     if canonical_cpu_list(actual_cpu_text) != expected_cpu:
         errors.append(f"cpuset mismatch: expected {plan['environment']['cpu_list']}, got {actual_cpu_text}")
     if canonical_cpu_list(actual_mems_text) != expected_mems:
@@ -305,7 +303,7 @@ def preflight(plan: dict[str, Any], plan_digest: str) -> dict[str, Any]:
             "artifact_checks": artifact_checks}
 
 
-def result_environment(item: dict[str, Any]) -> dict[str, str]:
+def result_environment(item: Dict[str, Any]) -> Dict[str, str]:
     env = {"PATH": os.environ.get("PATH", ""), "LD_PRELOAD": item["library_path"]}
     for name, value in item.get("runtime_options", {}).items():
         key = name if name.startswith("MIMALLOC_") else "MIMALLOC_" + name.upper()
@@ -313,8 +311,8 @@ def result_environment(item: dict[str, Any]) -> dict[str, str]:
     return env
 
 
-def validate_output(item: dict[str, Any], output: dict[str, Any], returncode: int,
-                    throttle_delta: int | None) -> str | None:
+def validate_output(item: Dict[str, Any], output: Dict[str, Any], returncode: int,
+                    throttle_delta: Optional[int]) -> Optional[str]:
     if returncode != 0:
         return f"benchmark exit code {returncode}"
     if output.get("valid") is not True:
@@ -336,8 +334,8 @@ def validate_output(item: dict[str, Any], output: dict[str, Any], returncode: in
     return None
 
 
-def execute_one(item: dict[str, Any], attempt: int, raw_dir: pathlib.Path,
-                log_dir: pathlib.Path, plan_digest: str) -> dict[str, Any]:
+def execute_one(item: Dict[str, Any], attempt: int, raw_dir: pathlib.Path,
+                log_dir: pathlib.Path, plan_digest: str) -> Dict[str, Any]:
     slug = run_slug(item)
     command = command_for(item)
     stdout_path = log_dir / f"{slug}--a{attempt:03d}.stdout"
@@ -347,9 +345,9 @@ def execute_one(item: dict[str, Any], attempt: int, raw_dir: pathlib.Path,
     returncode = -1
     stdout = ""
     stderr = ""
-    failure: str | None = None
+    failure: Optional[str] = None
     try:
-        completed = subprocess.run(command, env=result_environment(item), text=True,
+        completed = subprocess.run(command, env=result_environment(item), universal_newlines=True,
                                    stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                                    timeout=int(item["timeout_seconds"]), check=False)
         returncode, stdout, stderr = completed.returncode, completed.stdout, completed.stderr
@@ -363,7 +361,7 @@ def execute_one(item: dict[str, Any], attempt: int, raw_dir: pathlib.Path,
     after = read_cpu_stat()
     atomic_text(stdout_path, stdout)
     atomic_text(stderr_path, stderr)
-    output: dict[str, Any] = {}
+    output: Dict[str, Any] = {}
     if failure is None:
         try:
             output = json.loads(stdout)
@@ -388,10 +386,10 @@ def execute_one(item: dict[str, Any], attempt: int, raw_dir: pathlib.Path,
     return record
 
 
-def print_status(plan: dict[str, Any], entries: list[dict[str, Any]], raw_dir: pathlib.Path) -> None:
+def print_status(plan: Dict[str, Any], entries: List[Dict[str, Any]], raw_dir: pathlib.Path) -> None:
     completed, attempts = prior_state(raw_dir)
     all_ids = {run_identity(item) for item in entries}
-    by_profile: dict[str, dict[str, int]] = defaultdict(lambda: {"total": 0, "valid": 0})
+    by_profile: Dict[str, Dict[str, int]] = defaultdict(lambda: {"total": 0, "valid": 0})
     for item in entries:
         profile = item["profile"]
         by_profile[profile]["total"] += 1

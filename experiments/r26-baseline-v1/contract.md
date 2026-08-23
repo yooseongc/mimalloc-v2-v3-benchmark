@@ -99,6 +99,12 @@ The one-block default bounds each invocation and allows safe continuation.
 
 ## Amendments
 
-None. Any workload, artifact, environment, operation count, validity rule, or
-runner semantic change requires a dated amendment, a new design revision, and
-a new result namespace.
+2026-08-23: Before any r26 execution, the shared runner's type annotations and
+`subprocess.run` text-mode spelling were made Python 3.6 compatible after the
+pinned Rocky Linux 8 image rejected the Python 3.7+ syntax. Execution,
+validation, scheduling, and record semantics did not change. The plan records
+the corrected runner hash. r26 was subsequently superseded without execution.
+
+Any workload, artifact, environment, operation count, validity rule, or runner
+semantic change requires a dated amendment, a new design revision, and a new
+result namespace.

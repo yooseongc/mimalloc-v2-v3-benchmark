@@ -1,6 +1,11 @@
-# mimalloc v2.1.2 vs v3.4.3 vs v3.5.0 benchmark
+# mimalloc v2.1.2 vs v3.5.0 vs dev3 snapshot benchmark
 
-동일한 Rocky Linux 8 컨테이너 환경에서 Microsoft mimalloc `v2.1.2`, `v3.4.3`, `v3.5.0`을 재현 가능하게 비교하는 C++17 benchmark 프로젝트입니다. 동일 스레드 churn, remote free, burst/purge, 대형 할당, 고정 worker 장기 실행 패턴을 다룹니다.
+동일한 Rocky Linux 8 컨테이너 환경에서 Microsoft mimalloc `v2.1.2`,
+`v3.5.0`, 고정된 `dev3` snapshot을 재현 가능하게 비교하는 C++17
+benchmark 프로젝트입니다. 현재 dev3 snapshot은 commit
+`622d421f647fc41a2dfe90bc45174770129d78b4`입니다. 동일 스레드 churn,
+remote free, burst/purge, 대형 할당, 고정 worker 장기 실행 패턴을
+다룹니다. v3.4.3을 포함한 이전 비교는 historical epoch로 보존합니다.
 
 ## 실행 상태와 결과
 
@@ -23,7 +28,8 @@
 ## 현재 활성 실험
 
 새 측정의 단일 진입점은 `experiments/ACTIVE`가 선택한
-`r26-baseline-v1`입니다. r2--r25 계획과 결과는 재현성을 위해 원래
+`r27-dev3-snapshot-v1`입니다. 비교 대상은 mimalloc `v2.1.2`, `v3.5.0`,
+그리고 2026-08-23에 고정한 `dev3@622d421f`입니다. r2--r26 계획과 결과는 재현성을 위해 원래
 경로에 보존하지만 historical read-only로 취급하며, 활성 실행기는
 그 manifest나 raw 결과를 읽지 않습니다.
 
@@ -45,8 +51,8 @@ bash scripts/container/run_active.sh --stage measured --profile core --status
 ```
 
 계약과 전체 고정 matrix는
-[`experiments/r26-baseline-v1/contract.md`](experiments/r26-baseline-v1/contract.md)와
-[`experiments/r26-baseline-v1/plan.json`](experiments/r26-baseline-v1/plan.json)에
+[`experiments/r27-dev3-snapshot-v1/contract.md`](experiments/r27-dev3-snapshot-v1/contract.md)와
+[`experiments/r27-dev3-snapshot-v1/plan.json`](experiments/r27-dev3-snapshot-v1/plan.json)에
 있습니다. 기존 epoch 경계는 [`legacy/README.md`](legacy/README.md)를
 따릅니다.
 

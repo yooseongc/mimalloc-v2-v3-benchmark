@@ -1,5 +1,20 @@
 프로젝트 루트의 `AGENTS.md`로 바로 사용할 수 있는 형태입니다. Codex는 저장소 루트부터 현재 작업 디렉터리까지의 `AGENTS.md`를 계층적으로 읽으며, 기본 합산 한도는 32KiB입니다.
 
+## 0. Active r27 scope override
+
+2026-08-23 사용자 지시에 따라 현재 활성 비교 대상은 다음 세 build다.
+
+* mimalloc `v2.1.2` (`43ce4bd7fd34bcc730c1c7471c99995597415488`)
+* mimalloc `v3.5.0` (`18b08671c9302247bfb682286e6bf3cc1773f801`)
+* upstream `dev3`를 2026-08-23에 해석한 snapshot
+  (`622d421f647fc41a2dfe90bc45174770129d78b4`)
+
+`dev3`는 움직이는 branch를 측정 시점마다 따라가지 않고 위 commit SHA로
+고정한다. 이후 branch HEAD가 바뀌면 새 design revision과 result namespace를
+만든다. 아래의 v3.4.3 비교 및 moving branch 금지 문구는 r2--r26 historical
+epoch 재현에는 계속 적용하지만, 현재 r27 작업과 충돌할 때는 이 절이
+우선한다. 활성 계약과 plan은 `experiments/r27-dev3-snapshot-v1/`에 있다.
+
 mimalloc v2.1.2, v3.4.3, v3.5.0은 지원 빌드 옵션, THP 제어, 기본 purge 정책이 다르므로 **기본값 비교**와 **동일 정책 비교**를 분리하도록 구성했습니다. 또한 allocator 벤치마크에서 중요한 동일 스레드 해제, 원격 스레드 해제, 비대칭 producer/consumer, thread churn 패턴을 포함했습니다.
 
 # AGENTS.md

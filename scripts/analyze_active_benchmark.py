@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """Analyze only complete matched repetitions from the isolated active run."""
-from __future__ import annotations
-
 import importlib.util
 import json
 import math
@@ -9,7 +7,7 @@ import pathlib
 import random
 import statistics
 from collections import defaultdict
-from typing import Any, Callable
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 RUNNER_SPEC = importlib.util.spec_from_file_location(
@@ -18,7 +16,7 @@ RUNNER = importlib.util.module_from_spec(RUNNER_SPEC)
 RUNNER_SPEC.loader.exec_module(RUNNER)
 
 
-def describe(values: list[float]) -> dict[str, Any]:
+def describe(values: List[float]) -> Dict[str, Any]:
     if not values:
         return {"count": 0}
     ordered = sorted(values)
@@ -36,7 +34,7 @@ def describe(values: list[float]) -> dict[str, Any]:
     }
 
 
-def bootstrap_median_ci(values: list[float], seed: int, samples: int = 10000) -> list[float] | None:
+def bootstrap_median_ci(values: List[float], seed: int, samples: int = 10000) -> Optional[List[float]]:
     if len(values) < 2:
         return None
     rng = random.Random(seed)
@@ -45,8 +43,8 @@ def bootstrap_median_ci(values: list[float], seed: int, samples: int = 10000) ->
             medians[math.floor((samples - 1) * .975)]]
 
 
-def latest_valid(raw_dir: pathlib.Path, comparison_id: str, revision: str) -> list[dict[str, Any]]:
-    selected: dict[tuple[str, int, str], dict[str, Any]] = {}
+def latest_valid(raw_dir: pathlib.Path, comparison_id: str, revision: str) -> List[Dict[str, Any]]:
+    selected: Dict[Tuple[str, int, str], Dict[str, Any]] = {}
     for path in raw_dir.glob("*.json") if raw_dir.exists() else ():
         try:
             record = json.loads(path.read_text(encoding="utf-8"))
@@ -62,18 +60,18 @@ def latest_valid(raw_dir: pathlib.Path, comparison_id: str, revision: str) -> li
     return list(selected.values())
 
 
-def complete_groups(rows: list[dict[str, Any]], versions: list[str]) -> dict[str, list[dict[str, dict[str, Any]]]]:
-    grouped: dict[tuple[str, int], dict[str, dict[str, Any]]] = defaultdict(dict)
+def complete_groups(rows: List[Dict[str, Any]], versions: List[str]) -> Dict[str, List[Dict[str, Dict[str, Any]]]]:
+    grouped: Dict[Tuple[str, int], Dict[str, Dict[str, Any]]] = defaultdict(dict)
     for row in rows:
         grouped[(row["block_id"], int(row["repetition"]))][row["allocator_version"]] = row
-    complete: dict[str, list[dict[str, dict[str, Any]]]] = defaultdict(list)
+    complete: Dict[str, List[Dict[str, Dict[str, Any]]]] = defaultdict(list)
     for (block_id, _), arms in grouped.items():
         if set(arms) == set(versions):
             complete[block_id].append(arms)
     return complete
 
 
-def nested(record: dict[str, Any], *keys: str) -> float | None:
+def nested(record: Dict[str, Any], *keys: str) -> Optional[float]:
     value: Any = record
     for key in keys:
         if not isinstance(value, dict):
@@ -82,13 +80,13 @@ def nested(record: dict[str, Any], *keys: str) -> float | None:
     return float(value) if isinstance(value, (int, float)) else None
 
 
-def throughput(record: dict[str, Any]) -> float | None:
+def throughput(record: Dict[str, Any]) -> Optional[float]:
     elapsed = nested(record, "elapsed_ns")
     operations = nested(record, "operation_count")
     return operations * 1e9 / elapsed if elapsed and operations is not None else None
 
 
-METRICS: dict[str, dict[str, Callable[[dict[str, Any]], float | None]]] = {
+METRICS: Dict[str, Dict[str, Callable[[Dict[str, Any]], Optional[float]]]] = {
     "core": {
         "throughput_ops_per_second": throughput,
         "elapsed_ns": lambda r: nested(r, "elapsed_ns"),
@@ -111,7 +109,7 @@ METRICS: dict[str, dict[str, Callable[[dict[str, Any]], float | None]]] = {
 }
 
 
-def summarize(plan: dict[str, Any], rows: list[dict[str, Any]]) -> dict[str, Any]:
+def summarize(plan: Dict[str, Any], rows: List[Dict[str, Any]]) -> Dict[str, Any]:
     versions = plan["comparison_versions"]
     groups = complete_groups(rows, versions)
     block_profiles = {block["block_id"]: block["profile"] for block in plan["blocks"]}

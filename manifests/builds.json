@@ -122,6 +122,26 @@
       "build_timestamp_utc": "2026-08-21T23:45:17Z",
       "container_image_id": "sha256:73353c7a70d01f098f4adc96480273ce5d5b295bea3733c1f2faac2017e05877",
       "status": "smoke-pass-r24"
+    },
+    {
+      "version": "dev3-622d421f",
+      "requested_ref": "refs/heads/dev3",
+      "commit": "622d421f647fc41a2dfe90bc45174770129d78b4",
+      "profile": "release",
+      "source_directory": "extern/mimalloc-dev3-622d421f",
+      "build_directory": "build/mimalloc-dev3-622d421f/release",
+      "install_prefix": "opt/mimalloc-dev3-622d421f/release",
+      "library_path": "opt/mimalloc-dev3-622d421f/release/lib64/libmimalloc.so",
+      "library_sha256": "49a1be072b80b98fced4135ae5d835a5fe8576648ca2949a8b9a6a70acdba95d",
+      "installed_header_sha256": "af34f215cb6fe9e4e97bf08d78bfda877ab4cdd63c9222640c483d7d6a4488a5",
+      "cmake_command": "cmake -S /work/extern/mimalloc-dev3-622d421f -B /work/build/mimalloc-dev3-622d421f/release -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/work/opt/mimalloc-dev3-622d421f/release -DCMAKE_C_FLAGS_RELEASE=-O3 -DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-O3 -DNDEBUG -DMI_OVERRIDE=ON -DMI_BUILD_SHARED=ON -DMI_BUILD_STATIC=OFF -DMI_BUILD_OBJECT=OFF -DMI_BUILD_TESTS=OFF -DMI_SECURE=OFF -DMI_TRACK_VALGRIND=OFF -DMI_TRACK_ASAN=OFF -DMI_SHOW_ERRORS=OFF",
+      "cmake_cache": "build/mimalloc-dev3-622d421f/release/CMakeCache.txt",
+      "compiler": "GCC 8.5.0 (Rocky Linux 8 container)",
+      "compiler_flags": "-O3 -DNDEBUG",
+      "build_type": "Release",
+      "build_timestamp_utc": "2026-08-23T05:32:57Z",
+      "container_image_id": "sha256:73353c7a70d01f098f4adc96480273ce5d5b295bea3733c1f2faac2017e05877",
+      "status": "correctness-smoke-pass-r27"
     }
   ]
 }

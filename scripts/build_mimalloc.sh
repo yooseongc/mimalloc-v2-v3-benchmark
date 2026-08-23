@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-version="${1:?usage: build_mimalloc.sh v2.1.2|v3.4.3|v3.4.5|v3.5.0 [profile]}"
+version="${1:?usage: build_mimalloc.sh v2.1.2|v3.4.3|v3.4.5|v3.5.0|dev3-622d421f [profile]}"
 profile="${2:-release}"
-case "$version" in v2.1.2|v3.4.3|v3.4.5|v3.5.0) ;; *) exit 2;; esac
+case "$version" in v2.1.2|v3.4.3|v3.4.5|v3.5.0|dev3-622d421f) ;; *) exit 2;; esac
 case "$profile" in release|secure|local-dynamic-tls) ;; *)
   echo "unsupported profile: $profile (expected release|secure|local-dynamic-tls)" >&2; exit 2;;
 esac

@@ -301,3 +301,16 @@ writes only under `results/active/r26-baseline-v1/`, preflights the complete
 environment before execution, persists immutable per-attempt records, and
 defaults to one matched three-version block per invocation. No r26 result had
 been measured when this amendment was recorded.
+
+2026-08-23: r27 supersedes the unexecuted r26 active comparison set without
+altering r26's frozen files. Per user direction, r27 compares v2.1.2, v3.5.0,
+and the upstream `dev3` branch as resolved at approximately 05:25 UTC to commit
+`622d421f647fc41a2dfe90bc45174770129d78b4`. Although `dev3` is a moving ref,
+source fetch and all measurements use only that immutable SHA; later branch
+movement requires another revision. The snapshot was built in the same pinned
+Rocky Linux 8 image and Release profile, produced library SHA-256
+`49a1be072b80b98fced4135ae5d835a5fe8576648ca2949a8b9a6a70acdba95d`,
+reported `mi_version=30500`, and passed a 100,000-operation fixed-cpuset
+correctness smoke before freeze. The r25-calibrated workload counts and r26
+isolation/durability semantics are retained. r27 writes only under
+`results/active/r27-dev3-snapshot-v1/` and is never pooled with r2--r26.

@@ -36,7 +36,7 @@ class ActiveBenchmarkTests(unittest.TestCase):
                          [[RUNNER.run_identity(x) for x in b] for b in second])
         self.assertEqual(len(first), 1)
         self.assertEqual({item["version"] for item in first[0]},
-                         {"v2.1.2", "v3.4.3", "v3.5.0"})
+                         set(self.plan["comparison_versions"]))
 
     def test_partial_block_resumes_only_missing_allocator_arms(self):
         entries = RUNNER.expand_entries(self.plan, {"core"}, "measured")
@@ -53,7 +53,8 @@ class ActiveBenchmarkTests(unittest.TestCase):
     def test_command_records_seed_and_warmup(self):
         entry = RUNNER.expand_entries(self.plan, {"latency"}, "measured")[0]
         command = RUNNER.command_for(entry)
-        self.assertEqual(command[command.index("--seed") + 1], "20260823")
+        self.assertEqual(command[command.index("--seed") + 1],
+                         str(self.plan["randomization_seed"]))
         self.assertEqual(command[command.index("--warmup-count") + 1], "691133")
         self.assertEqual(command[command.index("--latency-sample-rate") + 1], "1024")
 
