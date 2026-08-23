@@ -21,6 +21,9 @@ struct RunOptions {
   std::string allocation_api{"malloc"};
   std::uint64_t idle_ms{10};
   std::uint64_t hold_ms{0};
+  std::string memory_return_mode{"passive"};
+  std::uint64_t memory_action_interval_ms{10};
+  bool reallocate_after_observe{false};
   std::string diagnostic_ready_file;
   unsigned producer_count{1};
   unsigned consumer_count{1};

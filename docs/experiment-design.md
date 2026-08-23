@@ -314,3 +314,19 @@ reported `mi_version=30500`, and passed a 100,000-operation fixed-cpuset
 correctness smoke before freeze. The r25-calibrated workload counts and r26
 isolation/durability semantics are retained. r27 writes only under
 `results/active/r27-dev3-snapshot-v1/` and is never pooled with r2--r26.
+
+2026-08-23: r28 is a memory-return-only follow-up prompted before any r28
+measurement by review of r25's absolute RSS values. r25 had reported
+cross-version post-free parity, but all 450 valid arms also had exactly equal
+`rss_after_free` and `rss_after_idle`, retaining essentially the complete
+512 MiB working set through five seconds. r28 preserves all r27 Core records
+and creates a new namespace rather than changing their interpretation or raw
+data. It measures a baseline-adjusted RSS curve at 0/10/100/1000/5000 ms in
+one process, followed by a same-size reallocation and fault measurement. Six
+one-variable cells separate passive upstream defaults, passive normalized
+purge delay 1000, passive immediate purge, periodic ordinary allocator
+activity, periodic `mi_collect(false)`, and one forced `mi_collect(true)`.
+Direct collect cells are diagnostic and remain separate from ordinary
+`LD_PRELOAD` behavior. The complete frozen contract is
+`experiments/r28-memory-return-v1/contract.md`; r28 executes no Core or
+latency profile and is never pooled with r27 or historical epochs.

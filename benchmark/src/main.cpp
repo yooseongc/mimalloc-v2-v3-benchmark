@@ -32,6 +32,9 @@ bool parse_args(int argc, char** argv, RunOptions& o) {
     else if (std::strcmp(argv[i], "--allocation-api") == 0 && i + 1 < argc) o.allocation_api = argv[++i];
     else if (std::strcmp(argv[i], "--idle-ms") == 0 && i + 1 < argc) o.idle_ms = parse_u64(argv[++i]);
     else if (std::strcmp(argv[i], "--hold-ms") == 0 && i + 1 < argc) o.hold_ms = parse_u64(argv[++i]);
+    else if (std::strcmp(argv[i], "--memory-return-mode") == 0 && i + 1 < argc) o.memory_return_mode = argv[++i];
+    else if (std::strcmp(argv[i], "--memory-action-interval-ms") == 0 && i + 1 < argc) o.memory_action_interval_ms = parse_u64(argv[++i]);
+    else if (std::strcmp(argv[i], "--reallocate-after-observe") == 0 && i + 1 < argc) o.reallocate_after_observe = parse_u64(argv[++i]) != 0;
     else if (std::strcmp(argv[i], "--diagnostic-ready-file") == 0 && i + 1 < argc) o.diagnostic_ready_file = argv[++i];
     else if (std::strcmp(argv[i], "--producers") == 0 && i + 1 < argc) o.producer_count = static_cast<unsigned>(parse_u64(argv[++i]));
     else if (std::strcmp(argv[i], "--consumers") == 0 && i + 1 < argc) o.consumer_count = static_cast<unsigned>(parse_u64(argv[++i]));
@@ -58,9 +61,11 @@ bool parse_args(int argc, char** argv, RunOptions& o) {
       && o.return_queue_capacity > 1 && o.record_queue_capacity > 1
       && o.record_bank_bytes > 0 && o.record_bank_items > 0 && o.latency_sample_rate > 0
       && o.post_drain_sample_ms > 0
+      && o.memory_action_interval_ms > 0
       && o.payload_profile == "tcp-proxy-v1"
       && (o.stage_work == "allocator" || o.stage_work == "service")
       && (o.topology == "isolated" || o.topology == "service-like")
+      && (o.memory_return_mode == "passive" || o.memory_return_mode == "allocator-activity" || o.memory_return_mode == "collect-normal" || o.memory_return_mode == "collect-force")
       && (o.size_profile == "fixed" || o.size_profile == "mixed-small" || o.size_profile == "mixed-wide")
       && (o.free_order == "fifo" || o.free_order == "lifo" || o.free_order == "random")
       && (o.touch_mode == "none" || o.touch_mode == "first-byte" || o.touch_mode == "first-and-last" || o.touch_mode == "per-cache-line" || o.touch_mode == "per-page" || o.touch_mode == "full-write")
@@ -70,7 +75,7 @@ bool parse_args(int argc, char** argv, RunOptions& o) {
 
 int main(int argc, char** argv) {
   RunOptions options;
-  if (!parse_args(argc, argv, options) || (options.scenario != "local_churn" && options.scenario != "remote_free" && options.scenario != "queue_only" && options.scenario != "lifetime_mix" && options.scenario != "burst_purge" && options.scenario != "thread_churn" && options.scenario != "large_alloc" && options.scenario != "tcp_policy_record" && options.scenario != "tcp_policy_record_queue_only")) {
+  if (!parse_args(argc, argv, options) || (options.scenario != "local_churn" && options.scenario != "remote_free" && options.scenario != "queue_only" && options.scenario != "lifetime_mix" && options.scenario != "burst_purge" && options.scenario != "memory_return" && options.scenario != "thread_churn" && options.scenario != "large_alloc" && options.scenario != "tcp_policy_record" && options.scenario != "tcp_policy_record_queue_only")) {
     std::cerr << "usage: mimalloc-bench --scenario local_churn --operations N --threads N --size N\n";
     return 2;
   }
