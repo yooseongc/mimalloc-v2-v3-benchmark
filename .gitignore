@@ -8,6 +8,8 @@
 !/results/logs/.gitkeep
 /results/normalized/*
 !/results/normalized/.gitkeep
+/results/active/*
+!/results/active/.gitkeep
 /results/plots/*
 !/results/plots/.gitkeep
 !/results/plots/throughput-ratios.svg

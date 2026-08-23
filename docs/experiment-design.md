@@ -288,3 +288,16 @@ repetitions; operation counts and the core manifest remain draft until pilot
 calibration is recorded, after which at least 15 complete matched blocks are
 required. No r24 result may be pooled with earlier epochs. At amendment time,
 v3.5.0 had not been fetched, built, or measured.
+
+2026-08-23: r26 baseline v1 creates a new isolated execution namespace after
+r25 completed the fixed three-version comparison. It retains the five r25
+Core cells and operation counts, reduces Memory-return to the decision-relevant
+0/1000/5000 ms points under upstream-default and purge-delay=1000, and retains
+the two r25 latency companion cells. The complete contract is frozen in
+`experiments/r26-baseline-v1/contract.md`. Historical r2--r25 manifests,
+runners, raw records, exclusions, and conclusions remain unchanged and are
+never pooled with r26. The new active runner accepts no arbitrary plan path,
+writes only under `results/active/r26-baseline-v1/`, preflights the complete
+environment before execution, persists immutable per-attempt records, and
+defaults to one matched three-version block per invocation. No r26 result had
+been measured when this amendment was recorded.

@@ -20,6 +20,36 @@
 
 원시 repetition 기록과 command log는 용량 및 호스트 정보 노출을 줄이기 위해 Git에서 제외합니다. 공개 저장소에는 재현 스크립트, 실행 manifest, 집계 결과, 보고서, 생성 그래프를 포함합니다.
 
+## 현재 활성 실험
+
+새 측정의 단일 진입점은 `experiments/ACTIVE`가 선택한
+`r26-baseline-v1`입니다. r2--r25 계획과 결과는 재현성을 위해 원래
+경로에 보존하지만 historical read-only로 취급하며, 활성 실행기는
+그 manifest나 raw 결과를 읽지 않습니다.
+
+고정 범위는 r25에서 검증된 Core 5개 셀, 축소된 Memory-return 6개 셀,
+Tail-latency 2개 셀입니다. 실행은 기본적으로 한 번에 matched
+three-version block 하나만 처리하고, 각 attempt를 원자적으로 저장한 뒤
+다음 호출에서 자동 재개합니다.
+
+```bash
+# 무엇이 실행될지 확인 (기본: matched block 1개)
+bash scripts/container/run_active.sh --stage smoke --profile core
+
+# smoke와 measured 실행
+bash scripts/container/run_active.sh --stage smoke --profile core --execute
+bash scripts/container/run_active.sh --stage measured --profile core --execute
+
+# 진행률 확인
+bash scripts/container/run_active.sh --stage measured --profile core --status
+```
+
+계약과 전체 고정 matrix는
+[`experiments/r26-baseline-v1/contract.md`](experiments/r26-baseline-v1/contract.md)와
+[`experiments/r26-baseline-v1/plan.json`](experiments/r26-baseline-v1/plan.json)에
+있습니다. 기존 epoch 경계는 [`legacy/README.md`](legacy/README.md)를
+따릅니다.
+
 ## 빠른 시작
 
 ```powershell
