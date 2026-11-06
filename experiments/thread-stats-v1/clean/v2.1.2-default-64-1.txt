@@ -1,0 +1,83 @@
+CASE version=212 count=1000 bytes=64 remote=1
+TEXT A_allocated_raw
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    65.7 Ki     65.7 Ki      0          65.7 Ki     67   B       1.0 K    not all freed!
+     large:     0           0           0           0                                ok
+      huge:     0           0           0           0                                ok
+     total:    65.7 KiB    65.7 KiB     0          65.7 KiB                          not all freed
+  reserved:     0           0           0           0                                ok
+ committed:     0           0           0           0                                ok
+     reset:     0      
+    purged:     0      
+   touched:   140.3 KiB   140.3 KiB     0         140.3 KiB                          not all freed
+  segments:     1           1           0           1                                not all freed!
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:     2           2           0           2                                not all freed!
+-abandoned:     0           0           0           0                                ok
+ -extended:    17      
+ -noretire:     0      
+     mmaps:     0      
+   commits:     0      
+    resets:     0      
+    purges:     0      
+   threads:     0           0           0           0                                ok
+  searches:     0.8 avg
+numa nodes:     1
+   elapsed:     0.001 s
+   process: user: 0.003 s, system: 0.000 s, faults: 6, rss: 6.6 MiB, commit: 1.0 GiB
+TEXT A_allocated_collected
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    65.7 Ki     65.7 Ki      0          65.7 Ki     67   B       1.0 K    not all freed!
+     large:     0           0           0           0                                ok
+      huge:     0           0           0           0                                ok
+     total:    65.7 KiB    65.7 KiB     0          65.7 KiB                          not all freed
+  reserved:     0           0           0           0                                ok
+ committed:     0           0           0           0                                ok
+     reset:     0      
+    purged:     0      
+   touched:   140.3 KiB   140.3 KiB     0         140.3 KiB                          not all freed
+  segments:     1           1           0           1                                not all freed!
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:     2           2           0           2                                not all freed!
+-abandoned:     0           0           0           0                                ok
+ -extended:    17      
+ -noretire:     0      
+     mmaps:     0      
+   commits:     0      
+    resets:     0      
+    purges:     0      
+   threads:     0           0           0           0                                ok
+  searches:     0.8 avg
+numa nodes:     1
+   elapsed:     0.001 s
+   process: user: 0.003 s, system: 0.000 s, faults: 6, rss: 6.6 MiB, commit: 1.0 GiB
+TEXT A_freed_collected
+heap stats:     peak       total       freed     current        unit       count   
+    normal:    65.7 Ki     65.7 Ki      0          65.7 Ki     67   B       1.0 K    not all freed!
+     large:     0           0           0           0                                ok
+      huge:     0           0           0           0                                ok
+     total:    65.7 KiB    65.7 KiB     0          65.7 KiB                          not all freed
+  reserved:     0           0           0           0                                ok
+ committed:     0           0           0           0                                ok
+     reset:     0      
+    purged:     0      
+   touched:   140.3 KiB   140.3 KiB    64.0 KiB    76.2 KiB                          not all freed
+  segments:     1           1           0           1                                not all freed!
+-abandoned:     0           0           0           0                                ok
+   -cached:     0           0           0           0                                ok
+     pages:     2           2           1           1                                not all freed!
+-abandoned:     0           0           0           0                                ok
+ -extended:    17      
+ -noretire:     0      
+     mmaps:     0      
+   commits:     0      
+    resets:     0      
+    purges:     0      
+   threads:     0           0           0           0                                ok
+  searches:     0.8 avg
+numa nodes:     1
+   elapsed:     0.001 s
+   process: user: 0.003 s, system: 0.000 s, faults: 6, rss: 6.6 MiB, commit: 1.0 GiB
+PASS payload checks; statistics captured

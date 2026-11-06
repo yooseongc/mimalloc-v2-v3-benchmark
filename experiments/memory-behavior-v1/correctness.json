@@ -1,0 +1,18 @@
+{
+  "write_without_allocation": {
+    "passed": true,
+    "exit_code": -6
+  },
+  "double_free_rejected": {
+    "passed": true,
+    "exit_code": -6
+  },
+  "live_objects_at_exit": {
+    "passed": true,
+    "exit_code": -6
+  },
+  "complete_lifecycle": {
+    "passed": true,
+    "exit_code": 0
+  }
+}

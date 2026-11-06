@@ -1,0 +1,853 @@
+{
+  "source_sha256": "6d816dba196773bdb57253357b2fb832f789504f21f02cc0050fb4e664dfed4c",
+  "results": [
+    {
+      "name": "v2.1.2-default-64-0",
+      "version": "v2.1.2",
+      "policy": "default",
+      "size": 64,
+      "remote": false,
+      "library": "/work/build/thread-stats-v1/v2.1.2/libmimalloc.so.2.1",
+      "library_sha256": "e5df807b5cf3cb2ee79e40ccdc9533f35fdd337ef31d693cfdfdbc4b13db700d",
+      "binary_sha256": "fa98b85ee481bbed8edee945e7fe35a6b2b6596e418c3950d4a5967b8dd19580",
+      "exit_code": 0,
+      "snapshots": [],
+      "log": "v2.1.2-default-64-0.txt",
+      "stats_build": "MI_STAT=1"
+    },
+    {
+      "name": "v2.1.2-default-4096-0",
+      "version": "v2.1.2",
+      "policy": "default",
+      "size": 4096,
+      "remote": false,
+      "library": "/work/build/thread-stats-v1/v2.1.2/libmimalloc.so.2.1",
+      "library_sha256": "e5df807b5cf3cb2ee79e40ccdc9533f35fdd337ef31d693cfdfdbc4b13db700d",
+      "binary_sha256": "fa98b85ee481bbed8edee945e7fe35a6b2b6596e418c3950d4a5967b8dd19580",
+      "exit_code": 0,
+      "snapshots": [],
+      "log": "v2.1.2-default-4096-0.txt",
+      "stats_build": "MI_STAT=1"
+    },
+    {
+      "name": "v2.1.2-default-64-1",
+      "version": "v2.1.2",
+      "policy": "default",
+      "size": 64,
+      "remote": true,
+      "library": "/work/build/thread-stats-v1/v2.1.2/libmimalloc.so.2.1",
+      "library_sha256": "e5df807b5cf3cb2ee79e40ccdc9533f35fdd337ef31d693cfdfdbc4b13db700d",
+      "binary_sha256": "fa98b85ee481bbed8edee945e7fe35a6b2b6596e418c3950d4a5967b8dd19580",
+      "exit_code": 0,
+      "snapshots": [],
+      "log": "v2.1.2-default-64-1.txt",
+      "stats_build": "MI_STAT=1"
+    },
+    {
+      "name": "v2.1.2-default-4096-1",
+      "version": "v2.1.2",
+      "policy": "default",
+      "size": 4096,
+      "remote": true,
+      "library": "/work/build/thread-stats-v1/v2.1.2/libmimalloc.so.2.1",
+      "library_sha256": "e5df807b5cf3cb2ee79e40ccdc9533f35fdd337ef31d693cfdfdbc4b13db700d",
+      "binary_sha256": "fa98b85ee481bbed8edee945e7fe35a6b2b6596e418c3950d4a5967b8dd19580",
+      "exit_code": 0,
+      "snapshots": [],
+      "log": "v2.1.2-default-4096-1.txt",
+      "stats_build": "MI_STAT=1"
+    },
+    {
+      "name": "v3.5.0-default-64-0",
+      "version": "v3.5.0",
+      "policy": "default",
+      "size": 64,
+      "remote": false,
+      "library": "/work/build/thread-stats-v1/v3.5.0/libmimalloc.so.3.5",
+      "library_sha256": "9ba10418c32fca771ae481d5e47a1b2a99d85df2aefbd35d073a65febee1b936",
+      "binary_sha256": "43dd9f2182f875c7173b609ceb45cc37bd933b9a48caa15e29a811b73f4d4c1c",
+      "exit_code": 10,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 64000,
+          "current": 64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 64000,
+          "current": 64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": -64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 64000,
+          "current": 0,
+          "alloc_count": 0
+        }
+      ],
+      "log": "v3.5.0-default-64-0.txt",
+      "stats_build": "MI_STAT=1"
+    },
+    {
+      "name": "v3.5.0-default-4096-0",
+      "version": "v3.5.0",
+      "policy": "default",
+      "size": 4096,
+      "remote": false,
+      "library": "/work/build/thread-stats-v1/v3.5.0/libmimalloc.so.3.5",
+      "library_sha256": "9ba10418c32fca771ae481d5e47a1b2a99d85df2aefbd35d073a65febee1b936",
+      "binary_sha256": "43dd9f2182f875c7173b609ceb45cc37bd933b9a48caa15e29a811b73f4d4c1c",
+      "exit_code": 10,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 4096000,
+          "current": 4096000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 4096000,
+          "current": 4096000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": -4096000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 4096000,
+          "current": 0,
+          "alloc_count": 0
+        }
+      ],
+      "log": "v3.5.0-default-4096-0.txt",
+      "stats_build": "MI_STAT=1"
+    },
+    {
+      "name": "v3.5.0-default-64-1",
+      "version": "v3.5.0",
+      "policy": "default",
+      "size": 64,
+      "remote": true,
+      "library": "/work/build/thread-stats-v1/v3.5.0/libmimalloc.so.3.5",
+      "library_sha256": "9ba10418c32fca771ae481d5e47a1b2a99d85df2aefbd35d073a65febee1b936",
+      "binary_sha256": "43dd9f2182f875c7173b609ceb45cc37bd933b9a48caa15e29a811b73f4d4c1c",
+      "exit_code": 10,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 64000,
+          "current": 64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 64000,
+          "current": 64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "B_after_remote_free",
+          "total": 0,
+          "current": -64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 64000,
+          "current": 64000,
+          "alloc_count": 0
+        }
+      ],
+      "log": "v3.5.0-default-64-1.txt",
+      "stats_build": "MI_STAT=1"
+    },
+    {
+      "name": "v3.5.0-default-4096-1",
+      "version": "v3.5.0",
+      "policy": "default",
+      "size": 4096,
+      "remote": true,
+      "library": "/work/build/thread-stats-v1/v3.5.0/libmimalloc.so.3.5",
+      "library_sha256": "9ba10418c32fca771ae481d5e47a1b2a99d85df2aefbd35d073a65febee1b936",
+      "binary_sha256": "43dd9f2182f875c7173b609ceb45cc37bd933b9a48caa15e29a811b73f4d4c1c",
+      "exit_code": 10,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 4096000,
+          "current": 4096000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 4096000,
+          "current": 4096000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "B_after_remote_free",
+          "total": 0,
+          "current": -4096000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 4096000,
+          "current": 4096000,
+          "alloc_count": 0
+        }
+      ],
+      "log": "v3.5.0-default-4096-1.txt",
+      "stats_build": "MI_STAT=1"
+    },
+    {
+      "name": "v3.5.3-default-64-0",
+      "version": "v3.5.3",
+      "policy": "default",
+      "size": 64,
+      "remote": false,
+      "library": "/work/build/observation-v1/v3.5.3/libmimalloc.so.3.5",
+      "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f",
+      "binary_sha256": "5b758529dcf65c575986453ed57c2055f0bfafbe46581e099afef34f99b9e2bd",
+      "exit_code": 0,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 64000,
+          "current": 0,
+          "alloc_count": 1000
+        }
+      ],
+      "log": "v3.5.3-default-64-0.txt",
+      "stats_build": "default"
+    },
+    {
+      "name": "v3.5.3-default-4096-0",
+      "version": "v3.5.3",
+      "policy": "default",
+      "size": 4096,
+      "remote": false,
+      "library": "/work/build/observation-v1/v3.5.3/libmimalloc.so.3.5",
+      "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f",
+      "binary_sha256": "5b758529dcf65c575986453ed57c2055f0bfafbe46581e099afef34f99b9e2bd",
+      "exit_code": 0,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 3932160,
+          "current": 3932160,
+          "alloc_count": 960
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 3932160,
+          "current": 3932160,
+          "alloc_count": 960
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": -4055040,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 4096000,
+          "current": 0,
+          "alloc_count": 1000
+        }
+      ],
+      "log": "v3.5.3-default-4096-0.txt",
+      "stats_build": "default"
+    },
+    {
+      "name": "v3.5.3-default-64-1",
+      "version": "v3.5.3",
+      "policy": "default",
+      "size": 64,
+      "remote": true,
+      "library": "/work/build/observation-v1/v3.5.3/libmimalloc.so.3.5",
+      "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f",
+      "binary_sha256": "5b758529dcf65c575986453ed57c2055f0bfafbe46581e099afef34f99b9e2bd",
+      "exit_code": 0,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "B_after_remote_free",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 64000,
+          "current": 0,
+          "alloc_count": 1000
+        }
+      ],
+      "log": "v3.5.3-default-64-1.txt",
+      "stats_build": "default"
+    },
+    {
+      "name": "v3.5.3-default-4096-1",
+      "version": "v3.5.3",
+      "policy": "default",
+      "size": 4096,
+      "remote": true,
+      "library": "/work/build/observation-v1/v3.5.3/libmimalloc.so.3.5",
+      "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f",
+      "binary_sha256": "5b758529dcf65c575986453ed57c2055f0bfafbe46581e099afef34f99b9e2bd",
+      "exit_code": 0,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 3932160,
+          "current": 3932160,
+          "alloc_count": 960
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 3932160,
+          "current": 3932160,
+          "alloc_count": 960
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "B_after_remote_free",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 4096000,
+          "current": 0,
+          "alloc_count": 1000
+        }
+      ],
+      "log": "v3.5.3-default-4096-1.txt",
+      "stats_build": "default"
+    },
+    {
+      "name": "v3.5.3-keep-thread-64-0",
+      "version": "v3.5.3",
+      "policy": "keep-thread",
+      "size": 64,
+      "remote": false,
+      "library": "/work/build/observation-v1/v3.5.3/libmimalloc.so.3.5",
+      "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f",
+      "binary_sha256": "5b758529dcf65c575986453ed57c2055f0bfafbe46581e099afef34f99b9e2bd",
+      "exit_code": 0,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 64000,
+          "current": 64000,
+          "alloc_count": 1000
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": -64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": -64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 64000,
+          "current": 0,
+          "alloc_count": 1000
+        }
+      ],
+      "log": "v3.5.3-keep-thread-64-0.txt",
+      "stats_build": "default"
+    },
+    {
+      "name": "v3.5.3-keep-thread-4096-0",
+      "version": "v3.5.3",
+      "policy": "keep-thread",
+      "size": 4096,
+      "remote": false,
+      "library": "/work/build/observation-v1/v3.5.3/libmimalloc.so.3.5",
+      "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f",
+      "binary_sha256": "5b758529dcf65c575986453ed57c2055f0bfafbe46581e099afef34f99b9e2bd",
+      "exit_code": 0,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 3932160,
+          "current": 3932160,
+          "alloc_count": 960
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 3932160,
+          "current": 3932160,
+          "alloc_count": 960
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 163840,
+          "current": 163840,
+          "alloc_count": 40
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": -4055040,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": -4096000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": -4096000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 4096000,
+          "current": 0,
+          "alloc_count": 1000
+        }
+      ],
+      "log": "v3.5.3-keep-thread-4096-0.txt",
+      "stats_build": "default"
+    },
+    {
+      "name": "v3.5.3-keep-thread-64-1",
+      "version": "v3.5.3",
+      "policy": "keep-thread",
+      "size": 64,
+      "remote": true,
+      "library": "/work/build/observation-v1/v3.5.3/libmimalloc.so.3.5",
+      "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f",
+      "binary_sha256": "5b758529dcf65c575986453ed57c2055f0bfafbe46581e099afef34f99b9e2bd",
+      "exit_code": 0,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 64000,
+          "current": 64000,
+          "alloc_count": 1000
+        },
+        {
+          "stage": "B_after_remote_free",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": -64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": -64000,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 64000,
+          "current": 0,
+          "alloc_count": 1000
+        }
+      ],
+      "log": "v3.5.3-keep-thread-64-1.txt",
+      "stats_build": "default"
+    },
+    {
+      "name": "v3.5.3-keep-thread-4096-1",
+      "version": "v3.5.3",
+      "policy": "keep-thread",
+      "size": 4096,
+      "remote": true,
+      "library": "/work/build/observation-v1/v3.5.3/libmimalloc.so.3.5",
+      "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f",
+      "binary_sha256": "5b758529dcf65c575986453ed57c2055f0bfafbe46581e099afef34f99b9e2bd",
+      "exit_code": 0,
+      "snapshots": [
+        {
+          "stage": "A_baseline",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_allocated_raw",
+          "total": 3932160,
+          "current": 3932160,
+          "alloc_count": 960
+        },
+        {
+          "stage": "A_allocated_repeat",
+          "total": 3932160,
+          "current": 3932160,
+          "alloc_count": 960
+        },
+        {
+          "stage": "A_allocated_collected",
+          "total": 163840,
+          "current": 163840,
+          "alloc_count": 40
+        },
+        {
+          "stage": "B_after_remote_free",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_raw",
+          "total": 0,
+          "current": 0,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected",
+          "total": 0,
+          "current": -163840,
+          "alloc_count": 0
+        },
+        {
+          "stage": "A_freed_collected_repeat",
+          "total": 0,
+          "current": -163840,
+          "alloc_count": 0
+        },
+        {
+          "stage": "heap_final",
+          "total": 4096000,
+          "current": 0,
+          "alloc_count": 1000
+        }
+      ],
+      "log": "v3.5.3-keep-thread-4096-1.txt",
+      "stats_build": "default"
+    }
+  ]
+}

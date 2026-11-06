@@ -1,0 +1,38 @@
+{
+  "design_status": "Frozen",
+  "frozen_at": "2026-09-21T12:47:58.455513+00:00",
+  "question": "Does explicit collection by allocating thread A return retained memory, and what does this cost on next reuse?",
+  "trigger": "First six fresh baseline flows retained RSS during 30 seconds with zero live payload objects.",
+  "intervention": "A calls mi_collect(true) once immediately after all objects are freed; all other phases and 30-second idle unchanged.",
+  "repetitions_per_condition": 1,
+  "interpretation": "Mechanism probe; individual observations, no performance ranking.",
+  "execution_order": [
+    {
+      "version": "v3.5.0",
+      "mode": "remote"
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same"
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same"
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote"
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote"
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same"
+    }
+  ],
+  "source_sha256": "3904aced80d9b529e815b721b276912852ae73177d9cfb770cee0d0f7c3aaf52",
+  "runner_sha256": "1ea9ed28aa600b17ba8648e6f7c5ceb0e97aa2203914df04e59abda029618a0f",
+  "artifacts_sha256": "e227094d14599dfbd12a63cb3c29a8f07c3384e518a8f9ad2a014da14787df00"
+}

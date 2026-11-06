@@ -1,0 +1,4876 @@
+{
+  "summary": [
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "off",
+      "n": 3,
+      "mops": 55.79119599439931,
+      "mops_range": [
+        52.01726476191577,
+        57.7865297079124
+      ],
+      "elapsed": 1.416729335,
+      "cpu_seconds": 4.74577663,
+      "peak_mib": 139.8984375,
+      "snapshots": [
+        0,
+        0,
+        0
+      ],
+      "profile_bytes": 0,
+      "paired_elapsed_change_pct": 0.0,
+      "paired_elapsed_change_range_pct": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "periodic512",
+      "n": 3,
+      "mops": 41.568246436344104,
+      "mops_range": [
+        40.99776048381444,
+        43.614814505087594
+      ],
+      "elapsed": 1.901476025,
+      "cpu_seconds": 6.691073411,
+      "peak_mib": 144.296875,
+      "snapshots": [
+        112,
+        112,
+        113
+      ],
+      "profile_bytes": 1965613,
+      "paired_elapsed_change_pct": 27.91799444175411,
+      "paired_elapsed_change_range_pct": [
+        26.878307858917605,
+        39.01603907300808
+      ]
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "sample4m",
+      "n": 3,
+      "mops": 53.61089984570882,
+      "mops_range": [
+        51.96334800110437,
+        54.84462748163815
+      ],
+      "elapsed": 1.474346154,
+      "cpu_seconds": 4.86684874,
+      "peak_mib": 144.2890625,
+      "snapshots": [
+        1,
+        1,
+        1
+      ],
+      "profile_bytes": 17496,
+      "paired_elapsed_change_pct": 4.066889671625251,
+      "paired_elapsed_change_range_pct": [
+        0.10375921276326583,
+        5.364066384185384
+      ]
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "sample512",
+      "n": 3,
+      "mops": 47.06840155601427,
+      "mops_range": [
+        45.85230964120909,
+        47.21167040026759
+      ],
+      "elapsed": 1.679279971,
+      "cpu_seconds": 6.43743824,
+      "peak_mib": 144.28515625,
+      "snapshots": [
+        1,
+        1,
+        1
+      ],
+      "profile_bytes": 17740,
+      "paired_elapsed_change_pct": 18.53216627295997,
+      "paired_elapsed_change_range_pct": [
+        10.178827228322195,
+        26.027522190458228
+      ]
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "off",
+      "n": 3,
+      "mops": 10.382854082077841,
+      "mops_range": [
+        10.11146910939244,
+        10.399827217778492
+      ],
+      "elapsed": 1.726662039,
+      "cpu_seconds": 4.418513541,
+      "peak_mib": 145.26953125,
+      "snapshots": [
+        0,
+        0,
+        0
+      ],
+      "profile_bytes": 0,
+      "paired_elapsed_change_pct": 0.0,
+      "paired_elapsed_change_range_pct": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "periodic512",
+      "n": 3,
+      "mops": 9.091239802599675,
+      "mops_range": [
+        8.957479401366843,
+        9.136199487629138
+      ],
+      "elapsed": 1.971973063,
+      "cpu_seconds": 4.935868339,
+      "peak_mib": 149.53515625,
+      "snapshots": [
+        105,
+        105,
+        104
+      ],
+      "profile_bytes": 1831997,
+      "paired_elapsed_change_pct": 13.830999770313323,
+      "paired_elapsed_change_range_pct": [
+        11.22211413344334,
+        15.912676064803444
+      ]
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "sample4m",
+      "n": 3,
+      "mops": 9.836069311804021,
+      "mops_range": [
+        8.707318830319059,
+        10.211716319276176
+      ],
+      "elapsed": 1.822646774,
+      "cpu_seconds": 4.631471432,
+      "peak_mib": 149.41015625,
+      "snapshots": [
+        1,
+        1,
+        1
+      ],
+      "profile_bytes": 17499,
+      "paired_elapsed_change_pct": 5.558976385187098,
+      "paired_elapsed_change_range_pct": [
+        -0.9816881584783554,
+        19.437767474025257
+      ]
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "sample512",
+      "n": 3,
+      "mops": 10.043793531014716,
+      "mops_range": [
+        9.956333130371311,
+        10.086116465310074
+      ],
+      "elapsed": 1.784951069,
+      "cpu_seconds": 4.643665568,
+      "peak_mib": 149.41015625,
+      "snapshots": [
+        1,
+        1,
+        1
+      ],
+      "profile_bytes": 17505,
+      "paired_elapsed_change_pct": 3.544812880356041,
+      "paired_elapsed_change_range_pct": [
+        0.25136180183487067,
+        4.283916037375746
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "off",
+      "n": 3,
+      "mops": 53.20873760488424,
+      "mops_range": [
+        50.55792156825571,
+        59.04793661257438
+      ],
+      "elapsed": 1.485489556,
+      "cpu_seconds": 4.839809962,
+      "peak_mib": 139.89453125,
+      "snapshots": [
+        0,
+        0,
+        0
+      ],
+      "profile_bytes": 0,
+      "paired_elapsed_change_pct": 0.0,
+      "paired_elapsed_change_range_pct": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "periodic512",
+      "n": 3,
+      "mops": 42.43181001882484,
+      "mops_range": [
+        41.46651656870496,
+        42.48701033735454
+      ],
+      "elapsed": 1.862777571,
+      "cpu_seconds": 6.471830785,
+      "peak_mib": 144.29296875,
+      "snapshots": [
+        113,
+        114,
+        113
+      ],
+      "profile_bytes": 1983122,
+      "paired_elapsed_change_pct": 25.235306467546792,
+      "paired_elapsed_change_range_pct": [
+        21.924689488897386,
+        39.159598863159076
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "reclaim1",
+      "n": 3,
+      "mops": 50.984922342461125,
+      "mops_range": [
+        44.06556466327798,
+        52.101925172109354
+      ],
+      "elapsed": 1.550282326,
+      "cpu_seconds": 4.966509411,
+      "peak_mib": 140.01171875,
+      "snapshots": [
+        0,
+        0,
+        0
+      ],
+      "profile_bytes": 0,
+      "paired_elapsed_change_pct": 2.124321566081755,
+      "paired_elapsed_change_range_pct": [
+        -0.837504019987112,
+        34.000181465465154
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "sample4m",
+      "n": 3,
+      "mops": 51.37318006587145,
+      "mops_range": [
+        50.34452928441513,
+        54.597338287005016
+      ],
+      "elapsed": 1.538565919,
+      "cpu_seconds": 5.042757817,
+      "peak_mib": 144.41796875,
+      "snapshots": [
+        1,
+        1,
+        1
+      ],
+      "profile_bytes": 17496,
+      "paired_elapsed_change_pct": 0.42386389717747885,
+      "paired_elapsed_change_range_pct": [
+        -2.543348679053248,
+        14.939228089174627
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "sample512",
+      "n": 3,
+      "mops": 45.921795225649376,
+      "mops_range": [
+        45.6632107146772,
+        47.21873277347306
+      ],
+      "elapsed": 1.721209365,
+      "cpu_seconds": 6.230900185,
+      "peak_mib": 144.296875,
+      "snapshots": [
+        1,
+        1,
+        1
+      ],
+      "profile_bytes": 17505,
+      "paired_elapsed_change_pct": 12.685653509905936,
+      "paired_elapsed_change_range_pct": [
+        10.719156136791842,
+        28.583685203128706
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "stats512",
+      "n": 3,
+      "mops": 54.28278749556808,
+      "mops_range": [
+        48.984189706080365,
+        55.91677907752083
+      ],
+      "elapsed": 1.456097368,
+      "cpu_seconds": 4.854345057,
+      "peak_mib": 138.140625,
+      "snapshots": [
+        0,
+        0,
+        0
+      ],
+      "profile_bytes": 0,
+      "paired_elapsed_change_pct": 3.212734295735431,
+      "paired_elapsed_change_range_pct": [
+        -4.842985446072023,
+        8.778379550599457
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "off",
+      "n": 3,
+      "mops": 9.649461416150286,
+      "mops_range": [
+        9.233352168719108,
+        9.907231751977482
+      ],
+      "elapsed": 1.857894366,
+      "cpu_seconds": 4.783960973,
+      "peak_mib": 145.26953125,
+      "snapshots": [
+        0,
+        0,
+        0
+      ],
+      "profile_bytes": 0,
+      "paired_elapsed_change_pct": 0.0,
+      "paired_elapsed_change_range_pct": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "periodic512",
+      "n": 3,
+      "mops": 8.691287035650454,
+      "mops_range": [
+        8.439786735549612,
+        9.034654821583334
+      ],
+      "elapsed": 2.062718666,
+      "cpu_seconds": 5.171317217,
+      "peak_mib": 149.5390625,
+      "snapshots": [
+        106,
+        105,
+        106
+      ],
+      "profile_bytes": 1849503,
+      "paired_elapsed_change_pct": 6.80498155943059,
+      "paired_elapsed_change_range_pct": [
+        6.236879887238533,
+        17.387228639875207
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "reclaim1",
+      "n": 3,
+      "mops": 9.657710479522455,
+      "mops_range": [
+        9.516310020596666,
+        10.004120730033518
+      ],
+      "elapsed": 1.856307459,
+      "cpu_seconds": 4.75971233,
+      "peak_mib": 145.2734375,
+      "snapshots": [
+        0,
+        0,
+        0
+      ],
+      "profile_bytes": 0,
+      "paired_elapsed_change_pct": -0.9684906916923142,
+      "paired_elapsed_change_range_pct": [
+        -4.393984596070966,
+        1.3991914435893094
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "sample4m",
+      "n": 3,
+      "mops": 9.709696323697123,
+      "mops_range": [
+        9.539901225894772,
+        9.967444260398521
+      ],
+      "elapsed": 1.846368764,
+      "cpu_seconds": 4.689796968,
+      "peak_mib": 149.53515625,
+      "snapshots": [
+        1,
+        1,
+        1
+      ],
+      "profile_bytes": 17499,
+      "paired_elapsed_change_pct": -0.6203583051287431,
+      "paired_elapsed_change_range_pct": [
+        -3.2133357559675613,
+        -0.6040917495798492
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "sample512",
+      "n": 3,
+      "mops": 9.86919310937439,
+      "mops_range": [
+        8.066726546891854,
+        10.040470809081627
+      ],
+      "elapsed": 1.816529457,
+      "cpu_seconds": 4.657815594,
+      "peak_mib": 147.65625,
+      "snapshots": [
+        1,
+        1,
+        1
+      ],
+      "profile_bytes": 17505,
+      "paired_elapsed_change_pct": -3.8943332475771086,
+      "paired_elapsed_change_range_pct": [
+        -6.442684154708855,
+        22.816010861243143
+      ]
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "stats512",
+      "n": 3,
+      "mops": 9.797276007866746,
+      "mops_range": [
+        9.595610859277524,
+        9.883360253529961
+      ],
+      "elapsed": 1.829863728,
+      "cpu_seconds": 4.645288642,
+      "peak_mib": 145.2734375,
+      "snapshots": [
+        0,
+        0,
+        0
+      ],
+      "profile_bytes": 0,
+      "paired_elapsed_change_pct": -2.3665922457509647,
+      "paired_elapsed_change_range_pct": [
+        -3.775254080965229,
+        1.1223093441733
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "run": 0,
+      "config": {
+        "version": "v3.6.1",
+        "size": 4096,
+        "mode": "sample512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        1,
+        304,
+        235261,
+        963621192
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 117255,
+          "alloc_bytes": 480276480,
+          "stack": [
+            "0x401CD8",
+            "0x7C38281F9B23",
+            "0x7C38279851CA",
+            "0x7C38275E0953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 187,
+          "alloc_bytes": 765952,
+          "stack": [
+            "0x401AA8",
+            "0x7C38281F9B23",
+            "0x7C38279851CA",
+            "0x7C38275E0953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7C38286F70A5",
+            "0x402342",
+            "0x40137E",
+            "0x7C38275E1865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 117608,
+          "alloc_bytes": 481722368,
+          "stack": [
+            "0x401CD8",
+            "0x7C38281F9B23",
+            "0x7C38279851CA",
+            "0x7C38275E0953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 209,
+          "alloc_bytes": 856064,
+          "stack": [
+            "0x401AA8",
+            "0x7C38281F9B23",
+            "0x7C38279851CA",
+            "0x7C38275E0953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7C382892D4B3",
+            "0x7C382892DF72",
+            "0x7C3827985E23",
+            "0x7C38281F9E09",
+            "0x402368",
+            "0x40137E",
+            "0x7C38275E1865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 1,
+      "config": {
+        "version": "v3.6.0",
+        "size": 4096,
+        "mode": "sample4m",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        1,
+        304,
+        32259,
+        132125000
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 26,
+          "alloc_bytes": 106496,
+          "stack": [
+            "0x401AA8",
+            "0x78C2FF201B23",
+            "0x78C2FE98D1CA",
+            "0x78C2FE5E8953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16095,
+          "alloc_bytes": 65925120,
+          "stack": [
+            "0x401CD8",
+            "0x78C2FF201B23",
+            "0x78C2FE98D1CA",
+            "0x78C2FE5E8953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x78C2FF6FE1E5",
+            "0x402342",
+            "0x40137E",
+            "0x78C2FE5E9865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x78C2FF9344B3",
+            "0x78C2FF934F72",
+            "0x78C2FE98DE23",
+            "0x78C2FF201E09",
+            "0x402368",
+            "0x40137E",
+            "0x78C2FE5E9865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 20,
+          "alloc_bytes": 81920,
+          "stack": [
+            "0x401AA8",
+            "0x78C2FF201B23",
+            "0x78C2FE98D1CA",
+            "0x78C2FE5E8953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16116,
+          "alloc_bytes": 66011136,
+          "stack": [
+            "0x401CD8",
+            "0x78C2FF201B23",
+            "0x78C2FE98D1CA",
+            "0x78C2FE5E8953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "config": {
+        "version": "v3.6.1",
+        "size": 4096,
+        "mode": "periodic512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        5757,
+        23576880,
+        198016,
+        811065672
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 208,
+          "alloc_bytes": 851968,
+          "stack": [
+            "0x401AA8",
+            "0x72BBA4455B23",
+            "0x72BBA3BE11CA",
+            "0x72BBA383C953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 2937,
+          "inuse_bytes": 12029952,
+          "alloc_count": 99322,
+          "alloc_bytes": 406822912,
+          "stack": [
+            "0x401CD8",
+            "0x72BBA4455B23",
+            "0x72BBA3BE11CA",
+            "0x72BBA383C953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 2819,
+          "inuse_bytes": 11546624,
+          "alloc_count": 98276,
+          "alloc_bytes": 402538496,
+          "stack": [
+            "0x401CD8",
+            "0x72BBA4455B23",
+            "0x72BBA3BE11CA",
+            "0x72BBA383C953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x72BBA4B894B3",
+            "0x72BBA4B89F72",
+            "0x72BBA3BE1E23",
+            "0x72BBA4455E09",
+            "0x402368",
+            "0x40137E",
+            "0x72BBA383D865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x72BBA49530A5",
+            "0x402342",
+            "0x40137E",
+            "0x72BBA383D865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 208,
+          "alloc_bytes": 851968,
+          "stack": [
+            "0x401AA8",
+            "0x72BBA4455B23",
+            "0x72BBA3BE11CA",
+            "0x72BBA383C953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "config": {
+        "version": "v3.6.1",
+        "size": 4096,
+        "mode": "sample4m",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        1,
+        304,
+        32331,
+        132419912
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 26,
+          "alloc_bytes": 106496,
+          "stack": [
+            "0x401AA8",
+            "0x74F508B0AB23",
+            "0x74F5082961CA",
+            "0x74F507EF1953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16291,
+          "alloc_bytes": 66727936,
+          "stack": [
+            "0x401CD8",
+            "0x74F508B0AB23",
+            "0x74F5082961CA",
+            "0x74F507EF1953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 26,
+          "alloc_bytes": 106496,
+          "stack": [
+            "0x401AA8",
+            "0x74F508B0AB23",
+            "0x74F5082961CA",
+            "0x74F507EF1953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x74F50923E4B3",
+            "0x74F50923EF72",
+            "0x74F508296E23",
+            "0x74F508B0AE09",
+            "0x402368",
+            "0x40137E",
+            "0x74F507EF2865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x74F5090080A5",
+            "0x402342",
+            "0x40137E",
+            "0x74F507EF2865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 15986,
+          "alloc_bytes": 65478656,
+          "stack": [
+            "0x401CD8",
+            "0x74F508B0AB23",
+            "0x74F5082961CA",
+            "0x74F507EF1953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 6,
+      "config": {
+        "version": "v3.6.1",
+        "size": 1024,
+        "mode": "periodic512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        2387,
+        2443568,
+        209970,
+        215007560
+      ],
+      "rows": [
+        {
+          "inuse_count": 1476,
+          "inuse_bytes": 1511424,
+          "alloc_count": 105273,
+          "alloc_bytes": 107799552,
+          "stack": [
+            "0x401CD8",
+            "0x71AC7295CB23",
+            "0x71AC720E81CA",
+            "0x71AC71D43953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x71AC730904B3",
+            "0x71AC73090F72",
+            "0x71AC720E8E23",
+            "0x71AC7295CE09",
+            "0x402368",
+            "0x40137E",
+            "0x71AC71D44865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 191,
+          "alloc_bytes": 195584,
+          "stack": [
+            "0x401AA8",
+            "0x71AC7295CB23",
+            "0x71AC720E81CA",
+            "0x71AC71D43953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 910,
+          "inuse_bytes": 931840,
+          "alloc_count": 104291,
+          "alloc_bytes": 106793984,
+          "stack": [
+            "0x401CD8",
+            "0x71AC7295CB23",
+            "0x71AC720E81CA",
+            "0x71AC71D43953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x71AC72E5A0A5",
+            "0x402342",
+            "0x40137E",
+            "0x71AC71D44865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 213,
+          "alloc_bytes": 218112,
+          "stack": [
+            "0x401AA8",
+            "0x71AC7295CB23",
+            "0x71AC720E81CA",
+            "0x71AC71D43953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 7,
+      "config": {
+        "version": "v3.6.0",
+        "size": 4096,
+        "mode": "periodic512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        5509,
+        22561072,
+        197101,
+        807317832
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7A7F868F21E5",
+            "0x402342",
+            "0x40137E",
+            "0x7A7F857DD865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 3037,
+          "inuse_bytes": 12439552,
+          "alloc_count": 101708,
+          "alloc_bytes": 416595968,
+          "stack": [
+            "0x401CD8",
+            "0x7A7F863F5B23",
+            "0x7A7F85B811CA",
+            "0x7A7F857DC953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 188,
+          "alloc_bytes": 770048,
+          "stack": [
+            "0x401AA8",
+            "0x7A7F863F5B23",
+            "0x7A7F85B811CA",
+            "0x7A7F857DC953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 2471,
+          "inuse_bytes": 10121216,
+          "alloc_count": 95000,
+          "alloc_bytes": 389120000,
+          "stack": [
+            "0x401CD8",
+            "0x7A7F863F5B23",
+            "0x7A7F85B811CA",
+            "0x7A7F857DC953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7A7F86B284B3",
+            "0x7A7F86B28F72",
+            "0x7A7F85B81E23",
+            "0x7A7F863F5E09",
+            "0x402368",
+            "0x40137E",
+            "0x7A7F857DD865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 203,
+          "alloc_bytes": 831488,
+          "stack": [
+            "0x401AA8",
+            "0x7A7F863F5B23",
+            "0x7A7F85B811CA",
+            "0x7A7F857DC953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 8,
+      "config": {
+        "version": "v3.6.1",
+        "size": 1024,
+        "mode": "sample512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        1,
+        304,
+        258898,
+        265109832
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7629B904B0A5",
+            "0x402342",
+            "0x40137E",
+            "0x7629B7F35865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 128884,
+          "alloc_bytes": 131977216,
+          "stack": [
+            "0x401CD8",
+            "0x7629B8B4DB23",
+            "0x7629B82D91CA",
+            "0x7629B7F34953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 201,
+          "alloc_bytes": 205824,
+          "stack": [
+            "0x401AA8",
+            "0x7629B8B4DB23",
+            "0x7629B82D91CA",
+            "0x7629B7F34953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 129598,
+          "alloc_bytes": 132708352,
+          "stack": [
+            "0x401CD8",
+            "0x7629B8B4DB23",
+            "0x7629B82D91CA",
+            "0x7629B7F34953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7629B92814B3",
+            "0x7629B9281F72",
+            "0x7629B82D9E23",
+            "0x7629B8B4DE09",
+            "0x402368",
+            "0x40137E",
+            "0x7629B7F35865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 213,
+          "alloc_bytes": 218112,
+          "stack": [
+            "0x401AA8",
+            "0x7629B8B4DB23",
+            "0x7629B82D91CA",
+            "0x7629B7F34953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 10,
+      "config": {
+        "version": "v3.6.0",
+        "size": 4096,
+        "mode": "sample512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        1,
+        304,
+        234918,
+        962216264
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 210,
+          "alloc_bytes": 860160,
+          "stack": [
+            "0x401AA8",
+            "0x7349D1C39B23",
+            "0x7349D13C51CA",
+            "0x7349D1020953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 116878,
+          "alloc_bytes": 478732288,
+          "stack": [
+            "0x401CD8",
+            "0x7349D1C39B23",
+            "0x7349D13C51CA",
+            "0x7349D1020953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 222,
+          "alloc_bytes": 909312,
+          "stack": [
+            "0x401AA8",
+            "0x7349D1C39B23",
+            "0x7349D13C51CA",
+            "0x7349D1020953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 117606,
+          "alloc_bytes": 481714176,
+          "stack": [
+            "0x401CD8",
+            "0x7349D1C39B23",
+            "0x7349D13C51CA",
+            "0x7349D1020953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7349D236C4B3",
+            "0x7349D236CF72",
+            "0x7349D13C5E23",
+            "0x7349D1C39E09",
+            "0x402368",
+            "0x40137E",
+            "0x7349D1021865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7349D21361E5",
+            "0x402342",
+            "0x40137E",
+            "0x7349D1021865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 13,
+      "config": {
+        "version": "v3.6.1",
+        "size": 1024,
+        "mode": "sample4m",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        1,
+        304,
+        35233,
+        36076872
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17710,
+          "alloc_bytes": 18135040,
+          "stack": [
+            "0x401CD8",
+            "0x731F9C2F8B23",
+            "0x731F9BA841CA",
+            "0x731F9B6DF953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 28,
+          "alloc_bytes": 28672,
+          "stack": [
+            "0x401AA8",
+            "0x731F9C2F8B23",
+            "0x731F9BA841CA",
+            "0x731F9B6DF953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x731F9C7F60A5",
+            "0x402342",
+            "0x40137E",
+            "0x731F9B6E0865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17460,
+          "alloc_bytes": 17879040,
+          "stack": [
+            "0x401CD8",
+            "0x731F9C2F8B23",
+            "0x731F9BA841CA",
+            "0x731F9B6DF953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x731F9CA2C4B3",
+            "0x731F9CA2CF72",
+            "0x731F9BA84E23",
+            "0x731F9C2F8E09",
+            "0x402368",
+            "0x40137E",
+            "0x731F9B6E0865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 33,
+          "alloc_bytes": 33792,
+          "stack": [
+            "0x401AA8",
+            "0x731F9C2F8B23",
+            "0x731F9BA841CA",
+            "0x731F9B6DF953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 16,
+      "config": {
+        "version": "v3.6.0",
+        "size": 1024,
+        "mode": "sample512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        2,
+        608,
+        258385,
+        264582800
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7614A317B1E5",
+            "0x402342",
+            "0x4013BF",
+            "0x7614A2066865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7614A33B14B3",
+            "0x7614A33B1F72",
+            "0x7614A240AE23",
+            "0x7614A2C7EE09",
+            "0x402368",
+            "0x40137E",
+            "0x7614A2066865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 187,
+          "alloc_bytes": 191488,
+          "stack": [
+            "0x401AA8",
+            "0x7614A2C7EB23",
+            "0x7614A240A1CA",
+            "0x7614A2065953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 227,
+          "alloc_bytes": 232448,
+          "stack": [
+            "0x401AA8",
+            "0x7614A2C7EB23",
+            "0x7614A240A1CA",
+            "0x7614A2065953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 129063,
+          "alloc_bytes": 132160512,
+          "stack": [
+            "0x401CD8",
+            "0x7614A2C7EB23",
+            "0x7614A240A1CA",
+            "0x7614A2065953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7614A33B14B3",
+            "0x7614A33B1F72",
+            "0x7614A240AE23",
+            "0x7614A2C7EE09",
+            "0x402368",
+            "0x4013BF",
+            "0x7614A2066865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7614A317B1E5",
+            "0x402342",
+            "0x40137E",
+            "0x7614A2066865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 128904,
+          "alloc_bytes": 131997696,
+          "stack": [
+            "0x401CD8",
+            "0x7614A2C7EB23",
+            "0x7614A240A1CA",
+            "0x7614A2065953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 18,
+      "config": {
+        "version": "v3.6.0",
+        "size": 1024,
+        "mode": "periodic512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        548,
+        560432,
+        207790,
+        212775240
+      ],
+      "rows": [
+        {
+          "inuse_count": 205,
+          "inuse_bytes": 209920,
+          "alloc_count": 104466,
+          "alloc_bytes": 106973184,
+          "stack": [
+            "0x401CD8",
+            "0x7012A6734B23",
+            "0x7012A5EC01CA",
+            "0x7012A5B1B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7012A6C311E5",
+            "0x402342",
+            "0x40137E",
+            "0x7012A5B1C865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7012A6E674B3",
+            "0x7012A6E67F72",
+            "0x7012A5EC0E23",
+            "0x7012A6734E09",
+            "0x402368",
+            "0x40137E",
+            "0x7012A5B1C865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 179,
+          "alloc_bytes": 183296,
+          "stack": [
+            "0x401AA8",
+            "0x7012A6734B23",
+            "0x7012A5EC01CA",
+            "0x7012A5B1B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 342,
+          "inuse_bytes": 350208,
+          "alloc_count": 102945,
+          "alloc_bytes": 105415680,
+          "stack": [
+            "0x401CD8",
+            "0x7012A6734B23",
+            "0x7012A5EC01CA",
+            "0x7012A5B1B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 198,
+          "alloc_bytes": 202752,
+          "stack": [
+            "0x401AA8",
+            "0x7012A6734B23",
+            "0x7012A5EC01CA",
+            "0x7012A5B1B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 19,
+      "config": {
+        "version": "v3.6.0",
+        "size": 1024,
+        "mode": "sample4m",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 0
+      },
+      "totals": [
+        1,
+        304,
+        35841,
+        36699464
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x767B7C9E31E5",
+            "0x402342",
+            "0x40137E",
+            "0x767B7B8CE865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17772,
+          "alloc_bytes": 18198528,
+          "stack": [
+            "0x401CD8",
+            "0x767B7C4E6B23",
+            "0x767B7BC721CA",
+            "0x767B7B8CD953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 18,
+          "alloc_bytes": 18432,
+          "stack": [
+            "0x401AA8",
+            "0x767B7C4E6B23",
+            "0x767B7BC721CA",
+            "0x767B7B8CD953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x767B7CC194B3",
+            "0x767B7CC19F72",
+            "0x767B7BC72E23",
+            "0x767B7C4E6E09",
+            "0x402368",
+            "0x40137E",
+            "0x767B7B8CE865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 18022,
+          "alloc_bytes": 18454528,
+          "stack": [
+            "0x401CD8",
+            "0x767B7C4E6B23",
+            "0x767B7BC721CA",
+            "0x767B7B8CD953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 27,
+          "alloc_bytes": 27648,
+          "stack": [
+            "0x401AA8",
+            "0x767B7C4E6B23",
+            "0x767B7BC721CA",
+            "0x767B7B8CD953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 20,
+      "config": {
+        "version": "v3.6.1",
+        "size": 1024,
+        "mode": "sample512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        1,
+        304,
+        259570,
+        265797960
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7AA1A5B2A0A5",
+            "0x402342",
+            "0x40137E",
+            "0x7AA1A4A14865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7AA1A5D604B3",
+            "0x7AA1A5D60F72",
+            "0x7AA1A4DB8E23",
+            "0x7AA1A562CE09",
+            "0x402368",
+            "0x40137E",
+            "0x7AA1A4A14865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 189,
+          "alloc_bytes": 193536,
+          "stack": [
+            "0x401AA8",
+            "0x7AA1A562CB23",
+            "0x7AA1A4DB81CA",
+            "0x7AA1A4A13953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 129842,
+          "alloc_bytes": 132958208,
+          "stack": [
+            "0x401CD8",
+            "0x7AA1A562CB23",
+            "0x7AA1A4DB81CA",
+            "0x7AA1A4A13953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 129367,
+          "alloc_bytes": 132471808,
+          "stack": [
+            "0x401CD8",
+            "0x7AA1A562CB23",
+            "0x7AA1A4DB81CA",
+            "0x7AA1A4A13953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 170,
+          "alloc_bytes": 174080,
+          "stack": [
+            "0x401AA8",
+            "0x7AA1A562CB23",
+            "0x7AA1A4DB81CA",
+            "0x7AA1A4A13953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 24,
+      "config": {
+        "version": "v3.6.1",
+        "size": 4096,
+        "mode": "sample512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        1,
+        304,
+        235405,
+        964211016
+      ],
+      "rows": [
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x75CDE1C4B4B3",
+            "0x75CDE1C4BF72",
+            "0x75CDE0CA3E23",
+            "0x75CDE1517E09",
+            "0x402368",
+            "0x40137E",
+            "0x75CDE08FF865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 214,
+          "alloc_bytes": 876544,
+          "stack": [
+            "0x401AA8",
+            "0x75CDE1517B23",
+            "0x75CDE0CA31CA",
+            "0x75CDE08FE953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 223,
+          "alloc_bytes": 913408,
+          "stack": [
+            "0x401AA8",
+            "0x75CDE1517B23",
+            "0x75CDE0CA31CA",
+            "0x75CDE08FE953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x75CDE1A150A5",
+            "0x402342",
+            "0x40137E",
+            "0x75CDE08FF865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 117616,
+          "alloc_bytes": 481755136,
+          "stack": [
+            "0x401CD8",
+            "0x75CDE1517B23",
+            "0x75CDE0CA31CA",
+            "0x75CDE08FE953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 117350,
+          "alloc_bytes": 480665600,
+          "stack": [
+            "0x401CD8",
+            "0x75CDE1517B23",
+            "0x75CDE0CA31CA",
+            "0x75CDE08FE953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 25,
+      "config": {
+        "version": "v3.6.0",
+        "size": 4096,
+        "mode": "sample4m",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        1,
+        304,
+        32324,
+        132391240
+      ],
+      "rows": [
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7A24507B54B3",
+            "0x7A24507B5F72",
+            "0x7A244F80EE23",
+            "0x7A2450082E09",
+            "0x402368",
+            "0x40137E",
+            "0x7A244F46A865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 28,
+          "alloc_bytes": 114688,
+          "stack": [
+            "0x401AA8",
+            "0x7A2450082B23",
+            "0x7A244F80E1CA",
+            "0x7A244F469953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16260,
+          "alloc_bytes": 66600960,
+          "stack": [
+            "0x401CD8",
+            "0x7A2450082B23",
+            "0x7A244F80E1CA",
+            "0x7A244F469953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16012,
+          "alloc_bytes": 65585152,
+          "stack": [
+            "0x401CD8",
+            "0x7A2450082B23",
+            "0x7A244F80E1CA",
+            "0x7A244F469953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 22,
+          "alloc_bytes": 90112,
+          "stack": [
+            "0x401AA8",
+            "0x7A2450082B23",
+            "0x7A244F80E1CA",
+            "0x7A244F469953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7A245057F1E5",
+            "0x402342",
+            "0x40137E",
+            "0x7A244F46A865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 26,
+      "config": {
+        "version": "v3.6.1",
+        "size": 4096,
+        "mode": "sample4m",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        1,
+        304,
+        32125,
+        131576136
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 15997,
+          "alloc_bytes": 65523712,
+          "stack": [
+            "0x401CD8",
+            "0x7859C0779B23",
+            "0x7859BFF051CA",
+            "0x7859BFB60953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7859C0EAD4B3",
+            "0x7859C0EADF72",
+            "0x7859BFF05E23",
+            "0x7859C0779E09",
+            "0x402368",
+            "0x40137E",
+            "0x7859BFB61865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 34,
+          "alloc_bytes": 139264,
+          "stack": [
+            "0x401AA8",
+            "0x7859C0779B23",
+            "0x7859BFF051CA",
+            "0x7859BFB60953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7859C0C770A5",
+            "0x402342",
+            "0x40137E",
+            "0x7859BFB61865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 24,
+          "alloc_bytes": 98304,
+          "stack": [
+            "0x401AA8",
+            "0x7859C0779B23",
+            "0x7859BFF051CA",
+            "0x7859BFB60953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16068,
+          "alloc_bytes": 65814528,
+          "stack": [
+            "0x401CD8",
+            "0x7859C0779B23",
+            "0x7859BFF051CA",
+            "0x7859BFB60953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 29,
+      "config": {
+        "version": "v3.6.0",
+        "size": 4096,
+        "mode": "sample512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        1,
+        304,
+        234592,
+        960880968
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 215,
+          "alloc_bytes": 880640,
+          "stack": [
+            "0x401AA8",
+            "0x7567AD3E2B23",
+            "0x7567ACB6E1CA",
+            "0x7567AC7C9953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 116589,
+          "alloc_bytes": 477548544,
+          "stack": [
+            "0x401CD8",
+            "0x7567AD3E2B23",
+            "0x7567ACB6E1CA",
+            "0x7567AC7C9953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7567AD8DF1E5",
+            "0x402342",
+            "0x40137E",
+            "0x7567AC7CA865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 180,
+          "alloc_bytes": 737280,
+          "stack": [
+            "0x401AA8",
+            "0x7567AD3E2B23",
+            "0x7567ACB6E1CA",
+            "0x7567AC7C9953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 117606,
+          "alloc_bytes": 481714176,
+          "stack": [
+            "0x401CD8",
+            "0x7567AD3E2B23",
+            "0x7567ACB6E1CA",
+            "0x7567AC7C9953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7567ADB154B3",
+            "0x7567ADB15F72",
+            "0x7567ACB6EE23",
+            "0x7567AD3E2E09",
+            "0x402368",
+            "0x40137E",
+            "0x7567AC7CA865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 30,
+      "config": {
+        "version": "v3.6.0",
+        "size": 1024,
+        "mode": "sample512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        1,
+        304,
+        259386,
+        265609544
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 129666,
+          "alloc_bytes": 132777984,
+          "stack": [
+            "0x401CD8",
+            "0x76046F4D3B23",
+            "0x76046EC5F1CA",
+            "0x76046E8BA953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 177,
+          "alloc_bytes": 181248,
+          "stack": [
+            "0x401AA8",
+            "0x76046F4D3B23",
+            "0x76046EC5F1CA",
+            "0x76046E8BA953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 182,
+          "alloc_bytes": 186368,
+          "stack": [
+            "0x401AA8",
+            "0x76046F4D3B23",
+            "0x76046EC5F1CA",
+            "0x76046E8BA953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x76046F9D01E5",
+            "0x402342",
+            "0x40137E",
+            "0x76046E8BB865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x76046FC064B3",
+            "0x76046FC06F72",
+            "0x76046EC5FE23",
+            "0x76046F4D3E09",
+            "0x402368",
+            "0x40137E",
+            "0x76046E8BB865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 129359,
+          "alloc_bytes": 132463616,
+          "stack": [
+            "0x401CD8",
+            "0x76046F4D3B23",
+            "0x76046EC5F1CA",
+            "0x76046E8BA953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 31,
+      "config": {
+        "version": "v3.6.1",
+        "size": 1024,
+        "mode": "sample4m",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        1,
+        304,
+        35241,
+        36085064
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x725C692DE0A5",
+            "0x402342",
+            "0x40137E",
+            "0x725C681C8865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17569,
+          "alloc_bytes": 17990656,
+          "stack": [
+            "0x401CD8",
+            "0x725C68DE0B23",
+            "0x725C6856C1CA",
+            "0x725C681C7953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17616,
+          "alloc_bytes": 18038784,
+          "stack": [
+            "0x401CD8",
+            "0x725C68DE0B23",
+            "0x725C6856C1CA",
+            "0x725C681C7953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 23,
+          "alloc_bytes": 23552,
+          "stack": [
+            "0x401AA8",
+            "0x725C68DE0B23",
+            "0x725C6856C1CA",
+            "0x725C681C7953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x725C695144B3",
+            "0x725C69514F72",
+            "0x725C6856CE23",
+            "0x725C68DE0E09",
+            "0x402368",
+            "0x40137E",
+            "0x725C681C8865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 31,
+          "alloc_bytes": 31744,
+          "stack": [
+            "0x401AA8",
+            "0x725C68DE0B23",
+            "0x725C6856C1CA",
+            "0x725C681C7953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 32,
+      "config": {
+        "version": "v3.6.0",
+        "size": 1024,
+        "mode": "sample4m",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        1,
+        304,
+        35231,
+        36074824
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17627,
+          "alloc_bytes": 18050048,
+          "stack": [
+            "0x401CD8",
+            "0x7E62B19CCB23",
+            "0x7E62B11581CA",
+            "0x7E62B0DB3953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7E62B1EC91E5",
+            "0x402342",
+            "0x40137E",
+            "0x7E62B0DB4865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7E62B20FF4B3",
+            "0x7E62B20FFF72",
+            "0x7E62B1158E23",
+            "0x7E62B19CCE09",
+            "0x402368",
+            "0x40137E",
+            "0x7E62B0DB4865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17541,
+          "alloc_bytes": 17961984,
+          "stack": [
+            "0x401CD8",
+            "0x7E62B19CCB23",
+            "0x7E62B11581CA",
+            "0x7E62B0DB3953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 30,
+          "alloc_bytes": 30720,
+          "stack": [
+            "0x401AA8",
+            "0x7E62B19CCB23",
+            "0x7E62B11581CA",
+            "0x7E62B0DB3953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 31,
+          "alloc_bytes": 31744,
+          "stack": [
+            "0x401AA8",
+            "0x7E62B19CCB23",
+            "0x7E62B11581CA",
+            "0x7E62B0DB3953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 34,
+      "config": {
+        "version": "v3.6.0",
+        "size": 4096,
+        "mode": "periodic512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        5882,
+        24088880,
+        195765,
+        801845576
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 205,
+          "alloc_bytes": 839680,
+          "stack": [
+            "0x401AA8",
+            "0x71C6DCF8FB23",
+            "0x71C6DC71B1CA",
+            "0x71C6DC376953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x71C6DD6C24B3",
+            "0x71C6DD6C2F72",
+            "0x71C6DC71BE23",
+            "0x71C6DCF8FE09",
+            "0x402368",
+            "0x40137E",
+            "0x71C6DC377865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x71C6DD48C1E5",
+            "0x402342",
+            "0x40137E",
+            "0x71C6DC377865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 2646,
+          "inuse_bytes": 10838016,
+          "alloc_count": 95093,
+          "alloc_bytes": 389500928,
+          "stack": [
+            "0x401CD8",
+            "0x71C6DCF8FB23",
+            "0x71C6DC71B1CA",
+            "0x71C6DC376953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 3235,
+          "inuse_bytes": 13250560,
+          "alloc_count": 100259,
+          "alloc_bytes": 410660864,
+          "stack": [
+            "0x401CD8",
+            "0x71C6DCF8FB23",
+            "0x71C6DC71B1CA",
+            "0x71C6DC376953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 206,
+          "alloc_bytes": 843776,
+          "stack": [
+            "0x401AA8",
+            "0x71C6DCF8FB23",
+            "0x71C6DC71B1CA",
+            "0x71C6DC376953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 35,
+      "config": {
+        "version": "v3.6.0",
+        "size": 1024,
+        "mode": "periodic512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        1652,
+        1690928,
+        208896,
+        213907784
+      ],
+      "rows": [
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7552678B94B3",
+            "0x7552678B9F72",
+            "0x755266912E23",
+            "0x755267186E09",
+            "0x402368",
+            "0x40137E",
+            "0x75526656E865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 170,
+          "alloc_bytes": 174080,
+          "stack": [
+            "0x401AA8",
+            "0x755267186B23",
+            "0x7552669121CA",
+            "0x75526656D953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 192,
+          "alloc_bytes": 196608,
+          "stack": [
+            "0x401AA8",
+            "0x755267186B23",
+            "0x7552669121CA",
+            "0x75526656D953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1185,
+          "inuse_bytes": 1213440,
+          "alloc_count": 108267,
+          "alloc_bytes": 110865408,
+          "stack": [
+            "0x401CD8",
+            "0x755267186B23",
+            "0x7552669121CA",
+            "0x75526656D953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7552676831E5",
+            "0x402342",
+            "0x40137E",
+            "0x75526656E865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 466,
+          "inuse_bytes": 477184,
+          "alloc_count": 100265,
+          "alloc_bytes": 102671360,
+          "stack": [
+            "0x401CD8",
+            "0x755267186B23",
+            "0x7552669121CA",
+            "0x75526656D953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 37,
+      "config": {
+        "version": "v3.6.1",
+        "size": 4096,
+        "mode": "periodic512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        5960,
+        24408368,
+        195175,
+        799428936
+      ],
+      "rows": [
+        {
+          "inuse_count": 3097,
+          "inuse_bytes": 12685312,
+          "alloc_count": 97677,
+          "alloc_bytes": 400084992,
+          "stack": [
+            "0x401CD8",
+            "0x7F9B3FBE7B23",
+            "0x7F9B3F3731CA",
+            "0x7F9B3EFCE953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 195,
+          "alloc_bytes": 798720,
+          "stack": [
+            "0x401AA8",
+            "0x7F9B3FBE7B23",
+            "0x7F9B3F3731CA",
+            "0x7F9B3EFCE953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7F9B400E50A5",
+            "0x402342",
+            "0x40137E",
+            "0x7F9B3EFCF865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 2862,
+          "inuse_bytes": 11722752,
+          "alloc_count": 97076,
+          "alloc_bytes": 397623296,
+          "stack": [
+            "0x401CD8",
+            "0x7F9B3FBE7B23",
+            "0x7F9B3F3731CA",
+            "0x7F9B3EFCE953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7F9B4031B4B3",
+            "0x7F9B4031BF72",
+            "0x7F9B3F373E23",
+            "0x7F9B3FBE7E09",
+            "0x402368",
+            "0x40137E",
+            "0x7F9B3EFCF865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 225,
+          "alloc_bytes": 921600,
+          "stack": [
+            "0x401AA8",
+            "0x7F9B3FBE7B23",
+            "0x7F9B3F3731CA",
+            "0x7F9B3EFCE953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 39,
+      "config": {
+        "version": "v3.6.1",
+        "size": 1024,
+        "mode": "periodic512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 1
+      },
+      "totals": [
+        2536,
+        2596144,
+        211450,
+        216523080
+      ],
+      "rows": [
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7A5CD4F824B3",
+            "0x7A5CD4F82F72",
+            "0x7A5CD3FDAE23",
+            "0x7A5CD484EE09",
+            "0x402368",
+            "0x40137E",
+            "0x7A5CD3C36865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7A5CD4D4C0A5",
+            "0x402342",
+            "0x40137E",
+            "0x7A5CD3C36865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1302,
+          "inuse_bytes": 1333248,
+          "alloc_count": 109057,
+          "alloc_bytes": 111674368,
+          "stack": [
+            "0x401CD8",
+            "0x7A5CD484EB23",
+            "0x7A5CD3FDA1CA",
+            "0x7A5CD3C35953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1233,
+          "inuse_bytes": 1262592,
+          "alloc_count": 102032,
+          "alloc_bytes": 104480768,
+          "stack": [
+            "0x401CD8",
+            "0x7A5CD484EB23",
+            "0x7A5CD3FDA1CA",
+            "0x7A5CD3C35953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 181,
+          "alloc_bytes": 185344,
+          "stack": [
+            "0x401AA8",
+            "0x7A5CD484EB23",
+            "0x7A5CD3FDA1CA",
+            "0x7A5CD3C35953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 178,
+          "alloc_bytes": 182272,
+          "stack": [
+            "0x401AA8",
+            "0x7A5CD484EB23",
+            "0x7A5CD3FDA1CA",
+            "0x7A5CD3C35953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 40,
+      "config": {
+        "version": "v3.6.1",
+        "size": 1024,
+        "mode": "periodic512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        3029,
+        3100976,
+        210333,
+        215379272
+      ],
+      "rows": [
+        {
+          "inuse_count": 1467,
+          "inuse_bytes": 1502208,
+          "alloc_count": 106148,
+          "alloc_bytes": 108695552,
+          "stack": [
+            "0x401CD8",
+            "0x70824098AB23",
+            "0x7082401161CA",
+            "0x70823FD71953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7082410BE4B3",
+            "0x7082410BEF72",
+            "0x708240116E23",
+            "0x70824098AE09",
+            "0x402368",
+            "0x40137E",
+            "0x70823FD72865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1561,
+          "inuse_bytes": 1598464,
+          "alloc_count": 103838,
+          "alloc_bytes": 106330112,
+          "stack": [
+            "0x401CD8",
+            "0x70824098AB23",
+            "0x7082401161CA",
+            "0x70823FD71953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 158,
+          "alloc_bytes": 161792,
+          "stack": [
+            "0x401AA8",
+            "0x70824098AB23",
+            "0x7082401161CA",
+            "0x70823FD71953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 187,
+          "alloc_bytes": 191488,
+          "stack": [
+            "0x401AA8",
+            "0x70824098AB23",
+            "0x7082401161CA",
+            "0x70823FD71953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x708240E880A5",
+            "0x402342",
+            "0x40137E",
+            "0x70823FD72865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 43,
+      "config": {
+        "version": "v3.6.0",
+        "size": 4096,
+        "mode": "sample4m",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        1,
+        304,
+        32472,
+        132997448
+      ],
+      "rows": [
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x76423FABE4B3",
+            "0x76423FABEF72",
+            "0x76423EB17E23",
+            "0x76423F38BE09",
+            "0x402368",
+            "0x40137E",
+            "0x76423E773865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 25,
+          "alloc_bytes": 102400,
+          "stack": [
+            "0x401AA8",
+            "0x76423F38BB23",
+            "0x76423EB171CA",
+            "0x76423E772953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16363,
+          "alloc_bytes": 67022848,
+          "stack": [
+            "0x401CD8",
+            "0x76423F38BB23",
+            "0x76423EB171CA",
+            "0x76423E772953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 25,
+          "alloc_bytes": 102400,
+          "stack": [
+            "0x401AA8",
+            "0x76423F38BB23",
+            "0x76423EB171CA",
+            "0x76423E772953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x76423F8881E5",
+            "0x402342",
+            "0x40137E",
+            "0x76423E773865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16057,
+          "alloc_bytes": 65769472,
+          "stack": [
+            "0x401CD8",
+            "0x76423F38BB23",
+            "0x76423EB171CA",
+            "0x76423E772953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 44,
+      "config": {
+        "version": "v3.6.0",
+        "size": 1024,
+        "mode": "sample512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        1,
+        304,
+        258485,
+        264686920
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 129050,
+          "alloc_bytes": 132147200,
+          "stack": [
+            "0x401CD8",
+            "0x70AEAE184B23",
+            "0x70AEAD9101CA",
+            "0x70AEAD56B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x70AEAE8B74B3",
+            "0x70AEAE8B7F72",
+            "0x70AEAD910E23",
+            "0x70AEAE184E09",
+            "0x402368",
+            "0x40137E",
+            "0x70AEAD56C865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x70AEAE6811E5",
+            "0x402342",
+            "0x40137E",
+            "0x70AEAD56C865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 203,
+          "alloc_bytes": 207872,
+          "stack": [
+            "0x401AA8",
+            "0x70AEAE184B23",
+            "0x70AEAD9101CA",
+            "0x70AEAD56B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 154,
+          "alloc_bytes": 157696,
+          "stack": [
+            "0x401AA8",
+            "0x70AEAE184B23",
+            "0x70AEAD9101CA",
+            "0x70AEAD56B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 129076,
+          "alloc_bytes": 132173824,
+          "stack": [
+            "0x401CD8",
+            "0x70AEAE184B23",
+            "0x70AEAD9101CA",
+            "0x70AEAD56B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 45,
+      "config": {
+        "version": "v3.6.0",
+        "size": 1024,
+        "mode": "periodic512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        1047,
+        1071408,
+        210464,
+        215513416
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 215,
+          "alloc_bytes": 220160,
+          "stack": [
+            "0x401AA8",
+            "0x7A05EACB8B23",
+            "0x7A05EA4441CA",
+            "0x7A05EA09F953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 181,
+          "alloc_bytes": 185344,
+          "stack": [
+            "0x401AA8",
+            "0x7A05EACB8B23",
+            "0x7A05EA4441CA",
+            "0x7A05EA09F953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 358,
+          "inuse_bytes": 366592,
+          "alloc_count": 107889,
+          "alloc_bytes": 110478336,
+          "stack": [
+            "0x401CD8",
+            "0x7A05EACB8B23",
+            "0x7A05EA4441CA",
+            "0x7A05EA09F953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7A05EB1B51E5",
+            "0x402342",
+            "0x40137E",
+            "0x7A05EA0A0865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7A05EB3EB4B3",
+            "0x7A05EB3EBF72",
+            "0x7A05EA444E23",
+            "0x7A05EACB8E09",
+            "0x402368",
+            "0x40137E",
+            "0x7A05EA0A0865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 688,
+          "inuse_bytes": 704512,
+          "alloc_count": 102177,
+          "alloc_bytes": 104629248,
+          "stack": [
+            "0x401CD8",
+            "0x7A05EACB8B23",
+            "0x7A05EA4441CA",
+            "0x7A05EA09F953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 47,
+      "config": {
+        "version": "v3.6.0",
+        "size": 4096,
+        "mode": "sample512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        1,
+        304,
+        234657,
+        961147208
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x76954F7601E5",
+            "0x402342",
+            "0x40137E",
+            "0x76954E64B865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 182,
+          "alloc_bytes": 745472,
+          "stack": [
+            "0x401AA8",
+            "0x76954F263B23",
+            "0x76954E9EF1CA",
+            "0x76954E64A953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 117365,
+          "alloc_bytes": 480727040,
+          "stack": [
+            "0x401CD8",
+            "0x76954F263B23",
+            "0x76954E9EF1CA",
+            "0x76954E64A953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x76954F9964B3",
+            "0x76954F996F72",
+            "0x76954E9EFE23",
+            "0x76954F263E09",
+            "0x402368",
+            "0x40137E",
+            "0x76954E64B865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 221,
+          "alloc_bytes": 905216,
+          "stack": [
+            "0x401AA8",
+            "0x76954F263B23",
+            "0x76954E9EF1CA",
+            "0x76954E64A953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 116887,
+          "alloc_bytes": 478769152,
+          "stack": [
+            "0x401CD8",
+            "0x76954F263B23",
+            "0x76954E9EF1CA",
+            "0x76954E64A953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 48,
+      "config": {
+        "version": "v3.6.0",
+        "size": 1024,
+        "mode": "sample4m",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        1,
+        304,
+        35653,
+        36506952
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 27,
+          "alloc_bytes": 27648,
+          "stack": [
+            "0x401AA8",
+            "0x7D006587CB23",
+            "0x7D00650081CA",
+            "0x7D0064C63953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7D0065D791E5",
+            "0x402342",
+            "0x40137E",
+            "0x7D0064C64865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 19,
+          "alloc_bytes": 19456,
+          "stack": [
+            "0x401AA8",
+            "0x7D006587CB23",
+            "0x7D00650081CA",
+            "0x7D0064C63953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17700,
+          "alloc_bytes": 18124800,
+          "stack": [
+            "0x401CD8",
+            "0x7D006587CB23",
+            "0x7D00650081CA",
+            "0x7D0064C63953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17905,
+          "alloc_bytes": 18334720,
+          "stack": [
+            "0x401CD8",
+            "0x7D006587CB23",
+            "0x7D00650081CA",
+            "0x7D0064C63953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7D0065FAF4B3",
+            "0x7D0065FAFF72",
+            "0x7D0065008E23",
+            "0x7D006587CE09",
+            "0x402368",
+            "0x40137E",
+            "0x7D0064C64865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 51,
+      "config": {
+        "version": "v3.6.1",
+        "size": 4096,
+        "mode": "periodic512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        6691,
+        27402544,
+        198253,
+        812036424
+      ],
+      "rows": [
+        {
+          "inuse_count": 3542,
+          "inuse_bytes": 14508032,
+          "alloc_count": 99733,
+          "alloc_bytes": 408506368,
+          "stack": [
+            "0x401CD8",
+            "0x7F0566024B23",
+            "0x7F05657B01CA",
+            "0x7F056540B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7F05665220A5",
+            "0x402342",
+            "0x40137E",
+            "0x7F056540C865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 207,
+          "alloc_bytes": 847872,
+          "stack": [
+            "0x401AA8",
+            "0x7F0566024B23",
+            "0x7F05657B01CA",
+            "0x7F056540B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 194,
+          "alloc_bytes": 794624,
+          "stack": [
+            "0x401AA8",
+            "0x7F0566024B23",
+            "0x7F05657B01CA",
+            "0x7F056540B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7F05667584B3",
+            "0x7F0566758F72",
+            "0x7F05657B0E23",
+            "0x7F0566024E09",
+            "0x402368",
+            "0x40137E",
+            "0x7F056540C865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 3148,
+          "inuse_bytes": 12894208,
+          "alloc_count": 98117,
+          "alloc_bytes": 401887232,
+          "stack": [
+            "0x401CD8",
+            "0x7F0566024B23",
+            "0x7F05657B01CA",
+            "0x7F056540B953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 55,
+      "config": {
+        "version": "v3.6.1",
+        "size": 4096,
+        "mode": "sample512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        1,
+        304,
+        235269,
+        963653960
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 215,
+          "alloc_bytes": 880640,
+          "stack": [
+            "0x401AA8",
+            "0x717517CE1B23",
+            "0x71751746D1CA",
+            "0x7175170C8953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 117582,
+          "alloc_bytes": 481615872,
+          "stack": [
+            "0x401CD8",
+            "0x717517CE1B23",
+            "0x71751746D1CA",
+            "0x7175170C8953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 117273,
+          "alloc_bytes": 480350208,
+          "stack": [
+            "0x401CD8",
+            "0x717517CE1B23",
+            "0x71751746D1CA",
+            "0x7175170C8953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x7175184154B3",
+            "0x717518415F72",
+            "0x71751746DE23",
+            "0x717517CE1E09",
+            "0x402368",
+            "0x40137E",
+            "0x7175170C9865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x7175181DF0A5",
+            "0x402342",
+            "0x40137E",
+            "0x7175170C9865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 197,
+          "alloc_bytes": 806912,
+          "stack": [
+            "0x401AA8",
+            "0x717517CE1B23",
+            "0x71751746D1CA",
+            "0x7175170C8953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 56,
+      "config": {
+        "version": "v3.6.1",
+        "size": 4096,
+        "mode": "sample4m",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        1,
+        304,
+        32297,
+        132280648
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x79A442B330A5",
+            "0x402342",
+            "0x40137E",
+            "0x79A441A1D865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 21,
+          "alloc_bytes": 86016,
+          "stack": [
+            "0x401AA8",
+            "0x79A442635B23",
+            "0x79A441DC11CA",
+            "0x79A441A1C953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16065,
+          "alloc_bytes": 65802240,
+          "stack": [
+            "0x401CD8",
+            "0x79A442635B23",
+            "0x79A441DC11CA",
+            "0x79A441A1C953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 38,
+          "alloc_bytes": 155648,
+          "stack": [
+            "0x401AA8",
+            "0x79A442635B23",
+            "0x79A441DC11CA",
+            "0x79A441A1C953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x79A442D694B3",
+            "0x79A442D69F72",
+            "0x79A441DC1E23",
+            "0x79A442635E09",
+            "0x402368",
+            "0x40137E",
+            "0x79A441A1D865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 16171,
+          "alloc_bytes": 66236416,
+          "stack": [
+            "0x401CD8",
+            "0x79A442635B23",
+            "0x79A441DC11CA",
+            "0x79A441A1C953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 57,
+      "config": {
+        "version": "v3.6.0",
+        "size": 4096,
+        "mode": "periodic512",
+        "objects": 17927680,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        5597,
+        22921520,
+        193679,
+        793301320
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x77DBFFF6F1E5",
+            "0x402342",
+            "0x40137E",
+            "0x77DBFEE5A865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 215,
+          "alloc_bytes": 880640,
+          "stack": [
+            "0x401AA8",
+            "0x77DBFFA72B23",
+            "0x77DBFF1FE1CA",
+            "0x77DBFEE59953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 2887,
+          "inuse_bytes": 11825152,
+          "alloc_count": 97763,
+          "alloc_bytes": 400437248,
+          "stack": [
+            "0x401CD8",
+            "0x77DBFFA72B23",
+            "0x77DBFF1FE1CA",
+            "0x77DBFEE59953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 2709,
+          "inuse_bytes": 11096064,
+          "alloc_count": 95513,
+          "alloc_bytes": 391221248,
+          "stack": [
+            "0x401CD8",
+            "0x77DBFFA72B23",
+            "0x77DBFF1FE1CA",
+            "0x77DBFEE59953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x77DC001A54B3",
+            "0x77DC001A5F72",
+            "0x77DBFF1FEE23",
+            "0x77DBFFA72E09",
+            "0x402368",
+            "0x40137E",
+            "0x77DBFEE5A865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 186,
+          "alloc_bytes": 761856,
+          "stack": [
+            "0x401AA8",
+            "0x77DBFFA72B23",
+            "0x77DBFF1FE1CA",
+            "0x77DBFEE59953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 58,
+      "config": {
+        "version": "v3.6.1",
+        "size": 1024,
+        "mode": "sample4m",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        1,
+        304,
+        35459,
+        36308296
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17665,
+          "alloc_bytes": 18088960,
+          "stack": [
+            "0x401CD8",
+            "0x737FA2656B23",
+            "0x737FA1DE21CA",
+            "0x737FA1A3D953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 17748,
+          "alloc_bytes": 18173952,
+          "stack": [
+            "0x401CD8",
+            "0x737FA2656B23",
+            "0x737FA1DE21CA",
+            "0x737FA1A3D953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 18,
+          "alloc_bytes": 18432,
+          "stack": [
+            "0x401AA8",
+            "0x737FA2656B23",
+            "0x737FA1DE21CA",
+            "0x737FA1A3D953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 26,
+          "alloc_bytes": 26624,
+          "stack": [
+            "0x401AA8",
+            "0x737FA2656B23",
+            "0x737FA1DE21CA",
+            "0x737FA1A3D953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x737FA2B540A5",
+            "0x402342",
+            "0x40137E",
+            "0x737FA1A3E865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x737FA2D8A4B3",
+            "0x737FA2D8AF72",
+            "0x737FA1DE2E23",
+            "0x737FA2656E09",
+            "0x402368",
+            "0x40137E",
+            "0x737FA1A3E865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        }
+      ]
+    },
+    {
+      "run": 59,
+      "config": {
+        "version": "v3.6.1",
+        "size": 1024,
+        "mode": "sample512",
+        "objects": 79041024,
+        "pairs": 2,
+        "cap": 134217728,
+        "retained": false,
+        "rep": 2
+      },
+      "totals": [
+        1,
+        304,
+        258558,
+        264761672
+      ],
+      "rows": [
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 128435,
+          "alloc_bytes": 131517440,
+          "stack": [
+            "0x401CD8",
+            "0x76F5D9BA1B23",
+            "0x76F5D932D1CA",
+            "0x76F5D8F88953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 199,
+          "alloc_bytes": 203776,
+          "stack": [
+            "0x401AA8",
+            "0x76F5D9BA1B23",
+            "0x76F5D932D1CA",
+            "0x76F5D8F88953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 1,
+          "alloc_bytes": 24,
+          "stack": [
+            "0x76F5DA09F0A5",
+            "0x402342",
+            "0x40137E",
+            "0x76F5D8F89865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 165,
+          "alloc_bytes": 168960,
+          "stack": [
+            "0x401AA8",
+            "0x76F5D9BA1B23",
+            "0x76F5D932D1CA",
+            "0x76F5D8F88953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 0,
+          "inuse_bytes": 0,
+          "alloc_count": 129757,
+          "alloc_bytes": 132871168,
+          "stack": [
+            "0x401CD8",
+            "0x76F5D9BA1B23",
+            "0x76F5D932D1CA",
+            "0x76F5D8F88953"
+          ],
+          "benchmark_frames": [
+            "producer(unsigned long)\nconcurrent.cpp:?"
+          ]
+        },
+        {
+          "inuse_count": 1,
+          "inuse_bytes": 304,
+          "alloc_count": 1,
+          "alloc_bytes": 304,
+          "stack": [
+            "0x76F5DA2D54B3",
+            "0x76F5DA2D5F72",
+            "0x76F5D932DE23",
+            "0x76F5D9BA1E09",
+            "0x402368",
+            "0x40137E",
+            "0x76F5D8F89865",
+            "0x4018EE"
+          ],
+          "benchmark_frames": [
+            "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+            "main\n??:?",
+            "_start\n??:?"
+          ]
+        }
+      ]
+    }
+  ],
+  "symbols": {
+    "0x40137E": "main\n??:?",
+    "0x4013BF": "main\n??:?",
+    "0x4018EE": "_start\n??:?",
+    "0x401AA8": "producer(unsigned long)\nconcurrent.cpp:?",
+    "0x401CD8": "producer(unsigned long)\nconcurrent.cpp:?",
+    "0x402342": "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?",
+    "0x402368": "std::thread::thread<void (&)(unsigned long), unsigned long&, void>(void (&)(unsigned long), unsigned long&)\n??:?"
+  },
+  "valid_measured": 60,
+  "profile_files": 1332
+}

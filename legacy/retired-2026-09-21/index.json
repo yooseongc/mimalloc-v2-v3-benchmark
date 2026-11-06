@@ -1,0 +1,17 @@
+[
+  {
+    "original_path": "docs/experiment-design.md",
+    "retired_copy": "legacy/retired-2026-09-21/docs/experiment-design.md",
+    "sha256": "397106d82916c2bd873160b40dff20d00a273de43482a5cfaa9ac8438ed8355a"
+  },
+  {
+    "original_path": "docs/experiment-report.md",
+    "retired_copy": "legacy/retired-2026-09-21/docs/experiment-report.md",
+    "sha256": "f899577c983cb45f0bb3c7e870391a1686159429b0802f441ddd56c24b807203"
+  },
+  {
+    "original_path": "experiments/README.md",
+    "retired_copy": "legacy/retired-2026-09-21/experiments/README.md",
+    "sha256": "583bb4b33d51e7a618631dcacf07f301c06e020f3425ee238879f04d29065061"
+  }
+]

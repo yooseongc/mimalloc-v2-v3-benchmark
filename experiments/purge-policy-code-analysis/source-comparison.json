@@ -1,0 +1,10 @@
+{
+  "arena_purge_functions_identical_350_353": true,
+  "bitmap_selection_function_identical_350_353": true,
+  "arena_compared_from": "static long mi_arena_purge_delay",
+  "arena_compared_until": "/* -----------------------------------------------------------\n  Visit all pages and blocks in a heap",
+  "arena_section_sha256": {
+    "v3.5.0": "e9ada4ebdc4fd04d3bc6fbdfdaf5549475a2439f550c2a1ca2e49943dc663aca",
+    "v3.5.3": "e9ada4ebdc4fd04d3bc6fbdfdaf5549475a2439f550c2a1ca2e49943dc663aca"
+  }
+}

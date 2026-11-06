@@ -1,0 +1,54 @@
+{
+  "scope": "Post-measurement audit; frozen experiment and raw records unchanged",
+  "raw_count": 630,
+  "raw_valid": 630,
+  "independent_statistics": [
+    {
+      "cell": "core-local-mixed-wide-t8",
+      "n": 15,
+      "metric": "throughput",
+      "median_v350": 72998867.02566439,
+      "median_v353": 67905899.62031855,
+      "median_paired_ratio": 0.939498066404933,
+      "ratio_of_medians": 0.9302322404051108,
+      "v353_lower_count": 14
+    },
+    {
+      "cell": "latency-isolated-allocator",
+      "n": 15,
+      "metric": "p99",
+      "median_v350": 7636700.0,
+      "median_v353": 7164540.0,
+      "median_paired_ratio": 0.8996497355064246,
+      "ratio_of_medians": 0.9381722471748268,
+      "v353_lower_count": 12
+    },
+    {
+      "cell": "latency-isolated-service",
+      "n": 15,
+      "metric": "p99",
+      "median_v350": 6082530.0,
+      "median_v353": 5632280.0,
+      "median_paired_ratio": 1.0696431219222875,
+      "ratio_of_medians": 0.9259765262152426,
+      "v353_lower_count": 7
+    }
+  ],
+  "benchmark_sha256": "cae35ae342d94552be35fec06de5f46a7a108496dbb59debc18f6c201aa6528b",
+  "record_worker_address": "0x40bef0",
+  "record_worker_mix_constants_present": false,
+  "record_worker_call_targets": [
+    "clock_gettime@plt",
+    "free@plt",
+    "operator delete(void*)@plt",
+    "operator new(unsigned long)@plt",
+    "pin_current_thread(int, std::__cxx11::basic_string<char, std::char_traits<char",
+    "sched_getcpu@plt",
+    "sched_yield@plt",
+    "std::__cxx11::basic_string<char, std::char_traits<char",
+    "std::chrono::_V2::steady_clock::now()@plt",
+    "std::terminate()@plt",
+    "std::vector<(anonymous namespace)::Message, std::allocator<(anonymous namespace)::Message",
+    "void std::vector<unsigned long, std::allocator<unsigned long"
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-11-01T03:23:10.106189+00:00",
+  "counts": {
+    "1024": 79041024,
+    "4096": 17927680
+  },
+  "runs": [
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "sample512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "sample4m",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "off",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "periodic512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "sample4m",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "stats512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "periodic512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "periodic512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "sample512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "stats512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "sample512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "off",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "reclaim1",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "sample4m",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "off",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "reclaim1",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "sample512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "off",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "periodic512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "sample4m",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "sample512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "off",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "off",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "stats512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "sample512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "sample4m",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "sample4m",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "reclaim1",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "stats512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "sample512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "sample512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "sample4m",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "sample4m",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "reclaim1",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "periodic512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "periodic512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "off",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "periodic512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "off",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "periodic512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "periodic512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "off",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "reclaim1",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "sample4m",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "sample512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "periodic512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "off",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "sample512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "sample4m",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "reclaim1",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "stats512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "periodic512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "stats512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "mode": "off",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "off",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "sample512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "mode": "sample4m",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "mode": "periodic512",
+      "objects": 17927680,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "sample4m",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "mode": "sample512",
+      "objects": 79041024,
+      "pairs": 2,
+      "cap": 134217728,
+      "retained": false,
+      "rep": 2
+    }
+  ],
+  "hashes": {
+    "docs/profiling-diagnostic-plan.md": "d210cd32a784c4bad451eb3a316eb9e00cf9badf33ef88446b5653a172353ecd",
+    "observation/profiling_diagnostic.py": "4dadb9d28900bbb7ec5ab11e35f1e5a19cd09cde4c3af36e4d7bb49c321b26ce",
+    "observation/run_concurrent.py": "17a997afbcbe02131bdbe5ba3cf571bab5912b86654ccf95907d0d3f187293b6",
+    "observation/concurrent.cpp": "7839df70f6d31cc1234a2dc10e660484517e29beebddb2b4f90557eeb2beae07"
+  }
+}

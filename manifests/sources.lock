@@ -1,4 +1,24 @@
 mimalloc:
+  v3.6.0:
+    repository: https://github.com/microsoft/mimalloc.git
+    requested_tag: v3.6.0
+    tag_object: 79cf666d6a78c3ed59dc9b77e171a29425aec6ba
+    commit: b18ab4eef383f655e760881b02eff8af02800879
+    git_describe: v3.6.0
+    clone_directory_created_utc: 2026-10-24T02:48:01.8635303Z
+    source_directory: extern/mimalloc-v3.6.0
+    source_tree_status: clean-verified-before-build
+    provenance_manifest: experiments/release-v360-v1/lifecycle/artifacts.json
+  v3.5.3:
+    repository: https://github.com/microsoft/mimalloc.git
+    requested_tag: v3.5.3
+    tag_object: deac3dcf5f0614884013d411a5c07e16bec96c9f
+    commit: d4881d338125e1cb7c47ba4cfb398d6f7c0c8d45
+    git_describe: v3.5.3
+    fetch_timestamp_utc: 2026-09-21T10:00:03Z
+    source_directory: extern/mimalloc-v3.5.3
+    source_tree_status: clean-verified-by-r29-artifacts
+    provenance_manifest: experiments/r29-v353-v1/artifacts.json
   v2.1.2:
     repository: https://github.com/microsoft/mimalloc.git
     requested_tag: v2.1.2
@@ -42,3 +62,21 @@ mimalloc:
     source_directory: extern/mimalloc-dev3-622d421f
     source_tree_status: clean-at-fetch
     moving_ref_policy: branch resolved once; measurement uses commit only
+  dev3-d6716d33:
+    repository: https://github.com/microsoft/mimalloc.git
+    requested_ref: refs/heads/dev3
+    verified_at_utc: 2026-11-05T23:36:34.864344+00:00
+    commit: d6716d33671c2f621b87be3c7ac016c6ba6b3c94
+    source_directory: extern/mimalloc-dev3-d6716d33
+    source_tree_status: clean-at-build
+    moving_ref_policy: branch resolved once; measurement uses commit only
+    build_manifest: experiments/dev3-20261106-v1/lifecycle/artifacts.json
+  v3.6.1:
+    repository: https://github.com/microsoft/mimalloc.git
+    requested_tag: v3.6.1
+    tag_object: 07d6126055867a3c6c8977eb0066be27c0671054
+    commit: 56dc5eb80145f9a3ba7ca23d47c6a248b9d8586c
+    git_describe: v3.6.1
+    verified_at_utc: 2026-10-31T01:17:15.285485+00:00
+    source_directory: extern/mimalloc-v3.6.1
+    source_tree_status: clean-at-fetch

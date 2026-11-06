@@ -1,0 +1,27 @@
+{
+  "limitations": [
+    "Three repetitions per primary cell: descriptive, not an equivalence test",
+    "WSL2 host load and frequency uncontrolled",
+    "1 KiB improvement is not isolated to a specific commit",
+    "Runtime profiler activation and huge-allocation purge changes not exercised"
+  ],
+  "design_status": "Frozen",
+  "valid_observed_processes": 211.0,
+  "summary_sha256": "d230e8230116ba14b22b96877247fb485329b8004214b209afff8a73b499f2c8",
+  "invalid_observed_processes": 0,
+  "counts": {
+    "concurrent": 84,
+    "lifecycle": 24,
+    "collect": 8,
+    "stats": 16,
+    "smoke": 24,
+    "pilot": 28,
+    "reclaim_control": 24,
+    "native_stats": 2,
+    "page_layout": 1
+  },
+  "execution_status": "Complete",
+  "excluded_observations": 0,
+  "completed_at_utc": "2026-10-24T03:15:28.5173911Z",
+  "report": "docs/v360-report.md"
+}

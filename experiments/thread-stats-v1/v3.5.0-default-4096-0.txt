@@ -1,0 +1,41 @@
+CASE version=30500 count=1000 bytes=4096 remote=0
+JSON {"stage":"A_baseline","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_allocated_raw","total":4096000,"current":4096000,"alloc_count":0}
+JSON {"stage":"A_allocated_repeat","total":4096000,"current":4096000,"alloc_count":0}
+TEXT A_allocated_raw
+heap 1
+  binned    :     3.9 Mi      3.9 Mi      3.9 Mi                           not all freed
+  huge      :     0           0           0                                ok
+  total     :     3.9 MiB     3.9 MiB     3.9 MiB                          
+
+ pages           peak       total     current       block      total#   
+  touched   :     3.9 MiB     3.9 MiB     3.9 MiB                          
+  pages     :    63          63          63      
+  abandoned :    60          60          60      
+  reclaima  :     0      
+  reclaimf  :     0      
+  reabandon :     0      
+  waits     :     0      
+  extended  :   500      
+  retire    :     0      
+  searches  :     2.9 avg
+
+ process         peak       total     current       block      total#   
+  threads   :     0           0           0      
+  numa nodes:     1
+  elapsed   :     0.003 s
+  process   : user: 0.000 s, system: 0.005 s, faults: 7, peak rss: 11.0 MiB, peak commit: 10.5 MiB
+
+JSON {"stage":"A_allocated_collected","total":0,"current":0,"alloc_count":0}
+TEXT A_allocated_collected
+heap 1
+ process         peak       total     current       block      total#   
+  threads   :     0           0           0      
+  numa nodes:     1
+  elapsed   :     0.003 s
+  process   : user: 0.000 s, system: 0.005 s, faults: 7, peak rss: 11.0 MiB, peak commit: 10.5 MiB
+
+JSON {"stage":"A_freed_raw","total":0,"current":-4096000,"alloc_count":0}
+JSON {"stage":"A_freed_collected","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_freed_collected_repeat","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"heap_final","total":4096000,"current":0,"alloc_count":0}

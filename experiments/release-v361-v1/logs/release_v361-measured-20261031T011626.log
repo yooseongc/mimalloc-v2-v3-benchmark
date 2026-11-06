@@ -1,0 +1,145 @@
+lifecycle measured 1 30 {'version': 'v3.5.3', 'mode': 'same', 'rep': 0}
+lifecycle measured 2 30 {'version': 'v3.6.0', 'mode': 'same', 'rep': 0}
+lifecycle measured 3 30 {'version': 'v3.5.0', 'mode': 'same', 'rep': 0}
+lifecycle measured 4 30 {'version': 'v3.6.1', 'mode': 'same', 'rep': 0}
+lifecycle measured 5 30 {'version': 'v2.1.2', 'mode': 'same', 'rep': 0}
+lifecycle measured 6 30 {'version': 'v2.1.2', 'mode': 'remote', 'rep': 0}
+lifecycle measured 7 30 {'version': 'v3.6.0', 'mode': 'remote', 'rep': 0}
+lifecycle measured 8 30 {'version': 'v3.6.1', 'mode': 'remote', 'rep': 0}
+lifecycle measured 9 30 {'version': 'v3.5.0', 'mode': 'remote', 'rep': 0}
+lifecycle measured 10 30 {'version': 'v3.5.3', 'mode': 'remote', 'rep': 0}
+lifecycle measured 11 30 {'version': 'v3.6.1', 'mode': 'same', 'rep': 1}
+lifecycle measured 12 30 {'version': 'v2.1.2', 'mode': 'same', 'rep': 1}
+lifecycle measured 13 30 {'version': 'v3.6.0', 'mode': 'same', 'rep': 1}
+lifecycle measured 14 30 {'version': 'v3.5.0', 'mode': 'same', 'rep': 1}
+lifecycle measured 15 30 {'version': 'v3.5.3', 'mode': 'same', 'rep': 1}
+lifecycle measured 16 30 {'version': 'v2.1.2', 'mode': 'remote', 'rep': 1}
+lifecycle measured 17 30 {'version': 'v3.5.0', 'mode': 'remote', 'rep': 1}
+lifecycle measured 18 30 {'version': 'v3.6.0', 'mode': 'remote', 'rep': 1}
+lifecycle measured 19 30 {'version': 'v3.5.3', 'mode': 'remote', 'rep': 1}
+lifecycle measured 20 30 {'version': 'v3.6.1', 'mode': 'remote', 'rep': 1}
+lifecycle measured 21 30 {'version': 'v2.1.2', 'mode': 'same', 'rep': 2}
+lifecycle measured 22 30 {'version': 'v3.6.1', 'mode': 'same', 'rep': 2}
+lifecycle measured 23 30 {'version': 'v3.5.3', 'mode': 'same', 'rep': 2}
+lifecycle measured 24 30 {'version': 'v3.6.0', 'mode': 'same', 'rep': 2}
+lifecycle measured 25 30 {'version': 'v3.5.0', 'mode': 'same', 'rep': 2}
+lifecycle measured 26 30 {'version': 'v3.5.0', 'mode': 'remote', 'rep': 2}
+lifecycle measured 27 30 {'version': 'v3.5.3', 'mode': 'remote', 'rep': 2}
+lifecycle measured 28 30 {'version': 'v3.6.0', 'mode': 'remote', 'rep': 2}
+lifecycle measured 29 30 {'version': 'v2.1.2', 'mode': 'remote', 'rep': 2}
+lifecycle measured 30 30 {'version': 'v3.6.1', 'mode': 'remote', 'rep': 2}
+lifecycle collect 1 10 {'version': 'v2.1.2', 'mode': 'same', 'intervention': 'collect_force'}
+lifecycle collect 2 10 {'version': 'v3.5.0', 'mode': 'same', 'intervention': 'collect_force'}
+lifecycle collect 3 10 {'version': 'v3.6.1', 'mode': 'same', 'intervention': 'collect_force'}
+lifecycle collect 4 10 {'version': 'v3.6.0', 'mode': 'same', 'intervention': 'collect_force'}
+lifecycle collect 5 10 {'version': 'v3.5.3', 'mode': 'same', 'intervention': 'collect_force'}
+lifecycle collect 6 10 {'version': 'v3.6.0', 'mode': 'remote', 'intervention': 'collect_force'}
+lifecycle collect 7 10 {'version': 'v3.6.1', 'mode': 'remote', 'intervention': 'collect_force'}
+lifecycle collect 8 10 {'version': 'v3.5.3', 'mode': 'remote', 'intervention': 'collect_force'}
+lifecycle collect 9 10 {'version': 'v3.5.0', 'mode': 'remote', 'intervention': 'collect_force'}
+lifecycle collect 10 10 {'version': 'v2.1.2', 'mode': 'remote', 'intervention': 'collect_force'}
+measured 1/105 v2.1.2 64B 128MiB 1pairs retained=False 8.501s
+measured 2/105 v3.6.0 64B 128MiB 1pairs retained=False 3.335s
+measured 3/105 v3.6.1 64B 128MiB 1pairs retained=False 3.415s
+measured 4/105 v3.5.0 64B 128MiB 1pairs retained=False 3.740s
+measured 5/105 v3.5.3 64B 128MiB 1pairs retained=False 3.417s
+measured 6/105 v3.5.0 64B 128MiB 1pairs retained=False 3.830s
+measured 7/105 v3.5.3 64B 128MiB 1pairs retained=False 3.355s
+measured 8/105 v3.6.0 64B 128MiB 1pairs retained=False 3.331s
+measured 9/105 v3.6.1 64B 128MiB 1pairs retained=False 3.365s
+measured 10/105 v2.1.2 64B 128MiB 1pairs retained=False 8.408s
+measured 11/105 v3.6.1 64B 128MiB 1pairs retained=False 3.400s
+measured 12/105 v2.1.2 64B 128MiB 1pairs retained=False 8.579s
+measured 13/105 v3.5.3 64B 128MiB 1pairs retained=False 3.410s
+measured 14/105 v3.5.0 64B 128MiB 1pairs retained=False 3.808s
+measured 15/105 v3.6.0 64B 128MiB 1pairs retained=False 3.299s
+measured 16/105 v3.5.3 64B 128MiB 2pairs retained=False 3.267s
+measured 17/105 v3.6.0 64B 128MiB 2pairs retained=False 3.245s
+measured 18/105 v3.5.0 64B 128MiB 2pairs retained=False 3.410s
+measured 19/105 v3.6.1 64B 128MiB 2pairs retained=False 3.407s
+measured 20/105 v2.1.2 64B 128MiB 2pairs retained=False 8.458s
+measured 21/105 v3.6.1 64B 128MiB 2pairs retained=False 3.271s
+measured 22/105 v3.6.0 64B 128MiB 2pairs retained=False 3.417s
+measured 23/105 v3.5.3 64B 128MiB 2pairs retained=False 3.490s
+measured 24/105 v3.5.0 64B 128MiB 2pairs retained=False 3.520s
+measured 25/105 v2.1.2 64B 128MiB 2pairs retained=False 8.716s
+measured 26/105 v2.1.2 64B 128MiB 2pairs retained=False 8.496s
+measured 27/105 v3.6.1 64B 128MiB 2pairs retained=False 3.356s
+measured 28/105 v3.5.3 64B 128MiB 2pairs retained=False 3.366s
+measured 29/105 v3.6.0 64B 128MiB 2pairs retained=False 3.375s
+measured 30/105 v3.5.0 64B 128MiB 2pairs retained=False 3.405s
+measured 31/105 v3.6.0 1024B 128MiB 1pairs retained=False 4.113s
+measured 32/105 v3.5.3 1024B 128MiB 1pairs retained=False 4.006s
+measured 33/105 v2.1.2 1024B 128MiB 1pairs retained=False 3.580s
+measured 34/105 v3.5.0 1024B 128MiB 1pairs retained=False 3.376s
+measured 35/105 v3.6.1 1024B 128MiB 1pairs retained=False 3.961s
+measured 36/105 v2.1.2 1024B 128MiB 1pairs retained=False 3.463s
+measured 37/105 v3.6.1 1024B 128MiB 1pairs retained=False 3.933s
+measured 38/105 v3.5.3 1024B 128MiB 1pairs retained=False 3.953s
+measured 39/105 v3.5.0 1024B 128MiB 1pairs retained=False 3.352s
+measured 40/105 v3.6.0 1024B 128MiB 1pairs retained=False 3.656s
+measured 41/105 v2.1.2 1024B 128MiB 1pairs retained=False 3.425s
+measured 42/105 v3.6.1 1024B 128MiB 1pairs retained=False 3.971s
+measured 43/105 v3.5.0 1024B 128MiB 1pairs retained=False 3.398s
+measured 44/105 v3.5.3 1024B 128MiB 1pairs retained=False 3.977s
+measured 45/105 v3.6.0 1024B 128MiB 1pairs retained=False 3.758s
+measured 46/105 v2.1.2 1024B 128MiB 2pairs retained=False 2.834s
+measured 47/105 v3.5.0 1024B 128MiB 2pairs retained=False 2.826s
+measured 48/105 v3.6.1 1024B 128MiB 2pairs retained=False 3.024s
+measured 49/105 v3.5.3 1024B 128MiB 2pairs retained=False 3.624s
+measured 50/105 v3.6.0 1024B 128MiB 2pairs retained=False 2.798s
+measured 51/105 v3.6.0 1024B 128MiB 2pairs retained=False 2.616s
+measured 52/105 v3.5.0 1024B 128MiB 2pairs retained=False 2.852s
+measured 53/105 v3.6.1 1024B 128MiB 2pairs retained=False 3.177s
+measured 54/105 v2.1.2 1024B 128MiB 2pairs retained=False 2.842s
+measured 55/105 v3.5.3 1024B 128MiB 2pairs retained=False 3.632s
+measured 56/105 v3.5.3 1024B 128MiB 2pairs retained=False 3.543s
+measured 57/105 v3.6.0 1024B 128MiB 2pairs retained=False 2.734s
+measured 58/105 v3.6.1 1024B 128MiB 2pairs retained=False 3.224s
+measured 59/105 v2.1.2 1024B 128MiB 2pairs retained=False 2.912s
+measured 60/105 v3.5.0 1024B 128MiB 2pairs retained=False 2.956s
+measured 61/105 v3.5.0 4096B 128MiB 1pairs retained=False 3.940s
+measured 62/105 v3.6.1 4096B 128MiB 1pairs retained=False 6.062s
+measured 63/105 v2.1.2 4096B 128MiB 1pairs retained=False 3.718s
+measured 64/105 v3.6.0 4096B 128MiB 1pairs retained=False 5.869s
+measured 65/105 v3.5.3 4096B 128MiB 1pairs retained=False 5.920s
+measured 66/105 v3.6.0 4096B 128MiB 1pairs retained=False 5.763s
+measured 67/105 v3.5.3 4096B 128MiB 1pairs retained=False 5.964s
+measured 68/105 v2.1.2 4096B 128MiB 1pairs retained=False 3.762s
+measured 69/105 v3.6.1 4096B 128MiB 1pairs retained=False 5.997s
+measured 70/105 v3.5.0 4096B 128MiB 1pairs retained=False 3.884s
+measured 71/105 v3.6.0 4096B 128MiB 1pairs retained=False 5.825s
+measured 72/105 v3.6.1 4096B 128MiB 1pairs retained=False 6.214s
+measured 73/105 v3.5.3 4096B 128MiB 1pairs retained=False 5.757s
+measured 74/105 v3.5.0 4096B 128MiB 1pairs retained=False 3.814s
+measured 75/105 v2.1.2 4096B 128MiB 1pairs retained=False 3.768s
+measured 76/105 v3.5.3 4096B 128MiB 2pairs retained=False 5.969s
+measured 77/105 v3.5.0 4096B 128MiB 2pairs retained=False 3.922s
+measured 78/105 v3.6.0 4096B 128MiB 2pairs retained=False 6.212s
+measured 79/105 v3.6.1 4096B 128MiB 2pairs retained=False 6.573s
+measured 80/105 v2.1.2 4096B 128MiB 2pairs retained=False 3.233s
+measured 81/105 v3.5.3 4096B 128MiB 2pairs retained=False 5.953s
+measured 82/105 v3.6.1 4096B 128MiB 2pairs retained=False 6.434s
+measured 83/105 v2.1.2 4096B 128MiB 2pairs retained=False 3.232s
+measured 84/105 v3.5.0 4096B 128MiB 2pairs retained=False 3.954s
+measured 85/105 v3.6.0 4096B 128MiB 2pairs retained=False 6.042s
+measured 86/105 v3.5.3 4096B 128MiB 2pairs retained=False 5.977s
+measured 87/105 v3.6.0 4096B 128MiB 2pairs retained=False 5.959s
+measured 88/105 v2.1.2 4096B 128MiB 2pairs retained=False 3.160s
+measured 89/105 v3.5.0 4096B 128MiB 2pairs retained=False 3.905s
+measured 90/105 v3.6.1 4096B 128MiB 2pairs retained=False 6.361s
+measured 91/105 v3.6.1 4096B 512MiB 2pairs retained=False 5.547s
+measured 92/105 v2.1.2 4096B 512MiB 2pairs retained=False 2.756s
+measured 93/105 v3.5.3 4096B 512MiB 2pairs retained=False 4.957s
+measured 94/105 v3.5.0 4096B 512MiB 2pairs retained=False 3.280s
+measured 95/105 v3.6.0 4096B 512MiB 2pairs retained=False 5.183s
+measured 96/105 v3.5.3 4096B 512MiB 2pairs retained=False 4.971s
+measured 97/105 v3.6.1 4096B 512MiB 2pairs retained=False 5.238s
+measured 98/105 v2.1.2 4096B 512MiB 2pairs retained=False 2.714s
+measured 99/105 v3.5.0 4096B 512MiB 2pairs retained=False 3.363s
+measured 100/105 v3.6.0 4096B 512MiB 2pairs retained=False 5.114s
+measured 101/105 v3.5.0 4096B 512MiB 2pairs retained=False 3.306s
+measured 102/105 v3.6.0 4096B 512MiB 2pairs retained=False 5.088s
+measured 103/105 v3.5.3 4096B 512MiB 2pairs retained=False 4.879s
+measured 104/105 v3.6.1 4096B 512MiB 2pairs retained=False 5.305s
+measured 105/105 v2.1.2 4096B 512MiB 2pairs retained=False 2.643s

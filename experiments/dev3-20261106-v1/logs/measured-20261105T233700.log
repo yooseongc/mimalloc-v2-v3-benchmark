@@ -1,0 +1,134 @@
+lifecycle measured 1 20 {'version': 'v3.6.1', 'mode': 'same', 'rep': 0}
+lifecycle measured 2 20 {'version': 'dev3-d6716d33', 'mode': 'same', 'rep': 0}
+lifecycle measured 3 20 {'version': 'dev3-d6716d33', 'mode': 'remote', 'rep': 0}
+lifecycle measured 4 20 {'version': 'v3.6.1', 'mode': 'remote', 'rep': 0}
+lifecycle measured 5 20 {'version': 'dev3-d6716d33', 'mode': 'same', 'rep': 1}
+lifecycle measured 6 20 {'version': 'v3.6.1', 'mode': 'same', 'rep': 1}
+lifecycle measured 7 20 {'version': 'v3.6.1', 'mode': 'remote', 'rep': 1}
+lifecycle measured 8 20 {'version': 'dev3-d6716d33', 'mode': 'remote', 'rep': 1}
+lifecycle measured 9 20 {'version': 'v3.6.1', 'mode': 'same', 'rep': 2}
+lifecycle measured 10 20 {'version': 'dev3-d6716d33', 'mode': 'same', 'rep': 2}
+lifecycle measured 11 20 {'version': 'dev3-d6716d33', 'mode': 'remote', 'rep': 2}
+lifecycle measured 12 20 {'version': 'v3.6.1', 'mode': 'remote', 'rep': 2}
+lifecycle measured 13 20 {'version': 'dev3-d6716d33', 'mode': 'same', 'rep': 3}
+lifecycle measured 14 20 {'version': 'v3.6.1', 'mode': 'same', 'rep': 3}
+lifecycle measured 15 20 {'version': 'dev3-d6716d33', 'mode': 'remote', 'rep': 3}
+lifecycle measured 16 20 {'version': 'v3.6.1', 'mode': 'remote', 'rep': 3}
+lifecycle measured 17 20 {'version': 'v3.6.1', 'mode': 'same', 'rep': 4}
+lifecycle measured 18 20 {'version': 'dev3-d6716d33', 'mode': 'same', 'rep': 4}
+lifecycle measured 19 20 {'version': 'dev3-d6716d33', 'mode': 'remote', 'rep': 4}
+lifecycle measured 20 20 {'version': 'v3.6.1', 'mode': 'remote', 'rep': 4}
+lifecycle collect 1 4 {'version': 'v3.6.1', 'mode': 'same', 'intervention': 'collect_force'}
+lifecycle collect 2 4 {'version': 'dev3-d6716d33', 'mode': 'same', 'intervention': 'collect_force'}
+lifecycle collect 3 4 {'version': 'dev3-d6716d33', 'mode': 'remote', 'intervention': 'collect_force'}
+lifecycle collect 4 4 {'version': 'v3.6.1', 'mode': 'remote', 'intervention': 'collect_force'}
+measured 1/60 dev3-d6716d33 64B 128MiB 1pairs retained=False 5.021s
+measured 2/60 v3.6.1 64B 128MiB 1pairs retained=False 5.014s
+measured 3/60 dev3-d6716d33 64B 128MiB 1pairs retained=False 4.953s
+measured 4/60 v3.6.1 64B 128MiB 1pairs retained=False 5.089s
+measured 5/60 dev3-d6716d33 64B 128MiB 1pairs retained=False 5.048s
+measured 6/60 v3.6.1 64B 128MiB 1pairs retained=False 5.070s
+measured 7/60 dev3-d6716d33 64B 128MiB 1pairs retained=False 5.021s
+measured 8/60 v3.6.1 64B 128MiB 1pairs retained=False 4.997s
+measured 9/60 dev3-d6716d33 64B 128MiB 1pairs retained=False 4.956s
+measured 10/60 v3.6.1 64B 128MiB 1pairs retained=False 5.117s
+measured 11/60 v3.6.1 64B 128MiB 2pairs retained=False 4.374s
+measured 12/60 dev3-d6716d33 64B 128MiB 2pairs retained=False 3.943s
+measured 13/60 v3.6.1 64B 128MiB 2pairs retained=False 4.022s
+measured 14/60 dev3-d6716d33 64B 128MiB 2pairs retained=False 4.114s
+measured 15/60 v3.6.1 64B 128MiB 2pairs retained=False 4.116s
+measured 16/60 dev3-d6716d33 64B 128MiB 2pairs retained=False 4.168s
+measured 17/60 dev3-d6716d33 64B 128MiB 2pairs retained=False 4.342s
+measured 18/60 v3.6.1 64B 128MiB 2pairs retained=False 4.284s
+measured 19/60 dev3-d6716d33 64B 128MiB 2pairs retained=False 4.118s
+measured 20/60 v3.6.1 64B 128MiB 2pairs retained=False 4.214s
+measured 21/60 dev3-d6716d33 1024B 128MiB 1pairs retained=False 4.726s
+measured 22/60 v3.6.1 1024B 128MiB 1pairs retained=False 5.085s
+measured 23/60 dev3-d6716d33 1024B 128MiB 1pairs retained=False 4.656s
+measured 24/60 v3.6.1 1024B 128MiB 1pairs retained=False 4.702s
+measured 25/60 v3.6.1 1024B 128MiB 1pairs retained=False 4.606s
+measured 26/60 dev3-d6716d33 1024B 128MiB 1pairs retained=False 4.691s
+measured 27/60 dev3-d6716d33 1024B 128MiB 1pairs retained=False 4.463s
+measured 28/60 v3.6.1 1024B 128MiB 1pairs retained=False 4.730s
+measured 29/60 dev3-d6716d33 1024B 128MiB 1pairs retained=False 4.499s
+measured 30/60 v3.6.1 1024B 128MiB 1pairs retained=False 4.708s
+measured 31/60 v3.6.1 1024B 128MiB 2pairs retained=False 4.085s
+measured 32/60 dev3-d6716d33 1024B 128MiB 2pairs retained=False 3.603s
+measured 33/60 dev3-d6716d33 1024B 128MiB 2pairs retained=False 3.378s
+measured 34/60 v3.6.1 1024B 128MiB 2pairs retained=False 3.701s
+measured 35/60 v3.6.1 1024B 128MiB 2pairs retained=False 3.724s
+measured 36/60 dev3-d6716d33 1024B 128MiB 2pairs retained=False 3.310s
+measured 37/60 dev3-d6716d33 1024B 128MiB 2pairs retained=False 3.733s
+measured 38/60 v3.6.1 1024B 128MiB 2pairs retained=False 3.621s
+measured 39/60 dev3-d6716d33 1024B 128MiB 2pairs retained=False 3.651s
+measured 40/60 v3.6.1 1024B 128MiB 2pairs retained=False 3.511s
+measured 41/60 dev3-d6716d33 4096B 128MiB 1pairs retained=False 4.751s
+measured 42/60 v3.6.1 4096B 128MiB 1pairs retained=False 4.608s
+measured 43/60 dev3-d6716d33 4096B 128MiB 1pairs retained=False 4.689s
+measured 44/60 v3.6.1 4096B 128MiB 1pairs retained=False 4.509s
+measured 45/60 v3.6.1 4096B 128MiB 1pairs retained=False 4.696s
+measured 46/60 dev3-d6716d33 4096B 128MiB 1pairs retained=False 4.605s
+measured 47/60 dev3-d6716d33 4096B 128MiB 1pairs retained=False 4.471s
+measured 48/60 v3.6.1 4096B 128MiB 1pairs retained=False 4.517s
+measured 49/60 dev3-d6716d33 4096B 128MiB 1pairs retained=False 4.467s
+measured 50/60 v3.6.1 4096B 128MiB 1pairs retained=False 4.413s
+measured 51/60 dev3-d6716d33 4096B 128MiB 2pairs retained=False 5.053s
+measured 52/60 v3.6.1 4096B 128MiB 2pairs retained=False 4.885s
+measured 53/60 v3.6.1 4096B 128MiB 2pairs retained=False 4.836s
+measured 54/60 dev3-d6716d33 4096B 128MiB 2pairs retained=False 4.848s
+measured 55/60 v3.6.1 4096B 128MiB 2pairs retained=False 4.914s
+measured 56/60 dev3-d6716d33 4096B 128MiB 2pairs retained=False 4.754s
+measured 57/60 v3.6.1 4096B 128MiB 2pairs retained=False 4.617s
+measured 58/60 dev3-d6716d33 4096B 128MiB 2pairs retained=False 4.809s
+measured 59/60 dev3-d6716d33 4096B 128MiB 2pairs retained=False 4.804s
+measured 60/60 v3.6.1 4096B 128MiB 2pairs retained=False 4.617s
+threads measured 1 50 {'version': 'dev3-d6716d33', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 0} 1.744
+threads measured 2 50 {'version': 'v3.6.1', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 0} 1.7
+threads measured 3 50 {'version': 'v3.6.1', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 1} 1.724
+threads measured 4 50 {'version': 'dev3-d6716d33', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 1} 1.778
+threads measured 5 50 {'version': 'dev3-d6716d33', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 2} 1.737
+threads measured 6 50 {'version': 'v3.6.1', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 2} 1.732
+threads measured 7 50 {'version': 'v3.6.1', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 3} 1.753
+threads measured 8 50 {'version': 'dev3-d6716d33', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 3} 1.807
+threads measured 9 50 {'version': 'dev3-d6716d33', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 4} 1.67
+threads measured 10 50 {'version': 'v3.6.1', 'mode': 0, 'size': 64, 'cycles': 20000, 'rep': 4} 1.65
+threads measured 11 50 {'version': 'v3.6.1', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 0} 2.079
+threads measured 12 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 0} 2.0
+threads measured 13 50 {'version': 'v3.6.1', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 1} 1.989
+threads measured 14 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 1} 2.057
+threads measured 15 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 2} 2.044
+threads measured 16 50 {'version': 'v3.6.1', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 2} 1.975
+threads measured 17 50 {'version': 'v3.6.1', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 3} 2.002
+threads measured 18 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 3} 2.031
+threads measured 19 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 4} 1.958
+threads measured 20 50 {'version': 'v3.6.1', 'mode': 1, 'size': 64, 'cycles': 20000, 'rep': 4} 1.987
+threads measured 21 50 {'version': 'v3.6.1', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 0} 2.812
+threads measured 22 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 0} 2.885
+threads measured 23 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 1} 2.823
+threads measured 24 50 {'version': 'v3.6.1', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 1} 2.975
+threads measured 25 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 2} 2.71
+threads measured 26 50 {'version': 'v3.6.1', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 2} 2.874
+threads measured 27 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 3} 2.75
+threads measured 28 50 {'version': 'v3.6.1', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 3} 2.884
+threads measured 29 50 {'version': 'v3.6.1', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 4} 2.708
+threads measured 30 50 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 4096, 'cycles': 20000, 'rep': 4} 2.723
+threads measured 31 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 0} 2.29
+threads measured 32 50 {'version': 'v3.6.1', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 0} 2.159
+threads measured 33 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 1} 2.319
+threads measured 34 50 {'version': 'v3.6.1', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 1} 2.309
+threads measured 35 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 2} 2.311
+threads measured 36 50 {'version': 'v3.6.1', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 2} 2.154
+threads measured 37 50 {'version': 'v3.6.1', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 3} 2.404
+threads measured 38 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 3} 2.236
+threads measured 39 50 {'version': 'v3.6.1', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 4} 2.114
+threads measured 40 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 64, 'cycles': 20000, 'rep': 4} 2.145
+threads measured 41 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 0} 3.065
+threads measured 42 50 {'version': 'v3.6.1', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 0} 2.902
+threads measured 43 50 {'version': 'v3.6.1', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 1} 3.144
+threads measured 44 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 1} 3.006
+threads measured 45 50 {'version': 'v3.6.1', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 2} 3.068
+threads measured 46 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 2} 3.052
+threads measured 47 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 3} 3.114
+threads measured 48 50 {'version': 'v3.6.1', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 3} 3.025
+threads measured 49 50 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 4} 3.068
+threads measured 50 50 {'version': 'v3.6.1', 'mode': 2, 'size': 4096, 'cycles': 20000, 'rep': 4} 3.045

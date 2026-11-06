@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-09-21T12:14:20.643940+00:00",
+  "unit_tests_passed": 24,
+  "smoke_valid": 39,
+  "pilot_valid": 63,
+  "queue_control_valid": 9,
+  "measured_valid": 630,
+  "invalid_attempts": 0,
+  "complete_matched_blocks": 210,
+  "minimum_core_latency_seconds": 7.847808778,
+  "cpu_throttle_deltas": {
+    "0": 630
+  },
+  "frozen_file_checks": {
+    "contract.md": true,
+    "artifacts.json": true,
+    "environment.json": true,
+    "calibration.json": true,
+    "source_lock": true,
+    "runner": true
+  },
+  "plan_sha256": "b2caf8b9872ebbeee3ff637c1cc66cf5d8f679488aaf3769f8912bb40e0ee50d",
+  "raw_plan_hashes": [
+    "b2caf8b9872ebbeee3ff637c1cc66cf5d8f679488aaf3769f8912bb40e0ee50d"
+  ],
+  "resume_verification": "exit 0; 630 valid; 0 pending; no new raw attempts",
+  "visual_verification": "Core ratio and memory RSS PNG previews inspected; labels and axes readable",
+  "analysis_reproduction": "Analysis rerun from raw records; report regeneration passed"
+}

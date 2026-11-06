@@ -1,0 +1,2180 @@
+{
+  "plan_sha256": "4ec9a220962b525e99d59ce3a3bb563f15de0c2ccd16bb3e3604bd93564f08cb",
+  "valid_flows": 18,
+  "groups": [
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "runs": [
+        {
+          "order": 4,
+          "rss_mib": {
+            "baseline": 3.41796875,
+            "allocate": 131.57421875,
+            "write": 131.57421875,
+            "free_half": 131.57421875,
+            "free_rest": 131.57421875,
+            "idle_30": 131.57421875,
+            "reallocate": 163.296875,
+            "rewrite": 163.296875
+          },
+          "anon_huge_mib": {
+            "baseline": 0.0,
+            "allocate": 0.0,
+            "write": 0.0,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "idle_30": 0.0,
+            "reallocate": 0.0,
+            "rewrite": 0.0
+          },
+          "phase_ms": {
+            "allocate": 77.561136,
+            "write": 9.076206,
+            "free_half": 0.545007,
+            "free_rest": 0.596653,
+            "reallocate": 19.968379,
+            "rewrite": 8.821163
+          },
+          "phase_cpu_ms": {
+            "allocate": 74.9,
+            "write": 6.134,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 16.232,
+            "rewrite": 5.223
+          },
+          "phase_minor_faults": {
+            "allocate": 32808,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 8121,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 163.125,
+          "idle_actual_seconds": 30.002459415001795,
+          "first_use_ms": 86.637342,
+          "free_ms": 1.14166,
+          "reuse_ms": 28.789542,
+          "idle_retained_above_baseline_mib": 128.15625,
+          "reuse_rss_growth_mib": 31.72265625
+        },
+        {
+          "order": 8,
+          "rss_mib": {
+            "baseline": 3.390625,
+            "allocate": 131.546875,
+            "write": 131.546875,
+            "free_half": 131.546875,
+            "free_rest": 131.546875,
+            "idle_30": 131.546875,
+            "reallocate": 163.26953125,
+            "rewrite": 163.26953125
+          },
+          "anon_huge_mib": {
+            "baseline": 0.0,
+            "allocate": 0.0,
+            "write": 0.0,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "idle_30": 0.0,
+            "reallocate": 0.0,
+            "rewrite": 0.0
+          },
+          "phase_ms": {
+            "allocate": 75.0902,
+            "write": 9.113486,
+            "free_half": 0.466539,
+            "free_rest": 0.709222,
+            "reallocate": 20.869454,
+            "rewrite": 10.107059
+          },
+          "phase_cpu_ms": {
+            "allocate": 75.054,
+            "write": 5.564,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 19.003,
+            "rewrite": 7.954
+          },
+          "phase_minor_faults": {
+            "allocate": 32808,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 8121,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 163.125,
+          "idle_actual_seconds": 30.001712555007543,
+          "first_use_ms": 84.203686,
+          "free_ms": 1.175761,
+          "reuse_ms": 30.976513,
+          "idle_retained_above_baseline_mib": 128.15625,
+          "reuse_rss_growth_mib": 31.72265625
+        },
+        {
+          "order": 18,
+          "rss_mib": {
+            "baseline": 3.5078125,
+            "allocate": 131.6640625,
+            "write": 131.6640625,
+            "free_half": 131.6640625,
+            "free_rest": 131.6640625,
+            "idle_30": 131.6640625,
+            "reallocate": 163.38671875,
+            "rewrite": 163.38671875
+          },
+          "anon_huge_mib": {
+            "baseline": 0.0,
+            "allocate": 0.0,
+            "write": 0.0,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "idle_30": 0.0,
+            "reallocate": 0.0,
+            "rewrite": 0.0
+          },
+          "phase_ms": {
+            "allocate": 78.009239,
+            "write": 9.797569,
+            "free_half": 0.564428,
+            "free_rest": 0.657699,
+            "reallocate": 22.653475,
+            "rewrite": 8.727867
+          },
+          "phase_cpu_ms": {
+            "allocate": 77.841,
+            "write": 8.979,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 20.147,
+            "rewrite": 7.896
+          },
+          "phase_minor_faults": {
+            "allocate": 32808,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 8121,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 163.125,
+          "idle_actual_seconds": 30.002455199020915,
+          "first_use_ms": 87.806808,
+          "free_ms": 1.222127,
+          "reuse_ms": 31.381342,
+          "idle_retained_above_baseline_mib": 128.15625,
+          "reuse_rss_growth_mib": 31.72265625
+        }
+      ],
+      "first_use_ms": {
+        "median": 86.637342,
+        "minimum": 84.203686,
+        "maximum": 87.806808,
+        "values": [
+          86.637342,
+          84.203686,
+          87.806808
+        ]
+      },
+      "free_ms": {
+        "median": 1.175761,
+        "minimum": 1.14166,
+        "maximum": 1.222127,
+        "values": [
+          1.14166,
+          1.175761,
+          1.222127
+        ]
+      },
+      "reuse_ms": {
+        "median": 30.976513,
+        "minimum": 28.789542,
+        "maximum": 31.381342,
+        "values": [
+          28.789542,
+          30.976513,
+          31.381342
+        ]
+      },
+      "idle_retained_above_baseline_mib": {
+        "median": 128.15625,
+        "minimum": 128.15625,
+        "maximum": 128.15625,
+        "values": [
+          128.15625,
+          128.15625,
+          128.15625
+        ]
+      },
+      "reuse_rss_growth_mib": {
+        "median": 31.72265625,
+        "minimum": 31.72265625,
+        "maximum": 31.72265625,
+        "values": [
+          31.72265625,
+          31.72265625,
+          31.72265625
+        ]
+      },
+      "rss_mib": {
+        "baseline": {
+          "median": 3.41796875,
+          "minimum": 3.390625,
+          "maximum": 3.5078125,
+          "values": [
+            3.41796875,
+            3.390625,
+            3.5078125
+          ]
+        },
+        "allocate": {
+          "median": 131.57421875,
+          "minimum": 131.546875,
+          "maximum": 131.6640625,
+          "values": [
+            131.57421875,
+            131.546875,
+            131.6640625
+          ]
+        },
+        "write": {
+          "median": 131.57421875,
+          "minimum": 131.546875,
+          "maximum": 131.6640625,
+          "values": [
+            131.57421875,
+            131.546875,
+            131.6640625
+          ]
+        },
+        "free_half": {
+          "median": 131.57421875,
+          "minimum": 131.546875,
+          "maximum": 131.6640625,
+          "values": [
+            131.57421875,
+            131.546875,
+            131.6640625
+          ]
+        },
+        "free_rest": {
+          "median": 131.57421875,
+          "minimum": 131.546875,
+          "maximum": 131.6640625,
+          "values": [
+            131.57421875,
+            131.546875,
+            131.6640625
+          ]
+        },
+        "idle_30": {
+          "median": 131.57421875,
+          "minimum": 131.546875,
+          "maximum": 131.6640625,
+          "values": [
+            131.57421875,
+            131.546875,
+            131.6640625
+          ]
+        },
+        "reallocate": {
+          "median": 163.296875,
+          "minimum": 163.26953125,
+          "maximum": 163.38671875,
+          "values": [
+            163.296875,
+            163.26953125,
+            163.38671875
+          ]
+        },
+        "rewrite": {
+          "median": 163.296875,
+          "minimum": 163.26953125,
+          "maximum": 163.38671875,
+          "values": [
+            163.296875,
+            163.26953125,
+            163.38671875
+          ]
+        }
+      },
+      "phase_ms": {
+        "allocate": {
+          "median": 77.561136,
+          "minimum": 75.0902,
+          "maximum": 78.009239,
+          "values": [
+            77.561136,
+            75.0902,
+            78.009239
+          ]
+        },
+        "write": {
+          "median": 9.113486,
+          "minimum": 9.076206,
+          "maximum": 9.797569,
+          "values": [
+            9.076206,
+            9.113486,
+            9.797569
+          ]
+        },
+        "free_half": {
+          "median": 0.545007,
+          "minimum": 0.466539,
+          "maximum": 0.564428,
+          "values": [
+            0.545007,
+            0.466539,
+            0.564428
+          ]
+        },
+        "free_rest": {
+          "median": 0.657699,
+          "minimum": 0.596653,
+          "maximum": 0.709222,
+          "values": [
+            0.596653,
+            0.709222,
+            0.657699
+          ]
+        },
+        "reallocate": {
+          "median": 20.869454,
+          "minimum": 19.968379,
+          "maximum": 22.653475,
+          "values": [
+            19.968379,
+            20.869454,
+            22.653475
+          ]
+        },
+        "rewrite": {
+          "median": 8.821163,
+          "minimum": 8.727867,
+          "maximum": 10.107059,
+          "values": [
+            8.821163,
+            10.107059,
+            8.727867
+          ]
+        }
+      }
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "runs": [
+        {
+          "order": 5,
+          "rss_mib": {
+            "baseline": 5.46875,
+            "allocate": 133.484375,
+            "write": 133.484375,
+            "free_half": 133.484375,
+            "free_rest": 133.484375,
+            "idle_30": 133.484375,
+            "reallocate": 132.984375,
+            "rewrite": 132.984375
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 130.0,
+            "write": 130.0,
+            "free_half": 130.0,
+            "free_rest": 130.0,
+            "idle_30": 130.0,
+            "reallocate": 128.0,
+            "rewrite": 128.0
+          },
+          "phase_ms": {
+            "allocate": 38.421582,
+            "write": 8.927597,
+            "free_half": 0.359694,
+            "free_rest": 0.406251,
+            "reallocate": 18.667034,
+            "rewrite": 8.6758
+          },
+          "phase_cpu_ms": {
+            "allocate": 37.957,
+            "write": 6.775,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 17.338,
+            "rewrite": 6.008
+          },
+          "phase_minor_faults": {
+            "allocate": 68,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.39453125,
+          "idle_actual_seconds": 30.000506188021973,
+          "first_use_ms": 47.349179,
+          "free_ms": 0.765945,
+          "reuse_ms": 27.342834,
+          "idle_retained_above_baseline_mib": 128.015625,
+          "reuse_rss_growth_mib": -0.5
+        },
+        {
+          "order": 12,
+          "rss_mib": {
+            "baseline": 5.37890625,
+            "allocate": 133.39453125,
+            "write": 133.39453125,
+            "free_half": 133.39453125,
+            "free_rest": 133.39453125,
+            "idle_30": 133.39453125,
+            "reallocate": 132.89453125,
+            "rewrite": 133.39453125
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 130.0,
+            "write": 130.0,
+            "free_half": 130.0,
+            "free_rest": 130.0,
+            "idle_30": 130.0,
+            "reallocate": 128.0,
+            "rewrite": 130.0
+          },
+          "phase_ms": {
+            "allocate": 39.515012,
+            "write": 9.297867,
+            "free_half": 0.309035,
+            "free_rest": 0.465145,
+            "reallocate": 17.768255,
+            "rewrite": 9.041363
+          },
+          "phase_cpu_ms": {
+            "allocate": 38.824,
+            "write": 6.613,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 17.183,
+            "rewrite": 6.78
+          },
+          "phase_minor_faults": {
+            "allocate": 68,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.26953125,
+          "idle_actual_seconds": 30.000523297989275,
+          "first_use_ms": 48.812879,
+          "free_ms": 0.77418,
+          "reuse_ms": 26.809618,
+          "idle_retained_above_baseline_mib": 128.015625,
+          "reuse_rss_growth_mib": 0.0
+        },
+        {
+          "order": 15,
+          "rss_mib": {
+            "baseline": 5.46875,
+            "allocate": 133.484375,
+            "write": 133.484375,
+            "free_half": 133.484375,
+            "free_rest": 133.484375,
+            "idle_30": 133.484375,
+            "reallocate": 132.984375,
+            "rewrite": 132.984375
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 130.0,
+            "write": 130.0,
+            "free_half": 130.0,
+            "free_rest": 130.0,
+            "idle_30": 130.0,
+            "reallocate": 128.0,
+            "rewrite": 128.0
+          },
+          "phase_ms": {
+            "allocate": 11.74245,
+            "write": 9.085984,
+            "free_half": 0.407744,
+            "free_rest": 0.463745,
+            "reallocate": 17.238067,
+            "rewrite": 8.240757
+          },
+          "phase_cpu_ms": {
+            "allocate": 7.983,
+            "write": 7.576,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 14.71,
+            "rewrite": 4.816
+          },
+          "phase_minor_faults": {
+            "allocate": 68,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.39453125,
+          "idle_actual_seconds": 30.000545292976312,
+          "first_use_ms": 20.828434,
+          "free_ms": 0.871489,
+          "reuse_ms": 25.478824,
+          "idle_retained_above_baseline_mib": 128.015625,
+          "reuse_rss_growth_mib": -0.5
+        }
+      ],
+      "first_use_ms": {
+        "median": 47.349179,
+        "minimum": 20.828434,
+        "maximum": 48.812879,
+        "values": [
+          47.349179,
+          48.812879,
+          20.828434
+        ]
+      },
+      "free_ms": {
+        "median": 0.77418,
+        "minimum": 0.765945,
+        "maximum": 0.871489,
+        "values": [
+          0.765945,
+          0.77418,
+          0.871489
+        ]
+      },
+      "reuse_ms": {
+        "median": 26.809618,
+        "minimum": 25.478824,
+        "maximum": 27.342834,
+        "values": [
+          27.342834,
+          26.809618,
+          25.478824
+        ]
+      },
+      "idle_retained_above_baseline_mib": {
+        "median": 128.015625,
+        "minimum": 128.015625,
+        "maximum": 128.015625,
+        "values": [
+          128.015625,
+          128.015625,
+          128.015625
+        ]
+      },
+      "reuse_rss_growth_mib": {
+        "median": -0.5,
+        "minimum": -0.5,
+        "maximum": 0.0,
+        "values": [
+          -0.5,
+          0.0,
+          -0.5
+        ]
+      },
+      "rss_mib": {
+        "baseline": {
+          "median": 5.46875,
+          "minimum": 5.37890625,
+          "maximum": 5.46875,
+          "values": [
+            5.46875,
+            5.37890625,
+            5.46875
+          ]
+        },
+        "allocate": {
+          "median": 133.484375,
+          "minimum": 133.39453125,
+          "maximum": 133.484375,
+          "values": [
+            133.484375,
+            133.39453125,
+            133.484375
+          ]
+        },
+        "write": {
+          "median": 133.484375,
+          "minimum": 133.39453125,
+          "maximum": 133.484375,
+          "values": [
+            133.484375,
+            133.39453125,
+            133.484375
+          ]
+        },
+        "free_half": {
+          "median": 133.484375,
+          "minimum": 133.39453125,
+          "maximum": 133.484375,
+          "values": [
+            133.484375,
+            133.39453125,
+            133.484375
+          ]
+        },
+        "free_rest": {
+          "median": 133.484375,
+          "minimum": 133.39453125,
+          "maximum": 133.484375,
+          "values": [
+            133.484375,
+            133.39453125,
+            133.484375
+          ]
+        },
+        "idle_30": {
+          "median": 133.484375,
+          "minimum": 133.39453125,
+          "maximum": 133.484375,
+          "values": [
+            133.484375,
+            133.39453125,
+            133.484375
+          ]
+        },
+        "reallocate": {
+          "median": 132.984375,
+          "minimum": 132.89453125,
+          "maximum": 132.984375,
+          "values": [
+            132.984375,
+            132.89453125,
+            132.984375
+          ]
+        },
+        "rewrite": {
+          "median": 132.984375,
+          "minimum": 132.984375,
+          "maximum": 133.39453125,
+          "values": [
+            132.984375,
+            133.39453125,
+            132.984375
+          ]
+        }
+      },
+      "phase_ms": {
+        "allocate": {
+          "median": 38.421582,
+          "minimum": 11.74245,
+          "maximum": 39.515012,
+          "values": [
+            38.421582,
+            39.515012,
+            11.74245
+          ]
+        },
+        "write": {
+          "median": 9.085984,
+          "minimum": 8.927597,
+          "maximum": 9.297867,
+          "values": [
+            8.927597,
+            9.297867,
+            9.085984
+          ]
+        },
+        "free_half": {
+          "median": 0.359694,
+          "minimum": 0.309035,
+          "maximum": 0.407744,
+          "values": [
+            0.359694,
+            0.309035,
+            0.407744
+          ]
+        },
+        "free_rest": {
+          "median": 0.463745,
+          "minimum": 0.406251,
+          "maximum": 0.465145,
+          "values": [
+            0.406251,
+            0.465145,
+            0.463745
+          ]
+        },
+        "reallocate": {
+          "median": 17.768255,
+          "minimum": 17.238067,
+          "maximum": 18.667034,
+          "values": [
+            18.667034,
+            17.768255,
+            17.238067
+          ]
+        },
+        "rewrite": {
+          "median": 8.6758,
+          "minimum": 8.240757,
+          "maximum": 9.041363,
+          "values": [
+            8.6758,
+            9.041363,
+            8.240757
+          ]
+        }
+      }
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "runs": [
+        {
+          "order": 3,
+          "rss_mib": {
+            "baseline": 5.453125,
+            "allocate": 143.46875,
+            "write": 143.46875,
+            "free_half": 143.46875,
+            "free_rest": 143.46875,
+            "idle_30": 143.46875,
+            "reallocate": 143.46875,
+            "rewrite": 143.46875
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 140.0,
+            "write": 140.0,
+            "free_half": 140.0,
+            "free_rest": 140.0,
+            "idle_30": 140.0,
+            "reallocate": 140.0,
+            "rewrite": 140.0
+          },
+          "phase_ms": {
+            "allocate": 13.949053,
+            "write": 8.639109,
+            "free_half": 0.452416,
+            "free_rest": 0.637677,
+            "reallocate": 15.656011,
+            "rewrite": 8.12037
+          },
+          "phase_cpu_ms": {
+            "allocate": 12.098,
+            "write": 5.514,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 12.789,
+            "rewrite": 4.501
+          },
+          "phase_minor_faults": {
+            "allocate": 73,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.40234375,
+          "idle_actual_seconds": 30.000481979979668,
+          "first_use_ms": 22.588162,
+          "free_ms": 1.090093,
+          "reuse_ms": 23.776381,
+          "idle_retained_above_baseline_mib": 138.015625,
+          "reuse_rss_growth_mib": 0.0
+        },
+        {
+          "order": 9,
+          "rss_mib": {
+            "baseline": 5.3984375,
+            "allocate": 143.4140625,
+            "write": 143.4140625,
+            "free_half": 143.4140625,
+            "free_rest": 143.4140625,
+            "idle_30": 143.4140625,
+            "reallocate": 143.4140625,
+            "rewrite": 143.4140625
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 140.0,
+            "write": 140.0,
+            "free_half": 140.0,
+            "free_rest": 140.0,
+            "idle_30": 140.0,
+            "reallocate": 140.0,
+            "rewrite": 140.0
+          },
+          "phase_ms": {
+            "allocate": 37.477064,
+            "write": 9.284829,
+            "free_half": 0.433892,
+            "free_rest": 0.563696,
+            "reallocate": 18.207137,
+            "rewrite": 9.476126
+          },
+          "phase_cpu_ms": {
+            "allocate": 36.372,
+            "write": 6.826,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 14.466,
+            "rewrite": 7.628
+          },
+          "phase_minor_faults": {
+            "allocate": 73,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.2734375,
+          "idle_actual_seconds": 30.00053800898604,
+          "first_use_ms": 46.761893,
+          "free_ms": 0.997588,
+          "reuse_ms": 27.683263,
+          "idle_retained_above_baseline_mib": 138.015625,
+          "reuse_rss_growth_mib": 0.0
+        },
+        {
+          "order": 17,
+          "rss_mib": {
+            "baseline": 5.47265625,
+            "allocate": 143.48828125,
+            "write": 143.48828125,
+            "free_half": 143.48828125,
+            "free_rest": 143.48828125,
+            "idle_30": 143.48828125,
+            "reallocate": 143.48828125,
+            "rewrite": 143.48828125
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 140.0,
+            "write": 140.0,
+            "free_half": 140.0,
+            "free_rest": 140.0,
+            "idle_30": 140.0,
+            "reallocate": 140.0,
+            "rewrite": 140.0
+          },
+          "phase_ms": {
+            "allocate": 45.067089,
+            "write": 9.382485,
+            "free_half": 0.504816,
+            "free_rest": 0.600992,
+            "reallocate": 15.125056,
+            "rewrite": 8.897482
+          },
+          "phase_cpu_ms": {
+            "allocate": 43.666,
+            "write": 5.992,
+            "free_half": 0.223,
+            "free_rest": 0.0,
+            "reallocate": 11.528,
+            "rewrite": 7.599
+          },
+          "phase_minor_faults": {
+            "allocate": 73,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.3984375,
+          "idle_actual_seconds": 30.0004951810115,
+          "first_use_ms": 54.449574,
+          "free_ms": 1.105808,
+          "reuse_ms": 24.022538,
+          "idle_retained_above_baseline_mib": 138.015625,
+          "reuse_rss_growth_mib": 0.0
+        }
+      ],
+      "first_use_ms": {
+        "median": 46.761893,
+        "minimum": 22.588162,
+        "maximum": 54.449574,
+        "values": [
+          22.588162,
+          46.761893,
+          54.449574
+        ]
+      },
+      "free_ms": {
+        "median": 1.090093,
+        "minimum": 0.997588,
+        "maximum": 1.105808,
+        "values": [
+          1.090093,
+          0.997588,
+          1.105808
+        ]
+      },
+      "reuse_ms": {
+        "median": 24.022538,
+        "minimum": 23.776381,
+        "maximum": 27.683263,
+        "values": [
+          23.776381,
+          27.683263,
+          24.022538
+        ]
+      },
+      "idle_retained_above_baseline_mib": {
+        "median": 138.015625,
+        "minimum": 138.015625,
+        "maximum": 138.015625,
+        "values": [
+          138.015625,
+          138.015625,
+          138.015625
+        ]
+      },
+      "reuse_rss_growth_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rss_mib": {
+        "baseline": {
+          "median": 5.453125,
+          "minimum": 5.3984375,
+          "maximum": 5.47265625,
+          "values": [
+            5.453125,
+            5.3984375,
+            5.47265625
+          ]
+        },
+        "allocate": {
+          "median": 143.46875,
+          "minimum": 143.4140625,
+          "maximum": 143.48828125,
+          "values": [
+            143.46875,
+            143.4140625,
+            143.48828125
+          ]
+        },
+        "write": {
+          "median": 143.46875,
+          "minimum": 143.4140625,
+          "maximum": 143.48828125,
+          "values": [
+            143.46875,
+            143.4140625,
+            143.48828125
+          ]
+        },
+        "free_half": {
+          "median": 143.46875,
+          "minimum": 143.4140625,
+          "maximum": 143.48828125,
+          "values": [
+            143.46875,
+            143.4140625,
+            143.48828125
+          ]
+        },
+        "free_rest": {
+          "median": 143.46875,
+          "minimum": 143.4140625,
+          "maximum": 143.48828125,
+          "values": [
+            143.46875,
+            143.4140625,
+            143.48828125
+          ]
+        },
+        "idle_30": {
+          "median": 143.46875,
+          "minimum": 143.4140625,
+          "maximum": 143.48828125,
+          "values": [
+            143.46875,
+            143.4140625,
+            143.48828125
+          ]
+        },
+        "reallocate": {
+          "median": 143.46875,
+          "minimum": 143.4140625,
+          "maximum": 143.48828125,
+          "values": [
+            143.46875,
+            143.4140625,
+            143.48828125
+          ]
+        },
+        "rewrite": {
+          "median": 143.46875,
+          "minimum": 143.4140625,
+          "maximum": 143.48828125,
+          "values": [
+            143.46875,
+            143.4140625,
+            143.48828125
+          ]
+        }
+      },
+      "phase_ms": {
+        "allocate": {
+          "median": 37.477064,
+          "minimum": 13.949053,
+          "maximum": 45.067089,
+          "values": [
+            13.949053,
+            37.477064,
+            45.067089
+          ]
+        },
+        "write": {
+          "median": 9.284829,
+          "minimum": 8.639109,
+          "maximum": 9.382485,
+          "values": [
+            8.639109,
+            9.284829,
+            9.382485
+          ]
+        },
+        "free_half": {
+          "median": 0.452416,
+          "minimum": 0.433892,
+          "maximum": 0.504816,
+          "values": [
+            0.452416,
+            0.433892,
+            0.504816
+          ]
+        },
+        "free_rest": {
+          "median": 0.600992,
+          "minimum": 0.563696,
+          "maximum": 0.637677,
+          "values": [
+            0.637677,
+            0.563696,
+            0.600992
+          ]
+        },
+        "reallocate": {
+          "median": 15.656011,
+          "minimum": 15.125056,
+          "maximum": 18.207137,
+          "values": [
+            15.656011,
+            18.207137,
+            15.125056
+          ]
+        },
+        "rewrite": {
+          "median": 8.897482,
+          "minimum": 8.12037,
+          "maximum": 9.476126,
+          "values": [
+            8.12037,
+            9.476126,
+            8.897482
+          ]
+        }
+      }
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "runs": [
+        {
+          "order": 1,
+          "rss_mib": {
+            "baseline": 3.4296875,
+            "allocate": 131.5859375,
+            "write": 131.5859375,
+            "free_half": 131.5859375,
+            "free_rest": 131.5859375,
+            "idle_30": 131.5859375,
+            "reallocate": 163.30859375,
+            "rewrite": 163.30859375
+          },
+          "anon_huge_mib": {
+            "baseline": 0.0,
+            "allocate": 0.0,
+            "write": 0.0,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "idle_30": 0.0,
+            "reallocate": 0.0,
+            "rewrite": 0.0
+          },
+          "phase_ms": {
+            "allocate": 77.156404,
+            "write": 9.233363,
+            "free_half": 0.557562,
+            "free_rest": 0.506476,
+            "reallocate": 24.229551,
+            "rewrite": 9.046565
+          },
+          "phase_cpu_ms": {
+            "allocate": 74.259,
+            "write": 6.366,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 20.694,
+            "rewrite": 8.73
+          },
+          "phase_minor_faults": {
+            "allocate": 32808,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 8121,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 163.125,
+          "idle_actual_seconds": 30.002307955990545,
+          "first_use_ms": 86.389767,
+          "free_ms": 1.064038,
+          "reuse_ms": 33.276116,
+          "idle_retained_above_baseline_mib": 128.15625,
+          "reuse_rss_growth_mib": 31.72265625
+        },
+        {
+          "order": 11,
+          "rss_mib": {
+            "baseline": 3.5,
+            "allocate": 131.65625,
+            "write": 131.65625,
+            "free_half": 131.65625,
+            "free_rest": 131.65625,
+            "idle_30": 131.65625,
+            "reallocate": 163.37890625,
+            "rewrite": 163.37890625
+          },
+          "anon_huge_mib": {
+            "baseline": 0.0,
+            "allocate": 0.0,
+            "write": 0.0,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "idle_30": 0.0,
+            "reallocate": 0.0,
+            "rewrite": 0.0
+          },
+          "phase_ms": {
+            "allocate": 83.731626,
+            "write": 9.808249,
+            "free_half": 0.495226,
+            "free_rest": 0.570752,
+            "reallocate": 22.631731,
+            "rewrite": 10.084918
+          },
+          "phase_cpu_ms": {
+            "allocate": 83.119,
+            "write": 8.848,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 19.843,
+            "rewrite": 6.968
+          },
+          "phase_minor_faults": {
+            "allocate": 32808,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 8121,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 163.125,
+          "idle_actual_seconds": 30.00187660800293,
+          "first_use_ms": 93.539875,
+          "free_ms": 1.065978,
+          "reuse_ms": 32.716649,
+          "idle_retained_above_baseline_mib": 128.15625,
+          "reuse_rss_growth_mib": 31.72265625
+        },
+        {
+          "order": 16,
+          "rss_mib": {
+            "baseline": 3.484375,
+            "allocate": 131.640625,
+            "write": 131.640625,
+            "free_half": 131.640625,
+            "free_rest": 131.640625,
+            "idle_30": 131.640625,
+            "reallocate": 163.36328125,
+            "rewrite": 163.36328125
+          },
+          "anon_huge_mib": {
+            "baseline": 0.0,
+            "allocate": 0.0,
+            "write": 0.0,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "idle_30": 0.0,
+            "reallocate": 0.0,
+            "rewrite": 0.0
+          },
+          "phase_ms": {
+            "allocate": 78.400437,
+            "write": 9.714619,
+            "free_half": 0.52359,
+            "free_rest": 0.5339,
+            "reallocate": 22.501636,
+            "rewrite": 9.68243
+          },
+          "phase_cpu_ms": {
+            "allocate": 74.762,
+            "write": 8.734,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 19.602,
+            "rewrite": 6.45
+          },
+          "phase_minor_faults": {
+            "allocate": 32808,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 8121,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 163.125,
+          "idle_actual_seconds": 30.004449518979527,
+          "first_use_ms": 88.115056,
+          "free_ms": 1.05749,
+          "reuse_ms": 32.184066,
+          "idle_retained_above_baseline_mib": 128.15625,
+          "reuse_rss_growth_mib": 31.72265625
+        }
+      ],
+      "first_use_ms": {
+        "median": 88.115056,
+        "minimum": 86.389767,
+        "maximum": 93.539875,
+        "values": [
+          86.389767,
+          93.539875,
+          88.115056
+        ]
+      },
+      "free_ms": {
+        "median": 1.064038,
+        "minimum": 1.05749,
+        "maximum": 1.065978,
+        "values": [
+          1.064038,
+          1.065978,
+          1.05749
+        ]
+      },
+      "reuse_ms": {
+        "median": 32.716649,
+        "minimum": 32.184066,
+        "maximum": 33.276116,
+        "values": [
+          33.276116,
+          32.716649,
+          32.184066
+        ]
+      },
+      "idle_retained_above_baseline_mib": {
+        "median": 128.15625,
+        "minimum": 128.15625,
+        "maximum": 128.15625,
+        "values": [
+          128.15625,
+          128.15625,
+          128.15625
+        ]
+      },
+      "reuse_rss_growth_mib": {
+        "median": 31.72265625,
+        "minimum": 31.72265625,
+        "maximum": 31.72265625,
+        "values": [
+          31.72265625,
+          31.72265625,
+          31.72265625
+        ]
+      },
+      "rss_mib": {
+        "baseline": {
+          "median": 3.484375,
+          "minimum": 3.4296875,
+          "maximum": 3.5,
+          "values": [
+            3.4296875,
+            3.5,
+            3.484375
+          ]
+        },
+        "allocate": {
+          "median": 131.640625,
+          "minimum": 131.5859375,
+          "maximum": 131.65625,
+          "values": [
+            131.5859375,
+            131.65625,
+            131.640625
+          ]
+        },
+        "write": {
+          "median": 131.640625,
+          "minimum": 131.5859375,
+          "maximum": 131.65625,
+          "values": [
+            131.5859375,
+            131.65625,
+            131.640625
+          ]
+        },
+        "free_half": {
+          "median": 131.640625,
+          "minimum": 131.5859375,
+          "maximum": 131.65625,
+          "values": [
+            131.5859375,
+            131.65625,
+            131.640625
+          ]
+        },
+        "free_rest": {
+          "median": 131.640625,
+          "minimum": 131.5859375,
+          "maximum": 131.65625,
+          "values": [
+            131.5859375,
+            131.65625,
+            131.640625
+          ]
+        },
+        "idle_30": {
+          "median": 131.640625,
+          "minimum": 131.5859375,
+          "maximum": 131.65625,
+          "values": [
+            131.5859375,
+            131.65625,
+            131.640625
+          ]
+        },
+        "reallocate": {
+          "median": 163.36328125,
+          "minimum": 163.30859375,
+          "maximum": 163.37890625,
+          "values": [
+            163.30859375,
+            163.37890625,
+            163.36328125
+          ]
+        },
+        "rewrite": {
+          "median": 163.36328125,
+          "minimum": 163.30859375,
+          "maximum": 163.37890625,
+          "values": [
+            163.30859375,
+            163.37890625,
+            163.36328125
+          ]
+        }
+      },
+      "phase_ms": {
+        "allocate": {
+          "median": 78.400437,
+          "minimum": 77.156404,
+          "maximum": 83.731626,
+          "values": [
+            77.156404,
+            83.731626,
+            78.400437
+          ]
+        },
+        "write": {
+          "median": 9.714619,
+          "minimum": 9.233363,
+          "maximum": 9.808249,
+          "values": [
+            9.233363,
+            9.808249,
+            9.714619
+          ]
+        },
+        "free_half": {
+          "median": 0.52359,
+          "minimum": 0.495226,
+          "maximum": 0.557562,
+          "values": [
+            0.557562,
+            0.495226,
+            0.52359
+          ]
+        },
+        "free_rest": {
+          "median": 0.5339,
+          "minimum": 0.506476,
+          "maximum": 0.570752,
+          "values": [
+            0.506476,
+            0.570752,
+            0.5339
+          ]
+        },
+        "reallocate": {
+          "median": 22.631731,
+          "minimum": 22.501636,
+          "maximum": 24.229551,
+          "values": [
+            24.229551,
+            22.631731,
+            22.501636
+          ]
+        },
+        "rewrite": {
+          "median": 9.68243,
+          "minimum": 9.046565,
+          "maximum": 10.084918,
+          "values": [
+            9.046565,
+            10.084918,
+            9.68243
+          ]
+        }
+      }
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "runs": [
+        {
+          "order": 2,
+          "rss_mib": {
+            "baseline": 5.41796875,
+            "allocate": 133.43359375,
+            "write": 133.43359375,
+            "free_half": 133.43359375,
+            "free_rest": 133.43359375,
+            "idle_30": 133.43359375,
+            "reallocate": 132.93359375,
+            "rewrite": 132.93359375
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 130.0,
+            "write": 130.0,
+            "free_half": 130.0,
+            "free_rest": 130.0,
+            "idle_30": 130.0,
+            "reallocate": 128.0,
+            "rewrite": 128.0
+          },
+          "phase_ms": {
+            "allocate": 34.107995,
+            "write": 8.149407,
+            "free_half": 0.473595,
+            "free_rest": 0.543685,
+            "reallocate": 17.494551,
+            "rewrite": 8.81016
+          },
+          "phase_cpu_ms": {
+            "allocate": 31.234,
+            "write": 4.479,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 13.78,
+            "rewrite": 7.653
+          },
+          "phase_minor_faults": {
+            "allocate": 68,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.3984375,
+          "idle_actual_seconds": 30.000513134000357,
+          "first_use_ms": 42.257402,
+          "free_ms": 1.01728,
+          "reuse_ms": 26.304711,
+          "idle_retained_above_baseline_mib": 128.015625,
+          "reuse_rss_growth_mib": -0.5
+        },
+        {
+          "order": 7,
+          "rss_mib": {
+            "baseline": 5.3828125,
+            "allocate": 133.3984375,
+            "write": 133.3984375,
+            "free_half": 133.3984375,
+            "free_rest": 133.3984375,
+            "idle_30": 133.3984375,
+            "reallocate": 132.8984375,
+            "rewrite": 132.8984375
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 130.0,
+            "write": 130.0,
+            "free_half": 130.0,
+            "free_rest": 130.0,
+            "idle_30": 130.0,
+            "reallocate": 128.0,
+            "rewrite": 128.0
+          },
+          "phase_ms": {
+            "allocate": 12.246528,
+            "write": 8.797312,
+            "free_half": 0.398237,
+            "free_rest": 0.470548,
+            "reallocate": 19.683923,
+            "rewrite": 8.309214
+          },
+          "phase_cpu_ms": {
+            "allocate": 9.98,
+            "write": 5.115,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 18.254,
+            "rewrite": 5.921
+          },
+          "phase_minor_faults": {
+            "allocate": 68,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.2734375,
+          "idle_actual_seconds": 30.000478269008454,
+          "first_use_ms": 21.04384,
+          "free_ms": 0.868785,
+          "reuse_ms": 27.993137,
+          "idle_retained_above_baseline_mib": 128.015625,
+          "reuse_rss_growth_mib": -0.5
+        },
+        {
+          "order": 13,
+          "rss_mib": {
+            "baseline": 5.33984375,
+            "allocate": 133.35546875,
+            "write": 133.35546875,
+            "free_half": 133.35546875,
+            "free_rest": 133.35546875,
+            "idle_30": 133.35546875,
+            "reallocate": 132.85546875,
+            "rewrite": 132.85546875
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 130.0,
+            "write": 130.0,
+            "free_half": 130.0,
+            "free_rest": 130.0,
+            "idle_30": 130.0,
+            "reallocate": 128.0,
+            "rewrite": 128.0
+          },
+          "phase_ms": {
+            "allocate": 12.229618,
+            "write": 8.848496,
+            "free_half": 0.401768,
+            "free_rest": 0.463336,
+            "reallocate": 17.056966,
+            "rewrite": 8.152452
+          },
+          "phase_cpu_ms": {
+            "allocate": 11.211,
+            "write": 6.393,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 14.073,
+            "rewrite": 8.183
+          },
+          "phase_minor_faults": {
+            "allocate": 68,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.1484375,
+          "idle_actual_seconds": 30.00050242501311,
+          "first_use_ms": 21.078114,
+          "free_ms": 0.865104,
+          "reuse_ms": 25.209418,
+          "idle_retained_above_baseline_mib": 128.015625,
+          "reuse_rss_growth_mib": -0.5
+        }
+      ],
+      "first_use_ms": {
+        "median": 21.078114,
+        "minimum": 21.04384,
+        "maximum": 42.257402,
+        "values": [
+          42.257402,
+          21.04384,
+          21.078114
+        ]
+      },
+      "free_ms": {
+        "median": 0.868785,
+        "minimum": 0.865104,
+        "maximum": 1.01728,
+        "values": [
+          1.01728,
+          0.868785,
+          0.865104
+        ]
+      },
+      "reuse_ms": {
+        "median": 26.304711,
+        "minimum": 25.209418,
+        "maximum": 27.993137,
+        "values": [
+          26.304711,
+          27.993137,
+          25.209418
+        ]
+      },
+      "idle_retained_above_baseline_mib": {
+        "median": 128.015625,
+        "minimum": 128.015625,
+        "maximum": 128.015625,
+        "values": [
+          128.015625,
+          128.015625,
+          128.015625
+        ]
+      },
+      "reuse_rss_growth_mib": {
+        "median": -0.5,
+        "minimum": -0.5,
+        "maximum": -0.5,
+        "values": [
+          -0.5,
+          -0.5,
+          -0.5
+        ]
+      },
+      "rss_mib": {
+        "baseline": {
+          "median": 5.3828125,
+          "minimum": 5.33984375,
+          "maximum": 5.41796875,
+          "values": [
+            5.41796875,
+            5.3828125,
+            5.33984375
+          ]
+        },
+        "allocate": {
+          "median": 133.3984375,
+          "minimum": 133.35546875,
+          "maximum": 133.43359375,
+          "values": [
+            133.43359375,
+            133.3984375,
+            133.35546875
+          ]
+        },
+        "write": {
+          "median": 133.3984375,
+          "minimum": 133.35546875,
+          "maximum": 133.43359375,
+          "values": [
+            133.43359375,
+            133.3984375,
+            133.35546875
+          ]
+        },
+        "free_half": {
+          "median": 133.3984375,
+          "minimum": 133.35546875,
+          "maximum": 133.43359375,
+          "values": [
+            133.43359375,
+            133.3984375,
+            133.35546875
+          ]
+        },
+        "free_rest": {
+          "median": 133.3984375,
+          "minimum": 133.35546875,
+          "maximum": 133.43359375,
+          "values": [
+            133.43359375,
+            133.3984375,
+            133.35546875
+          ]
+        },
+        "idle_30": {
+          "median": 133.3984375,
+          "minimum": 133.35546875,
+          "maximum": 133.43359375,
+          "values": [
+            133.43359375,
+            133.3984375,
+            133.35546875
+          ]
+        },
+        "reallocate": {
+          "median": 132.8984375,
+          "minimum": 132.85546875,
+          "maximum": 132.93359375,
+          "values": [
+            132.93359375,
+            132.8984375,
+            132.85546875
+          ]
+        },
+        "rewrite": {
+          "median": 132.8984375,
+          "minimum": 132.85546875,
+          "maximum": 132.93359375,
+          "values": [
+            132.93359375,
+            132.8984375,
+            132.85546875
+          ]
+        }
+      },
+      "phase_ms": {
+        "allocate": {
+          "median": 12.246528,
+          "minimum": 12.229618,
+          "maximum": 34.107995,
+          "values": [
+            34.107995,
+            12.246528,
+            12.229618
+          ]
+        },
+        "write": {
+          "median": 8.797312,
+          "minimum": 8.149407,
+          "maximum": 8.848496,
+          "values": [
+            8.149407,
+            8.797312,
+            8.848496
+          ]
+        },
+        "free_half": {
+          "median": 0.401768,
+          "minimum": 0.398237,
+          "maximum": 0.473595,
+          "values": [
+            0.473595,
+            0.398237,
+            0.401768
+          ]
+        },
+        "free_rest": {
+          "median": 0.470548,
+          "minimum": 0.463336,
+          "maximum": 0.543685,
+          "values": [
+            0.543685,
+            0.470548,
+            0.463336
+          ]
+        },
+        "reallocate": {
+          "median": 17.494551,
+          "minimum": 17.056966,
+          "maximum": 19.683923,
+          "values": [
+            17.494551,
+            19.683923,
+            17.056966
+          ]
+        },
+        "rewrite": {
+          "median": 8.309214,
+          "minimum": 8.152452,
+          "maximum": 8.81016,
+          "values": [
+            8.81016,
+            8.309214,
+            8.152452
+          ]
+        }
+      }
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "runs": [
+        {
+          "order": 6,
+          "rss_mib": {
+            "baseline": 5.38671875,
+            "allocate": 143.40234375,
+            "write": 143.40234375,
+            "free_half": 143.40234375,
+            "free_rest": 143.40234375,
+            "idle_30": 143.40234375,
+            "reallocate": 143.40234375,
+            "rewrite": 143.40234375
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 140.0,
+            "write": 140.0,
+            "free_half": 140.0,
+            "free_rest": 140.0,
+            "idle_30": 140.0,
+            "reallocate": 140.0,
+            "rewrite": 140.0
+          },
+          "phase_ms": {
+            "allocate": 13.031966,
+            "write": 8.973883,
+            "free_half": 0.698368,
+            "free_rest": 0.790932,
+            "reallocate": 17.799469,
+            "rewrite": 7.996491
+          },
+          "phase_cpu_ms": {
+            "allocate": 11.866,
+            "write": 6.24,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 15.454,
+            "rewrite": 5.472
+          },
+          "phase_minor_faults": {
+            "allocate": 73,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.2734375,
+          "idle_actual_seconds": 30.000428277009632,
+          "first_use_ms": 22.005849,
+          "free_ms": 1.4893,
+          "reuse_ms": 25.79596,
+          "idle_retained_above_baseline_mib": 138.015625,
+          "reuse_rss_growth_mib": 0.0
+        },
+        {
+          "order": 10,
+          "rss_mib": {
+            "baseline": 5.46875,
+            "allocate": 143.484375,
+            "write": 143.484375,
+            "free_half": 143.484375,
+            "free_rest": 143.484375,
+            "idle_30": 143.484375,
+            "reallocate": 143.484375,
+            "rewrite": 143.484375
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 140.0,
+            "write": 140.0,
+            "free_half": 140.0,
+            "free_rest": 140.0,
+            "idle_30": 140.0,
+            "reallocate": 140.0,
+            "rewrite": 140.0
+          },
+          "phase_ms": {
+            "allocate": 14.416185,
+            "write": 8.564987,
+            "free_half": 0.725067,
+            "free_rest": 0.838137,
+            "reallocate": 22.055329,
+            "rewrite": 9.074717
+          },
+          "phase_cpu_ms": {
+            "allocate": 13.433,
+            "write": 6.445,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 20.625,
+            "rewrite": 5.955
+          },
+          "phase_minor_faults": {
+            "allocate": 73,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.40234375,
+          "idle_actual_seconds": 30.000469358987175,
+          "first_use_ms": 22.981172,
+          "free_ms": 1.563204,
+          "reuse_ms": 31.130046,
+          "idle_retained_above_baseline_mib": 138.015625,
+          "reuse_rss_growth_mib": 0.0
+        },
+        {
+          "order": 14,
+          "rss_mib": {
+            "baseline": 5.40234375,
+            "allocate": 143.41796875,
+            "write": 143.41796875,
+            "free_half": 143.41796875,
+            "free_rest": 143.41796875,
+            "idle_30": 143.41796875,
+            "reallocate": 143.41796875,
+            "rewrite": 143.41796875
+          },
+          "anon_huge_mib": {
+            "baseline": 2.0,
+            "allocate": 140.0,
+            "write": 140.0,
+            "free_half": 140.0,
+            "free_rest": 140.0,
+            "idle_30": 140.0,
+            "reallocate": 140.0,
+            "rewrite": 140.0
+          },
+          "phase_ms": {
+            "allocate": 12.336665,
+            "write": 8.721476,
+            "free_half": 0.653944,
+            "free_rest": 0.866224,
+            "reallocate": 17.063975,
+            "rewrite": 8.828523
+          },
+          "phase_cpu_ms": {
+            "allocate": 10.634,
+            "write": 5.677,
+            "free_half": 0.0,
+            "free_rest": 0.0,
+            "reallocate": 14.359,
+            "rewrite": 8.697
+          },
+          "phase_minor_faults": {
+            "allocate": 73,
+            "write": 0,
+            "free_half": 0,
+            "free_rest": 0,
+            "reallocate": 63,
+            "rewrite": 0
+          },
+          "process_hwm_mib": 161.27734375,
+          "idle_actual_seconds": 30.000591706018895,
+          "first_use_ms": 21.058141,
+          "free_ms": 1.520168,
+          "reuse_ms": 25.892498,
+          "idle_retained_above_baseline_mib": 138.015625,
+          "reuse_rss_growth_mib": 0.0
+        }
+      ],
+      "first_use_ms": {
+        "median": 22.005849,
+        "minimum": 21.058141,
+        "maximum": 22.981172,
+        "values": [
+          22.005849,
+          22.981172,
+          21.058141
+        ]
+      },
+      "free_ms": {
+        "median": 1.520168,
+        "minimum": 1.4893,
+        "maximum": 1.563204,
+        "values": [
+          1.4893,
+          1.563204,
+          1.520168
+        ]
+      },
+      "reuse_ms": {
+        "median": 25.892498,
+        "minimum": 25.79596,
+        "maximum": 31.130046,
+        "values": [
+          25.79596,
+          31.130046,
+          25.892498
+        ]
+      },
+      "idle_retained_above_baseline_mib": {
+        "median": 138.015625,
+        "minimum": 138.015625,
+        "maximum": 138.015625,
+        "values": [
+          138.015625,
+          138.015625,
+          138.015625
+        ]
+      },
+      "reuse_rss_growth_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rss_mib": {
+        "baseline": {
+          "median": 5.40234375,
+          "minimum": 5.38671875,
+          "maximum": 5.46875,
+          "values": [
+            5.38671875,
+            5.46875,
+            5.40234375
+          ]
+        },
+        "allocate": {
+          "median": 143.41796875,
+          "minimum": 143.40234375,
+          "maximum": 143.484375,
+          "values": [
+            143.40234375,
+            143.484375,
+            143.41796875
+          ]
+        },
+        "write": {
+          "median": 143.41796875,
+          "minimum": 143.40234375,
+          "maximum": 143.484375,
+          "values": [
+            143.40234375,
+            143.484375,
+            143.41796875
+          ]
+        },
+        "free_half": {
+          "median": 143.41796875,
+          "minimum": 143.40234375,
+          "maximum": 143.484375,
+          "values": [
+            143.40234375,
+            143.484375,
+            143.41796875
+          ]
+        },
+        "free_rest": {
+          "median": 143.41796875,
+          "minimum": 143.40234375,
+          "maximum": 143.484375,
+          "values": [
+            143.40234375,
+            143.484375,
+            143.41796875
+          ]
+        },
+        "idle_30": {
+          "median": 143.41796875,
+          "minimum": 143.40234375,
+          "maximum": 143.484375,
+          "values": [
+            143.40234375,
+            143.484375,
+            143.41796875
+          ]
+        },
+        "reallocate": {
+          "median": 143.41796875,
+          "minimum": 143.40234375,
+          "maximum": 143.484375,
+          "values": [
+            143.40234375,
+            143.484375,
+            143.41796875
+          ]
+        },
+        "rewrite": {
+          "median": 143.41796875,
+          "minimum": 143.40234375,
+          "maximum": 143.484375,
+          "values": [
+            143.40234375,
+            143.484375,
+            143.41796875
+          ]
+        }
+      },
+      "phase_ms": {
+        "allocate": {
+          "median": 13.031966,
+          "minimum": 12.336665,
+          "maximum": 14.416185,
+          "values": [
+            13.031966,
+            14.416185,
+            12.336665
+          ]
+        },
+        "write": {
+          "median": 8.721476,
+          "minimum": 8.564987,
+          "maximum": 8.973883,
+          "values": [
+            8.973883,
+            8.564987,
+            8.721476
+          ]
+        },
+        "free_half": {
+          "median": 0.698368,
+          "minimum": 0.653944,
+          "maximum": 0.725067,
+          "values": [
+            0.698368,
+            0.725067,
+            0.653944
+          ]
+        },
+        "free_rest": {
+          "median": 0.838137,
+          "minimum": 0.790932,
+          "maximum": 0.866224,
+          "values": [
+            0.790932,
+            0.838137,
+            0.866224
+          ]
+        },
+        "reallocate": {
+          "median": 17.799469,
+          "minimum": 17.063975,
+          "maximum": 22.055329,
+          "values": [
+            17.799469,
+            22.055329,
+            17.063975
+          ]
+        },
+        "rewrite": {
+          "median": 8.828523,
+          "minimum": 7.996491,
+          "maximum": 9.074717,
+          "values": [
+            7.996491,
+            9.074717,
+            8.828523
+          ]
+        }
+      }
+    }
+  ],
+  "cpu_time_note": "RUSAGE_THREAD returned zero for short free phases; these values are resolution-limited, not zero cost.",
+  "interpretation": "Three independent runs; descriptive median and full range; no equivalence or superiority test"
+}

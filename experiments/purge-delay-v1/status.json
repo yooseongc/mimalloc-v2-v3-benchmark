@@ -1,0 +1,12 @@
+{
+  "status": "Complete",
+  "counts": {
+    "defaults": 4,
+    "smoke": 8,
+    "measured": 24
+  },
+  "invalid": 0,
+  "excluded": 0,
+  "frozen_hashes_verified": true,
+  "premeasurement_failure": "Initial common-binary compile rejected misleading indentation. Braces added before freeze; no observation process ran in that failed preparation."
+}

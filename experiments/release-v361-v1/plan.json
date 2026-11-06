@@ -1,0 +1,1212 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-10-31T01:16:26.064748+00:00",
+  "seed": 20261031,
+  "hashes": {
+    "docs/v361-plan.md": "795fbfb939c1c55907d1628fd5bafc1c12bd65486b9a841368c618277549f983",
+    "observation/release_v361.py": "cb7e8c9d8cf118ccd07de926abf9ce552f2ece942f0047a6e728229f1f7f8513",
+    "observation/run.py": "1ea9ed28aa600b17ba8648e6f7c5ceb0e97aa2203914df04e59abda029618a0f",
+    "observation/run_concurrent.py": "17a997afbcbe02131bdbe5ba3cf571bab5912b86654ccf95907d0d3f187293b6",
+    "observation/lifecycle.cpp": "3904aced80d9b529e815b721b276912852ae73177d9cfb770cee0d0f7c3aaf52",
+    "observation/concurrent.cpp": "7839df70f6d31cc1234a2dc10e660484517e29beebddb2b4f90557eeb2beae07",
+    "experiments/release-v361-v1/lifecycle/artifacts.json": "1639cb05fcdd7fa0c46a3b9b7b54add77cdd1649ed0e22f67a73a1165c81e1ff",
+    "experiments/release-v361-v1/concurrent/artifacts.json": "67a14f1da59cad091fbf7908721970478e9ba27f3bdcad236fe0ed24a6101e7c"
+  },
+  "pilot_hashes": {
+    "results/release-v361-v1/concurrent/pilot/000.json": "4dbe5ed8f8a273c54fe7ad6488acdb54df43eff25b44eb2881a35238602113a6",
+    "results/release-v361-v1/concurrent/pilot/001.json": "7546345993c588dfb996ab0ac474d9bb9bde2f1764dcd384bd4585e77d847521",
+    "results/release-v361-v1/concurrent/pilot/002.json": "5ba8ad7e54b37ede1ced2f3ab8469625561a9e764cfea751be9e672c352dad4f",
+    "results/release-v361-v1/concurrent/pilot/003.json": "2ac7c9d6a5ef36c5f80e4b43ca81055bbbbe5e6a05761a73047c04dbf207900b",
+    "results/release-v361-v1/concurrent/pilot/004.json": "8c43ca16e9a96585cba21dfba16a10b648d460b1bd4898e5adc44a4904d02db0",
+    "results/release-v361-v1/concurrent/pilot/005.json": "5e65c37238f5d72916bdafaba4e31d3d1c68d57bb5c770614a13cbaba44d7bd3",
+    "results/release-v361-v1/concurrent/pilot/006.json": "192286443e5b8d319bf4db36a5cc238f8af3eee8baa4b80722256b22ab592729",
+    "results/release-v361-v1/concurrent/pilot/007.json": "58f30f848ec924b28f7e06c11cf5aeb5e2a499fc3eae4706db50c53943a42591",
+    "results/release-v361-v1/concurrent/pilot/008.json": "0ed94654f6ed0602ca05ea98169f003e525a2fefc2e4f588267c7d7b2a9caeac",
+    "results/release-v361-v1/concurrent/pilot/009.json": "d38c94442e1a79c9484beee5a9d3cd4bbd5feee8dfebd8478fe00a7d2b4bd23b",
+    "results/release-v361-v1/concurrent/pilot/010.json": "e5b4180cb958af8ac3691b0ef5dc061dfaa61abbc4d5bc75c6c1af680f1c746c",
+    "results/release-v361-v1/concurrent/pilot/011.json": "441b21420692703e515e6dc6be087af5146fe0a6fb41d9fc408a10e6fec6940d",
+    "results/release-v361-v1/concurrent/pilot/012.json": "04256262e8c584d4e97d6beeb538de03659c2bfe5643d95b54f11188643830d9",
+    "results/release-v361-v1/concurrent/pilot/013.json": "70c09d631f8faa5615eeb2774d374ff644a9a91fa9c2c0e30a7f8b3e1e6e1b58",
+    "results/release-v361-v1/concurrent/pilot/014.json": "240de398d405ed17cc17f83032af9685875a121c068d42681427f5ef2d111c81",
+    "results/release-v361-v1/concurrent/pilot/015.json": "554f99c0532712af370e57a6631bc222805c42d6de6ca9f2f0dca156f01148b2",
+    "results/release-v361-v1/concurrent/pilot/016.json": "765e1164d79484a55090813863c781645ab7ec0f67f69457f0a5c95bf67f9b37",
+    "results/release-v361-v1/concurrent/pilot/017.json": "d8da5414a8d930f2ab7be97c1772f50ace80f318c9cc444e15835d80a9d21d0a",
+    "results/release-v361-v1/concurrent/pilot/018.json": "0db75b9ae67606323879677f2ee6d9f1fc37edfc139aa9b0a6ba748aefdc1267",
+    "results/release-v361-v1/concurrent/pilot/019.json": "085c8179cd078b9f7681f7b73e46811f2e68a2d9ac2c174a65fd7abd79b27a2f",
+    "results/release-v361-v1/concurrent/pilot/020.json": "97de3ce4f674d78382f3848e5a0e99bb34868e1169afedb924f164f9dfccfd36",
+    "results/release-v361-v1/concurrent/pilot/021.json": "08c07c770c66de6e3fd56ab4775dcb9e7fb3cd93613cdca441a1bbf84215a797",
+    "results/release-v361-v1/concurrent/pilot/022.json": "7de939559e229834053cd9b318152ec017fbb9511088419ffb36d070121889ba",
+    "results/release-v361-v1/concurrent/pilot/023.json": "205363be94f146026d949c6f693d7f4935e0258fd20ef5c818b78e6c03595b92",
+    "results/release-v361-v1/concurrent/pilot/024.json": "e8d5e554e8c56ca84a70d0603e816a2331b70dcd5986d9063d300b4d55fe169f",
+    "results/release-v361-v1/concurrent/pilot/025.json": "19829ae93df579d7ea1927791a227bcd1794f3ae343c280cf5f0dd9a51becdba",
+    "results/release-v361-v1/concurrent/pilot/026.json": "decb67972c7c0994372875ad60233a5d2fa807782c2962bdb71ec9460827a099",
+    "results/release-v361-v1/concurrent/pilot/027.json": "c5b1efc78439ad993611a98878c52130371bfaa53bd1591ba8cb4fceee2210ac",
+    "results/release-v361-v1/concurrent/pilot/028.json": "59551eb208f10d35284cfd1dc0d12a4289c758e63b31de915ba887d352abed3d",
+    "results/release-v361-v1/concurrent/pilot/029.json": "68f90ee2f2df9d5ec1ef4aa460a719f8a46ad64be3b6821b5f7700ea35a02b13",
+    "results/release-v361-v1/concurrent/pilot/030.json": "c628045c7fa407d16a0b09079e610c107c3b9f2d086e4737a509f618bb441146",
+    "results/release-v361-v1/concurrent/pilot/031.json": "8690f338b7907bb6cca2b6ca2a38cb0c7b04795d52759d7761c8645e09cc1bf8",
+    "results/release-v361-v1/concurrent/pilot/032.json": "757d9ad8ce024391ebf4def411a9131d4d2f26edbc279d84184f715d65077fb3",
+    "results/release-v361-v1/concurrent/pilot/033.json": "298d1243aec3a866f02138f16dc261d5dc32defbbfaf8a5a39c80e1d776a789e",
+    "results/release-v361-v1/concurrent/pilot/034.json": "e60dfdcecaf1ef15bfe633abb555ff26f8a38a4e63f8f273c8fed8afa947ca3a"
+  },
+  "counts": {
+    "(64, 134217728, 1)": 303888384,
+    "(64, 134217728, 2)": 502333952,
+    "(1024, 134217728, 1)": 105156096,
+    "(1024, 134217728, 2)": 158757888,
+    "(4096, 134217728, 1)": 39235072,
+    "(4096, 134217728, 2)": 63903744,
+    "(4096, 536870912, 2)": 54106112
+  },
+  "concurrent": [
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 303888384,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 502333952,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 105156096,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 39235072,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 63903744,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 54106112,
+      "retained": false,
+      "rep": 2
+    }
+  ],
+  "lifecycle": [
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 2
+    }
+  ],
+  "collect": [
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "intervention": "collect_force"
+    }
+  ]
+}

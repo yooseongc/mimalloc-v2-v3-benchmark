@@ -1,0 +1,252 @@
+{
+  "frozen_at": "2026-09-21T10:32:11.680877+00:00",
+  "draft_plan_sha256": "972c5f4a75195613167ddd13914e6179072c9c25eb0e1880bfd063a888dbe720",
+  "estimated_measured_minutes": 97.85105034464604,
+  "cells": [
+    {
+      "block_id": "core-local-fixed-t8",
+      "pilot": {
+        "v2.1.2": {
+          "elapsed_seconds": [
+            14.491084323,
+            14.733331407,
+            14.24389685
+          ],
+          "median_seconds": 14.491084323,
+          "throughput_cv": 0.01689493181823748
+        },
+        "v3.5.0": {
+          "elapsed_seconds": [
+            14.104598197,
+            14.356021791,
+            14.270823641
+          ],
+          "median_seconds": 14.270823641,
+          "throughput_cv": 0.009001909051632576
+        },
+        "v3.5.3": {
+          "elapsed_seconds": [
+            14.481316263,
+            14.756420187,
+            14.056382197
+          ],
+          "median_seconds": 14.481316263,
+          "throughput_cv": 0.024569825137286123
+        }
+      },
+      "pilot_operation_count": 1000000000,
+      "operation_count": 700730432,
+      "repetitions": 15
+    },
+    {
+      "block_id": "core-local-mixed-wide-t1",
+      "pilot": {
+        "v2.1.2": {
+          "elapsed_seconds": [
+            16.777626621,
+            16.116950812,
+            17.225180062
+          ],
+          "median_seconds": 16.777626621,
+          "throughput_cv": 0.03359862047260697
+        },
+        "v3.5.0": {
+          "elapsed_seconds": [
+            16.762554693,
+            16.677673118,
+            17.083810203
+          ],
+          "median_seconds": 16.762554693,
+          "throughput_cv": 0.012643857268895222
+        },
+        "v3.5.3": {
+          "elapsed_seconds": [
+            16.552415681,
+            16.66534879,
+            16.617185008
+          ],
+          "median_seconds": 16.617185008,
+          "throughput_cv": 0.003413149112275306
+        }
+      },
+      "pilot_operation_count": 200000000,
+      "operation_count": 120357344,
+      "repetitions": 15
+    },
+    {
+      "block_id": "core-local-mixed-wide-t8",
+      "pilot": {
+        "v2.1.2": {
+          "elapsed_seconds": [
+            14.250204313,
+            15.009741636,
+            14.069789082
+          ],
+          "median_seconds": 14.250204313,
+          "throughput_cv": 0.03396357351477348
+        },
+        "v3.5.0": {
+          "elapsed_seconds": [
+            14.423788443,
+            14.534851545,
+            14.002935569
+          ],
+          "median_seconds": 14.423788443,
+          "throughput_cv": 0.019779753078190472
+        },
+        "v3.5.3": {
+          "elapsed_seconds": [
+            14.736923967,
+            14.521761685,
+            15.608891046
+          ],
+          "median_seconds": 14.736923967,
+          "throughput_cv": 0.03779065898537339
+        }
+      },
+      "pilot_operation_count": 1047000000,
+      "operation_count": 734726336,
+      "repetitions": 15
+    },
+    {
+      "block_id": "core-remote-fixed-4x4",
+      "pilot": {
+        "v2.1.2": {
+          "elapsed_seconds": [
+            19.360973814,
+            21.34125288,
+            21.283354542
+          ],
+          "median_seconds": 21.283354542,
+          "throughput_cv": 0.05631214337323226
+        },
+        "v3.5.0": {
+          "elapsed_seconds": [
+            19.856074493,
+            19.746612311,
+            19.795553086
+          ],
+          "median_seconds": 19.795553086,
+          "throughput_cv": 0.0027686348638726642
+        },
+        "v3.5.3": {
+          "elapsed_seconds": [
+            21.367877015,
+            19.146066556,
+            21.043079001
+          ],
+          "median_seconds": 21.043079001,
+          "throughput_cv": 0.06037155154687077
+        }
+      },
+      "pilot_operation_count": 100000000,
+      "operation_count": 50516416,
+      "repetitions": 15
+    },
+    {
+      "block_id": "core-remote-mixed-wide-4x4",
+      "pilot": {
+        "v2.1.2": {
+          "elapsed_seconds": [
+            15.427372284,
+            15.689762907,
+            17.995669926
+          ],
+          "median_seconds": 15.689762907,
+          "throughput_cv": 0.0823989470526063
+        },
+        "v3.5.0": {
+          "elapsed_seconds": [
+            16.648065228,
+            20.595087499,
+            19.693248445
+          ],
+          "median_seconds": 19.693248445,
+          "throughput_cv": 0.11492703464390909
+        },
+        "v3.5.3": {
+          "elapsed_seconds": [
+            18.758071524,
+            16.872493612,
+            20.343569833
+          ],
+          "median_seconds": 18.758071524,
+          "throughput_cv": 0.09428358990009822
+        }
+      },
+      "pilot_operation_count": 100000000,
+      "operation_count": 63735840,
+      "repetitions": 30
+    },
+    {
+      "block_id": "latency-isolated-allocator",
+      "pilot": {
+        "v2.1.2": {
+          "elapsed_seconds": [
+            16.61677837,
+            17.348167808,
+            16.977056969
+          ],
+          "median_seconds": 16.977056969,
+          "throughput_cv": 0.02153485703291006
+        },
+        "v3.5.0": {
+          "elapsed_seconds": [
+            15.897727062,
+            16.949673266,
+            16.274189837
+          ],
+          "median_seconds": 16.274189837,
+          "throughput_cv": 0.03228152433893595
+        },
+        "v3.5.3": {
+          "elapsed_seconds": [
+            16.66683159,
+            15.883446569,
+            15.938888504
+          ],
+          "median_seconds": 15.938888504,
+          "throughput_cv": 0.026638918707992024
+        }
+      },
+      "pilot_operation_count": 69113376,
+      "operation_count": 43361504,
+      "repetitions": 15
+    },
+    {
+      "block_id": "latency-isolated-service",
+      "pilot": {
+        "v2.1.2": {
+          "elapsed_seconds": [
+            32.424074454,
+            32.119545048,
+            31.228925402
+          ],
+          "median_seconds": 32.119545048,
+          "throughput_cv": 0.019618283970150318
+        },
+        "v3.5.0": {
+          "elapsed_seconds": [
+            29.115516898,
+            29.384095752,
+            29.542571851
+          ],
+          "median_seconds": 29.384095752,
+          "throughput_cv": 0.007369608283411651
+        },
+        "v3.5.3": {
+          "elapsed_seconds": [
+            28.583363389,
+            30.8500944,
+            30.165717913
+          ],
+          "median_seconds": 30.165717913,
+          "throughput_cv": 0.03950007401711468
+        }
+      },
+      "pilot_operation_count": 69113376,
+      "operation_count": 23520704,
+      "repetitions": 15
+    }
+  ]
+}

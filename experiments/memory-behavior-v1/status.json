@@ -1,0 +1,6 @@
+{
+  "execution_status": "Complete",
+  "baseline_flows": 18,
+  "collection_probes": 6,
+  "report": "docs/memory-behavior-report.md"
+}

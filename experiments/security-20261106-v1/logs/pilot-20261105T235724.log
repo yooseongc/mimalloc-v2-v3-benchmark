@@ -1,0 +1,24 @@
+local pilot 1 12 OFF 64 0.058
+local pilot 2 12 MINIMAL 64 0.055
+local pilot 3 12 CHECKED 64 0.117
+local pilot 4 12 ON 64 0.359
+local pilot 5 12 FULL 64 0.201
+local pilot 6 12 CHECKED_PAC_WEAK 64 0.092
+local pilot 7 12 OFF 4096 0.439
+local pilot 8 12 MINIMAL 4096 0.379
+local pilot 9 12 CHECKED 4096 0.45
+local pilot 10 12 ON 4096 1.088
+local pilot 11 12 FULL 4096 8.466
+local pilot 12 12 CHECKED_PAC_WEAK 4096 0.468
+pilot 1/12 OFF 64B 128MiB 2pairs retained=False 0.111s
+pilot 2/12 MINIMAL 64B 128MiB 2pairs retained=False 0.116s
+pilot 3/12 CHECKED 64B 128MiB 2pairs retained=False 0.236s
+pilot 4/12 ON 64B 128MiB 2pairs retained=False 0.354s
+pilot 5/12 FULL 64B 128MiB 2pairs retained=False 0.397s
+pilot 6/12 CHECKED_PAC_WEAK 64B 128MiB 2pairs retained=False 0.238s
+pilot 7/12 OFF 4096B 128MiB 2pairs retained=False 0.026s
+pilot 8/12 MINIMAL 4096B 128MiB 2pairs retained=False 0.018s
+pilot 9/12 CHECKED 4096B 128MiB 2pairs retained=False 0.018s
+pilot 10/12 ON 4096B 128MiB 2pairs retained=False 0.073s
+pilot 11/12 FULL 4096B 128MiB 2pairs retained=False 0.407s
+pilot 12/12 CHECKED_PAC_WEAK 4096B 128MiB 2pairs retained=False 0.019s

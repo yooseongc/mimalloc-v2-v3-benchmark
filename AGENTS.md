@@ -1,6 +1,65 @@
 프로젝트 루트의 `AGENTS.md`로 바로 사용할 수 있는 형태입니다. Codex는 저장소 루트부터 현재 작업 디렉터리까지의 `AGENTS.md`를 계층적으로 읽으며, 기본 합산 한도는 32KiB입니다.
 
-## 0. Active r27 scope override
+## 0. Active memory-behavior planning override (2026-09-21)
+
+2026-11-06 보안 모드 후속은 `docs/security-20261106-plan.md`, `security-20261106-v1`을 따른다.
+고정 dev3 d6716d33 내부에서 OFF/MINIMAL/CHECKED/ON/FULL 및 CHECKED+PAC=WEAK의
+처리 비용과 RSS를 비교한다. 기존 동결 소스·실행기·결과는 변경하지 않는다.
+하드웨어 MTE/PAC 및 방어 효과 평가는 포함하지 않는다.
+
+2026-11-06 사용자가 dev3 변경의 직접 측정과 설계 선택을 승인했다.
+현재 후속은 `docs/dev3-20261106-plan.md`, `dev3-20261106-v1`을 따른다.
+v3.6.1과 dev3 snapshot `d6716d33671c2f621b87be3c7ac016c6ba6b3c94`를
+새로 빌드하여 remote-free, 메모리 수명, 스레드 생성/종료를 비교한다.
+기존 모든 버전·결과는 보존하며 이번 결과와 합치지 않는다. 동결 실행 계약은
+`experiments/dev3-20261106-v1/plan.json`이며 기존 활성 observation 코드를 재사용하고
+새 스레드 수명 진단을 추가한다. retired harness는 사용하지 않는다.
+
+2026-10-31 v3.6.1 후속은 `docs/v361-plan.md`, `release-v361-v1`을 따른다.
+기존 네 버전에 v3.6.1 (`56dc5eb80145f9a3ba7ca23d47c6a248b9d8586c`)을 추가하고
+다섯 버전을 현재 환경에서 다시 비교한다. purge-delay-v361-v1 및
+allocation-size-v361-v1도 별도 namespace로 실행한다. 기존 동결 결과는 보존한다.
+
+2026-10-24 할당 크기 확대 후속은 `docs/allocation-size-plan.md`, `allocation-size-v1`을
+따른다. 네 버전에서 4/16/64/256 KiB, 2쌍, 128 MiB 상한, 256 KiB 인계 배치,
+동일 총 처리 바이트를 비교한다. 기존 동결 자료와 결과는 보존한다.
+
+2026-10-24 purge 대기시간 후속은 `docs/purge-delay-plan.md`, `purge-delay-v1`을 따른다.
+v2.1.2/v3.5.0/v3.5.3/v3.6.0에 delay 10/1000 ms, arena_purge_mult=1을 적용한다.
+기존 동결 자료를 보존하고 별도 결과 namespace에서 비교한다.
+
+2026-10-24 후속 지시에 따라 v3.6.0을 추가한 현재 비교는
+`docs/v360-plan.md` 및 `release-v360-v1`을 따른다. v2.1.2/v3.5.0/v3.5.3을
+모두 유지하며 네 버전을 현재 환경에서 다시 실행한다. v3.6.0 commit은
+`b18ab4eef383f655e760881b02eff8af02800879`다. 기존 질문 중심의 관찰 프로그램과
+동결 자료는 보존하고 새 결과 namespace에 빌드·계획·측정을 분리한다.
+
+사용자가 기존 작업 전량 폐기와 질문 중심의 재계획을 명시적으로 요청했다.
+현재 목적은 (1) 버전별 처리 비용과 메모리 사용·반환 패턴,
+(2) 동일 스레드 해제와 다른 스레드 해제의 차이를 이해하는 것이다.
+활성 계획은 `docs/memory-behavior-plan.md`, 식별자는 `memory-behavior-v1`이다.
+2026-09-22 후속 규모 확대는 `docs/concurrency-plan.md` 및 `concurrency-v1`을 따른다.
+사용자 지시에 따라 v2.1.2, v3.5.0, v3.5.3 모두를 유지한다.
+사용자의 후속 "해봐요" 지시로 새 구현·검증·관찰·분석 실행이 승인되었다.
+실제 설계·실행 상태는 활성 plan.json과 보고서를 따른다.
+
+이 절 이전의 모든 실험 계획·하네스·결과·결론은 현재 작업에서 폐기한다.
+파일은 복구 기록으로 남기지만 새 구현과 판단 근거로 재사용하지 않는다.
+이하의 대규모 matrix, 필수 시나리오, 15/30회 반복, 과거 완료 조건은
+과거 작업에만 적용한다. 새 계획과 충돌할 때 이 절과 새 계획이 우선한다.
+검증하지 않은 수치를 만들지 않고, 관찰과 원인 추정을 구분한다.
+기존 하네스를 수정해 재실행하는 대신 질문에 맞는 작은 프로그램을 새로 설계한다.
+폐기 범위는 `legacy/retired-2026-09-21/README.md`에 기록한다.
+
+### Retired r29 scope override
+
+2026-09-21 사용자 요청에 따라 새 비교 대상은 v2.1.2, v3.5.0,
+v3.5.3 (`d4881d338125e1cb7c47ba4cfb398d6f7c0c8d45`)이다.
+활성 계약은 `experiments/r29-v353-v1/`에 있다. r27 dev3 snapshot 및
+r28 메모리 반환 결과는 historical epoch로 보존하며 새 결과와 합치지 않는다.
+실행 단계는 smoke, pilot, 설계 동결, measured 순서다.
+
+### Historical r27 scope override
 
 2026-08-23 사용자 지시에 따라 현재 활성 비교 대상은 다음 세 build다.
 

@@ -1,0 +1,3 @@
+# Host-side reporting only; never install packages during measurements.
+numpy>=1.24
+matplotlib>=3.7

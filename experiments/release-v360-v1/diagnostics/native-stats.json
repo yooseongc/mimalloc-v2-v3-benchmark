@@ -1,0 +1,643 @@
+{
+  "library": "/work/build/release-v360-v1/lifecycle/v3.6.0/libmimalloc.so.3.6",
+  "library_sha256": "6940d9c7f5436841e61bb00b0c2652e81bc28e37baebd4f51038add668b408bb",
+  "source_sha256": "dbc8b0d880949dae193194b88cb45de13e30229bc48e97685456302c3dd1ce73",
+  "base_sha256": "a703b70c5b5dc95136915fe0136290f36836095a9835dc883036d8bdb1c60049",
+  "binary_sha256": "14389fb2381dfa863a64f4492512b1f13deba71914d2c4f401f9def230efef8a",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I/work/extern/mimalloc-v3.6.0/include",
+    "/work/build/release-v360-v1/diagnostics/native-stats.cpp",
+    "-pthread",
+    "-ldl",
+    "-o",
+    "/work/build/release-v360-v1/diagnostics/native-stats"
+  ],
+  "records": [
+    {
+      "size": 64,
+      "rows": [
+        {
+          "version": 30600,
+          "object_bytes": 64,
+          "objects": 1000,
+          "collect_merges_stats": 0,
+          "stats_merge_threshold_bytes": 0,
+          "purge_delay": 1000
+        },
+        {
+          "stage": "baseline",
+          "A_alloc_calls": 0,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 0,
+          "A": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0
+          }
+        },
+        {
+          "stage": "A_allocated",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 0,
+          "A": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0
+          }
+        },
+        {
+          "stage": "A_collected_while_live",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 0,
+          "A": {
+            "allocated_bytes": 64000,
+            "current_bytes": 64000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 64000,
+            "current_bytes": 64000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "B_freed_all",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 64000,
+            "current_bytes": 64000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 64000,
+            "current_bytes": 64000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "B_collected",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 64000,
+            "current_bytes": 64000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 64000,
+            "current_bytes": 64000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "A_collected_after_free",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 64000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 64000,
+            "allocated_count": 1000,
+            "native_free_count": 1000,
+            "native_freed_bytes": 64000
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 64000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 64000,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "both_collected_again",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 64000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 64000,
+            "allocated_count": 1000,
+            "native_free_count": 1000,
+            "native_freed_bytes": 64000
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 64000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 64000,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "both_merged",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 64000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 64000,
+            "allocated_count": 1000,
+            "native_free_count": 1000,
+            "native_freed_bytes": 64000
+          },
+          "sum": {
+            "allocated_bytes": 64000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 64000,
+            "allocated_count": 1000
+          }
+        }
+      ],
+      "valid": true
+    },
+    {
+      "size": 4096,
+      "rows": [
+        {
+          "version": 30600,
+          "object_bytes": 4096,
+          "objects": 1000,
+          "collect_merges_stats": 0,
+          "stats_merge_threshold_bytes": 0,
+          "purge_delay": 1000
+        },
+        {
+          "stage": "baseline",
+          "A_alloc_calls": 0,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 0,
+          "A": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0
+          }
+        },
+        {
+          "stage": "A_allocated",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 0,
+          "A": {
+            "allocated_bytes": 3932160,
+            "current_bytes": 3932160,
+            "derived_freed_bytes": 0,
+            "allocated_count": 960,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 3932160,
+            "current_bytes": 3932160,
+            "derived_freed_bytes": 0,
+            "allocated_count": 960
+          }
+        },
+        {
+          "stage": "A_collected_while_live",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 0,
+          "A": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 4096000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 4096000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "B_freed_all",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 4096000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": -3878912,
+            "derived_freed_bytes": 3878912,
+            "allocated_count": 0,
+            "native_free_count": 947,
+            "native_freed_bytes": 3878912
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 217088,
+            "derived_freed_bytes": 3878912,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "B_collected",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 4096000,
+            "derived_freed_bytes": 0,
+            "allocated_count": 1000,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": -3932160,
+            "derived_freed_bytes": 3932160,
+            "allocated_count": 0,
+            "native_free_count": 960,
+            "native_freed_bytes": 3932160
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 163840,
+            "derived_freed_bytes": 3932160,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "A_collected_after_free",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 3932160,
+            "derived_freed_bytes": 163840,
+            "allocated_count": 1000,
+            "native_free_count": 40,
+            "native_freed_bytes": 163840
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": -3932160,
+            "derived_freed_bytes": 3932160,
+            "allocated_count": 0,
+            "native_free_count": 960,
+            "native_freed_bytes": 3932160
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 4096000,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "both_collected_again",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 3932160,
+            "derived_freed_bytes": 163840,
+            "allocated_count": 1000,
+            "native_free_count": 40,
+            "native_freed_bytes": 163840
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": -3932160,
+            "derived_freed_bytes": 3932160,
+            "allocated_count": 0,
+            "native_free_count": 960,
+            "native_freed_bytes": 3932160
+          },
+          "parent": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "sum": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 4096000,
+            "allocated_count": 1000
+          }
+        },
+        {
+          "stage": "both_merged",
+          "A_alloc_calls": 1000,
+          "A_free_calls": 0,
+          "B_alloc_calls": 0,
+          "B_free_calls": 1000,
+          "A": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "B": {
+            "allocated_bytes": 0,
+            "current_bytes": 0,
+            "derived_freed_bytes": 0,
+            "allocated_count": 0,
+            "native_free_count": 0,
+            "native_freed_bytes": 0
+          },
+          "parent": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 4096000,
+            "allocated_count": 1000,
+            "native_free_count": 1000,
+            "native_freed_bytes": 4096000
+          },
+          "sum": {
+            "allocated_bytes": 4096000,
+            "current_bytes": 0,
+            "derived_freed_bytes": 4096000,
+            "allocated_count": 1000
+          }
+        }
+      ],
+      "valid": true
+    }
+  ]
+}

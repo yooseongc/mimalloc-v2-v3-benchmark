@@ -15,7 +15,10 @@ BASE = RUNNER.BASE
 class ActiveBenchmarkTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.plan_path, cls.plan = BASE.active_plan()
+        # This suite tests the frozen r28 memory contract, regardless of which
+        # experiment is currently selected for new measurements.
+        cls.plan_path = ROOT / "experiments/r28-memory-return-v1/plan.json"
+        cls.plan = json.loads(cls.plan_path.read_text(encoding="utf-8"))
         RUNNER.validate_plan(cls.plan_path, cls.plan)
 
     def test_active_plan_is_memory_only_and_has_fixed_size(self):

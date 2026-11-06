@@ -1,0 +1,18 @@
+{
+  "status": "Complete",
+  "completed_at": "2026-09-22T00:07:57.111540+00:00",
+  "primary_valid": 90,
+  "retained_controls_valid": 30,
+  "smoke_valid": 24,
+  "pilot_valid": 24,
+  "versions": [
+    "v2.1.2",
+    "v3.5.0",
+    "v3.5.3"
+  ],
+  "report": "docs/concurrency-report.md",
+  "plan_sha256": "7fcc8bdea688b53b7ccfc776b69f4a84967c06ace11e2549c35e56e05d0cec38",
+  "raw_manifest_sha256": "66cbf79827fe1dea4c645e047475582296bb3c3b6fff22036c7dc6cf625724a4",
+  "report_sha256": "83c90222dd870545e9b16d46697a5b239ba1fb75581668735b9acd10826cb3bd",
+  "plots_visually_reviewed": true
+}
