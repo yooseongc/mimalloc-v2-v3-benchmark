@@ -1,0 +1,1080 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-11-05T23:36:47.062966+00:00",
+  "seed": 20261106,
+  "hashes": {
+    "docs/dev3-20261106-plan.md": "45e0d851e1f7cfa957870c85fad52d48e09eb2f44b5a435a80f31bd0ca7d7f36",
+    "observation/dev3_20261106.py": "69f7b154c8607901801c0279006badc13b797647bb6fe2c7f0fbbb8677ec663d",
+    "observation/release_v361.py": "cb7e8c9d8cf118ccd07de926abf9ce552f2ece942f0047a6e728229f1f7f8513",
+    "observation/run.py": "1ea9ed28aa600b17ba8648e6f7c5ceb0e97aa2203914df04e59abda029618a0f",
+    "observation/run_concurrent.py": "17a997afbcbe02131bdbe5ba3cf571bab5912b86654ccf95907d0d3f187293b6",
+    "observation/lifecycle.cpp": "3904aced80d9b529e815b721b276912852ae73177d9cfb770cee0d0f7c3aaf52",
+    "observation/concurrent.cpp": "7839df70f6d31cc1234a2dc10e660484517e29beebddb2b4f90557eeb2beae07",
+    "observation/thread_lifecycle.cpp": "1bd636c3b7ac1fd7bd1ab468f6a4ed7762297325a5d0917424cc0274c47a3175",
+    "experiments/dev3-20261106-v1/concurrent/artifacts.json": "3a9ea673159822f9be94e5ca7e46c51e5be1efc23cf385b4a3dc6f4d8534fa66",
+    "experiments/dev3-20261106-v1/lifecycle/artifacts.json": "1261af9d5b7236709e4ab89db63be57f1c189b7dc4a008747140f78442276cd2",
+    "experiments/dev3-20261106-v1/threads/artifacts.json": "bff9e4287afb2339be9584601d39a15cfeea57de4b45fdd66d609cc632208fa4",
+    "results/dev3-20261106-v1/concurrent/pilot/000.json": "a5388276813301ed3cbf8b8561fed65ca814204250fde2732ff87ef37cfca5e4",
+    "results/dev3-20261106-v1/concurrent/pilot/001.json": "f07434c86048d217d86a58f1934f8a335f120999cc613196681324b98fc89c57",
+    "results/dev3-20261106-v1/concurrent/pilot/002.json": "02a4c859eb76481fcfece247bfb4ec0b11a7bedbe032fdc1056bd7ea4b0b5758",
+    "results/dev3-20261106-v1/concurrent/pilot/003.json": "8f470d7074f813cb95d0cccf38f05a606815d52b7807c233bb0b1ea6cf2875d0",
+    "results/dev3-20261106-v1/concurrent/pilot/004.json": "06eabaf67d304ac51bf2c496e73949075644ade7b2b59f4aa8a609cca6b5225d",
+    "results/dev3-20261106-v1/concurrent/pilot/005.json": "4e4f18cf13430bd15b09c5fc21d0cfee7393a393ae7d88fb9a21e6d7ce5bc475",
+    "results/dev3-20261106-v1/concurrent/pilot/006.json": "be4d690cbea611db0e70a2ab22563fce9bfa41900dac8284b8c87ddbbc4f3db4",
+    "results/dev3-20261106-v1/concurrent/pilot/007.json": "d86e0930f9780ad76390198951b14b24f05c97c181bfce018178bbe3ebc6b9c6",
+    "results/dev3-20261106-v1/concurrent/pilot/008.json": "d69a5feba170b68ea9647f88920efbef3cece2c637734f01d5633fc17d4268a8",
+    "results/dev3-20261106-v1/concurrent/pilot/009.json": "c62af7709340672951a679ae898bb40208dace8972809794725e1e529343efb5",
+    "results/dev3-20261106-v1/concurrent/pilot/010.json": "42c194766026056281119965062a9fb2a301befdeb430d59a7f89d5dd5a88668",
+    "results/dev3-20261106-v1/concurrent/pilot/011.json": "85d39a1f96498cb2e17b8d5a0fdaebb11cefac448e3606b8d40efcd516f25928",
+    "results/dev3-20261106-v1/threads/pilot/000.json": "bb86a0283b8f29681a41d5325b020ebf906a5ebad4eec50f57e66e38c90a6db9",
+    "results/dev3-20261106-v1/threads/pilot/001.json": "3ee500ebb33ecdea4c45013f47bcc38cd44f42da39e066a8f4a0fd0a9c88f47c",
+    "results/dev3-20261106-v1/threads/pilot/002.json": "7b7f8d7d97d0bcb4d78574e2c051aeedcd9b953afa5f097deddccc5416aaeaba",
+    "results/dev3-20261106-v1/threads/pilot/003.json": "a5ce238cd2a1bcceb7be76924b1e426d8eff8fdb545c325517fc8ab8553d1da0",
+    "results/dev3-20261106-v1/threads/pilot/004.json": "a2f50ef42f6dd6cf72e5970c16943de0916d313558dc0c2ee682f878879fbea7",
+    "results/dev3-20261106-v1/threads/pilot/005.json": "36e8eac86a2607a108cbc465fd96aaadaf2aa25e027140ca20a33b0466dd4302",
+    "results/dev3-20261106-v1/threads/pilot/006.json": "d16a94964d5aea78e97232383511eb001286537c0f44772647334046f3bb1e2c",
+    "results/dev3-20261106-v1/threads/pilot/007.json": "cc5fc338377177296b46586c301a44bda787716fed2b4cea0dccf6d04e0c32b4",
+    "results/dev3-20261106-v1/threads/pilot/008.json": "9c82e02598bdf6cd6cfe3d0b17ed7e8ee6d18a4b99e075b930c63b6fbe306952",
+    "results/dev3-20261106-v1/threads/pilot/009.json": "3ae9f34bc26a295f0ec040a2c977f2f3ffcad952c470670733196f45aec12e87",
+    "results/dev3-20261106-v1/concurrent/smoke/000.json": "4508adbe66c8006bf70b7d9bb83ee7e355d0f3cf9f61f97b2923e4f2639afde8",
+    "results/dev3-20261106-v1/concurrent/smoke/001.json": "5fccf9bbf68a3955a1723b774cc81733673085b6c9a1160cd5fe58d5b6ca37f2",
+    "results/dev3-20261106-v1/concurrent/smoke/002.json": "241184a788b280aba66e036931fbbd941073072949f1318bae09905d6a9e9d13",
+    "results/dev3-20261106-v1/concurrent/smoke/003.json": "a65467ccc5b4a936b39a393f11a83a36cc2bcc323a7074e0bca38507d41c6d55",
+    "results/dev3-20261106-v1/concurrent/smoke/004.json": "543ceb5e82254502926044249cd2c2e8946a599524d5f3d5794c001507e2770d",
+    "results/dev3-20261106-v1/concurrent/smoke/005.json": "8819dad81cc9e8b4d9c575924764a81aff8cd30bf7440049456e9150a365feb7",
+    "results/dev3-20261106-v1/concurrent/smoke/006.json": "3fa8a525b6c67cb81944294ec922903f70d48f0332336651dd67a49939a30f34",
+    "results/dev3-20261106-v1/concurrent/smoke/007.json": "bf888bae42bfad5ccf49f3614618cf674ce7d4223fb181b1a10a92249485cbba",
+    "results/dev3-20261106-v1/lifecycle/smoke/000.json": "b1264e5c3719aed26ee68caa11d0ce572d15e5d1d39be414b1c89a2e3d3d308e",
+    "results/dev3-20261106-v1/lifecycle/smoke/001.json": "4b8fa60b12b439dfa0dfa6ad8f51a80ff711a1b60cc23ba6c122b94e004e08cd",
+    "results/dev3-20261106-v1/lifecycle/smoke/002.json": "c05c2d78eb6f9cb34d71e5f6efa799e29818830bf9f4509d80928fc6843a16cf",
+    "results/dev3-20261106-v1/lifecycle/smoke/003.json": "15cfd20aad4572f04302cd489b65b000d7775a8229111f3d72d920ff16d4c93f",
+    "results/dev3-20261106-v1/threads/smoke/000.json": "7639cb4eecede6c51b7695da08e11e5886b8b2e30bf8e6cb805ce1a9d2a96e8b",
+    "results/dev3-20261106-v1/threads/smoke/001.json": "32932c875ef9086e8acc56cfc49566996543b3c52d5384ef941457ab913fbf2a",
+    "results/dev3-20261106-v1/threads/smoke/002.json": "79f27c230012f44c0a02307d0bbf626de498b81b7e12e83034b297f58cf002c1",
+    "results/dev3-20261106-v1/threads/smoke/003.json": "06306c6033d949fe49603851f44ab84d3654be50d7882a289cec1bb3143f6243",
+    "results/dev3-20261106-v1/threads/smoke/004.json": "f3b55d0c3ad5b1ef40cb3d5be62771a64d1e772cce8a3d288bdf4b5cfd93ec85",
+    "results/dev3-20261106-v1/threads/smoke/005.json": "573c092aaacfa212d3e0b7528f66692f5f2bc413fe9b831d4f85a82689e5bb01",
+    "results/dev3-20261106-v1/threads/smoke/006.json": "eca0ae234b0bb5f1f9ebc5d6d113c95020f9d66a1ae4003a190844ebc6f8a3ed",
+    "results/dev3-20261106-v1/threads/smoke/007.json": "fa65dbd3b6acaebf8d935eacde88bdeac7121e53b81affc9189979d16451e0d9",
+    "results/dev3-20261106-v1/threads/smoke/008.json": "42716d75fe082f7221dacc043f608b58faf27a518dc86263e6c6184d55a26eaf",
+    "results/dev3-20261106-v1/threads/smoke/009.json": "8362c02540054065b38e10c099e99b0919782118cf44224287861a7e6634891a"
+  },
+  "concurrent": [
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 461153792,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 613485568,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 117538304,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 195434496,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 28336128,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 44086272,
+      "retained": false,
+      "rep": 4
+    }
+  ],
+  "threads": [
+    {
+      "version": "dev3-d6716d33",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 0,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 4
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 1,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 4
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 4
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 64,
+      "cycles": 20000,
+      "rep": 4
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "mode": 2,
+      "size": 4096,
+      "cycles": 20000,
+      "rep": 4
+    }
+  ],
+  "lifecycle": [
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "same",
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 3
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "remote",
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 3
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 4
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "same",
+      "rep": 4
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "remote",
+      "rep": 4
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 4
+    }
+  ],
+  "collect": [
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "dev3-d6716d33",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "intervention": "collect_force"
+    }
+  ]
+}

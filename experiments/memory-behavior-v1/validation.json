@@ -1,0 +1,36 @@
+{
+  "smoke": {
+    "valid": 6,
+    "invalid": 0
+  },
+  "pilot": {
+    "valid": 12,
+    "invalid": 0
+  },
+  "measured": {
+    "valid": 18,
+    "invalid": 0
+  },
+  "collect-check": {
+    "valid": 6,
+    "invalid": 0
+  },
+  "status": "Complete",
+  "checked_at": "2026-09-21T12:58:44.610014+00:00",
+  "frozen_hashes_match": true,
+  "binary_hash_matches": true,
+  "correctness_checks": 4,
+  "visual_checks": [
+    "memory-phases.png",
+    "timeline.png",
+    "stage-costs.png"
+  ],
+  "limitations": [
+    "RUSAGE_THREAD CPU time resolves short free phases as zero; reported as insufficient resolution",
+    "First-use variability before free condition applied; not attributed to freeing thread",
+    "Collection probes have one flow per condition; no speed ratio inference"
+  ],
+  "launch_note": "An initial measured Docker command had a mistyped image ID and failed before any workload; corrected command used --pull=never with the verified image.",
+  "resume_check": "Both completed runners returned exit 0 without new runs; dispatcher bash syntax passed after LF normalization.",
+  "final_raw_hashes_match": true
+}

@@ -1,0 +1,507 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-10-24T03:41:49.394378+00:00",
+  "preparation_sha256": "bd9fdb9e17ba166cfac6f9232960226928fa211e153d7f60972ef23b3378e094",
+  "seed": 2026102403,
+  "total_bytes": 805977456640,
+  "order": [
+    {
+      "version": "v2.1.2",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12298240,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 196771840,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3074560,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 49192960,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    }
+  ],
+  "pilot_hashes": {
+    "results/allocation-size-v1/pilot/000.json": "f5b0b56d7a5eac14e6ed29456722114350aafe598bb1bc99688dd1a3b152feed",
+    "results/allocation-size-v1/pilot/001.json": "44295c387c624c850cdba658677aa9934e34ccdccf33233ed06a9db8a5827eae",
+    "results/allocation-size-v1/pilot/002.json": "a39628ff0f1f1b57ed375f22652329a6ea8fa8a2a58b3f07ce6e8f288890a74d",
+    "results/allocation-size-v1/pilot/003.json": "c882b7ce9ff4fc65a75a2fbf1db700d85047ef9a502b488871bc4ec395ea9e8e",
+    "results/allocation-size-v1/pilot/004.json": "2df4dd2490247c168781dc0cf47dd39480a0b991a37f5cfafb179685d2401e4c",
+    "results/allocation-size-v1/pilot/005.json": "e5ebd0dc144be1b5cf25abe562fc10c355436b4b921606c404ee12029e9a3178",
+    "results/allocation-size-v1/pilot/006.json": "6d8ea841386c428ebef8ec0ca5b93e64753ee71acc51acef1e750329e99693f9",
+    "results/allocation-size-v1/pilot/007.json": "7e45f66178887930794b901bf932efa080c1a8854f92cea38a69ddd40eddda7c",
+    "results/allocation-size-v1/pilot/008.json": "423c2b883378cc736a071ac1ae4f1b55ff5bf66c55cd46846d3c2c671041e600",
+    "results/allocation-size-v1/pilot/009.json": "31a49d248a981419ff47e6f365f5f08dfb1376a61b5f0d983422d5077d04555e",
+    "results/allocation-size-v1/pilot/010.json": "4cbc5b6bc53c5c1e81bfc1e92f8b735be52dfc188faf7cd8fcb62131482567cb",
+    "results/allocation-size-v1/pilot/011.json": "709a5eeb36e9e4f62836bb9dcc29cdb82f080ac525d5734dbe367d2bd65cdc6d",
+    "results/allocation-size-v1/pilot/012.json": "3210513c8c64a081b1854063ace0fdd6a35796988a9ae0e6a8dbdc43dc69660a",
+    "results/allocation-size-v1/pilot/013.json": "09bfcc5784b962412bc1fc518854bbfda57214f1b35b858aba1292a422a6cfb9",
+    "results/allocation-size-v1/pilot/014.json": "d6e3999050129388b059f63cbd9fbd2e30ac6189d08ba8fff70487df1a1da8a8",
+    "results/allocation-size-v1/pilot/015.json": "2ee53212e9e8dd94b9099c848d807ec45d06648bb96f280d7d1441de5e7af9a7"
+  }
+}

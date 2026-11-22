@@ -1,0 +1,9 @@
+{
+  "requested_tag": "v3.6.1",
+  "tag_object": "07d6126055867a3c6c8977eb0066be27c0671054",
+  "commit": "56dc5eb80145f9a3ba7ca23d47c6a248b9d8586c",
+  "verified_at": "2026-10-31T01:17:15.285485+00:00",
+  "repository": "https://github.com/microsoft/mimalloc.git",
+  "directory": "extern/mimalloc-v3.6.1",
+  "method": "git clone --depth 1 --branch v3.6.1; ls-remote tag and peeled tag"
+}

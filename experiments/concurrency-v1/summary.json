@@ -1,0 +1,6272 @@
+[
+  {
+    "size": 64,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 17.686604074,
+        "minimum": 17.541321242,
+        "maximum": 17.980599905,
+        "values": [
+          17.686604074,
+          17.541321242,
+          17.980599905
+        ]
+      },
+      "mobjects_sec": {
+        "median": 32.442397511656985,
+        "minimum": 31.911940815747776,
+        "maximum": 32.71109582248195,
+        "values": [
+          32.442397511656985,
+          32.71109582248195,
+          31.911940815747776
+        ]
+      },
+      "gib_sec": {
+        "median": 1.9337175793443315,
+        "minimum": 1.9020998964159355,
+        "maximum": 1.9497332467128008,
+        "values": [
+          1.9337175793443315,
+          1.9497332467128008,
+          1.9020998964159355
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 61.51832994989995,
+        "minimum": 60.98523870441445,
+        "maximum": 62.53601317674244,
+        "values": [
+          61.51832994989995,
+          60.98523870441445,
+          62.53601317674244
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 30.68918602825702,
+        "minimum": 30.427515600322234,
+        "maximum": 31.201203964810897,
+        "values": [
+          30.68918602825702,
+          30.427515600322234,
+          31.201203964810897
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 30.82914392164293,
+        "minimum": 30.557723104092215,
+        "maximum": 31.334809211931546,
+        "values": [
+          30.82914392164293,
+          30.557723104092215,
+          31.334809211931546
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.4324419117433825,
+        "minimum": 0.41671950427524884,
+        "maximum": 0.4419305950353352,
+        "values": [
+          0.4324419117433825,
+          0.41671950427524884,
+          0.4419305950353352
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 148.1015625,
+        "minimum": 148.09765625,
+        "maximum": 148.1953125,
+        "values": [
+          148.1015625,
+          148.09765625,
+          148.1953125
+        ]
+      },
+      "done_rss_mib": {
+        "median": 148.15234375,
+        "minimum": 148.06640625,
+        "maximum": 148.1875,
+        "values": [
+          148.06640625,
+          148.15234375,
+          148.1875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 148.15234375,
+        "minimum": 148.06640625,
+        "maximum": 148.1875,
+        "values": [
+          148.06640625,
+          148.15234375,
+          148.1875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 148.15234375,
+        "minimum": 148.1015625,
+        "maximum": 148.1953125,
+        "values": [
+          148.1015625,
+          148.15234375,
+          148.1953125
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 148.0390625,
+        "minimum": 148.00390625,
+        "maximum": 148.12890625,
+        "values": [
+          148.0390625,
+          148.00390625,
+          148.12890625
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 26638,
+        "minimum": 26171,
+        "maximum": 27886,
+        "values": [
+          26638,
+          27886,
+          26171
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.984375,
+        "minimum": 127.984375,
+        "maximum": 127.984375,
+        "values": [
+          127.984375,
+          127.984375,
+          127.984375
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 2.689533057,
+      "mobjects_sec": 213.3440369905816,
+      "gib_sec": 12.716295539771414,
+      "worker_cpu_ns_object": 9.358646287850396,
+      "producer_cpu_ns_object": 4.671492670633513,
+      "consumer_cpu_ns_object": 4.687153617216883,
+      "producer_waits_object": 0.06889926040593114,
+      "consumer_waits_object": 0.0,
+      "ready_rss_mib": 148.09765625,
+      "done_rss_mib": 148.09765625,
+      "idle_rss_mib": 148.09765625,
+      "sampled_peak_rss_mib": 148.09765625,
+      "process_hwm_mib": 147.875,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 6.57608726093453
+  },
+  {
+    "size": 64,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 7.247006494,
+        "minimum": 7.18387444,
+        "maximum": 7.352780848,
+        "values": [
+          7.18387444,
+          7.247006494,
+          7.352780848
+        ]
+      },
+      "mobjects_sec": {
+        "median": 79.17694574650397,
+        "minimum": 78.03793583159437,
+        "maximum": 79.87275456891199,
+        "values": [
+          79.87275456891199,
+          79.17694574650397,
+          78.03793583159437
+        ]
+      },
+      "gib_sec": {
+        "median": 4.719313725620745,
+        "minimum": 4.65142344424691,
+        "maximum": 4.760787163311957,
+        "values": [
+          4.760787163311957,
+          4.719313725620745,
+          4.65142344424691
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 25.19040163832488,
+        "minimum": 24.97624226414747,
+        "maximum": 25.543410515140717,
+        "values": [
+          24.97624226414747,
+          25.19040163832488,
+          25.543410515140717
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 12.576440629126903,
+        "minimum": 12.470555588203638,
+        "maximum": 12.742689073869897,
+        "values": [
+          12.470555588203638,
+          12.576440629126903,
+          12.742689073869897
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 12.613961009197975,
+        "minimum": 12.505686675943833,
+        "maximum": 12.800721441270818,
+        "values": [
+          12.505686675943833,
+          12.613961009197975,
+          12.800721441270818
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.13692766054211894,
+        "minimum": 0.1242101755216629,
+        "maximum": 0.14125795335149172,
+        "values": [
+          0.1242101755216629,
+          0.14125795335149172,
+          0.13692766054211894
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 149.55859375,
+        "minimum": 149.5546875,
+        "maximum": 149.609375,
+        "values": [
+          149.55859375,
+          149.609375,
+          149.5546875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 149.296875,
+        "minimum": 149.24609375,
+        "maximum": 149.5546875,
+        "values": [
+          149.24609375,
+          149.296875,
+          149.5546875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 149.55859375,
+        "minimum": 149.5546875,
+        "maximum": 149.609375,
+        "values": [
+          149.55859375,
+          149.609375,
+          149.5546875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 179.39453125,
+        "minimum": 179.39453125,
+        "maximum": 179.39453125,
+        "values": [
+          179.39453125,
+          179.39453125,
+          179.39453125
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 179.39453125,
+        "minimum": 179.39453125,
+        "maximum": 179.39453125,
+        "values": [
+          179.39453125,
+          179.39453125,
+          179.39453125
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 108.0,
+        "minimum": 96.0,
+        "maximum": 112.0,
+        "values": [
+          96.0,
+          108.0,
+          112.0
+        ]
+      },
+      "minor_faults": {
+        "median": 1367,
+        "minimum": 1142,
+        "maximum": 3813,
+        "values": [
+          3813,
+          1142,
+          1367
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.984375,
+        "minimum": 127.984375,
+        "maximum": 127.984375,
+        "values": [
+          127.984375,
+          127.984375,
+          127.984375
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 2.758904305,
+      "mobjects_sec": 207.97960949935884,
+      "gib_sec": 12.39655074473374,
+      "worker_cpu_ns_object": 9.597629792854546,
+      "producer_cpu_ns_object": 4.7886519219100645,
+      "consumer_cpu_ns_object": 4.808977870944481,
+      "producer_waits_object": 0.043165983915115176,
+      "consumer_waits_object": 0.0,
+      "ready_rss_mib": 149.6484375,
+      "done_rss_mib": 149.6484375,
+      "idle_rss_mib": 149.6484375,
+      "sampled_peak_rss_mib": 149.6484375,
+      "process_hwm_mib": 149.453125,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 10,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 2.6267697943948805
+  },
+  {
+    "size": 64,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 6.611254929,
+        "minimum": 6.596304348,
+        "maximum": 6.651947111,
+        "values": [
+          6.651947111,
+          6.611254929,
+          6.596304348
+        ]
+      },
+      "mobjects_sec": {
+        "median": 86.79076002395067,
+        "minimum": 86.25983195974932,
+        "maximum": 86.98747203409056,
+        "values": [
+          86.25983195974932,
+          86.79076002395067,
+          86.98747203409056
+        ]
+      },
+      "gib_sec": {
+        "median": 5.173132421013753,
+        "minimum": 5.141486642345746,
+        "maximum": 5.184857370501194,
+        "values": [
+          5.141486642345746,
+          5.173132421013753,
+          5.184857370501194
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 22.975744419827095,
+        "minimum": 22.922436553391535,
+        "maximum": 23.035201475144888,
+        "values": [
+          23.035201475144888,
+          22.975744419827095,
+          22.922436553391535
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 11.46997608417656,
+        "minimum": 11.438165353377258,
+        "maximum": 11.51970249034918,
+        "values": [
+          11.51970249034918,
+          11.46997608417656,
+          11.438165353377258
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 11.505768335650535,
+        "minimum": 11.484271200014277,
+        "maximum": 11.515498984795707,
+        "values": [
+          11.515498984795707,
+          11.505768335650535,
+          11.484271200014277
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.14402803094564087,
+        "minimum": 0.14239985601847513,
+        "maximum": 0.14853640625906245,
+        "values": [
+          0.14853640625906245,
+          0.14239985601847513,
+          0.14402803094564087
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 149.6015625,
+        "minimum": 149.52734375,
+        "maximum": 149.77734375,
+        "values": [
+          149.6015625,
+          149.77734375,
+          149.52734375
+        ]
+      },
+      "done_rss_mib": {
+        "median": 151.52734375,
+        "minimum": 149.77734375,
+        "maximum": 151.6015625,
+        "values": [
+          151.6015625,
+          149.77734375,
+          151.52734375
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 151.52734375,
+        "minimum": 149.77734375,
+        "maximum": 151.6015625,
+        "values": [
+          151.6015625,
+          149.77734375,
+          151.52734375
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 179.40234375,
+        "minimum": 179.40234375,
+        "maximum": 179.65234375,
+        "values": [
+          179.40234375,
+          179.65234375,
+          179.40234375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 179.40234375,
+        "minimum": 179.40234375,
+        "maximum": 179.65234375,
+        "values": [
+          179.40234375,
+          179.65234375,
+          179.40234375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 118.0,
+        "minimum": 104.0,
+        "maximum": 122.0,
+        "values": [
+          104.0,
+          122.0,
+          118.0
+        ]
+      },
+      "minor_faults": {
+        "median": 593,
+        "minimum": 497,
+        "maximum": 3857,
+        "values": [
+          3857,
+          593,
+          497
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.984375,
+        "minimum": 127.984375,
+        "maximum": 127.984375,
+        "values": [
+          127.984375,
+          127.984375,
+          127.984375
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 2.635426592,
+      "mobjects_sec": 217.7240837372563,
+      "gib_sec": 12.977366670206566,
+      "worker_cpu_ns_object": 9.165729416929896,
+      "producer_cpu_ns_object": 4.571652743247494,
+      "consumer_cpu_ns_object": 4.594076673682403,
+      "producer_waits_object": 0.04417935306048925,
+      "consumer_waits_object": 0.0,
+      "ready_rss_mib": 149.6875,
+      "done_rss_mib": 149.6875,
+      "idle_rss_mib": 149.6875,
+      "sampled_peak_rss_mib": 149.6875,
+      "process_hwm_mib": 149.44140625,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 2.508609023324297
+  },
+  {
+    "size": 64,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 10.19554,
+        "minimum": 10.18470733,
+        "maximum": 10.224489182,
+        "values": [
+          10.224489182,
+          10.19554,
+          10.18470733
+        ]
+      },
+      "mobjects_sec": {
+        "median": 56.279102431062995,
+        "minimum": 56.11975618402097,
+        "maximum": 56.338962074033404,
+        "values": [
+          56.11975618402097,
+          56.279102431062995,
+          56.338962074033404
+        ]
+      },
+      "gib_sec": {
+        "median": 3.354495908681333,
+        "minimum": 3.3449981322301015,
+        "maximum": 3.3580638214369656,
+        "values": [
+          3.3449981322301015,
+          3.354495908681333,
+          3.3580638214369656
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 69.8498521146476,
+        "minimum": 69.48348592244935,
+        "maximum": 70.29986458075402,
+        "values": [
+          69.48348592244935,
+          70.29986458075402,
+          69.8498521146476
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 34.85096352737587,
+        "minimum": 34.65722120955077,
+        "maximum": 35.07784675643518,
+        "values": [
+          34.65722120955077,
+          35.07784675643518,
+          34.85096352737587
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 34.998888587271736,
+        "minimum": 34.82626471289858,
+        "maximum": 35.22201782431884,
+        "values": [
+          34.82626471289858,
+          35.22201782431884,
+          34.998888587271736
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.5830237545814204,
+        "minimum": 0.5814378751857107,
+        "maximum": 0.5864715802052521,
+        "values": [
+          0.5814378751857107,
+          0.5830237545814204,
+          0.5864715802052521
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 148.16015625,
+        "minimum": 148.1328125,
+        "maximum": 148.25,
+        "values": [
+          148.16015625,
+          148.1328125,
+          148.25
+        ]
+      },
+      "done_rss_mib": {
+        "median": 148.26953125,
+        "minimum": 148.15234375,
+        "maximum": 148.296875,
+        "values": [
+          148.26953125,
+          148.15234375,
+          148.296875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 148.26953125,
+        "minimum": 148.15234375,
+        "maximum": 148.296875,
+        "values": [
+          148.26953125,
+          148.15234375,
+          148.296875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 148.26953125,
+        "minimum": 148.15234375,
+        "maximum": 148.296875,
+        "values": [
+          148.26953125,
+          148.15234375,
+          148.296875
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 148.0,
+        "minimum": 148.0,
+        "maximum": 148.14453125,
+        "values": [
+          148.0,
+          148.0,
+          148.14453125
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 20266,
+        "minimum": 19916,
+        "maximum": 20796,
+        "values": [
+          20796,
+          20266,
+          19916
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.984375,
+        "minimum": 127.984375,
+        "maximum": 127.984375,
+        "values": [
+          127.984375,
+          127.984375,
+          127.984375
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 2.403777543,
+      "mobjects_sec": 238.70588261003653,
+      "gib_sec": 14.227979338767321,
+      "worker_cpu_ns_object": 16.628896553171245,
+      "producer_cpu_ns_object": 8.31410356164311,
+      "consumer_cpu_ns_object": 8.314792991528137,
+      "producer_waits_object": 0.14652536867468402,
+      "consumer_waits_object": 0.12258090961412338,
+      "ready_rss_mib": 148.12109375,
+      "done_rss_mib": 148.18359375,
+      "idle_rss_mib": 148.18359375,
+      "sampled_peak_rss_mib": 148.18359375,
+      "process_hwm_mib": 147.875,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 1,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 4.241465700389065
+  },
+  {
+    "size": 64,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 3.931047523,
+        "minimum": 3.887766773,
+        "maximum": 4.00301106,
+        "values": [
+          3.887766773,
+          3.931047523,
+          4.00301106
+        ]
+      },
+      "mobjects_sec": {
+        "median": 145.96512421760414,
+        "minimum": 143.34105786857356,
+        "maximum": 147.59008796127696,
+        "values": [
+          147.59008796127696,
+          145.96512421760414,
+          143.34105786857356
+        ]
+      },
+      "gib_sec": {
+        "median": 8.700199378586062,
+        "minimum": 8.543792835985037,
+        "maximum": 8.79705476530057,
+        "values": [
+          8.79705476530057,
+          8.700199378586062,
+          8.543792835985037
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 27.149091995856924,
+        "minimum": 26.862029362220543,
+        "maximum": 27.65529030674046,
+        "values": [
+          26.862029362220543,
+          27.149091995856924,
+          27.65529030674046
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 13.631699192869714,
+        "minimum": 13.487479027383676,
+        "maximum": 13.882375043011814,
+        "values": [
+          13.487479027383676,
+          13.631699192869714,
+          13.882375043011814
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 13.517392802987208,
+        "minimum": 13.374550334836865,
+        "maximum": 13.772915263728645,
+        "values": [
+          13.374550334836865,
+          13.517392802987208,
+          13.772915263728645
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.226131672547504,
+        "minimum": 0.22034584112704617,
+        "maximum": 0.22886730583477216,
+        "values": [
+          0.22034584112704617,
+          0.226131672547504,
+          0.22886730583477216
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 149.71875,
+        "minimum": 149.66796875,
+        "maximum": 149.79296875,
+        "values": [
+          149.79296875,
+          149.71875,
+          149.66796875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 179.71875,
+        "minimum": 179.66796875,
+        "maximum": 179.79296875,
+        "values": [
+          179.79296875,
+          179.71875,
+          179.66796875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 179.71875,
+        "minimum": 179.66796875,
+        "maximum": 179.79296875,
+        "values": [
+          179.79296875,
+          179.71875,
+          179.66796875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 179.71875,
+        "minimum": 179.66796875,
+        "maximum": 179.79296875,
+        "values": [
+          179.79296875,
+          179.71875,
+          179.66796875
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 179.6484375,
+        "minimum": 179.5234375,
+        "maximum": 179.6484375,
+        "values": [
+          179.6484375,
+          179.6484375,
+          179.5234375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 160.0,
+        "minimum": 160.0,
+        "maximum": 160.0,
+        "values": [
+          160.0,
+          160.0,
+          160.0
+        ]
+      },
+      "minor_faults": {
+        "median": 23,
+        "minimum": 23,
+        "maximum": 24,
+        "values": [
+          23,
+          24,
+          23
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.96875,
+        "minimum": 127.96875,
+        "maximum": 127.96875,
+        "values": [
+          127.96875,
+          127.96875,
+          127.96875
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 2.395449416,
+      "mobjects_sec": 239.53577819987663,
+      "gib_sec": 14.277444970600405,
+      "worker_cpu_ns_object": 16.641222339639132,
+      "producer_cpu_ns_object": 8.3103614571343,
+      "consumer_cpu_ns_object": 8.33086088250483,
+      "producer_waits_object": 0.1569809446509755,
+      "consumer_waits_object": 0.07424314892209745,
+      "ready_rss_mib": 149.57421875,
+      "done_rss_mib": 149.57421875,
+      "idle_rss_mib": 149.57421875,
+      "sampled_peak_rss_mib": 149.57421875,
+      "process_hwm_mib": 149.2421875,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 1.6410480207777427
+  },
+  {
+    "size": 64,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 3.778840787,
+        "minimum": 3.749301842,
+        "maximum": 3.803221444,
+        "values": [
+          3.803221444,
+          3.749301842,
+          3.778840787
+        ]
+      },
+      "mobjects_sec": {
+        "median": 151.84440741033,
+        "minimum": 150.87100460721948,
+        "maximum": 153.04071642679978,
+        "values": [
+          150.87100460721948,
+          153.04071642679978,
+          151.84440741033
+        ]
+      },
+      "gib_sec": {
+        "median": 9.050631964822411,
+        "minimum": 8.99261263651964,
+        "maximum": 9.12193753879069,
+        "values": [
+          8.99261263651964,
+          9.12193753879069,
+          9.050631964822411
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 25.866349761267003,
+        "minimum": 25.664198227718067,
+        "maximum": 25.910628724669735,
+        "values": [
+          25.910628724669735,
+          25.664198227718067,
+          25.866349761267003
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 13.098709037346802,
+        "minimum": 13.000882190083498,
+        "maximum": 13.136773368729894,
+        "values": [
+          13.136773368729894,
+          13.000882190083498,
+          13.098709037346802
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 12.767640723920202,
+        "minimum": 12.663316037634571,
+        "maximum": 12.77385535593984,
+        "values": [
+          12.77385535593984,
+          12.663316037634571,
+          12.767640723920202
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.24351423321577237,
+        "minimum": 0.2349845460712995,
+        "maximum": 0.24381091539457658,
+        "values": [
+          0.24351423321577237,
+          0.24381091539457658,
+          0.2349845460712995
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 149.6171875,
+        "minimum": 149.54296875,
+        "maximum": 149.640625,
+        "values": [
+          149.640625,
+          149.54296875,
+          149.6171875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 179.6171875,
+        "minimum": 179.54296875,
+        "maximum": 179.640625,
+        "values": [
+          179.640625,
+          179.54296875,
+          179.6171875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 179.6171875,
+        "minimum": 179.54296875,
+        "maximum": 179.640625,
+        "values": [
+          179.640625,
+          179.54296875,
+          179.6171875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 179.6171875,
+        "minimum": 179.54296875,
+        "maximum": 179.640625,
+        "values": [
+          179.640625,
+          179.54296875,
+          179.6171875
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 179.40234375,
+        "minimum": 179.40234375,
+        "maximum": 179.5234375,
+        "values": [
+          179.5234375,
+          179.40234375,
+          179.40234375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 160.0,
+        "minimum": 148.0,
+        "maximum": 160.0,
+        "values": [
+          148.0,
+          160.0,
+          160.0
+        ]
+      },
+      "minor_faults": {
+        "median": 24,
+        "minimum": 19,
+        "maximum": 3086,
+        "values": [
+          3086,
+          19,
+          24
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.96875,
+        "minimum": 127.96875,
+        "maximum": 127.96875,
+        "values": [
+          127.96875,
+          127.96875,
+          127.96875
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 2.261865159,
+      "mobjects_sec": 253.6826024826708,
+      "gib_sec": 15.120661406676222,
+      "worker_cpu_ns_object": 15.73852460310622,
+      "producer_cpu_ns_object": 7.8545388391104405,
+      "consumer_cpu_ns_object": 7.8839857639957795,
+      "producer_waits_object": 0.20406579803715552,
+      "consumer_waits_object": 0.0,
+      "ready_rss_mib": 149.73046875,
+      "done_rss_mib": 149.73046875,
+      "idle_rss_mib": 149.73046875,
+      "sampled_peak_rss_mib": 149.73046875,
+      "process_hwm_mib": 149.44921875,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 1.6706746518305602
+  },
+  {
+    "size": 256,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 4.909685212,
+        "minimum": 4.818564164,
+        "maximum": 4.920127338,
+        "values": [
+          4.920127338,
+          4.818564164,
+          4.909685212
+        ]
+      },
+      "mobjects_sec": {
+        "median": 41.75685062230014,
+        "minimum": 41.668228872169074,
+        "maximum": 42.546489996267695,
+        "values": [
+          41.668228872169074,
+          42.546489996267695,
+          41.75685062230014
+        ]
+      },
+      "gib_sec": {
+        "median": 9.955608993124995,
+        "minimum": 9.934479921381254,
+        "maximum": 10.143873690668988,
+        "values": [
+          9.934479921381254,
+          10.143873690668988,
+          9.955608993124995
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 47.83856626022999,
+        "minimum": 46.96821320962918,
+        "maximum": 47.857315228100276,
+        "values": [
+          47.857315228100276,
+          46.96821320962918,
+          47.83856626022999
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 23.90389503217435,
+        "minimum": 23.470841750360876,
+        "maximum": 23.946147676338484,
+        "values": [
+          23.946147676338484,
+          23.470841750360876,
+          23.90389503217435
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 23.911167551761793,
+        "minimum": 23.497371459268297,
+        "maximum": 23.934671228055635,
+        "values": [
+          23.911167551761793,
+          23.497371459268297,
+          23.934671228055635
+        ]
+      },
+      "producer_waits_object": {
+        "median": 4.975294443778471e-06,
+        "minimum": 0.0,
+        "maximum": 1.0960280995264924e-05,
+        "values": [
+          4.975294443778471e-06,
+          1.0960280995264924e-05,
+          0.0
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.3382674840431576,
+        "minimum": 0.33033125529917634,
+        "maximum": 0.3480830522194418,
+        "values": [
+          0.33033125529917634,
+          0.3382674840431576,
+          0.3480830522194418
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 135.9296875,
+        "minimum": 135.7578125,
+        "maximum": 135.9296875,
+        "values": [
+          135.7578125,
+          135.9296875,
+          135.9296875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 126.984375,
+        "minimum": 71.03125,
+        "maximum": 129.671875,
+        "values": [
+          71.03125,
+          129.671875,
+          126.984375
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 126.984375,
+        "minimum": 71.03125,
+        "maximum": 129.671875,
+        "values": [
+          71.03125,
+          129.671875,
+          126.984375
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 135.9296875,
+        "minimum": 135.7578125,
+        "maximum": 135.9296875,
+        "values": [
+          135.7578125,
+          135.9296875,
+          135.9296875
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 135.875,
+        "minimum": 135.75,
+        "maximum": 135.875,
+        "values": [
+          135.75,
+          135.875,
+          135.875
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 51,
+        "minimum": 14,
+        "maximum": 2398,
+        "values": [
+          2398,
+          14,
+          51
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 0.0625,
+        "minimum": 0.0625,
+        "maximum": 0.0625,
+        "values": [
+          0.0625,
+          0.0625,
+          0.0625
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 4.011429592,
+      "mobjects_sec": 51.10721434793664,
+      "gib_sec": 12.184909426674041,
+      "worker_cpu_ns_object": 39.12781737754454,
+      "producer_cpu_ns_object": 19.55409044027805,
+      "consumer_cpu_ns_object": 19.573726937266493,
+      "producer_waits_object": 0.0008107681292705586,
+      "consumer_waits_object": 0.7255392477760629,
+      "ready_rss_mib": 135.8515625,
+      "done_rss_mib": 135.8515625,
+      "idle_rss_mib": 135.8515625,
+      "sampled_peak_rss_mib": 135.8515625,
+      "process_hwm_mib": 135.625,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 1.2239240648250171
+  },
+  {
+    "size": 256,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 4.565676087,
+        "minimum": 4.494734533,
+        "maximum": 4.89863016,
+        "values": [
+          4.565676087,
+          4.494734533,
+          4.89863016
+        ]
+      },
+      "mobjects_sec": {
+        "median": 44.90309607896632,
+        "minimum": 41.85108597788081,
+        "maximum": 45.611813221628594,
+        "values": [
+          44.90309607896632,
+          45.611813221628594,
+          41.85108597788081
+        ]
+      },
+      "gib_sec": {
+        "median": 10.705732364408092,
+        "minimum": 9.978076452703668,
+        "maximum": 10.87470369854655,
+        "values": [
+          10.705732364408092,
+          10.87470369854655,
+          9.978076452703668
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 41.591494586840625,
+        "minimum": 41.480722397339576,
+        "maximum": 44.744707130560776,
+        "values": [
+          41.591494586840625,
+          41.480722397339576,
+          44.744707130560776
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 22.243337578332596,
+        "minimum": 21.903218606750542,
+        "maximum": 23.84227521053885,
+        "values": [
+          22.243337578332596,
+          21.903218606750542,
+          23.84227521053885
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 19.577503790589038,
+        "minimum": 19.348157008508025,
+        "maximum": 20.90243192002193,
+        "values": [
+          19.348157008508025,
+          19.577503790589038,
+          20.90243192002193
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.06482836463359357,
+        "minimum": 0.0093527633604801,
+        "maximum": 0.06774602362761478,
+        "values": [
+          0.06482836463359357,
+          0.0093527633604801,
+          0.06774602362761478
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.02873012067449852,
+        "minimum": 0.0,
+        "maximum": 0.06479767389571096,
+        "values": [
+          0.02873012067449852,
+          0.06479767389571096,
+          0.0
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 137.21875,
+        "minimum": 137.10546875,
+        "maximum": 137.328125,
+        "values": [
+          137.10546875,
+          137.21875,
+          137.328125
+        ]
+      },
+      "done_rss_mib": {
+        "median": 63.10546875,
+        "minimum": 27.84375,
+        "maximum": 137.390625,
+        "values": [
+          63.10546875,
+          27.84375,
+          137.390625
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 63.10546875,
+        "minimum": 27.84375,
+        "maximum": 137.390625,
+        "values": [
+          63.10546875,
+          27.84375,
+          137.390625
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 167.14453125,
+        "minimum": 167.01953125,
+        "maximum": 167.14453125,
+        "values": [
+          167.01953125,
+          167.14453125,
+          167.14453125
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 167.14453125,
+        "minimum": 167.01953125,
+        "maximum": 167.14453125,
+        "values": [
+          167.01953125,
+          167.14453125,
+          167.14453125
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 16.0,
+        "minimum": 6.0,
+        "maximum": 42.0,
+        "values": [
+          16.0,
+          6.0,
+          42.0
+        ]
+      },
+      "minor_faults": {
+        "median": 2931,
+        "minimum": 2432,
+        "maximum": 7667,
+        "values": [
+          2931,
+          2432,
+          7667
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.0625,
+        "minimum": 92.125,
+        "maximum": 127.53125,
+        "values": [
+          127.53125,
+          92.125,
+          127.0625
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 3.680776526,
+      "mobjects_sec": 55.69829913656649,
+      "gib_sec": 13.279509338513968,
+      "worker_cpu_ns_object": 35.903570491766686,
+      "producer_cpu_ns_object": 17.945848509932482,
+      "consumer_cpu_ns_object": 17.957721981834204,
+      "producer_waits_object": 7.462941665667706e-06,
+      "consumer_waits_object": 0.6031535698966825,
+      "ready_rss_mib": 137.12109375,
+      "done_rss_mib": 137.12109375,
+      "idle_rss_mib": 137.12109375,
+      "sampled_peak_rss_mib": 137.12109375,
+      "process_hwm_mib": 136.9609375,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 1.240411107479444
+  },
+  {
+    "size": 256,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 5.659418814,
+        "minimum": 4.786907471,
+        "maximum": 5.666993531,
+        "values": [
+          5.666993531,
+          5.659418814,
+          4.786907471
+        ]
+      },
+      "mobjects_sec": {
+        "median": 36.225096381425004,
+        "minimum": 36.17667655318875,
+        "maximum": 42.82785770186866,
+        "values": [
+          36.17667655318875,
+          36.225096381425004,
+          42.82785770186866
+        ]
+      },
+      "gib_sec": {
+        "median": 8.636736007076502,
+        "minimum": 8.625191820428073,
+        "maximum": 10.210956979243436,
+        "values": [
+          8.625191820428073,
+          8.636736007076502,
+          10.210956979243436
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 48.669972901034484,
+        "minimum": 41.82932292895857,
+        "maximum": 48.673000762800434,
+        "values": [
+          48.669972901034484,
+          48.673000762800434,
+          41.82932292895857
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 27.536870321857457,
+        "minimum": 23.10382725890855,
+        "maximum": 27.573065940133198,
+        "values": [
+          27.573065940133198,
+          27.536870321857457,
+          23.10382725890855
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 21.096906960901286,
+        "minimum": 18.725495670050023,
+        "maximum": 21.13613044094298,
+        "values": [
+          21.096906960901286,
+          21.13613044094298,
+          18.725495670050023
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.34599778437456297,
+        "minimum": 0.20989620989483437,
+        "maximum": 0.3487567753754845,
+        "values": [
+          0.3487567753754845,
+          0.34599778437456297,
+          0.20989620989483437
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.17384221678985107,
+        "values": [
+          0.0,
+          0.0,
+          0.17384221678985107
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 137.3046875,
+        "minimum": 137.25390625,
+        "maximum": 137.30859375,
+        "values": [
+          137.30859375,
+          137.25390625,
+          137.3046875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 137.31640625,
+        "minimum": 25.3046875,
+        "maximum": 137.37109375,
+        "values": [
+          137.37109375,
+          137.31640625,
+          25.3046875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 137.31640625,
+        "minimum": 25.3046875,
+        "maximum": 137.37109375,
+        "values": [
+          137.37109375,
+          137.31640625,
+          25.3046875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 167.15234375,
+        "minimum": 167.1484375,
+        "maximum": 167.15234375,
+        "values": [
+          167.1484375,
+          167.15234375,
+          167.15234375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 167.15234375,
+        "minimum": 167.1484375,
+        "maximum": 167.15234375,
+        "values": [
+          167.1484375,
+          167.15234375,
+          167.15234375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 60.0,
+        "minimum": 16.0,
+        "maximum": 72.0,
+        "values": [
+          60.0,
+          72.0,
+          16.0
+        ]
+      },
+      "minor_faults": {
+        "median": 4935,
+        "minimum": 518,
+        "maximum": 6400,
+        "values": [
+          4935,
+          6400,
+          518
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.875,
+        "minimum": 127.875,
+        "maximum": 127.875,
+        "values": [
+          127.875,
+          127.875,
+          127.875
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 3.825531015,
+      "mobjects_sec": 53.59072797897575,
+      "gib_sec": 12.777025217765749,
+      "worker_cpu_ns_object": 37.284919416228995,
+      "producer_cpu_ns_object": 18.632515738319647,
+      "consumer_cpu_ns_object": 18.652403677909348,
+      "producer_waits_object": 0.0,
+      "consumer_waits_object": 0.6247232029080382,
+      "ready_rss_mib": 137.3984375,
+      "done_rss_mib": 137.3984375,
+      "idle_rss_mib": 137.3984375,
+      "sampled_peak_rss_mib": 137.3984375,
+      "process_hwm_mib": 137.21484375,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 1.4793812393127337
+  },
+  {
+    "size": 256,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 5.032864179,
+        "minimum": 4.43023832,
+        "maximum": 5.765933026,
+        "values": [
+          5.032864179,
+          5.765933026,
+          4.43023832
+        ]
+      },
+      "mobjects_sec": {
+        "median": 40.734854887487714,
+        "minimum": 35.555909351625544,
+        "maximum": 46.275838271382206,
+        "values": [
+          40.734854887487714,
+          35.555909351625544,
+          46.275838271382206
+        ]
+      },
+      "gib_sec": {
+        "median": 9.71194622218316,
+        "minimum": 8.477189386278521,
+        "maximum": 11.033019607396652,
+        "values": [
+          9.71194622218316,
+          8.477189386278521,
+          11.033019607396652
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 96.98928354745439,
+        "minimum": 77.27628177340098,
+        "maximum": 102.03532536123369,
+        "values": [
+          96.98928354745439,
+          102.03532536123369,
+          77.27628177340098
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 48.47988844043601,
+        "minimum": 38.62613731816567,
+        "maximum": 50.98717676389992,
+        "values": [
+          48.47988844043601,
+          50.98717676389992,
+          38.62613731816567
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 48.509395107018385,
+        "minimum": 38.650144455235306,
+        "maximum": 51.04814859733377,
+        "values": [
+          48.509395107018385,
+          51.04814859733377,
+          38.650144455235306
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.28469727420982177,
+        "minimum": 0.18053800707420534,
+        "maximum": 0.3338908736086345,
+        "values": [
+          0.28469727420982177,
+          0.3338908736086345,
+          0.18053800707420534
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.09817448544919534,
+        "minimum": 0.07177416346374771,
+        "maximum": 0.20152611108665738,
+        "values": [
+          0.09817448544919534,
+          0.07177416346374771,
+          0.20152611108665738
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 135.890625,
+        "minimum": 135.875,
+        "maximum": 135.890625,
+        "values": [
+          135.890625,
+          135.875,
+          135.890625
+        ]
+      },
+      "done_rss_mib": {
+        "median": 103.1328125,
+        "minimum": 103.12890625,
+        "maximum": 135.51171875,
+        "values": [
+          103.1328125,
+          135.51171875,
+          103.12890625
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 103.1328125,
+        "minimum": 103.12890625,
+        "maximum": 135.51171875,
+        "values": [
+          103.1328125,
+          135.51171875,
+          103.12890625
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 135.890625,
+        "minimum": 135.875,
+        "maximum": 135.890625,
+        "values": [
+          135.890625,
+          135.875,
+          135.890625
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 135.8046875,
+        "minimum": 135.8046875,
+        "maximum": 135.8671875,
+        "values": [
+          135.8046875,
+          135.8046875,
+          135.8671875
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 5334,
+        "minimum": 3093,
+        "maximum": 5637,
+        "values": [
+          5334,
+          5637,
+          3093
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 126.21875,
+        "minimum": 63.625,
+        "maximum": 127.84375,
+        "values": [
+          127.84375,
+          126.21875,
+          63.625
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 3.091492674,
+      "mobjects_sec": 66.31521197646545,
+      "gib_sec": 15.810778612247812,
+      "worker_cpu_ns_object": 60.263410608631084,
+      "producer_cpu_ns_object": 30.125338944372853,
+      "consumer_cpu_ns_object": 30.138071664258234,
+      "producer_waits_object": 0.0017573130194597619,
+      "consumer_waits_object": 1.0917913533987154,
+      "ready_rss_mib": 135.99609375,
+      "done_rss_mib": 135.99609375,
+      "idle_rss_mib": 135.99609375,
+      "sampled_peak_rss_mib": 135.99609375,
+      "process_hwm_mib": 135.625,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 1.6279722159225147
+  },
+  {
+    "size": 256,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 4.088165049,
+        "minimum": 4.0724991,
+        "maximum": 4.590363904,
+        "values": [
+          4.0724991,
+          4.590363904,
+          4.088165049
+        ]
+      },
+      "mobjects_sec": {
+        "median": 50.14792444599269,
+        "minimum": 44.66159901208564,
+        "maximum": 50.3408317511967,
+        "values": [
+          50.3408317511967,
+          44.66159901208564,
+          50.14792444599269
+        ]
+      },
+      "gib_sec": {
+        "median": 11.956196891306089,
+        "minimum": 10.648154976865206,
+        "maximum": 12.00218957691114,
+        "values": [
+          12.00218957691114,
+          10.648154976865206,
+          11.956196891306089
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 78.95496883436539,
+        "minimum": 78.67424316211141,
+        "maximum": 88.32346933895779,
+        "values": [
+          78.67424316211141,
+          88.32346933895779,
+          78.95496883436539
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 39.78282368075483,
+        "minimum": 39.63000956544256,
+        "maximum": 44.34582060535949,
+        "values": [
+          39.63000956544256,
+          44.34582060535949,
+          39.78282368075483
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 39.17214515361056,
+        "minimum": 39.04423359666884,
+        "maximum": 43.97764873359831,
+        "values": [
+          39.04423359666884,
+          43.97764873359831,
+          39.17214515361056
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.304560722668737,
+        "minimum": 0.28016927336975794,
+        "maximum": 0.8583884722778935,
+        "values": [
+          0.304560722668737,
+          0.8583884722778935,
+          0.28016927336975794
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 139.2734375,
+        "minimum": 139.26953125,
+        "maximum": 139.45703125,
+        "values": [
+          139.45703125,
+          139.2734375,
+          139.26953125
+        ]
+      },
+      "done_rss_mib": {
+        "median": 137.39453125,
+        "minimum": 136.89453125,
+        "maximum": 137.4609375,
+        "values": [
+          136.89453125,
+          137.4609375,
+          137.39453125
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 137.39453125,
+        "minimum": 136.89453125,
+        "maximum": 137.4609375,
+        "values": [
+          136.89453125,
+          137.4609375,
+          137.39453125
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 167.1484375,
+        "minimum": 167.1484375,
+        "maximum": 167.3984375,
+        "values": [
+          167.3984375,
+          167.1484375,
+          167.1484375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 167.1484375,
+        "minimum": 167.1484375,
+        "maximum": 167.3984375,
+        "values": [
+          167.3984375,
+          167.1484375,
+          167.1484375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 132.0,
+        "minimum": 132.0,
+        "maximum": 132.0,
+        "values": [
+          132.0,
+          132.0,
+          132.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 54.0,
+        "minimum": 20.0,
+        "maximum": 56.0,
+        "values": [
+          20.0,
+          56.0,
+          54.0
+        ]
+      },
+      "minor_faults": {
+        "median": 1464,
+        "minimum": 1096,
+        "maximum": 2970,
+        "values": [
+          2970,
+          1096,
+          1464
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.875,
+        "minimum": 127.8125,
+        "maximum": 127.9375,
+        "values": [
+          127.8125,
+          127.9375,
+          127.875
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 3.267120105,
+      "mobjects_sec": 62.75036895223048,
+      "gib_sec": 14.960853803689595,
+      "worker_cpu_ns_object": 63.476245763975776,
+      "producer_cpu_ns_object": 31.716977897673917,
+      "consumer_cpu_ns_object": 31.759267866301858,
+      "producer_waits_object": 0.007345680804463358,
+      "consumer_waits_object": 0.9990771511690342,
+      "ready_rss_mib": 139.1953125,
+      "done_rss_mib": 139.1953125,
+      "idle_rss_mib": 139.1953125,
+      "sampled_peak_rss_mib": 139.1953125,
+      "process_hwm_mib": 138.96484375,
+      "ready_thp_mib": 132.0,
+      "done_thp_mib": 132.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 1.2513054058660018
+  },
+  {
+    "size": 256,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 3.982580471,
+        "minimum": 3.354033046,
+        "maximum": 3.994180261,
+        "values": [
+          3.994180261,
+          3.982580471,
+          3.354033046
+        ]
+      },
+      "mobjects_sec": {
+        "median": 51.47742612932629,
+        "minimum": 51.32792678432397,
+        "maximum": 61.124320836521655,
+        "values": [
+          51.32792678432397,
+          51.47742612932629,
+          61.124320836521655
+        ]
+      },
+      "gib_sec": {
+        "median": 12.27317479355962,
+        "minimum": 12.237531372147552,
+        "maximum": 14.573173722391523,
+        "values": [
+          12.237531372147552,
+          12.27317479355962,
+          14.573173722391523
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 75.845909326566,
+        "minimum": 59.545512203441234,
+        "maximum": 76.23181254288508,
+        "values": [
+          76.23181254288508,
+          75.845909326566,
+          59.545512203441234
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 38.68518875623258,
+        "minimum": 30.706188986305804,
+        "maximum": 38.84595796250805,
+        "values": [
+          38.84595796250805,
+          38.68518875623258,
+          30.706188986305804
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 37.16072057033342,
+        "minimum": 28.83932321713543,
+        "maximum": 37.385854580377035,
+        "values": [
+          37.385854580377035,
+          37.16072057033342,
+          28.83932321713543
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.3649020448421142,
+        "minimum": 0.25790769884476394,
+        "maximum": 0.3741414202666727,
+        "values": [
+          0.3649020448421142,
+          0.3741414202666727,
+          0.25790769884476394
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.15125072171035872,
+        "values": [
+          0.0,
+          0.0,
+          0.15125072171035872
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 139.32421875,
+        "minimum": 139.31640625,
+        "maximum": 139.32421875,
+        "values": [
+          139.31640625,
+          139.32421875,
+          139.32421875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 167.32421875,
+        "minimum": 167.31640625,
+        "maximum": 167.328125,
+        "values": [
+          167.31640625,
+          167.328125,
+          167.32421875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 167.32421875,
+        "minimum": 167.31640625,
+        "maximum": 167.328125,
+        "values": [
+          167.31640625,
+          167.328125,
+          167.32421875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 167.32421875,
+        "minimum": 167.31640625,
+        "maximum": 167.328125,
+        "values": [
+          167.31640625,
+          167.328125,
+          167.32421875
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 167.1484375,
+        "minimum": 167.1484375,
+        "maximum": 167.15234375,
+        "values": [
+          167.1484375,
+          167.15234375,
+          167.1484375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 132.0,
+        "minimum": 132.0,
+        "maximum": 132.0,
+        "values": [
+          132.0,
+          132.0,
+          132.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 160.0,
+        "minimum": 160.0,
+        "maximum": 160.0,
+        "values": [
+          160.0,
+          160.0,
+          160.0
+        ]
+      },
+      "minor_faults": {
+        "median": 20,
+        "minimum": 18,
+        "maximum": 21,
+        "values": [
+          21,
+          20,
+          18
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 127.875,
+        "minimum": 127.78125,
+        "maximum": 127.875,
+        "values": [
+          127.875,
+          127.875,
+          127.78125
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 3.235601238,
+      "mobjects_sec": 63.3616372723121,
+      "gib_sec": 15.106591528013254,
+      "worker_cpu_ns_object": 62.91537509974002,
+      "producer_cpu_ns_object": 31.44109042123535,
+      "consumer_cpu_ns_object": 31.474284678504667,
+      "producer_waits_object": 0.0007138132982323383,
+      "consumer_waits_object": 1.0260987752424977,
+      "ready_rss_mib": 139.3046875,
+      "done_rss_mib": 139.3046875,
+      "idle_rss_mib": 139.3046875,
+      "sampled_peak_rss_mib": 139.3046875,
+      "process_hwm_mib": 139.1015625,
+      "ready_thp_mib": 132.0,
+      "done_thp_mib": 132.0,
+      "minor_faults": 3,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 1.2308625748523092
+  },
+  {
+    "size": 1024,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 6.748281729,
+        "minimum": 6.686549439,
+        "maximum": 6.772022769,
+        "values": [
+          6.686549439,
+          6.748281729,
+          6.772022769
+        ]
+      },
+      "mobjects_sec": {
+        "median": 29.423293213548643,
+        "minimum": 29.320142411352247,
+        "maximum": 29.69493814580917,
+        "values": [
+          29.69493814580917,
+          29.423293213548643,
+          29.320142411352247
+        ]
+      },
+      "gib_sec": {
+        "median": 28.060239041851656,
+        "minimum": 27.961866771080253,
+        "maximum": 28.319299836930437,
+        "values": [
+          28.319299836930437,
+          28.060239041851656,
+          27.961866771080253
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 67.94479676814889,
+        "minimum": 67.31303256331775,
+        "maximum": 68.1926181206341,
+        "values": [
+          67.31303256331775,
+          67.94479676814889,
+          68.1926181206341
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 33.9506221679622,
+        "minimum": 33.630654214430024,
+        "maximum": 34.08138909580435,
+        "values": [
+          33.630654214430024,
+          33.9506221679622,
+          34.08138909580435
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 33.99417460018669,
+        "minimum": 33.68237834888772,
+        "maximum": 34.11122902482975,
+        "values": [
+          33.68237834888772,
+          33.99417460018669,
+          34.11122902482975
+        ]
+      },
+      "producer_waits_object": {
+        "median": 6.370977047802252e-06,
+        "minimum": 4.9406549279794535e-06,
+        "maximum": 3.84776795614302e-05,
+        "values": [
+          4.9406549279794535e-06,
+          3.84776795614302e-05,
+          6.370977047802252e-06
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 1.0725896785780131,
+        "minimum": 1.0376993778380814,
+        "maximum": 1.0864728433804531,
+        "values": [
+          1.0376993778380814,
+          1.0725896785780131,
+          1.0864728433804531
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 132.25,
+        "minimum": 132.24609375,
+        "maximum": 132.41015625,
+        "values": [
+          132.25,
+          132.24609375,
+          132.41015625
+        ]
+      },
+      "done_rss_mib": {
+        "median": 132.25,
+        "minimum": 132.24609375,
+        "maximum": 132.41015625,
+        "values": [
+          132.25,
+          132.24609375,
+          132.41015625
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 132.25,
+        "minimum": 132.24609375,
+        "maximum": 132.41015625,
+        "values": [
+          132.25,
+          132.24609375,
+          132.41015625
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 132.25,
+        "minimum": 132.24609375,
+        "maximum": 132.41015625,
+        "values": [
+          132.25,
+          132.24609375,
+          132.41015625
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 132.0,
+        "minimum": 132.0,
+        "maximum": 132.125,
+        "values": [
+          132.0,
+          132.0,
+          132.125
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 14.293552329,
+      "mobjects_sec": 13.891345372357225,
+      "gib_sec": 13.247819301945901,
+      "worker_cpu_ns_object": 143.87500387798602,
+      "producer_cpu_ns_object": 71.89284970489433,
+      "consumer_cpu_ns_object": 71.9821541730917,
+      "producer_waits_object": 0.0,
+      "consumer_waits_object": 3.598298102014925,
+      "ready_rss_mib": 132.41015625,
+      "done_rss_mib": 132.41015625,
+      "idle_rss_mib": 132.41015625,
+      "sampled_peak_rss_mib": 132.41015625,
+      "process_hwm_mib": 132.125,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.47212068586396816
+  },
+  {
+    "size": 1024,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 6.328487067,
+        "minimum": 6.241317591,
+        "maximum": 6.372283591,
+        "values": [
+          6.372283591,
+          6.328487067,
+          6.241317591
+        ]
+      },
+      "mobjects_sec": {
+        "median": 31.37506166922218,
+        "minimum": 31.159421762150508,
+        "maximum": 31.813262040425464,
+        "values": [
+          31.159421762150508,
+          31.37506166922218,
+          31.813262040425464
+        ]
+      },
+      "gib_sec": {
+        "median": 29.9215904895994,
+        "minimum": 29.715940248632915,
+        "maximum": 30.339490929055657,
+        "values": [
+          29.715940248632915,
+          29.9215904895994,
+          30.339490929055657
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 47.819487873970814,
+        "minimum": 47.18688016185122,
+        "maximum": 48.32618639478405,
+        "values": [
+          48.32618639478405,
+          47.819487873970814,
+          47.18688016185122
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 31.772312022836484,
+        "minimum": 31.378311100016827,
+        "maximum": 32.06429426859048,
+        "values": [
+          32.06429426859048,
+          31.772312022836484,
+          31.378311100016827
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 16.04717585113433,
+        "minimum": 15.808569061834396,
+        "maximum": 16.261892126193572,
+        "values": [
+          16.261892126193572,
+          16.04717585113433,
+          15.808569061834396
+        ]
+      },
+      "producer_waits_object": {
+        "median": 2.32477707926128e-05,
+        "minimum": 0.0,
+        "maximum": 3.265566417229233e-05,
+        "values": [
+          3.265566417229233e-05,
+          0.0,
+          2.32477707926128e-05
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.04013055778855923,
+        "minimum": 0.02899520797770019,
+        "maximum": 0.054638315049921865,
+        "values": [
+          0.054638315049921865,
+          0.04013055778855923,
+          0.02899520797770019
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 134.20703125,
+        "minimum": 134.1953125,
+        "maximum": 134.3046875,
+        "values": [
+          134.1953125,
+          134.3046875,
+          134.20703125
+        ]
+      },
+      "done_rss_mib": {
+        "median": 72.14453125,
+        "minimum": 41.6796875,
+        "maximum": 74.1328125,
+        "values": [
+          74.1328125,
+          41.6796875,
+          72.14453125
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 72.14453125,
+        "minimum": 42.2421875,
+        "maximum": 74.1328125,
+        "values": [
+          74.1328125,
+          42.2421875,
+          72.14453125
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 136.0234375,
+        "minimum": 136.0234375,
+        "maximum": 136.1484375,
+        "values": [
+          136.0234375,
+          136.1484375,
+          136.0234375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 136.0234375,
+        "minimum": 136.0234375,
+        "maximum": 136.1484375,
+        "values": [
+          136.0234375,
+          136.1484375,
+          136.0234375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 60.0,
+        "minimum": 26.0,
+        "maximum": 62.0,
+        "values": [
+          60.0,
+          26.0,
+          62.0
+        ]
+      },
+      "minor_faults": {
+        "median": 2017,
+        "minimum": 1010,
+        "maximum": 2028,
+        "values": [
+          2017,
+          2028,
+          1010
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 20.75,
+        "minimum": 18.5,
+        "maximum": 21.0,
+        "values": [
+          21.0,
+          18.5,
+          20.75
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 12.33650277,
+      "mobjects_sec": 16.095053493024913,
+      "gib_sec": 15.34943913748256,
+      "worker_cpu_ns_object": 124.02400847048847,
+      "producer_cpu_ns_object": 62.07260925988929,
+      "consumer_cpu_ns_object": 61.95139921059918,
+      "producer_waits_object": 0.008273003286437033,
+      "consumer_waits_object": 3.0344806997973857,
+      "ready_rss_mib": 134.16796875,
+      "done_rss_mib": 134.16796875,
+      "idle_rss_mib": 134.16796875,
+      "sampled_peak_rss_mib": 134.16796875,
+      "process_hwm_mib": 134.015625,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 6,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.5129887444592209
+  },
+  {
+    "size": 1024,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 7.576538786,
+        "minimum": 7.573376256,
+        "maximum": 7.706205717,
+        "values": [
+          7.576538786,
+          7.573376256,
+          7.706205717
+        ]
+      },
+      "mobjects_sec": {
+        "median": 26.20677826752433,
+        "minimum": 25.76581514843046,
+        "maximum": 26.217721830827255,
+        "values": [
+          26.20677826752433,
+          26.217721830827255,
+          25.76581514843046
+        ]
+      },
+      "gib_sec": {
+        "median": 24.992731349491436,
+        "minimum": 24.57219614832922,
+        "maximum": 25.0031679447434,
+        "values": [
+          24.992731349491436,
+          25.0031679447434,
+          24.57219614832922
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 55.056412357676905,
+        "minimum": 55.02947811796523,
+        "maximum": 55.897476731479465,
+        "values": [
+          55.02947811796523,
+          55.056412357676905,
+          55.897476731479465
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 38.11263711652057,
+        "minimum": 38.104233329414384,
+        "maximum": 38.75365046912148,
+        "values": [
+          38.104233329414384,
+          38.11263711652057,
+          38.75365046912148
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 16.943775241156338,
+        "minimum": 16.92524478855085,
+        "maximum": 17.143826262357983,
+        "values": [
+          16.92524478855085,
+          16.943775241156338,
+          17.143826262357983
+        ]
+      },
+      "producer_waits_object": {
+        "median": 5.590343496490513e-07,
+        "minimum": 0.0,
+        "maximum": 4.276360957540626e-05,
+        "values": [
+          0.0,
+          4.276360957540626e-05,
+          5.590343496490513e-07
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.05370606735390891,
+        "minimum": 0.049040668852467474,
+        "maximum": 0.062115716766243945,
+        "values": [
+          0.049040668852467474,
+          0.05370606735390891,
+          0.062115716766243945
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 136.2578125,
+        "minimum": 136.25390625,
+        "maximum": 136.30078125,
+        "values": [
+          136.2578125,
+          136.25390625,
+          136.30078125
+        ]
+      },
+      "done_rss_mib": {
+        "median": 54.30078125,
+        "minimum": 46.2578125,
+        "maximum": 72.25390625,
+        "values": [
+          46.2578125,
+          72.25390625,
+          54.30078125
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 54.30078125,
+        "minimum": 46.2578125,
+        "maximum": 72.25390625,
+        "values": [
+          46.2578125,
+          72.25390625,
+          54.30078125
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 138.1484375,
+        "minimum": 138.1484375,
+        "maximum": 138.15234375,
+        "values": [
+          138.15234375,
+          138.1484375,
+          138.1484375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 138.1484375,
+        "minimum": 138.1484375,
+        "maximum": 138.15234375,
+        "values": [
+          138.15234375,
+          138.1484375,
+          138.1484375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 132.0,
+        "minimum": 132.0,
+        "maximum": 132.0,
+        "values": [
+          132.0,
+          132.0,
+          132.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 44.0,
+        "minimum": 38.0,
+        "maximum": 64.0,
+        "values": [
+          38.0,
+          64.0,
+          44.0
+        ]
+      },
+      "minor_faults": {
+        "median": 974,
+        "minimum": 942,
+        "maximum": 1452,
+        "values": [
+          974,
+          942,
+          1452
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 22.125,
+        "minimum": 21.75,
+        "maximum": 22.25,
+        "values": [
+          21.75,
+          22.125,
+          22.25
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 12.84306636,
+      "mobjects_sec": 15.460223161223315,
+      "gib_sec": 14.744017754767718,
+      "worker_cpu_ns_object": 129.3067882654681,
+      "producer_cpu_ns_object": 64.60145167018109,
+      "consumer_cpu_ns_object": 64.70533659528701,
+      "producer_waits_object": 1.3326170172715223e-05,
+      "consumer_waits_object": 3.182595621868602,
+      "ready_rss_mib": 136.12890625,
+      "done_rss_mib": 136.12890625,
+      "idle_rss_mib": 136.12890625,
+      "sampled_peak_rss_mib": 136.12890625,
+      "process_hwm_mib": 135.89453125,
+      "ready_thp_mib": 132.0,
+      "done_thp_mib": 132.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.5899322306390389
+  },
+  {
+    "size": 1024,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 3.696207702,
+        "minimum": 3.656357961,
+        "maximum": 3.717225078,
+        "values": [
+          3.656357961,
+          3.696207702,
+          3.717225078
+        ]
+      },
+      "mobjects_sec": {
+        "median": 53.71902447272158,
+        "minimum": 53.41529442893746,
+        "maximum": 54.30449483280229,
+        "values": [
+          54.30449483280229,
+          53.71902447272158,
+          53.41529442893746
+        ]
+      },
+      "gib_sec": {
+        "median": 51.230453942033364,
+        "minimum": 50.940794400155504,
+        "maximum": 51.78880198745946,
+        "values": [
+          51.78880198745946,
+          51.230453942033364,
+          50.940794400155504
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 74.27544728892313,
+        "minimum": 73.48927744921107,
+        "maximum": 74.3340593359663,
+        "values": [
+          73.48927744921107,
+          74.27544728892313,
+          74.3340593359663
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 37.12069151723091,
+        "minimum": 36.73580923536027,
+        "maximum": 37.152976788410314,
+        "values": [
+          36.73580923536027,
+          37.12069151723091,
+          37.152976788410314
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 37.15475577169222,
+        "minimum": 36.7534682138508,
+        "maximum": 37.181082547555995,
+        "values": [
+          36.7534682138508,
+          37.15475577169222,
+          37.181082547555995
+        ]
+      },
+      "producer_waits_object": {
+        "median": 2.3116825809812124e-06,
+        "minimum": 0.0,
+        "maximum": 9.815837364558567e-06,
+        "values": [
+          2.3116825809812124e-06,
+          0.0,
+          9.815837364558567e-06
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 1.1594648504181215,
+        "minimum": 1.1567080757679098,
+        "maximum": 1.163640111776249,
+        "values": [
+          1.1567080757679098,
+          1.1594648504181215,
+          1.163640111776249
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 132.34375,
+        "minimum": 132.2734375,
+        "maximum": 132.359375,
+        "values": [
+          132.34375,
+          132.2734375,
+          132.359375
+        ]
+      },
+      "done_rss_mib": {
+        "median": 132.34375,
+        "minimum": 132.2734375,
+        "maximum": 132.359375,
+        "values": [
+          132.34375,
+          132.2734375,
+          132.359375
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 132.34375,
+        "minimum": 132.2734375,
+        "maximum": 132.359375,
+        "values": [
+          132.34375,
+          132.2734375,
+          132.359375
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 132.34375,
+        "minimum": 132.2734375,
+        "maximum": 132.359375,
+        "values": [
+          132.34375,
+          132.2734375,
+          132.359375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 131.875,
+        "minimum": 131.875,
+        "maximum": 132.0,
+        "values": [
+          131.875,
+          131.875,
+          132.0
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 0.25,
+        "minimum": 0.25,
+        "maximum": 0.25,
+        "values": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 11.30572058,
+      "mobjects_sec": 17.56249595901476,
+      "gib_sec": 16.74890132810093,
+      "worker_cpu_ns_object": 226.8616012510524,
+      "producer_cpu_ns_object": 113.38394957586719,
+      "consumer_cpu_ns_object": 113.47765167518521,
+      "producer_waits_object": 8.45098773613611e-06,
+      "consumer_waits_object": 5.538036596423211,
+      "ready_rss_mib": 132.26171875,
+      "done_rss_mib": 132.26171875,
+      "idle_rss_mib": 132.26171875,
+      "sampled_peak_rss_mib": 132.26171875,
+      "process_hwm_mib": 131.875,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.3269325184401471
+  },
+  {
+    "size": 1024,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 3.522289831,
+        "minimum": 3.440245923,
+        "maximum": 3.57569059,
+        "values": [
+          3.57569059,
+          3.522289831,
+          3.440245923
+        ]
+      },
+      "mobjects_sec": {
+        "median": 56.37147467323225,
+        "minimum": 55.52960106651734,
+        "maximum": 57.71583672915234,
+        "values": [
+          55.52960106651734,
+          56.37147467323225,
+          57.71583672915234
+        ]
+      },
+      "gib_sec": {
+        "median": 53.760027573807,
+        "minimum": 52.95715433742269,
+        "maximum": 55.0421111384891,
+        "values": [
+          52.95715433742269,
+          53.760027573807,
+          55.0421111384891
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 54.69063590066618,
+        "minimum": 54.02805329553469,
+        "maximum": 55.98408349128656,
+        "values": [
+          55.98408349128656,
+          54.69063590066618,
+          54.02805329553469
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 35.482965417550915,
+        "minimum": 34.454075600138985,
+        "maximum": 35.9010369140353,
+        "values": [
+          35.9010369140353,
+          35.482965417550915,
+          34.454075600138985
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 19.5739776953957,
+        "minimum": 19.20767048311527,
+        "maximum": 20.083046577251256,
+        "values": [
+          20.083046577251256,
+          19.20767048311527,
+          19.5739776953957
+        ]
+      },
+      "producer_waits_object": {
+        "median": 2.4088840489832545e-05,
+        "minimum": 2.8757532761225974e-06,
+        "maximum": 0.0008936541805052011,
+        "values": [
+          2.4088840489832545e-05,
+          0.0008936541805052011,
+          2.8757532761225974e-06
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.1506051229545185,
+        "minimum": 0.12120731959085213,
+        "maximum": 0.16340024071314008,
+        "values": [
+          0.16340024071314008,
+          0.12120731959085213,
+          0.1506051229545185
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 134.2109375,
+        "minimum": 134.16015625,
+        "maximum": 134.22265625,
+        "values": [
+          134.22265625,
+          134.16015625,
+          134.2109375
+        ]
+      },
+      "done_rss_mib": {
+        "median": 136.2109375,
+        "minimum": 136.16015625,
+        "maximum": 136.22265625,
+        "values": [
+          136.22265625,
+          136.16015625,
+          136.2109375
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 136.2109375,
+        "minimum": 136.16015625,
+        "maximum": 136.22265625,
+        "values": [
+          136.22265625,
+          136.16015625,
+          136.2109375
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 136.2109375,
+        "minimum": 136.16015625,
+        "maximum": 136.22265625,
+        "values": [
+          136.22265625,
+          136.16015625,
+          136.2109375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 136.015625,
+        "minimum": 135.890625,
+        "maximum": 136.015625,
+        "values": [
+          136.015625,
+          135.890625,
+          136.015625
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 132.0,
+        "minimum": 132.0,
+        "maximum": 132.0,
+        "values": [
+          132.0,
+          132.0,
+          132.0
+        ]
+      },
+      "minor_faults": {
+        "median": 2,
+        "minimum": 2,
+        "maximum": 2,
+        "values": [
+          2,
+          2,
+          2
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 20.375,
+        "minimum": 18.0,
+        "maximum": 21.625,
+        "values": [
+          20.375,
+          21.625,
+          18.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 10.799660601,
+      "mobjects_sec": 18.38545481527582,
+      "gib_sec": 17.533736052776167,
+      "worker_cpu_ns_object": 217.3576889221834,
+      "producer_cpu_ns_object": 108.63566646100918,
+      "consumer_cpu_ns_object": 108.7220224611742,
+      "producer_waits_object": 3.15778862369329e-05,
+      "consumer_waits_object": 5.165715358081747,
+      "ready_rss_mib": 134.15234375,
+      "done_rss_mib": 134.15234375,
+      "idle_rss_mib": 134.15234375,
+      "sampled_peak_rss_mib": 134.15234375,
+      "process_hwm_mib": 133.87890625,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.3261481967936892
+  },
+  {
+    "size": 1024,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 4.597840345,
+        "minimum": 4.563605836,
+        "maximum": 4.630857212,
+        "values": [
+          4.630857212,
+          4.597840345,
+          4.563605836
+        ]
+      },
+      "mobjects_sec": {
+        "median": 43.184768739506985,
+        "minimum": 42.87687201528856,
+        "maximum": 43.50872514748883,
+        "values": [
+          42.87687201528856,
+          43.184768739506985,
+          43.50872514748883
+        ]
+      },
+      "gib_sec": {
+        "median": 41.184204806811316,
+        "minimum": 40.89057160881859,
+        "maximum": 41.49315371273883,
+        "values": [
+          40.89057160881859,
+          41.184204806811316,
+          41.49315371273883
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 65.51198902548084,
+        "minimum": 65.03247097634674,
+        "maximum": 66.22629980421912,
+        "values": [
+          66.22629980421912,
+          65.03247097634674,
+          65.51198902548084
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 45.756133538539565,
+        "minimum": 45.605678347590356,
+        "maximum": 46.37258167280322,
+        "values": [
+          46.37258167280322,
+          45.756133538539565,
+          45.605678347590356
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 19.853718131415903,
+        "minimum": 19.276337437807175,
+        "maximum": 19.90631067789049,
+        "values": [
+          19.853718131415903,
+          19.276337437807175,
+          19.90631067789049
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.00014751455947045687,
+        "minimum": 2.8490606450132283e-05,
+        "maximum": 0.0013216780748621733,
+        "values": [
+          0.0013216780748621733,
+          2.8490606450132283e-05,
+          0.00014751455947045687
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.026124350029396143,
+        "minimum": 0.014319156195365725,
+        "maximum": 0.04035574790455795,
+        "values": [
+          0.026124350029396143,
+          0.014319156195365725,
+          0.04035574790455795
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 136.1484375,
+        "minimum": 136.14453125,
+        "maximum": 136.15234375,
+        "values": [
+          136.14453125,
+          136.15234375,
+          136.1484375
+        ]
+      },
+      "done_rss_mib": {
+        "median": 66.14453125,
+        "minimum": 62.1484375,
+        "maximum": 68.15234375,
+        "values": [
+          66.14453125,
+          68.15234375,
+          62.1484375
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 66.14453125,
+        "minimum": 62.1484375,
+        "maximum": 68.15234375,
+        "values": [
+          66.14453125,
+          68.15234375,
+          62.1484375
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 139.90234375,
+        "minimum": 137.8984375,
+        "maximum": 140.015625,
+        "values": [
+          137.8984375,
+          140.015625,
+          139.90234375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 139.90234375,
+        "minimum": 137.8984375,
+        "maximum": 140.015625,
+        "values": [
+          137.8984375,
+          140.015625,
+          139.90234375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 132.0,
+        "minimum": 132.0,
+        "maximum": 132.0,
+        "values": [
+          132.0,
+          132.0,
+          132.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 52.0,
+        "minimum": 46.0,
+        "maximum": 54.0,
+        "values": [
+          54.0,
+          52.0,
+          46.0
+        ]
+      },
+      "minor_faults": {
+        "median": 2160,
+        "minimum": 1925,
+        "maximum": 2422,
+        "values": [
+          1925,
+          2160,
+          2422
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 25.25,
+        "minimum": 23.125,
+        "maximum": 27.25,
+        "values": [
+          27.25,
+          25.25,
+          23.125
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 10.683293014,
+      "mobjects_sec": 18.58571806837086,
+      "gib_sec": 17.72472197377287,
+      "worker_cpu_ns_object": 214.76265453321054,
+      "producer_cpu_ns_object": 107.33909507206084,
+      "consumer_cpu_ns_object": 107.42355946114971,
+      "producer_waits_object": 1.4529856745383001e-05,
+      "consumer_waits_object": 5.142125302140439,
+      "ready_rss_mib": 136.05859375,
+      "done_rss_mib": 136.05859375,
+      "idle_rss_mib": 136.05859375,
+      "sampled_peak_rss_mib": 136.05859375,
+      "process_hwm_mib": 135.875,
+      "ready_thp_mib": 132.0,
+      "done_thp_mib": 132.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.4303766955539575
+  },
+  {
+    "size": 4096,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 7.409627328,
+        "minimum": 7.390118707,
+        "maximum": 7.451960608,
+        "values": [
+          7.409627328,
+          7.390118707,
+          7.451960608
+        ]
+      },
+      "mobjects_sec": {
+        "median": 10.42791230646897,
+        "minimum": 10.36867316730722,
+        "maximum": 10.45544017132119,
+        "values": [
+          10.42791230646897,
+          10.45544017132119,
+          10.36867316730722
+        ]
+      },
+      "gib_sec": {
+        "median": 39.77932856166447,
+        "minimum": 39.55334917948616,
+        "maximum": 39.88433903244472,
+        "values": [
+          39.77932856166447,
+          39.88433903244472,
+          39.55334917948616
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 191.56314746963463,
+        "minimum": 191.2492065300266,
+        "maximum": 192.68089131362566,
+        "values": [
+          191.56314746963463,
+          191.2492065300266,
+          192.68089131362566
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 95.74015268418019,
+        "minimum": 95.57450940469445,
+        "maximum": 96.28037689700786,
+        "values": [
+          95.74015268418019,
+          95.57450940469445,
+          96.28037689700786
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 95.82299478545444,
+        "minimum": 95.67469712533214,
+        "maximum": 96.4005144166178,
+        "values": [
+          95.82299478545444,
+          95.67469712533214,
+          96.4005144166178
+        ]
+      },
+      "producer_waits_object": {
+        "median": 5.712662843246395e-05,
+        "minimum": 2.3166439713210347e-06,
+        "maximum": 0.00011436973617074852,
+        "values": [
+          2.3166439713210347e-06,
+          0.00011436973617074852,
+          5.712662843246395e-05
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 4.073549265776578,
+        "minimum": 4.041789448797147,
+        "maximum": 4.098080519400379,
+        "values": [
+          4.098080519400379,
+          4.073549265776578,
+          4.041789448797147
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 131.4921875,
+        "minimum": 131.48828125,
+        "maximum": 131.58203125,
+        "values": [
+          131.58203125,
+          131.48828125,
+          131.4921875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 131.48828125,
+        "minimum": 35.3828125,
+        "maximum": 131.4921875,
+        "values": [
+          35.3828125,
+          131.48828125,
+          131.4921875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 131.48828125,
+        "minimum": 35.3828125,
+        "maximum": 131.4921875,
+        "values": [
+          35.3828125,
+          131.48828125,
+          131.4921875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 131.4921875,
+        "minimum": 131.48828125,
+        "maximum": 131.58203125,
+        "values": [
+          131.58203125,
+          131.48828125,
+          131.4921875
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 131.25,
+        "minimum": 131.25,
+        "maximum": 131.375,
+        "values": [
+          131.375,
+          131.25,
+          131.25
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 58,
+        "values": [
+          58,
+          0,
+          0
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 20.509264507,
+      "mobjects_sec": 3.767416621577438,
+      "gib_sec": 14.371553884801628,
+      "worker_cpu_ns_object": 530.6504082780859,
+      "producer_cpu_ns_object": 265.1635206900379,
+      "consumer_cpu_ns_object": 265.486887588048,
+      "producer_waits_object": 0.0,
+      "consumer_waits_object": 14.05157679071661,
+      "ready_rss_mib": 131.375,
+      "done_rss_mib": 131.375,
+      "idle_rss_mib": 131.375,
+      "sampled_peak_rss_mib": 131.375,
+      "process_hwm_mib": 131.25,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.36128196237710164
+  },
+  {
+    "size": 4096,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 7.44164731,
+        "minimum": 7.334337872,
+        "maximum": 7.753242431,
+        "values": [
+          7.334337872,
+          7.753242431,
+          7.44164731
+        ]
+      },
+      "mobjects_sec": {
+        "median": 10.383042998580377,
+        "minimum": 9.965758801899637,
+        "maximum": 10.534958349134532,
+        "values": [
+          10.534958349134532,
+          9.965758801899637,
+          10.383042998580377
+        ]
+      },
+      "gib_sec": {
+        "median": 39.60816573555137,
+        "minimum": 38.016352851484825,
+        "maximum": 40.187676807916766,
+        "values": [
+          40.187676807916766,
+          38.016352851484825,
+          39.60816573555137
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 132.38672731770006,
+        "minimum": 131.86471046402457,
+        "maximum": 138.3340711391407,
+        "values": [
+          131.86471046402457,
+          132.38672731770006,
+          138.3340711391407
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 96.12269066834065,
+        "minimum": 94.79647920331882,
+        "maximum": 100.0151493761679,
+        "values": [
+          94.79647920331882,
+          100.0151493761679,
+          96.12269066834065
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 37.068231260705744,
+        "minimum": 32.37157794153215,
+        "maximum": 42.21138047080004,
+        "values": [
+          37.068231260705744,
+          32.37157794153215,
+          42.21138047080004
+        ]
+      },
+      "producer_waits_object": {
+        "median": 1.000427815548134e-05,
+        "minimum": 0.0,
+        "maximum": 4.246317804415818e-05,
+        "values": [
+          0.0,
+          1.000427815548134e-05,
+          4.246317804415818e-05
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.5163956659137444,
+        "minimum": 0.201472650451919,
+        "maximum": 0.8212991703153162,
+        "values": [
+          0.5163956659137444,
+          0.201472650451919,
+          0.8212991703153162
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 133.2578125,
+        "minimum": 133.23828125,
+        "maximum": 133.37890625,
+        "values": [
+          133.2578125,
+          133.37890625,
+          133.23828125
+        ]
+      },
+      "done_rss_mib": {
+        "median": 36.6328125,
+        "minimum": 33.17578125,
+        "maximum": 41.31640625,
+        "values": [
+          36.6328125,
+          41.31640625,
+          33.17578125
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 36.6328125,
+        "minimum": 33.17578125,
+        "maximum": 41.31640625,
+        "values": [
+          36.6328125,
+          41.31640625,
+          33.17578125
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 135.1484375,
+        "minimum": 135.1484375,
+        "maximum": 135.26953125,
+        "values": [
+          135.1484375,
+          135.26953125,
+          135.1484375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 135.1484375,
+        "minimum": 135.1484375,
+        "maximum": 135.26953125,
+        "values": [
+          135.1484375,
+          135.26953125,
+          135.1484375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 24.0,
+        "minimum": 22.0,
+        "maximum": 32.0,
+        "values": [
+          22.0,
+          32.0,
+          24.0
+        ]
+      },
+      "minor_faults": {
+        "median": 995,
+        "minimum": 941,
+        "maximum": 2019,
+        "values": [
+          2019,
+          995,
+          941
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 7.0,
+        "minimum": 6.0,
+        "maximum": 15.5,
+        "values": [
+          6.0,
+          15.5,
+          7.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 18.623433356,
+      "mobjects_sec": 4.1489097376938044,
+      "gib_sec": 15.826834631705491,
+      "worker_cpu_ns_object": 481.6732343652675,
+      "producer_cpu_ns_object": 240.71855837859977,
+      "consumer_cpu_ns_object": 240.95467598666772,
+      "producer_waits_object": 0.0001095164317615564,
+      "consumer_waits_object": 13.134397382145721,
+      "ready_rss_mib": 133.390625,
+      "done_rss_mib": 133.390625,
+      "idle_rss_mib": 133.390625,
+      "sampled_peak_rss_mib": 133.390625,
+      "process_hwm_mib": 133.2734375,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.39958514457284483
+  },
+  {
+    "size": 4096,
+    "cap_mib": 128,
+    "pairs": 1,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 11.921953784,
+        "minimum": 11.174944403,
+        "maximum": 12.27635294,
+        "values": [
+          12.27635294,
+          11.921953784,
+          11.174944403
+        ]
+      },
+      "mobjects_sec": {
+        "median": 6.481063875930892,
+        "minimum": 6.293965673489344,
+        "maximum": 6.914302318967878,
+        "values": [
+          6.293965673489344,
+          6.481063875930892,
+          6.914302318967878
+        ]
+      },
+      "gib_sec": {
+        "median": 24.72329664585454,
+        "minimum": 24.009573644597413,
+        "maximum": 26.37597014987136,
+        "values": [
+          24.009573644597413,
+          24.72329664585454,
+          26.37597014987136
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 195.35424318062846,
+        "minimum": 185.49159097064845,
+        "maximum": 201.51253198262896,
+        "values": [
+          201.51253198262896,
+          195.35424318062846,
+          185.49159097064845
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 154.14880092837632,
+        "minimum": 144.37683674923133,
+        "maximum": 158.62052899361467,
+        "values": [
+          158.62052899361467,
+          154.14880092837632,
+          144.37683674923133
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 41.20544225225214,
+        "minimum": 41.114754221417115,
+        "maximum": 42.892002989014294,
+        "values": [
+          42.892002989014294,
+          41.20544225225214,
+          41.114754221417115
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 3.929235249681934e-05,
+        "values": [
+          0.0,
+          3.929235249681934e-05,
+          0.0
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.09029796752412002,
+        "minimum": 0.038451462503810166,
+        "maximum": 0.12325282335483594,
+        "values": [
+          0.09029796752412002,
+          0.038451462503810166,
+          0.12325282335483594
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 141.34375,
+        "minimum": 141.32421875,
+        "maximum": 141.44140625,
+        "values": [
+          141.32421875,
+          141.34375,
+          141.44140625
+        ]
+      },
+      "done_rss_mib": {
+        "median": 57.44140625,
+        "minimum": 53.38671875,
+        "maximum": 71.34375,
+        "values": [
+          53.38671875,
+          71.34375,
+          57.44140625
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 57.44140625,
+        "minimum": 53.38671875,
+        "maximum": 71.34375,
+        "values": [
+          53.38671875,
+          71.34375,
+          57.44140625
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 143.27734375,
+        "minimum": 143.2734375,
+        "maximum": 143.27734375,
+        "values": [
+          143.2734375,
+          143.27734375,
+          143.27734375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 143.27734375,
+        "minimum": 143.2734375,
+        "maximum": 143.27734375,
+        "values": [
+          143.2734375,
+          143.27734375,
+          143.27734375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 138.0,
+        "minimum": 138.0,
+        "maximum": 138.0,
+        "values": [
+          138.0,
+          138.0,
+          138.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 48.0,
+        "minimum": 36.0,
+        "maximum": 58.0,
+        "values": [
+          36.0,
+          58.0,
+          48.0
+        ]
+      },
+      "minor_faults": {
+        "median": 3691,
+        "minimum": 2163,
+        "maximum": 5152,
+        "values": [
+          5152,
+          3691,
+          2163
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 21.0,
+        "minimum": 19.0,
+        "maximum": 22.0,
+        "values": [
+          21.0,
+          22.0,
+          19.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 18.70910552,
+      "mobjects_sec": 4.1299111770683945,
+      "gib_sec": 15.754360874436928,
+      "worker_cpu_ns_object": 483.97995296669166,
+      "producer_cpu_ns_object": 241.89835579623804,
+      "consumer_cpu_ns_object": 242.08159717045365,
+      "producer_waits_object": 0.00010171231827157548,
+      "consumer_waits_object": 13.152129984589529,
+      "ready_rss_mib": 141.52734375,
+      "done_rss_mib": 141.52734375,
+      "idle_rss_mib": 141.52734375,
+      "sampled_peak_rss_mib": 141.52734375,
+      "process_hwm_mib": 141.3984375,
+      "ready_thp_mib": 138.0,
+      "done_thp_mib": 138.0,
+      "minor_faults": 5,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.6372273528125357
+  },
+  {
+    "size": 4096,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 3.936238683,
+        "minimum": 3.890299342,
+        "maximum": 4.009470248,
+        "values": [
+          3.936238683,
+          4.009470248,
+          3.890299342
+        ]
+      },
+      "mobjects_sec": {
+        "median": 19.629638907240015,
+        "minimum": 19.271110451197938,
+        "maximum": 19.861439238317615,
+        "values": [
+          19.629638907240015,
+          19.271110451197938,
+          19.861439238317615
+        ]
+      },
+      "gib_sec": {
+        "median": 74.8811298646546,
+        "minimum": 73.51345234374213,
+        "maximum": 75.7653779537873,
+        "values": [
+          74.8811298646546,
+          73.51345234374213,
+          75.7653779537873
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 203.15360800344322,
+        "minimum": 200.58533192408905,
+        "maximum": 206.94332150628347,
+        "values": [
+          203.15360800344322,
+          206.94332150628347,
+          200.58533192408905
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 101.53620568971901,
+        "minimum": 100.25318058392473,
+        "maximum": 103.44218308931696,
+        "values": [
+          101.53620568971901,
+          103.44218308931696,
+          100.25318058392473
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 101.61740231372423,
+        "minimum": 100.3321513401643,
+        "maximum": 103.50113841696651,
+        "values": [
+          101.61740231372423,
+          103.50113841696651,
+          100.3321513401643
+        ]
+      },
+      "producer_waits_object": {
+        "median": 1.751072230836514e-05,
+        "minimum": 0.0,
+        "maximum": 0.00016010727692297497,
+        "values": [
+          0.0,
+          0.00016010727692297497,
+          1.751072230836514e-05
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 4.225486062966332,
+        "minimum": 4.210775192558412,
+        "maximum": 4.304420179993142,
+        "values": [
+          4.225486062966332,
+          4.304420179993142,
+          4.210775192558412
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 131.5,
+        "minimum": 131.48046875,
+        "maximum": 131.61328125,
+        "values": [
+          131.5,
+          131.48046875,
+          131.61328125
+        ]
+      },
+      "done_rss_mib": {
+        "median": 131.54296875,
+        "minimum": 131.5,
+        "maximum": 131.61328125,
+        "values": [
+          131.5,
+          131.54296875,
+          131.61328125
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 131.54296875,
+        "minimum": 131.5,
+        "maximum": 131.61328125,
+        "values": [
+          131.5,
+          131.54296875,
+          131.61328125
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 131.54296875,
+        "minimum": 131.5,
+        "maximum": 131.61328125,
+        "values": [
+          131.5,
+          131.54296875,
+          131.61328125
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 131.125,
+        "minimum": 131.125,
+        "maximum": 131.25,
+        "values": [
+          131.125,
+          131.125,
+          131.25
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 107,
+        "values": [
+          0,
+          107,
+          0
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 16.279283817,
+      "mobjects_sec": 4.746335580150786,
+      "gib_sec": 18.10583335933985,
+      "worker_cpu_ns_object": 841.4332305545823,
+      "producer_cpu_ns_object": 420.5455070799746,
+      "consumer_cpu_ns_object": 420.8877234746077,
+      "producer_waits_object": 0.00011497801699003393,
+      "consumer_waits_object": 21.666120650507416,
+      "ready_rss_mib": 131.40234375,
+      "done_rss_mib": 131.40234375,
+      "idle_rss_mib": 131.40234375,
+      "sampled_peak_rss_mib": 131.40234375,
+      "process_hwm_mib": 131.125,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.24179433980317344
+  },
+  {
+    "size": 4096,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 4.738808374,
+        "minimum": 4.645895219,
+        "maximum": 4.779799487,
+        "values": [
+          4.645895219,
+          4.779799487,
+          4.738808374
+        ]
+      },
+      "mobjects_sec": {
+        "median": 16.305142116303685,
+        "minimum": 16.16531074371405,
+        "maximum": 16.631228290299504,
+        "values": [
+          16.631228290299504,
+          16.16531074371405,
+          16.305142116303685
+        ]
+      },
+      "gib_sec": {
+        "median": 62.1991810466907,
+        "minimum": 61.66576669202442,
+        "maximum": 63.44310108299066,
+        "values": [
+          63.44310108299066,
+          61.66576669202442,
+          62.1991810466907
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 164.2522086935391,
+        "minimum": 163.52662571979033,
+        "maximum": 165.97461140691678,
+        "values": [
+          164.2522086935391,
+          165.97461140691678,
+          163.52662571979033
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 121.64278372391692,
+        "minimum": 119.42230655582807,
+        "maximum": 122.8052026750275,
+        "values": [
+          119.42230655582807,
+          122.8052026750275,
+          121.64278372391692
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 43.16940873188928,
+        "minimum": 41.883841995873425,
+        "maximum": 44.82990213771105,
+        "values": [
+          44.82990213771105,
+          43.16940873188928,
+          41.883841995873425
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.004045960456259277,
+        "minimum": 0.00017719090844333122,
+        "maximum": 0.005950798312924088,
+        "values": [
+          0.004045960456259277,
+          0.00017719090844333122,
+          0.005950798312924088
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.3494269942913751,
+        "minimum": 0.33295511208518874,
+        "maximum": 0.532031239646284,
+        "values": [
+          0.532031239646284,
+          0.3494269942913751,
+          0.33295511208518874
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 133.3515625,
+        "minimum": 133.2734375,
+        "maximum": 133.3671875,
+        "values": [
+          133.2734375,
+          133.3515625,
+          133.3671875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 54.7265625,
+        "minimum": 52.8046875,
+        "maximum": 94.5859375,
+        "values": [
+          94.5859375,
+          54.7265625,
+          52.8046875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 55.2890625,
+        "minimum": 53.3671875,
+        "maximum": 94.5859375,
+        "values": [
+          94.5859375,
+          55.2890625,
+          53.3671875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 135.2734375,
+        "minimum": 135.14453125,
+        "maximum": 163.26953125,
+        "values": [
+          135.14453125,
+          135.2734375,
+          163.26953125
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 135.2734375,
+        "minimum": 135.14453125,
+        "maximum": 163.26953125,
+        "values": [
+          135.14453125,
+          135.2734375,
+          163.26953125
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 130.0,
+        "minimum": 130.0,
+        "maximum": 130.0,
+        "values": [
+          130.0,
+          130.0,
+          130.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 42.0,
+        "minimum": 40.0,
+        "maximum": 74.0,
+        "values": [
+          74.0,
+          40.0,
+          42.0
+        ]
+      },
+      "minor_faults": {
+        "median": 3215,
+        "minimum": 1867,
+        "maximum": 4326,
+        "values": [
+          3215,
+          1867,
+          4326
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 20.0,
+        "minimum": 20.0,
+        "maximum": 20.0,
+        "values": [
+          20.0,
+          20.0,
+          20.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 15.817623763,
+      "mobjects_sec": 4.884864196905478,
+      "gib_sec": 18.634278094884788,
+      "worker_cpu_ns_object": 817.4017060128585,
+      "producer_cpu_ns_object": 408.605068242378,
+      "consumer_cpu_ns_object": 408.79663777048046,
+      "producer_waits_object": 0.0014058534526744063,
+      "consumer_waits_object": 21.52340742245481,
+      "ready_rss_mib": 133.34765625,
+      "done_rss_mib": 133.41015625,
+      "idle_rss_mib": 133.41015625,
+      "sampled_peak_rss_mib": 133.41015625,
+      "process_hwm_mib": 133.26953125,
+      "ready_thp_mib": 130.0,
+      "done_thp_mib": 130.0,
+      "minor_faults": 17,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.2995904090907034
+  },
+  {
+    "size": 4096,
+    "cap_mib": 128,
+    "pairs": 2,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 7.28299609,
+        "minimum": 7.144285315,
+        "maximum": 7.417387347,
+        "values": [
+          7.417387347,
+          7.144285315,
+          7.28299609
+        ]
+      },
+      "mobjects_sec": {
+        "median": 10.609224973509495,
+        "minimum": 10.417002697216697,
+        "maximum": 10.815209722625697,
+        "values": [
+          10.417002697216697,
+          10.815209722625697,
+          10.609224973509495
+        ]
+      },
+      "gib_sec": {
+        "median": 40.47098149684713,
+        "minimum": 39.737711705080784,
+        "maximum": 41.25675095606116,
+        "values": [
+          39.737711705080784,
+          41.25675095606116,
+          40.47098149684713
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 237.05164537114345,
+        "minimum": 230.70148959171985,
+        "maximum": 240.3502608308153,
+        "values": [
+          237.05164537114345,
+          230.70148959171985,
+          240.3502608308153
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 184.84192337152612,
+        "minimum": 181.3821309148709,
+        "maximum": 186.54537919863895,
+        "values": [
+          186.54537919863895,
+          181.3821309148709,
+          184.84192337152612
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 50.5062661725045,
+        "minimum": 49.31935867684893,
+        "maximum": 55.50833745928919,
+        "values": [
+          50.5062661725045,
+          49.31935867684893,
+          55.50833745928919
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.004739206458068278,
+        "minimum": 0.0,
+        "maximum": 0.012022010343776505,
+        "values": [
+          0.0,
+          0.012022010343776505,
+          0.004739206458068278
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.05946278915858248,
+        "minimum": 0.05171674707362569,
+        "maximum": 0.2103281579248171,
+        "values": [
+          0.05946278915858248,
+          0.05171674707362569,
+          0.2103281579248171
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 143.44140625,
+        "minimum": 143.35546875,
+        "maximum": 143.54296875,
+        "values": [
+          143.44140625,
+          143.35546875,
+          143.54296875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 81.54296875,
+        "minimum": 71.35546875,
+        "maximum": 103.44140625,
+        "values": [
+          103.44140625,
+          71.35546875,
+          81.54296875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 81.54296875,
+        "minimum": 71.35546875,
+        "maximum": 103.44140625,
+        "values": [
+          103.44140625,
+          71.35546875,
+          81.54296875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 145.2734375,
+        "minimum": 145.2734375,
+        "maximum": 163.3984375,
+        "values": [
+          145.2734375,
+          145.2734375,
+          163.3984375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 145.2734375,
+        "minimum": 145.2734375,
+        "maximum": 163.3984375,
+        "values": [
+          145.2734375,
+          145.2734375,
+          163.3984375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 140.0,
+        "minimum": 140.0,
+        "maximum": 140.0,
+        "values": [
+          140.0,
+          140.0,
+          140.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 64.0,
+        "minimum": 62.0,
+        "maximum": 88.0,
+        "values": [
+          88.0,
+          62.0,
+          64.0
+        ]
+      },
+      "minor_faults": {
+        "median": 2995,
+        "minimum": 1133,
+        "maximum": 4892,
+        "values": [
+          2995,
+          1133,
+          4892
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 24.0,
+        "minimum": 24.0,
+        "maximum": 24.0,
+        "values": [
+          24.0,
+          24.0,
+          24.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 16.036107578,
+      "mobjects_sec": 4.818310405076281,
+      "gib_sec": 18.380395527176976,
+      "worker_cpu_ns_object": 829.2649781515884,
+      "producer_cpu_ns_object": 414.5187305194832,
+      "consumer_cpu_ns_object": 414.7462476321051,
+      "producer_waits_object": 0.0025951459915381147,
+      "consumer_waits_object": 21.938786682180673,
+      "ready_rss_mib": 143.45703125,
+      "done_rss_mib": 143.45703125,
+      "idle_rss_mib": 143.45703125,
+      "sampled_peak_rss_mib": 143.45703125,
+      "process_hwm_mib": 143.27734375,
+      "ready_thp_mib": 140.0,
+      "done_thp_mib": 140.0,
+      "minor_faults": 13,
+      "major_faults": 0,
+      "middle_live_median_mib": 128.0
+    },
+    "control_speed_ratio": 0.4541623367500709
+  },
+  {
+    "size": 4096,
+    "cap_mib": 512,
+    "pairs": 1,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 7.423629657,
+        "minimum": 7.388120384,
+        "maximum": 7.452527338,
+        "values": [
+          7.388120384,
+          7.423629657,
+          7.452527338
+        ]
+      },
+      "mobjects_sec": {
+        "median": 10.408243348608089,
+        "minimum": 10.367884677996468,
+        "maximum": 10.458268136416983,
+        "values": [
+          10.458268136416983,
+          10.408243348608089,
+          10.367884677996468
+        ]
+      },
+      "gib_sec": {
+        "median": 39.70429744189487,
+        "minimum": 39.55034133146846,
+        "maximum": 39.89512686316293,
+        "values": [
+          39.89512686316293,
+          39.70429744189487,
+          39.55034133146846
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 192.10593021512537,
+        "minimum": 191.19365338171005,
+        "maximum": 192.87280232022636,
+        "values": [
+          191.19365338171005,
+          192.10593021512537,
+          192.87280232022636
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 95.99701661554002,
+        "minimum": 95.54856925621388,
+        "maximum": 96.38591495219482,
+        "values": [
+          95.54856925621388,
+          95.99701661554002,
+          96.38591495219482
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 96.10891359958535,
+        "minimum": 95.64508412549615,
+        "maximum": 96.48688736803153,
+        "values": [
+          95.64508412549615,
+          96.10891359958535,
+          96.48688736803153
+        ]
+      },
+      "producer_waits_object": {
+        "median": 4.230787230306404e-05,
+        "minimum": 1.2657417899173028e-05,
+        "maximum": 5.301102629346904e-05,
+        "values": [
+          1.2657417899173028e-05,
+          4.230787230306404e-05,
+          5.301102629346904e-05
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 4.048159818511782,
+        "minimum": 4.0264505737408225,
+        "maximum": 4.055089431257952,
+        "values": [
+          4.055089431257952,
+          4.048159818511782,
+          4.0264505737408225
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 516.76953125,
+        "minimum": 516.671875,
+        "maximum": 516.84375,
+        "values": [
+          516.84375,
+          516.671875,
+          516.76953125
+        ]
+      },
+      "done_rss_mib": {
+        "median": 516.76953125,
+        "minimum": 516.671875,
+        "maximum": 516.84375,
+        "values": [
+          516.84375,
+          516.671875,
+          516.76953125
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 516.76953125,
+        "minimum": 516.671875,
+        "maximum": 516.84375,
+        "values": [
+          516.84375,
+          516.671875,
+          516.76953125
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 516.76953125,
+        "minimum": 516.671875,
+        "maximum": 516.84375,
+        "values": [
+          516.84375,
+          516.671875,
+          516.76953125
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 516.5,
+        "minimum": 516.5,
+        "maximum": 516.625,
+        "values": [
+          516.625,
+          516.5,
+          516.5
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 21.224054164,
+      "mobjects_sec": 3.6405365065011623,
+      "gib_sec": 13.887544656757974,
+      "worker_cpu_ns_object": 548.9628682092047,
+      "producer_cpu_ns_object": 274.3191095664402,
+      "consumer_cpu_ns_object": 274.6437586427645,
+      "producer_waits_object": 0.0,
+      "consumer_waits_object": 14.513631806118799,
+      "ready_rss_mib": 516.84375,
+      "done_rss_mib": 516.84375,
+      "idle_rss_mib": 516.84375,
+      "sampled_peak_rss_mib": 516.84375,
+      "process_hwm_mib": 516.625,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 512.0
+    },
+    "control_speed_ratio": 0.3497743456380675
+  },
+  {
+    "size": 4096,
+    "cap_mib": 512,
+    "pairs": 1,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 7.665317194,
+        "minimum": 7.647869602,
+        "maximum": 7.831357207,
+        "values": [
+          7.647869602,
+          7.831357207,
+          7.665317194
+        ]
+      },
+      "mobjects_sec": {
+        "median": 10.080071319224784,
+        "minimum": 9.866354190935835,
+        "maximum": 10.103067654264642,
+        "values": [
+          10.103067654264642,
+          9.866354190935835,
+          10.080071319224784
+        ]
+      },
+      "gib_sec": {
+        "median": 38.45242049875177,
+        "minimum": 37.63715435385069,
+        "maximum": 38.54014455514771,
+        "values": [
+          38.54014455514771,
+          37.63715435385069,
+          38.45242049875177
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 136.9889298326591,
+        "minimum": 134.34540320372966,
+        "maximum": 140.81440654621983,
+        "values": [
+          140.81440654621983,
+          136.9889298326591,
+          134.34540320372966
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 99.08998701954616,
+        "minimum": 98.7650345405145,
+        "maximum": 101.22356957717909,
+        "values": [
+          98.7650345405145,
+          101.22356957717909,
+          99.08998701954616
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 35.76536025548001,
+        "minimum": 35.255416184183495,
+        "maximum": 42.04937200570531,
+        "values": [
+          42.04937200570531,
+          35.76536025548001,
+          35.255416184183495
+        ]
+      },
+      "producer_waits_object": {
+        "median": 4.133721142122561e-05,
+        "minimum": 0.0,
+        "maximum": 8.209202631334817e-05,
+        "values": [
+          4.133721142122561e-05,
+          8.209202631334817e-05,
+          0.0
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.3647167539070783,
+        "minimum": 0.35546064821717294,
+        "maximum": 0.772664064467206,
+        "values": [
+          0.772664064467206,
+          0.35546064821717294,
+          0.3647167539070783
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 520.2421875,
+        "minimum": 520.16015625,
+        "maximum": 520.28125,
+        "values": [
+          520.2421875,
+          520.16015625,
+          520.28125
+        ]
+      },
+      "done_rss_mib": {
+        "median": 62.16015625,
+        "minimum": 26.2421875,
+        "maximum": 84.28125,
+        "values": [
+          26.2421875,
+          62.16015625,
+          84.28125
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 62.72265625,
+        "minimum": 26.8046875,
+        "maximum": 84.28125,
+        "values": [
+          26.8046875,
+          62.72265625,
+          84.28125
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 520.2421875,
+        "minimum": 520.16015625,
+        "maximum": 520.28125,
+        "values": [
+          520.2421875,
+          520.16015625,
+          520.28125
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 520.0703125,
+        "minimum": 520.0703125,
+        "maximum": 520.19140625,
+        "values": [
+          520.0703125,
+          520.0703125,
+          520.19140625
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 516.0,
+        "minimum": 516.0,
+        "maximum": 516.0,
+        "values": [
+          516.0,
+          516.0,
+          516.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 42.0,
+        "minimum": 10.0,
+        "maximum": 72.0,
+        "values": [
+          10.0,
+          42.0,
+          72.0
+        ]
+      },
+      "minor_faults": {
+        "median": 1848,
+        "minimum": 915,
+        "maximum": 2998,
+        "values": [
+          1848,
+          2998,
+          915
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 10.0,
+        "minimum": 5.0,
+        "maximum": 10.0,
+        "values": [
+          5.0,
+          10.0,
+          10.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 19.699742258,
+      "mobjects_sec": 3.9222312144019114,
+      "gib_sec": 14.962124688727995,
+      "worker_cpu_ns_object": 509.54837234147635,
+      "producer_cpu_ns_object": 254.64743063993834,
+      "consumer_cpu_ns_object": 254.900941701538,
+      "producer_waits_object": 2.7696190495122987e-06,
+      "consumer_waits_object": 13.704471772560334,
+      "ready_rss_mib": 520.20703125,
+      "done_rss_mib": 520.20703125,
+      "idle_rss_mib": 520.20703125,
+      "sampled_peak_rss_mib": 520.20703125,
+      "process_hwm_mib": 520.06640625,
+      "ready_thp_mib": 516.0,
+      "done_thp_mib": 516.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 512.0
+    },
+    "control_speed_ratio": 0.3891074864640495
+  },
+  {
+    "size": 4096,
+    "cap_mib": 512,
+    "pairs": 1,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 12.104539362,
+        "minimum": 11.630046552,
+        "maximum": 12.360282827,
+        "values": [
+          11.630046552,
+          12.360282827,
+          12.104539362
+        ]
+      },
+      "mobjects_sec": {
+        "median": 6.3833031302756975,
+        "minimum": 6.251227830419612,
+        "maximum": 6.643734713745624,
+        "values": [
+          6.643734713745624,
+          6.251227830419612,
+          6.3833031302756975
+        ]
+      },
+      "gib_sec": {
+        "median": 24.350368996718206,
+        "minimum": 23.846541711500596,
+        "maximum": 25.343836646063323,
+        "values": [
+          25.343836646063323,
+          23.846541711500596,
+          24.350368996718206
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 198.55122169708173,
+        "minimum": 193.05302721691697,
+        "maximum": 202.97941488406738,
+        "values": [
+          193.05302721691697,
+          202.97941488406738,
+          198.55122169708173
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 156.53433311663005,
+        "minimum": 150.37408154773146,
+        "maximum": 159.78180507566083,
+        "values": [
+          150.37408154773146,
+          159.78180507566083,
+          156.53433311663005
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 42.67894566918552,
+        "minimum": 42.016888580451685,
+        "maximum": 43.197609808406554,
+        "values": [
+          42.67894566918552,
+          43.197609808406554,
+          42.016888580451685
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.00010611264760257633,
+        "values": [
+          0.00010611264760257633,
+          0.0,
+          0.0
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.06222664895352921,
+        "minimum": 0.03511279027678382,
+        "maximum": 0.06372065135641963,
+        "values": [
+          0.06222664895352921,
+          0.06372065135641963,
+          0.03511279027678382
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 554.17578125,
+        "minimum": 554.109375,
+        "maximum": 554.25,
+        "values": [
+          554.17578125,
+          554.25,
+          554.109375
+        ]
+      },
+      "done_rss_mib": {
+        "median": 58.25,
+        "minimum": 54.109375,
+        "maximum": 78.17578125,
+        "values": [
+          78.17578125,
+          58.25,
+          54.109375
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 58.25,
+        "minimum": 54.109375,
+        "maximum": 78.17578125,
+        "values": [
+          78.17578125,
+          58.25,
+          54.109375
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 555.953125,
+        "minimum": 555.94921875,
+        "maximum": 558.078125,
+        "values": [
+          555.94921875,
+          558.078125,
+          555.953125
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 555.953125,
+        "minimum": 555.94921875,
+        "maximum": 558.078125,
+        "values": [
+          555.94921875,
+          558.078125,
+          555.953125
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 550.0,
+        "minimum": 550.0,
+        "maximum": 550.0,
+        "values": [
+          550.0,
+          550.0,
+          550.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 40.0,
+        "minimum": 34.0,
+        "maximum": 62.0,
+        "values": [
+          62.0,
+          40.0,
+          34.0
+        ]
+      },
+      "minor_faults": {
+        "median": 3705,
+        "minimum": 3636,
+        "maximum": 7053,
+        "values": [
+          3705,
+          3636,
+          7053
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 24.0,
+        "minimum": 18.0,
+        "maximum": 24.0,
+        "values": [
+          18.0,
+          24.0,
+          24.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 20.320115521,
+      "mobjects_sec": 3.8024854691474466,
+      "gib_sec": 14.50533092173556,
+      "worker_cpu_ns_object": 525.6171133415087,
+      "producer_cpu_ns_object": 262.6415085343611,
+      "consumer_cpu_ns_object": 262.97560480714753,
+      "producer_waits_object": 5.4512315124045804e-05,
+      "consumer_waits_object": 13.956799909156496,
+      "ready_rss_mib": 554.16796875,
+      "done_rss_mib": 554.16796875,
+      "idle_rss_mib": 554.16796875,
+      "sampled_peak_rss_mib": 554.16796875,
+      "process_hwm_mib": 554.078125,
+      "ready_thp_mib": 550.0,
+      "done_thp_mib": 550.0,
+      "minor_faults": 5,
+      "major_faults": 0,
+      "middle_live_median_mib": 512.0
+    },
+    "control_speed_ratio": 0.5956924481797585
+  },
+  {
+    "size": 4096,
+    "cap_mib": 512,
+    "pairs": 2,
+    "version": "v2.1.2",
+    "metrics": {
+      "seconds": {
+        "median": 3.977731837,
+        "minimum": 3.888219312,
+        "maximum": 4.342489092,
+        "values": [
+          4.342489092,
+          3.888219312,
+          3.977731837
+        ]
+      },
+      "mobjects_sec": {
+        "median": 19.424875071084386,
+        "minimum": 17.793238477523385,
+        "maximum": 19.872064253560808,
+        "values": [
+          17.793238477523385,
+          19.872064253560808,
+          19.424875071084386
+        ]
+      },
+      "gib_sec": {
+        "median": 74.10001781877284,
+        "minimum": 67.875818166822,
+        "maximum": 75.80590917038272,
+        "values": [
+          67.875818166822,
+          75.80590917038272,
+          74.10001781877284
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 205.40650683686934,
+        "minimum": 201.24131143325664,
+        "maximum": 224.15545788895184,
+        "values": [
+          224.15545788895184,
+          201.24131143325664,
+          205.40650683686934
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 102.66490190164632,
+        "minimum": 100.59826922881795,
+        "maximum": 112.06516754435118,
+        "values": [
+          112.06516754435118,
+          100.59826922881795,
+          102.66490190164632
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 102.74160493522301,
+        "minimum": 100.64304220443869,
+        "maximum": 112.09029034460066,
+        "values": [
+          112.09029034460066,
+          100.64304220443869,
+          102.74160493522301
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 6.748034450540712e-05,
+        "values": [
+          0.0,
+          6.748034450540712e-05,
+          0.0
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 4.309802132202873,
+        "minimum": 4.223083793763087,
+        "maximum": 4.449389146282271,
+        "values": [
+          4.449389146282271,
+          4.223083793763087,
+          4.309802132202873
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 516.80859375,
+        "minimum": 516.7734375,
+        "maximum": 516.86328125,
+        "values": [
+          516.80859375,
+          516.86328125,
+          516.7734375
+        ]
+      },
+      "done_rss_mib": {
+        "median": 516.8359375,
+        "minimum": 40.81640625,
+        "maximum": 516.86328125,
+        "values": [
+          40.81640625,
+          516.86328125,
+          516.8359375
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 516.8359375,
+        "minimum": 40.81640625,
+        "maximum": 516.86328125,
+        "values": [
+          40.81640625,
+          516.86328125,
+          516.8359375
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 516.8359375,
+        "minimum": 516.80859375,
+        "maximum": 516.86328125,
+        "values": [
+          516.80859375,
+          516.86328125,
+          516.8359375
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 516.375,
+        "minimum": 516.375,
+        "maximum": 516.375,
+        "values": [
+          516.375,
+          516.375,
+          516.375
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "minor_faults": {
+        "median": 116,
+        "minimum": 0,
+        "maximum": 1124,
+        "values": [
+          1124,
+          0,
+          116
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.5,
+        "values": [
+          0.0,
+          0.0,
+          0.5
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 18.10134594,
+      "mobjects_sec": 4.268574516840597,
+      "gib_sec": 16.28331953750838,
+      "worker_cpu_ns_object": 935.3586173279999,
+      "producer_cpu_ns_object": 467.5378465337001,
+      "consumer_cpu_ns_object": 467.82077079429985,
+      "producer_waits_object": 1.0910228311863868e-05,
+      "consumer_waits_object": 24.059202250835753,
+      "ready_rss_mib": 516.70703125,
+      "done_rss_mib": 516.70703125,
+      "idle_rss_mib": 516.70703125,
+      "sampled_peak_rss_mib": 516.70703125,
+      "process_hwm_mib": 516.375,
+      "ready_thp_mib": 0.0,
+      "done_thp_mib": 0.0,
+      "minor_faults": 100,
+      "major_faults": 0,
+      "middle_live_median_mib": 512.0
+    },
+    "control_speed_ratio": 0.21974784914806175
+  },
+  {
+    "size": 4096,
+    "cap_mib": 512,
+    "pairs": 2,
+    "version": "v3.5.0",
+    "metrics": {
+      "seconds": {
+        "median": 4.828416338,
+        "minimum": 4.762866365,
+        "maximum": 5.03492008,
+        "values": [
+          4.828416338,
+          4.762866365,
+          5.03492008
+        ]
+      },
+      "mobjects_sec": {
+        "median": 16.002543813776647,
+        "minimum": 15.346210619494084,
+        "maximum": 16.222782265695585,
+        "values": [
+          16.002543813776647,
+          16.222782265695585,
+          15.346210619494084
+        ]
+      },
+      "gib_sec": {
+        "median": 61.04486012945804,
+        "minimum": 58.54114768788942,
+        "maximum": 61.8850031497787,
+        "values": [
+          61.04486012945804,
+          61.8850031497787,
+          58.54114768788942
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 167.0114474308703,
+        "minimum": 163.09478326203765,
+        "maximum": 209.0915607196785,
+        "values": [
+          167.0114474308703,
+          163.09478326203765,
+          209.0915607196785
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 123.5032629477361,
+        "minimum": 122.18003860745418,
+        "maximum": 129.80113086910748,
+        "values": [
+          123.5032629477361,
+          122.18003860745418,
+          129.80113086910748
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 43.50818448313421,
+        "minimum": 40.914744654583465,
+        "maximum": 79.29042985057103,
+        "values": [
+          43.50818448313421,
+          40.914744654583465,
+          79.29042985057103
+        ]
+      },
+      "producer_waits_object": {
+        "median": 0.00010149230180502544,
+        "minimum": 4.212668227178753e-05,
+        "maximum": 0.00017329532277088634,
+        "values": [
+          4.212668227178753e-05,
+          0.00010149230180502544,
+          0.00017329532277088634
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.3790480053151837,
+        "minimum": 0.25219531136109125,
+        "maximum": 2.516934680372502,
+        "values": [
+          0.3790480053151837,
+          0.25219531136109125,
+          2.516934680372502
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 520.171875,
+        "minimum": 518.12109375,
+        "maximum": 520.19140625,
+        "values": [
+          518.12109375,
+          520.171875,
+          520.19140625
+        ]
+      },
+      "done_rss_mib": {
+        "median": 66.12109375,
+        "minimum": 60.19140625,
+        "maximum": 96.171875,
+        "values": [
+          66.12109375,
+          96.171875,
+          60.19140625
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 66.12109375,
+        "minimum": 60.19140625,
+        "maximum": 96.734375,
+        "values": [
+          66.12109375,
+          96.734375,
+          60.19140625
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 520.171875,
+        "minimum": 518.12109375,
+        "maximum": 520.19140625,
+        "values": [
+          518.12109375,
+          520.171875,
+          520.19140625
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 519.94140625,
+        "minimum": 517.81640625,
+        "maximum": 520.0703125,
+        "values": [
+          517.81640625,
+          519.94140625,
+          520.0703125
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 516.0,
+        "minimum": 274.0,
+        "maximum": 516.0,
+        "values": [
+          274.0,
+          516.0,
+          516.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 52.0,
+        "minimum": 48.0,
+        "maximum": 78.0,
+        "values": [
+          52.0,
+          78.0,
+          48.0
+        ]
+      },
+      "minor_faults": {
+        "median": 1491,
+        "minimum": 696,
+        "maximum": 2153,
+        "values": [
+          1491,
+          2153,
+          696
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 18.0,
+        "minimum": 3.0,
+        "maximum": 21.0,
+        "values": [
+          18.0,
+          21.0,
+          3.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 17.571366637,
+      "mobjects_sec": 4.397321255439467,
+      "gib_sec": 16.774449369199626,
+      "worker_cpu_ns_object": 908.3134293883811,
+      "producer_cpu_ns_object": 453.9069167146044,
+      "consumer_cpu_ns_object": 454.4065126737768,
+      "producer_waits_object": 2.5923116617631468e-05,
+      "consumer_waits_object": 23.590517815742786,
+      "ready_rss_mib": 520.0703125,
+      "done_rss_mib": 520.0703125,
+      "idle_rss_mib": 520.0703125,
+      "sampled_peak_rss_mib": 520.0703125,
+      "process_hwm_mib": 519.9375,
+      "ready_thp_mib": 516.0,
+      "done_thp_mib": 516.0,
+      "minor_faults": 9,
+      "major_faults": 0,
+      "middle_live_median_mib": 512.0
+    },
+    "control_speed_ratio": 0.27478889022967695
+  },
+  {
+    "size": 4096,
+    "cap_mib": 512,
+    "pairs": 2,
+    "version": "v3.5.3",
+    "metrics": {
+      "seconds": {
+        "median": 7.454584957,
+        "minimum": 7.286312309,
+        "maximum": 7.50515351,
+        "values": [
+          7.454584957,
+          7.50515351,
+          7.286312309
+        ]
+      },
+      "mobjects_sec": {
+        "median": 10.365022928264414,
+        "minimum": 10.295185021471998,
+        "maximum": 10.604396397414977,
+        "values": [
+          10.365022928264414,
+          10.295185021471998,
+          10.604396397414977
+        ]
+      },
+      "gib_sec": {
+        "median": 39.539424622590694,
+        "minimum": 39.27301415051269,
+        "maximum": 40.45256194082251,
+        "values": [
+          39.539424622590694,
+          39.27301415051269,
+          40.45256194082251
+        ]
+      },
+      "worker_cpu_ns_object": {
+        "median": 242.72392157764128,
+        "minimum": 239.8948083154421,
+        "maximum": 244.54531852586277,
+        "values": [
+          242.72392157764128,
+          244.54531852586277,
+          239.8948083154421
+        ]
+      },
+      "producer_cpu_ns_object": {
+        "median": 188.82707588383462,
+        "minimum": 186.73731245278705,
+        "maximum": 191.671523284265,
+        "values": [
+          188.82707588383462,
+          191.671523284265,
+          186.73731245278705
+        ]
+      },
+      "consumer_cpu_ns_object": {
+        "median": 53.157495862655054,
+        "minimum": 52.873795241597755,
+        "maximum": 53.896845693806654,
+        "values": [
+          53.896845693806654,
+          52.873795241597755,
+          53.157495862655054
+        ]
+      },
+      "producer_waits_object": {
+        "median": 2.849860349077608e-05,
+        "minimum": 2.7553826899120017e-05,
+        "maximum": 5.334752206583969e-05,
+        "values": [
+          2.7553826899120017e-05,
+          5.334752206583969e-05,
+          2.849860349077608e-05
+        ]
+      },
+      "consumer_waits_object": {
+        "median": 0.10333698457130645,
+        "minimum": 0.08184582788727868,
+        "maximum": 0.1121805593864305,
+        "values": [
+          0.1121805593864305,
+          0.10333698457130645,
+          0.08184582788727868
+        ]
+      },
+      "ready_rss_mib": {
+        "median": 554.1953125,
+        "minimum": 552.52734375,
+        "maximum": 554.26171875,
+        "values": [
+          552.52734375,
+          554.1953125,
+          554.26171875
+        ]
+      },
+      "done_rss_mib": {
+        "median": 84.1953125,
+        "minimum": 78.26171875,
+        "maximum": 86.81640625,
+        "values": [
+          86.81640625,
+          84.1953125,
+          78.26171875
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 84.1953125,
+        "minimum": 78.26171875,
+        "maximum": 86.81640625,
+        "values": [
+          86.81640625,
+          84.1953125,
+          78.26171875
+        ]
+      },
+      "sampled_peak_rss_mib": {
+        "median": 555.94921875,
+        "minimum": 552.546875,
+        "maximum": 556.07421875,
+        "values": [
+          552.546875,
+          555.94921875,
+          556.07421875
+        ]
+      },
+      "process_hwm_mib": {
+        "median": 555.94921875,
+        "minimum": 552.546875,
+        "maximum": 556.07421875,
+        "values": [
+          552.546875,
+          555.94921875,
+          556.07421875
+        ]
+      },
+      "ready_thp_mib": {
+        "median": 550.0,
+        "minimum": 272.0,
+        "maximum": 550.0,
+        "values": [
+          272.0,
+          550.0,
+          550.0
+        ]
+      },
+      "done_thp_mib": {
+        "median": 70.0,
+        "minimum": 62.0,
+        "maximum": 70.0,
+        "values": [
+          70.0,
+          70.0,
+          62.0
+        ]
+      },
+      "minor_faults": {
+        "median": 2150,
+        "minimum": 2110,
+        "maximum": 2158,
+        "values": [
+          2110,
+          2150,
+          2158
+        ]
+      },
+      "major_faults": {
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "middle_live_median_mib": {
+        "median": 24.0,
+        "minimum": 22.0,
+        "maximum": 25.0,
+        "values": [
+          24.0,
+          22.0,
+          25.0
+        ]
+      }
+    },
+    "retained_control": {
+      "seconds": 17.796455464,
+      "mobjects_sec": 4.3417041194692585,
+      "gib_sec": 16.56228683269218,
+      "worker_cpu_ns_object": 920.4617532175208,
+      "producer_cpu_ns_object": 460.04072878823837,
+      "consumer_cpu_ns_object": 460.42102442928245,
+      "producer_waits_object": 8.574171122906065e-05,
+      "consumer_waits_object": 23.78265952902188,
+      "ready_rss_mib": 554.1953125,
+      "done_rss_mib": 554.1953125,
+      "idle_rss_mib": 554.1953125,
+      "sampled_peak_rss_mib": 554.1953125,
+      "process_hwm_mib": 553.953125,
+      "ready_thp_mib": 550.0,
+      "done_thp_mib": 550.0,
+      "minor_faults": 0,
+      "major_faults": 0,
+      "middle_live_median_mib": 512.0
+    },
+    "control_speed_ratio": 0.4188803198524387
+  }
+]

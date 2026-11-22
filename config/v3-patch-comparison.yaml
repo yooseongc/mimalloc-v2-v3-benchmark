@@ -1,0 +1,19 @@
+comparison_id: v3.4.3-v3.4.5-r23
+comparison_versions: [v3.4.3, v3.4.5]
+policy: upstream-default
+container: mimalloc-comparison:local
+cpu_list: "0,2,4,6,8,10,12,14"
+numa_nodes: "0"
+thp_mode: madvise
+randomization:
+  strategy: paired-block
+  seed: 20260814
+stages:
+  smoke:
+    repetitions: 1
+  pilot:
+    repetitions: 3
+    operation_counts_are_provisional: true
+  core:
+    repetitions: 15
+    status: draft-until-pilot-calibration

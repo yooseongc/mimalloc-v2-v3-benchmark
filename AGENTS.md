@@ -1,15 +1,100 @@
 프로젝트 루트의 `AGENTS.md`로 바로 사용할 수 있는 형태입니다. Codex는 저장소 루트부터 현재 작업 디렉터리까지의 `AGENTS.md`를 계층적으로 읽으며, 기본 합산 한도는 32KiB입니다.
 
-mimalloc v2.1.2와 v3.4.3은 지원 빌드 옵션, THP 제어, 기본 purge 정책이 다르므로 **기본값 비교**와 **동일 정책 비교**를 분리하도록 구성했습니다. 또한 allocator 벤치마크에서 중요한 동일 스레드 해제, 원격 스레드 해제, 비대칭 producer/consumer, thread churn 패턴을 포함했습니다.
+## 0. Active memory-behavior planning override (2026-09-21)
+
+2026-11-18 사용자가 large page ON 검증을 승인했다. `docs/v370-large-pages-plan.md`,
+`v370-large-pages-v1`에서 v3.6.1 기본/v3.7.0 기본/v3.7.0 MI_ENABLE_LARGE_PAGES=1을
+새로 빌드·측정한다. 기존 동결 결과는 보존하며 OS THP 설정이나 upstream 소스는 변경하지 않는다.
+
+2026-11-18 v3.7.0 후속은 `docs/v370-plan.md`, `release-v370-v1`을 따른다.
+기존 다섯 릴리스에 v3.7.0 (`1ed67b5156a763441d2ec3c20221a7b3cd866129`)을
+추가하고 여섯 버전을 현재 환경에서 새로 빌드·비교한다. purge-delay-v370-v1과
+allocation-size-v370-v1은 별도 namespace다. 기존 동결 실행기·계획·결과와
+진행 중 사용자 변경은 보존한다. 하드웨어 MTE/PAC 및 방어 효과는 범위 밖이다.
+
+2026-11-06 보안 모드 후속은 `docs/security-20261106-plan.md`, `security-20261106-v1`을 따른다.
+고정 dev3 d6716d33 내부에서 OFF/MINIMAL/CHECKED/ON/FULL 및 CHECKED+PAC=WEAK의
+처리 비용과 RSS를 비교한다. 기존 동결 소스·실행기·결과는 변경하지 않는다.
+하드웨어 MTE/PAC 및 방어 효과 평가는 포함하지 않는다.
+
+2026-11-06 사용자가 dev3 변경의 직접 측정과 설계 선택을 승인했다.
+현재 후속은 `docs/dev3-20261106-plan.md`, `dev3-20261106-v1`을 따른다.
+v3.6.1과 dev3 snapshot `d6716d33671c2f621b87be3c7ac016c6ba6b3c94`를
+새로 빌드하여 remote-free, 메모리 수명, 스레드 생성/종료를 비교한다.
+기존 모든 버전·결과는 보존하며 이번 결과와 합치지 않는다. 동결 실행 계약은
+`experiments/dev3-20261106-v1/plan.json`이며 기존 활성 observation 코드를 재사용하고
+새 스레드 수명 진단을 추가한다. retired harness는 사용하지 않는다.
+
+2026-10-31 v3.6.1 후속은 `docs/v361-plan.md`, `release-v361-v1`을 따른다.
+기존 네 버전에 v3.6.1 (`56dc5eb80145f9a3ba7ca23d47c6a248b9d8586c`)을 추가하고
+다섯 버전을 현재 환경에서 다시 비교한다. purge-delay-v361-v1 및
+allocation-size-v361-v1도 별도 namespace로 실행한다. 기존 동결 결과는 보존한다.
+
+2026-10-24 할당 크기 확대 후속은 `docs/allocation-size-plan.md`, `allocation-size-v1`을
+따른다. 네 버전에서 4/16/64/256 KiB, 2쌍, 128 MiB 상한, 256 KiB 인계 배치,
+동일 총 처리 바이트를 비교한다. 기존 동결 자료와 결과는 보존한다.
+
+2026-10-24 purge 대기시간 후속은 `docs/purge-delay-plan.md`, `purge-delay-v1`을 따른다.
+v2.1.2/v3.5.0/v3.5.3/v3.6.0에 delay 10/1000 ms, arena_purge_mult=1을 적용한다.
+기존 동결 자료를 보존하고 별도 결과 namespace에서 비교한다.
+
+2026-10-24 후속 지시에 따라 v3.6.0을 추가한 현재 비교는
+`docs/v360-plan.md` 및 `release-v360-v1`을 따른다. v2.1.2/v3.5.0/v3.5.3을
+모두 유지하며 네 버전을 현재 환경에서 다시 실행한다. v3.6.0 commit은
+`b18ab4eef383f655e760881b02eff8af02800879`다. 기존 질문 중심의 관찰 프로그램과
+동결 자료는 보존하고 새 결과 namespace에 빌드·계획·측정을 분리한다.
+
+사용자가 기존 작업 전량 폐기와 질문 중심의 재계획을 명시적으로 요청했다.
+현재 목적은 (1) 버전별 처리 비용과 메모리 사용·반환 패턴,
+(2) 동일 스레드 해제와 다른 스레드 해제의 차이를 이해하는 것이다.
+활성 계획은 `docs/memory-behavior-plan.md`, 식별자는 `memory-behavior-v1`이다.
+2026-09-22 후속 규모 확대는 `docs/concurrency-plan.md` 및 `concurrency-v1`을 따른다.
+사용자 지시에 따라 v2.1.2, v3.5.0, v3.5.3 모두를 유지한다.
+사용자의 후속 "해봐요" 지시로 새 구현·검증·관찰·분석 실행이 승인되었다.
+실제 설계·실행 상태는 활성 plan.json과 보고서를 따른다.
+
+이 절 이전의 모든 실험 계획·하네스·결과·결론은 현재 작업에서 폐기한다.
+파일은 복구 기록으로 남기지만 새 구현과 판단 근거로 재사용하지 않는다.
+이하의 대규모 matrix, 필수 시나리오, 15/30회 반복, 과거 완료 조건은
+과거 작업에만 적용한다. 새 계획과 충돌할 때 이 절과 새 계획이 우선한다.
+검증하지 않은 수치를 만들지 않고, 관찰과 원인 추정을 구분한다.
+기존 하네스를 수정해 재실행하는 대신 질문에 맞는 작은 프로그램을 새로 설계한다.
+폐기 범위는 `legacy/retired-2026-09-21/README.md`에 기록한다.
+
+### Retired r29 scope override
+
+2026-09-21 사용자 요청에 따라 새 비교 대상은 v2.1.2, v3.5.0,
+v3.5.3 (`d4881d338125e1cb7c47ba4cfb398d6f7c0c8d45`)이다.
+활성 계약은 `experiments/r29-v353-v1/`에 있다. r27 dev3 snapshot 및
+r28 메모리 반환 결과는 historical epoch로 보존하며 새 결과와 합치지 않는다.
+실행 단계는 smoke, pilot, 설계 동결, measured 순서다.
+
+### Historical r27 scope override
+
+2026-08-23 사용자 지시에 따라 현재 활성 비교 대상은 다음 세 build다.
+
+* mimalloc `v2.1.2` (`43ce4bd7fd34bcc730c1c7471c99995597415488`)
+* mimalloc `v3.5.0` (`18b08671c9302247bfb682286e6bf3cc1773f801`)
+* upstream `dev3`를 2026-08-23에 해석한 snapshot
+  (`622d421f647fc41a2dfe90bc45174770129d78b4`)
+
+`dev3`는 움직이는 branch를 측정 시점마다 따라가지 않고 위 commit SHA로
+고정한다. 이후 branch HEAD가 바뀌면 새 design revision과 result namespace를
+만든다. 아래의 v3.4.3 비교 및 moving branch 금지 문구는 r2--r26 historical
+epoch 재현에는 계속 적용하지만, 현재 r27 작업과 충돌할 때는 이 절이
+우선한다. 활성 계약과 plan은 `experiments/r27-dev3-snapshot-v1/`에 있다.
+
+mimalloc v2.1.2, v3.4.3, v3.5.0은 지원 빌드 옵션, THP 제어, 기본 purge 정책이 다르므로 **기본값 비교**와 **동일 정책 비교**를 분리하도록 구성했습니다. 또한 allocator 벤치마크에서 중요한 동일 스레드 해제, 원격 스레드 해제, 비대칭 producer/consumer, thread churn 패턴을 포함했습니다.
 
 # AGENTS.md
 
 ## 1. 프로젝트 목표
 
-이 저장소의 목적은 Microsoft mimalloc의 다음 두 버전을 동일한 Rocky Linux 8 컨테이너 환경에서 재현 가능하게 비교하는 것이다.
+이 저장소의 목적은 Microsoft mimalloc의 다음 세 버전을 동일한 Rocky Linux 8 컨테이너 환경에서 재현 가능하게 비교하는 것이다.
 
 * mimalloc `v2.1.2`
 * mimalloc `v3.4.3`
+* mimalloc `v3.5.0`
 
 주요 비교 대상은 다음과 같다.
 
@@ -21,7 +106,8 @@ mimalloc v2.1.2와 v3.4.3은 지원 빌드 옵션, THP 제어, 기본 purge 정�
 
 단순히 어느 버전이 더 빠른지 판단하지 말고 다음 질문에 답할 수 있도록 실험한다.
 
-* 어떤 workload에서 v3.4.3이 v2.1.2보다 빠르거나 느린가?
+* 어떤 workload에서 v3.4.3과 v3.5.0이 v2.1.2보다 빠르거나 느린가?
+* v3.5.0은 v3.4.3보다 어떤 workload에서 개선되거나 회귀하는가?
 * cross-thread free 비율에 따라 차이가 어떻게 변하는가?
 * 최대 RSS와 해제 후 RSS 감소 특성은 어떻게 다른가?
 * THP, NUMA, purge delay가 결과에 얼마나 영향을 주는가?
@@ -97,14 +183,14 @@ docs/experiment-report.md
 * 컨테이너 이미지와 digest
 * cgroup 설정
 * THP, HugeTLB, NUMA 설정
-* 두 mimalloc의 tag, commit SHA 및 빌드 옵션
+* 세 mimalloc의 tag, commit SHA 및 빌드 옵션
 * workload별 결과
 * throughput 비교
 * latency 비교
 * CPU 및 perf counter 비교
 * peak RSS 및 메모리 반환 비교
 * 통계적 변동성과 신뢰구간
-* v3.4.3 / v2.1.2 비율
+* v3.4.3 / v2.1.2, v3.5.0 / v2.1.2 및 v3.5.0 / v3.4.3 비율
 * 이상치 및 실패한 실행
 * 제외한 결과와 명확한 제외 이유
 * 주요 발견
@@ -249,6 +335,7 @@ Reason: <실행하지 못한 구체적인 이유>
 ```text
 microsoft/mimalloc v2.1.2
 microsoft/mimalloc v3.4.3
+microsoft/mimalloc v3.5.0
 ```
 
 `main`, `master`, `dev`, `dev2`, `dev3` 또는 움직이는 branch를 비교 대상으로 사용하지 않는다.
@@ -283,6 +370,10 @@ mimalloc:
     repository: microsoft/mimalloc
     tag: v3.4.3
     commit: "<resolved SHA>"
+  v3.5.0:
+    repository: microsoft/mimalloc
+    tag: v3.5.0
+    commit: "18b08671c9302247bfb682286e6bf3cc1773f801"
 ```
 
 ### 5.2 upstream source 수정 금지
@@ -298,19 +389,22 @@ primary benchmark에서는 upstream mimalloc source를 수정하지 않는다.
 
 ### 5.3 build 분리
 
-두 버전의 source, build, install prefix를 완전히 분리한다.
+세 버전의 source, build, install prefix를 완전히 분리한다.
 
 예:
 
 ```text
 extern/mimalloc-v2.1.2/
 extern/mimalloc-v3.4.3/
+extern/mimalloc-v3.5.0/
 
 build/mimalloc-v2.1.2/<profile>/
 build/mimalloc-v3.4.3/<profile>/
+build/mimalloc-v3.5.0/<profile>/
 
 opt/mimalloc-v2.1.2/<profile>/
 opt/mimalloc-v3.4.3/<profile>/
+opt/mimalloc-v3.5.0/<profile>/
 ```
 
 동일한 이름의 shared library가 서로 덮어써지지 않게 한다.
@@ -1670,8 +1764,9 @@ benchmark harness 변경으로 기존 결과와 호환성이 깨지면 result sc
 다음 조건을 모두 만족해야 작업이 완료된 것으로 본다.
 
 * v2.1.2와 v3.4.3 source SHA가 고정됨
-* 동일 Rocky Linux 8 image에서 두 버전이 빌드됨
-* 동일 benchmark binary로 두 allocator가 실행됨
+* v3.5.0 source SHA가 고정되고 fetch/build 상태가 정직하게 기록됨
+* 동일 Rocky Linux 8 image에서 세 버전이 빌드됨
+* 동일 benchmark binary로 세 allocator가 실행됨
 * 실제 로드된 allocator가 검증됨
 * CPU와 NUMA affinity가 검증됨
 * THP 상태가 기록됨

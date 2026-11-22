@@ -1,0 +1,17 @@
+{
+  "status": "Complete",
+  "counts": {
+    "smoke": 12,
+    "pilot": 12,
+    "measured": 36
+  },
+  "invalid": 0,
+  "excluded": 0,
+  "total_gib": 732.625,
+  "measured_seconds_range": [
+    3.739897163,
+    21.260875044
+  ],
+  "major_faults": 0,
+  "plan_sha256": "866d2f71bc0d7316114e07e852aeb7ce930b74d9868266082a78b47ab6ca6e74"
+}

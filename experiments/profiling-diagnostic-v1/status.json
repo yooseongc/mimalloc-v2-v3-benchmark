@@ -1,0 +1,11 @@
+{
+  "design": "Frozen",
+  "smoke": "Pass",
+  "pilot": "Pass",
+  "measured": "Complete",
+  "valid_measured": 60,
+  "invalid": 0,
+  "profile_files": 1332,
+  "plan_sha256": "734df9d47e27031979aa47cf482624f1989fb91eb21f085fb100c536cd22584d",
+  "analysis_sha256": "dba303f25ab593284d040ec688a0e822af0fcfa9cc89f465de74bde2dd99d535"
+}

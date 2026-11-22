@@ -1,0 +1,22 @@
+lifecycle smoke 1 4 {'version': 'v3.6.1', 'mode': 'same'}
+lifecycle smoke 2 4 {'version': 'v3.6.1', 'mode': 'remote'}
+lifecycle smoke 3 4 {'version': 'dev3-d6716d33', 'mode': 'same'}
+lifecycle smoke 4 4 {'version': 'dev3-d6716d33', 'mode': 'remote'}
+smoke 1/8 v3.6.1 64B 2MiB 1pairs retained=False 0.006s
+smoke 2/8 dev3-d6716d33 64B 2MiB 1pairs retained=False 0.008s
+smoke 3/8 v3.6.1 64B 2MiB 2pairs retained=False 0.008s
+smoke 4/8 dev3-d6716d33 64B 2MiB 2pairs retained=False 0.007s
+smoke 5/8 v3.6.1 4096B 2MiB 1pairs retained=False 0.002s
+smoke 6/8 dev3-d6716d33 4096B 2MiB 1pairs retained=False 0.002s
+smoke 7/8 v3.6.1 4096B 2MiB 2pairs retained=False 0.001s
+smoke 8/8 dev3-d6716d33 4096B 2MiB 2pairs retained=False 0.002s
+threads smoke 1 10 {'version': 'v3.6.1', 'mode': 0, 'size': 64, 'cycles': 5, 'rep': 0} 0.0
+threads smoke 2 10 {'version': 'dev3-d6716d33', 'mode': 0, 'size': 64, 'cycles': 5, 'rep': 0} 0.0
+threads smoke 3 10 {'version': 'v3.6.1', 'mode': 1, 'size': 64, 'cycles': 5, 'rep': 0} 0.0
+threads smoke 4 10 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 64, 'cycles': 5, 'rep': 0} 0.0
+threads smoke 5 10 {'version': 'v3.6.1', 'mode': 1, 'size': 4096, 'cycles': 5, 'rep': 0} 0.001
+threads smoke 6 10 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 4096, 'cycles': 5, 'rep': 0} 0.001
+threads smoke 7 10 {'version': 'v3.6.1', 'mode': 2, 'size': 64, 'cycles': 5, 'rep': 0} 0.001
+threads smoke 8 10 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 64, 'cycles': 5, 'rep': 0} 0.001
+threads smoke 9 10 {'version': 'v3.6.1', 'mode': 2, 'size': 4096, 'cycles': 5, 'rep': 0} 0.001
+threads smoke 10 10 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 4096, 'cycles': 5, 'rep': 0} 0.001

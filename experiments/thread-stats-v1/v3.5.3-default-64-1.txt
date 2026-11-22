@@ -1,0 +1,44 @@
+CASE version=30503 count=1000 bytes=64 remote=1
+JSON {"stage":"A_baseline","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_allocated_raw","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_allocated_repeat","total":0,"current":0,"alloc_count":0}
+TEXT A_allocated_raw
+heap 1
+ pages             peak       total     current       block      total#   
+  touched     :    64.1 KiB    64.1 KiB    64.1 KiB                          
+  pages       :     1           1           1      
+  abandoned   :     0           0           0      
+  os abandoned:     0           0           0      
+  os allocated:     0           0           0      
+  reclaima    :     0      
+  reclaimf    :     0      
+  reabandon   :     0      
+  waits       :     0      
+  extended    :     8      
+  retire      :     0      
+  stat updates:     0      
+  stat avg    :     0.0 avg
+  searches    :     0.8 avg
+  prof samples:     0      
+
+ process           peak       total     current       block      total#   
+  threads     :     0           0           0      
+  numa nodes  :     1
+  elapsed     :     0.001 s
+  process     : user: 0.001 s, system: 0.001 s, faults: 9, peak rss: 6.7 MiB, peak commit: 6.6 MiB
+
+JSON {"stage":"A_allocated_collected","total":0,"current":0,"alloc_count":0}
+TEXT A_allocated_collected
+heap 1
+ process           peak       total     current       block      total#   
+  threads     :     0           0           0      
+  numa nodes  :     1
+  elapsed     :     0.001 s
+  process     : user: 0.001 s, system: 0.001 s, faults: 9, peak rss: 6.7 MiB, peak commit: 6.6 MiB
+
+JSON {"stage":"B_after_remote_free","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_freed_raw","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_freed_collected","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_freed_collected_repeat","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"heap_final","total":64000,"current":0,"alloc_count":1000}
+PASS payload and aggregate checks

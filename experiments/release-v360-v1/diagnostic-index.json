@@ -1,0 +1,78 @@
+[
+  {
+    "path": "experiments/release-v360-v1/diagnostics/native-stats-4096.jsonl",
+    "sha256": "89209fdbb3149e2c9e693ae57cad242230e28da644146006646177a1db77ef05"
+  },
+  {
+    "path": "experiments/release-v360-v1/diagnostics/native-stats-64.jsonl",
+    "sha256": "bf1e26c104cd6fc8c82c53d2403d8ac125c4986976ffd6e19d146663bc588438"
+  },
+  {
+    "path": "experiments/release-v360-v1/diagnostics/page-layout.json",
+    "sha256": "5e467e894127293ebb11ffa8c4ae672cf677e7eacad237a4c1c43496a6726bee"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.5.3-0-4096-0.jsonl",
+    "sha256": "a64843f7587db67b532563d349f78da616372523ff4aa3cbc60fa8932b400d2a"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.5.3-0-4096-1.jsonl",
+    "sha256": "a64843f7587db67b532563d349f78da616372523ff4aa3cbc60fa8932b400d2a"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.5.3-0-64-0.jsonl",
+    "sha256": "773459116153874d0a03ee54f87abdc900e309c0a1b4e9aaea9b8a1e2e6c482f"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.5.3-0-64-1.jsonl",
+    "sha256": "773459116153874d0a03ee54f87abdc900e309c0a1b4e9aaea9b8a1e2e6c482f"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.5.3-1-4096-0.jsonl",
+    "sha256": "3366b6041e2df1cb6089a33a7625700a29792253740a743150fb3ae74cc2cb10"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.5.3-1-4096-1.jsonl",
+    "sha256": "3366b6041e2df1cb6089a33a7625700a29792253740a743150fb3ae74cc2cb10"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.5.3-1-64-0.jsonl",
+    "sha256": "244d5cdc871b34b68767c3ab2479c1d6cb71c5e3225ad8e6bad1a82542184231"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.5.3-1-64-1.jsonl",
+    "sha256": "244d5cdc871b34b68767c3ab2479c1d6cb71c5e3225ad8e6bad1a82542184231"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.6.0-0-4096-0.jsonl",
+    "sha256": "146e4bbbaf07dd926174380db32022e90c7350443b545d013007d6ef6b2d9490"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.6.0-0-4096-1.jsonl",
+    "sha256": "146e4bbbaf07dd926174380db32022e90c7350443b545d013007d6ef6b2d9490"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.6.0-0-64-0.jsonl",
+    "sha256": "145301073636005f9cdeae074c2716481b9af7463e204da9ecf791db6d12ef54"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.6.0-0-64-1.jsonl",
+    "sha256": "145301073636005f9cdeae074c2716481b9af7463e204da9ecf791db6d12ef54"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.6.0-1-4096-0.jsonl",
+    "sha256": "726fff5fabe5d3edcbf94d7507387727810cdb9da3d1fa815c077fc0dfd7195f"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.6.0-1-4096-1.jsonl",
+    "sha256": "726fff5fabe5d3edcbf94d7507387727810cdb9da3d1fa815c077fc0dfd7195f"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.6.0-1-64-0.jsonl",
+    "sha256": "473722b6f760d94ef040bf0ab7870683094bb462f6f40e35c1271113f672d397"
+  },
+  {
+    "path": "experiments/release-v360-v1/stats/v3.6.0-1-64-1.jsonl",
+    "sha256": "473722b6f760d94ef040bf0ab7870683094bb462f6f40e35c1271113f672d397"
+  }
+]

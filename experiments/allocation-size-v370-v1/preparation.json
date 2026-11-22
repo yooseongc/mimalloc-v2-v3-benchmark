@@ -1,0 +1,9 @@
+{
+  "hashes": {
+    "docs/v370-plan.md": "3c3404d5fa5fcc75d57443c38a5db4a0bf71ff27b03ce0ce3e13f0837cb42ecc",
+    "observation/allocation_size_v370.py": "e2ebcfe2a30246242ee7eb476f1b894a144d94abcff62e9ddaff5212553e5463"
+  },
+  "controller_sha256": "41a1ec15a090ca82b0e9fb2278bd8a2a634a8d53bd943a5a10482905bdbe691c",
+  "source_sha256": "953b307c5275434a0600faaf850b0e2c09b0237e8bcc34f0a876097e399688c3",
+  "artifacts_sha256": "6b53a78c2d72892643b3de2d6a5849868ab2a60bd2a8d18779b245c849b9b347"
+}

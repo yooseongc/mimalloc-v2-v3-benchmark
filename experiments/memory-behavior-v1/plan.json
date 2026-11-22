@@ -1,0 +1,155 @@
+{
+  "schema_version": "memory-behavior-draft-1",
+  "comparison_id": "memory-behavior-v1",
+  "design_status": "Frozen",
+  "execution_status": "Ready",
+  "execution_enabled": true,
+  "design_path": "docs/memory-behavior-plan.md",
+  "prior_experiments": "Discarded from active work and evidentiary use",
+  "questions": [
+    "Version-specific processing cost and memory lifecycle",
+    "Same-thread versus cross-thread deallocation, including owner reuse"
+  ],
+  "comparison_versions": [
+    "v2.1.2",
+    "v3.5.0",
+    "v3.5.3"
+  ],
+  "primary_comparison": [
+    "v3.5.0",
+    "v3.5.3"
+  ],
+  "provisional_first_observation": {
+    "object_bytes": 4096,
+    "object_count": 32768,
+    "requested_bytes": 134217728,
+    "freeing_threads": [
+      "allocating_thread",
+      "other_thread"
+    ],
+    "idle_seconds": 30,
+    "exploratory_repetitions": 3,
+    "total_flows": 18
+  },
+  "frozen_at": "2026-09-21T12:43:12.084104+00:00",
+  "execution_order": [
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "sampling": false,
+      "repetition": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "sampling": false,
+      "repetition": 1
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "sampling": false,
+      "repetition": 1
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "sampling": false,
+      "repetition": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "sampling": false,
+      "repetition": 1
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "sampling": false,
+      "repetition": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "sampling": false,
+      "repetition": 2
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "sampling": false,
+      "repetition": 2
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "sampling": false,
+      "repetition": 2
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "sampling": false,
+      "repetition": 2
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "sampling": false,
+      "repetition": 2
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "sampling": false,
+      "repetition": 2
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "sampling": false,
+      "repetition": 3
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "sampling": false,
+      "repetition": 3
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "sampling": false,
+      "repetition": 3
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "sampling": false,
+      "repetition": 3
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "sampling": false,
+      "repetition": 3
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "sampling": false,
+      "repetition": 3
+    }
+  ],
+  "source_sha256": "3904aced80d9b529e815b721b276912852ae73177d9cfb770cee0d0f7c3aaf52",
+  "runner_sha256": "1ea9ed28aa600b17ba8648e6f7c5ceb0e97aa2203914df04e59abda029618a0f",
+  "artifacts_sha256": "e227094d14599dfbd12a63cb3c29a8f07c3384e518a8f9ad2a014da14787df00",
+  "observer_policy": "Boundary smaps_rollup and scheduled idle checkpoints; no periodic sampling during work",
+  "validation": {
+    "smoke_valid": 6,
+    "pilot_valid": 12,
+    "correctness_checks": 4,
+    "release_disassembly": "malloc/free/memset and observable verify loop inspected"
+  }
+}

@@ -1,0 +1,2 @@
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 0.467 MB /work/experiments/perf-access-v1/perf.data (57 samples) ]

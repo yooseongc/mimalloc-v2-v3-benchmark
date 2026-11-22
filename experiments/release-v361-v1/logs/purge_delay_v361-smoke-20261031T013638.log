@@ -1,0 +1,15 @@
+defaults 1 5 v2.1.2 delay 10 mult 10 seconds 0.001 idle RSS MiB 5.14
+defaults 2 5 v3.5.0 delay 1000 mult 4 seconds 0.001 idle RSS MiB 7.24
+defaults 3 5 v3.5.3 delay 1000 mult 4 seconds 0.001 idle RSS MiB 7.12
+defaults 4 5 v3.6.0 delay 1000 mult 4 seconds 0.001 idle RSS MiB 7.16
+defaults 5 5 v3.6.1 delay 1000 mult 4 seconds 0.001 idle RSS MiB 7.16
+smoke 1 10 v2.1.2 delay 10 mult 1 seconds 0.001 idle RSS MiB 5.01
+smoke 2 10 v2.1.2 delay 1000 mult 1 seconds 0.001 idle RSS MiB 5.2
+smoke 3 10 v3.5.0 delay 10 mult 1 seconds 0.001 idle RSS MiB 7.23
+smoke 4 10 v3.5.0 delay 1000 mult 1 seconds 0.001 idle RSS MiB 7.2
+smoke 5 10 v3.5.3 delay 10 mult 1 seconds 0.001 idle RSS MiB 7.04
+smoke 6 10 v3.5.3 delay 1000 mult 1 seconds 0.001 idle RSS MiB 7.05
+smoke 7 10 v3.6.0 delay 10 mult 1 seconds 0.002 idle RSS MiB 7.15
+smoke 8 10 v3.6.0 delay 1000 mult 1 seconds 0.004 idle RSS MiB 7.13
+smoke 9 10 v3.6.1 delay 10 mult 1 seconds 0.001 idle RSS MiB 7.07
+smoke 10 10 v3.6.1 delay 1000 mult 1 seconds 0.001 idle RSS MiB 7.2

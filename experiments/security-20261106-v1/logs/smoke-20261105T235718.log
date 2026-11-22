@@ -1,0 +1,30 @@
+local smoke 1 12 OFF 64 0.0
+local smoke 2 12 MINIMAL 64 0.0
+local smoke 3 12 CHECKED 64 0.0
+local smoke 4 12 ON 64 0.0
+local smoke 5 12 FULL 64 0.0
+local smoke 6 12 CHECKED_PAC_WEAK 64 0.0
+local smoke 7 12 OFF 4096 0.0
+local smoke 8 12 MINIMAL 4096 0.0
+local smoke 9 12 CHECKED 4096 0.0
+local smoke 10 12 ON 4096 0.001
+local smoke 11 12 FULL 4096 0.005
+local smoke 12 12 CHECKED_PAC_WEAK 4096 0.0
+smoke 1/12 OFF 64B 2MiB 2pairs retained=False 0.004s
+smoke 2/12 MINIMAL 64B 2MiB 2pairs retained=False 0.008s
+smoke 3/12 CHECKED 64B 2MiB 2pairs retained=False 0.003s
+smoke 4/12 ON 64B 2MiB 2pairs retained=False 0.003s
+smoke 5/12 FULL 64B 2MiB 2pairs retained=False 0.004s
+smoke 6/12 CHECKED_PAC_WEAK 64B 2MiB 2pairs retained=False 0.003s
+smoke 7/12 OFF 4096B 2MiB 2pairs retained=False 0.001s
+smoke 8/12 MINIMAL 4096B 2MiB 2pairs retained=False 0.001s
+smoke 9/12 CHECKED 4096B 2MiB 2pairs retained=False 0.001s
+smoke 10/12 ON 4096B 2MiB 2pairs retained=False 0.002s
+smoke 11/12 FULL 4096B 2MiB 2pairs retained=False 0.002s
+smoke 12/12 CHECKED_PAC_WEAK 4096B 2MiB 2pairs retained=False 0.001s
+lifecycle smoke 1 6 {'version': 'OFF', 'mode': 'same'}
+lifecycle smoke 2 6 {'version': 'MINIMAL', 'mode': 'same'}
+lifecycle smoke 3 6 {'version': 'CHECKED', 'mode': 'same'}
+lifecycle smoke 4 6 {'version': 'ON', 'mode': 'same'}
+lifecycle smoke 5 6 {'version': 'FULL', 'mode': 'same'}
+lifecycle smoke 6 6 {'version': 'CHECKED_PAC_WEAK', 'mode': 'same'}

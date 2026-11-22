@@ -1,0 +1,13 @@
+
+ Performance counter stats for '/usr/bin/python3 -c sum(i*i for i in range(10000000))':
+
+            596.88 msec task-clock:u              #    0.998 CPUs utilized          
+        2617943973      cycles:u                  #    4.386 GHz                    
+       10316237598      instructions:u            #    3.94  insn per cycle         
+
+       0.598012541 seconds time elapsed
+
+       0.587721000 seconds user
+       0.007996000 seconds sys
+
+

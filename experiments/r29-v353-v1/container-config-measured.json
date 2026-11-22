@@ -1,0 +1,10 @@
+{
+  "Image": "sha256:73353c7a70d01f098f4adc96480273ce5d5b295bea3733c1f2faac2017e05877",
+  "CpuQuota": 0,
+  "CpuPeriod": 0,
+  "CpusetCpus": "0,2,4,6,8,10,12,14",
+  "CpusetMems": "0",
+  "Memory": 0,
+  "MemorySwap": 0,
+  "NetworkMode": "none"
+}

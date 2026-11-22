@@ -1,0 +1,214 @@
+0000000000027230 <__libc_malloc>:
+   27230:	48 8b 05 a1 1d 21 00 	mov    0x211da1(%rip),%rax        # 238fd8 <.got+0x38>
+   27237:	64 4c 8b 00          	mov    %fs:(%rax),%r8
+   2723b:	48 81 ff 00 04 00 00 	cmp    $0x400,%rdi
+   27242:	77 2c                	ja     27270 <__libc_malloc+0x40>
+   27244:	48 8d 47 07          	lea    0x7(%rdi),%rax
+   27248:	48 c1 e8 03          	shr    $0x3,%rax
+   2724c:	49 8b 0c c0          	mov    (%r8,%rax,8),%rcx
+   27250:	48 8b 41 10          	mov    0x10(%rcx),%rax
+   27254:	48 8b 51 28          	mov    0x28(%rcx),%rdx
+   27258:	48 81 c2 01 00 01 00 	add    $0x10001,%rdx
+   2725f:	48 85 c0             	test   %rax,%rax
+   27262:	74 0c                	je     27270 <__libc_malloc+0x40>
+   27264:	48 8b 30             	mov    (%rax),%rsi
+   27267:	48 89 51 28          	mov    %rdx,0x28(%rcx)
+   2726b:	48 89 71 10          	mov    %rsi,0x10(%rcx)
+   2726f:	c3                   	retq   
+   27270:	48 89 fe             	mov    %rdi,%rsi
+   27273:	31 c9                	xor    %ecx,%ecx
+   27275:	31 d2                	xor    %edx,%edx
+   27277:	4c 89 c7             	mov    %r8,%rdi
+   2727a:	e9 81 a4 ff ff       	jmpq   21700 <_mi_malloc_generic>
+   2727f:	90                   	nop
+
+
+0000000000021700 <_mi_malloc_generic>:
+   21700:	41 56                	push   %r14
+   21702:	49 89 ce             	mov    %rcx,%r14
+   21705:	41 55                	push   %r13
+   21707:	49 89 f5             	mov    %rsi,%r13
+   2170a:	41 54                	push   %r12
+   2170c:	55                   	push   %rbp
+   2170d:	89 d5                	mov    %edx,%ebp
+   2170f:	48 83 e2 fe          	and    $0xfffffffffffffffe,%rdx
+   21713:	53                   	push   %rbx
+   21714:	83 e5 01             	and    $0x1,%ebp
+   21717:	48 89 fb             	mov    %rdi,%rbx
+   2171a:	49 89 d4             	mov    %rdx,%r12
+   2171d:	48 83 ec 10          	sub    $0x10,%rsp
+   21721:	48 85 ff             	test   %rdi,%rdi
+   21724:	0f 84 ae 00 00 00    	je     217d8 <_mi_malloc_generic+0xd8>
+   2172a:	48 8b 87 10 04 00 00 	mov    0x410(%rdi),%rax
+   21731:	48 85 c0             	test   %rax,%rax
+   21734:	0f 84 9e 00 00 00    	je     217d8 <_mi_malloc_generic+0xd8>
+   2173a:	48 8b 87 48 05 00 00 	mov    0x548(%rdi),%rax
+   21741:	48 83 c0 01          	add    $0x1,%rax
+   21745:	48 81 fe ff 27 00 00 	cmp    $0x27ff,%rsi
+   2174c:	0f 96 c2             	setbe  %dl
+   2174f:	48 3d e7 03 00 00    	cmp    $0x3e7,%rax
+   21755:	48 89 87 48 05 00 00 	mov    %rax,0x548(%rdi)
+   2175c:	0f 9e c0             	setle  %al
+   2175f:	84 c2                	test   %al,%dl
+   21761:	74 75                	je     217d8 <_mi_malloc_generic+0xd8>
+   21763:	4d 85 e4             	test   %r12,%r12
+   21766:	75 70                	jne    217d8 <_mi_malloc_generic+0xd8>
+   21768:	4c 39 ab 38 04 00 00 	cmp    %r13,0x438(%rbx)
+   2176f:	7c 67                	jl     217d8 <_mi_malloc_generic+0xd8>
+   21771:	4c 89 ef             	mov    %r13,%rdi
+   21774:	e8 b7 5e fe ff       	callq  7630 <mi_bin>
+   21779:	48 8d 04 80          	lea    (%rax,%rax,4),%rax
+   2177d:	48 8d 84 c3 78 05 00 	lea    0x578(%rbx,%rax,8),%rax
+   21784:	00 
+   21785:	48 8b 30             	mov    (%rax),%rsi
+   21788:	48 85 f6             	test   %rsi,%rsi
+   2178b:	74 33                	je     217c0 <_mi_malloc_generic+0xc0>
+   2178d:	48 83 7e 10 00       	cmpq   $0x0,0x10(%rsi)
+   21792:	74 6c                	je     21800 <_mi_malloc_generic+0x100>
+   21794:	c6 46 3e 00          	movb   $0x0,0x3e(%rsi)
+   21798:	4d 85 f6             	test   %r14,%r14
+   2179b:	74 03                	je     217a0 <_mi_malloc_generic+0xa0>
+   2179d:	49 89 36             	mov    %rsi,(%r14)
+   217a0:	48 83 c4 10          	add    $0x10,%rsp
+   217a4:	40 0f b6 cd          	movzbl %bpl,%ecx
+   217a8:	4c 89 ea             	mov    %r13,%rdx
+   217ab:	48 89 df             	mov    %rbx,%rdi
+   217ae:	5b                   	pop    %rbx
+   217af:	5d                   	pop    %rbp
+   217b0:	41 5c                	pop    %r12
+   217b2:	41 5d                	pop    %r13
+   217b4:	41 5e                	pop    %r14
+   217b6:	eb 78                	jmp    21830 <_mi_page_malloc_zero>
+   217b8:	0f 1f 84 00 00 00 00 	nopl   0x0(%rax,%rax,1)
+   217bf:	00 
+   217c0:	48 89 c6             	mov    %rax,%rsi
+   217c3:	ba 01 00 00 00       	mov    $0x1,%edx
+   217c8:	48 89 df             	mov    %rbx,%rdi
+   217cb:	e8 d0 f1 ff ff       	callq  209a0 <mi_page_queue_find_free_ex>
+   217d0:	48 89 c6             	mov    %rax,%rsi
+   217d3:	48 85 c0             	test   %rax,%rax
+   217d6:	75 c0                	jne    21798 <_mi_malloc_generic+0x98>
+   217d8:	48 83 c4 10          	add    $0x10,%rsp
+   217dc:	40 0f b6 d5          	movzbl %bpl,%edx
+   217e0:	4d 89 f0             	mov    %r14,%r8
+   217e3:	4c 89 e1             	mov    %r12,%rcx
+   217e6:	4c 89 ee             	mov    %r13,%rsi
+   217e9:	48 89 df             	mov    %rbx,%rdi
+   217ec:	5b                   	pop    %rbx
+   217ed:	5d                   	pop    %rbp
+   217ee:	41 5c                	pop    %r12
+   217f0:	41 5d                	pop    %r13
+   217f2:	41 5e                	pop    %r14
+   217f4:	e9 77 fe ff ff       	jmpq   21670 <mi_malloc_generic_fallback>
+   217f9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+   21800:	48 8b 56 18          	mov    0x18(%rsi),%rdx
+   21804:	48 85 d2             	test   %rdx,%rdx
+   21807:	74 b7                	je     217c0 <_mi_malloc_generic+0xc0>
+   21809:	48 89 56 10          	mov    %rdx,0x10(%rsi)
+   2180d:	48 89 f7             	mov    %rsi,%rdi
+   21810:	48 c7 46 18 00 00 00 	movq   $0x0,0x18(%rsi)
+   21817:	00 
+   21818:	c6 46 3f 00          	movb   $0x0,0x3f(%rsi)
+   2181c:	48 89 74 24 08       	mov    %rsi,0x8(%rsp)
+   21821:	e8 1a 6d ff ff       	callq  18540 <_mi_page_update_sample_countdown>
+   21826:	48 8b 74 24 08       	mov    0x8(%rsp),%rsi
+   2182b:	e9 64 ff ff ff       	jmpq   21794 <_mi_malloc_generic+0x94>
+
+
+0000000000019270 <_mi_page_free_collect>:
+   19270:	41 54                	push   %r12
+   19272:	48 8d 57 40          	lea    0x40(%rdi),%rdx
+   19276:	41 89 f4             	mov    %esi,%r12d
+   19279:	55                   	push   %rbp
+   1927a:	53                   	push   %rbx
+   1927b:	48 8b 47 40          	mov    0x40(%rdi),%rax
+   1927f:	48 89 fb             	mov    %rdi,%rbx
+   19282:	48 89 c1             	mov    %rax,%rcx
+   19285:	48 83 e1 fe          	and    $0xfffffffffffffffe,%rcx
+   19289:	75 3d                	jne    192c8 <_mi_page_free_collect+0x58>
+   1928b:	31 ed                	xor    %ebp,%ebp
+   1928d:	48 8b 53 18          	mov    0x18(%rbx),%rdx
+   19291:	48 85 d2             	test   %rdx,%rdx
+   19294:	74 25                	je     192bb <_mi_page_free_collect+0x4b>
+   19296:	48 8b 43 10          	mov    0x10(%rbx),%rax
+   1929a:	48 85 c0             	test   %rax,%rax
+   1929d:	0f 85 a5 00 00 00    	jne    19348 <_mi_page_free_collect+0xd8>
+   192a3:	48 89 53 10          	mov    %rdx,0x10(%rbx)
+   192a7:	48 c7 43 18 00 00 00 	movq   $0x0,0x18(%rbx)
+   192ae:	00 
+   192af:	c6 43 3f 00          	movb   $0x0,0x3f(%rbx)
+   192b3:	48 89 df             	mov    %rbx,%rdi
+   192b6:	e8 85 f2 ff ff       	callq  18540 <_mi_page_update_sample_countdown>
+   192bb:	89 e8                	mov    %ebp,%eax
+   192bd:	5b                   	pop    %rbx
+   192be:	5d                   	pop    %rbp
+   192bf:	41 5c                	pop    %r12
+   192c1:	c3                   	retq   
+   192c2:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+   192c8:	48 89 c6             	mov    %rax,%rsi
+   192cb:	83 e6 01             	and    $0x1,%esi
+   192ce:	f0 48 0f b1 32       	lock cmpxchg %rsi,(%rdx)
+   192d3:	40 0f 94 c6          	sete   %sil
+   192d7:	40 0f b6 f6          	movzbl %sil,%esi
+   192db:	48 89 f7             	mov    %rsi,%rdi
+   192de:	48 85 f6             	test   %rsi,%rsi
+   192e1:	74 9f                	je     19282 <_mi_page_free_collect+0x12>
+   192e3:	48 8b 01             	mov    (%rcx),%rax
+   192e6:	48 89 ca             	mov    %rcx,%rdx
+   192e9:	44 0f b7 4b 38       	movzwl 0x38(%rbx),%r9d
+   192ee:	48 85 c0             	test   %rax,%rax
+   192f1:	74 7d                	je     19370 <_mi_page_free_collect+0x100>
+   192f3:	4d 85 c9             	test   %r9,%r9
+   192f6:	74 7d                	je     19375 <_mi_page_free_collect+0x105>
+   192f8:	4c 8b 00             	mov    (%rax),%r8
+   192fb:	48 8d 7e 01          	lea    0x1(%rsi),%rdi
+   192ff:	4d 85 c0             	test   %r8,%r8
+   19302:	74 17                	je     1931b <_mi_page_free_collect+0xab>
+   19304:	4c 89 c0             	mov    %r8,%rax
+   19307:	49 39 f1             	cmp    %rsi,%r9
+   1930a:	74 69                	je     19375 <_mi_page_free_collect+0x105>
+   1930c:	4c 8b 00             	mov    (%rax),%r8
+   1930f:	48 89 fe             	mov    %rdi,%rsi
+   19312:	48 8d 7e 01          	lea    0x1(%rsi),%rdi
+   19316:	4d 85 c0             	test   %r8,%r8
+   19319:	75 e9                	jne    19304 <_mi_page_free_collect+0x94>
+   1931b:	49 39 f9             	cmp    %rdi,%r9
+   1931e:	72 55                	jb     19375 <_mi_page_free_collect+0x105>
+   19320:	0f b7 73 28          	movzwl 0x28(%rbx),%esi
+   19324:	48 39 fe             	cmp    %rdi,%rsi
+   19327:	72 69                	jb     19392 <_mi_page_free_collect+0x122>
+   19329:	48 8b 73 18          	mov    0x18(%rbx),%rsi
+   1932d:	bd 01 00 00 00       	mov    $0x1,%ebp
+   19332:	48 89 30             	mov    %rsi,(%rax)
+   19335:	48 89 4b 18          	mov    %rcx,0x18(%rbx)
+   19339:	48 29 7b 28          	sub    %rdi,0x28(%rbx)
+   1933d:	e9 54 ff ff ff       	jmpq   19296 <_mi_page_free_collect+0x26>
+   19342:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+   19348:	45 84 e4             	test   %r12b,%r12b
+   1934b:	0f 84 62 ff ff ff    	je     192b3 <_mi_page_free_collect+0x43>
+   19351:	48 8b 0a             	mov    (%rdx),%rcx
+   19354:	48 89 d6             	mov    %rdx,%rsi
+   19357:	48 85 c9             	test   %rcx,%rcx
+   1935a:	74 0b                	je     19367 <_mi_page_free_collect+0xf7>
+   1935c:	48 89 ce             	mov    %rcx,%rsi
+   1935f:	48 8b 09             	mov    (%rcx),%rcx
+   19362:	48 85 c9             	test   %rcx,%rcx
+   19365:	75 f5                	jne    1935c <_mi_page_free_collect+0xec>
+   19367:	48 89 06             	mov    %rax,(%rsi)
+   1936a:	e9 34 ff ff ff       	jmpq   192a3 <_mi_page_free_collect+0x33>
+   1936f:	90                   	nop
+   19370:	48 89 c8             	mov    %rcx,%rax
+   19373:	eb a6                	jmp    1931b <_mi_page_free_collect+0xab>
+   19375:	48 8d 35 b4 31 01 00 	lea    0x131b4(%rip),%rsi        # 2c530 <mi_os_mem_config_default+0xcb0>
+   1937c:	bf 0e 00 00 00       	mov    $0xe,%edi
+   19381:	31 c0                	xor    %eax,%eax
+   19383:	bd 01 00 00 00       	mov    $0x1,%ebp
+   19388:	e8 83 62 ff ff       	callq  f610 <_mi_error_message>
+   1938d:	e9 fb fe ff ff       	jmpq   1928d <_mi_page_free_collect+0x1d>
+   19392:	48 8d 35 e7 31 01 00 	lea    0x131e7(%rip),%rsi        # 2c580 <mi_os_mem_config_default+0xd00>
+   19399:	bf 0e 00 00 00       	mov    $0xe,%edi
+   1939e:	31 c0                	xor    %eax,%eax
+   193a0:	bd 01 00 00 00       	mov    $0x1,%ebp
+   193a5:	e8 66 62 ff ff       	callq  f610 <_mi_error_message>
+   193aa:	e9 de fe ff ff       	jmpq   1928d <_mi_page_free_collect+0x1d>
+   193af:	90                   	nop

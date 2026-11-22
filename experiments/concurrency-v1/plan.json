@@ -1,0 +1,1099 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-09-21T23:38:18.144651+00:00",
+  "design_revision": "291535e89d94d462b622a48e09d58f85e58db5cc152ae3aad23f95a7f04c46be",
+  "artifacts_sha256": "c21190ca4e87a505f2ca95818293cba86a1014571616a15752f1f92251099d1d",
+  "source_sha256": "7839df70f6d31cc1234a2dc10e660484517e29beebddb2b4f90557eeb2beae07",
+  "runner_sha256": "17a997afbcbe02131bdbe5ba3cf571bab5912b86654ccf95907d0d3f187293b6",
+  "seed": 20260922,
+  "counts": {
+    "64": 573795840,
+    "256": 205012992,
+    "1024": 198556672,
+    "4096": 77266944
+  },
+  "measured": [
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": false,
+      "rep": 2
+    }
+  ],
+  "controls": [
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 134217728,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 64,
+      "cap": 134217728,
+      "objects": 573795840,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 256,
+      "cap": 134217728,
+      "objects": 205012992,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 1024,
+      "cap": 134217728,
+      "objects": 198556672,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 1,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "pairs": 2,
+      "size": 4096,
+      "cap": 536870912,
+      "objects": 77266944,
+      "retained": true,
+      "rep": 0
+    }
+  ]
+}

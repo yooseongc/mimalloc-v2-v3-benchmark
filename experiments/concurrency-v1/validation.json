@@ -1,0 +1,17 @@
+{
+  "measured_valid": 90,
+  "control_valid": 30,
+  "full_payload_smoke_valid": 24,
+  "pilot_valid": 24,
+  "frozen_hashes_verified": true,
+  "raw_sha256_manifest": "raw-manifest.json",
+  "major_faults_total": 0,
+  "shortest_seconds": 3.354033046,
+  "longest_seconds": 17.980599905,
+  "all_three_versions": [
+    "v2.1.2",
+    "v3.5.0",
+    "v3.5.3"
+  ],
+  "preflight_failure": "smoke/009.json: 1 MiB cap cannot fit two 1 MiB batches for 4 KiB/2 pairs; input rejected. Replaced by complete smoke-v2 at 2 MiB."
+}

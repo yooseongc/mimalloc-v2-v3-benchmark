@@ -1,0 +1,256 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-10-24T03:24:50.405713+00:00",
+  "order": [
+    {
+      "version": "v3.5.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    }
+  ],
+  "seed": 2026102402,
+  "hashes": {
+    "docs/purge-delay-plan.md": "0d4d753673512bda8b269652f10b42c1cd6b60da525d893ccfd6b990b2b0a418",
+    "observation/purge_delay.py": "3bf903a055c660c515e1784106f02d6fd3728ce97d96b8209c72da8cb34c88ad",
+    "observation/run_concurrent.py": "17a997afbcbe02131bdbe5ba3cf571bab5912b86654ccf95907d0d3f187293b6",
+    "observation/concurrent.cpp": "7839df70f6d31cc1234a2dc10e660484517e29beebddb2b4f90557eeb2beae07"
+  },
+  "artifacts_sha256": "04241f8f0502ceb5cb757bad68ed3d68d4e6e30aeeb5428112915977138ada93",
+  "generated_controller_sha256": "41a1ec15a090ca82b0e9fb2278bd8a2a634a8d53bd943a5a10482905bdbe691c",
+  "generated_source_sha256": "406dd6c1ed6fec9259e6671737ee7fd0fca0e52b846948f1de79907737ddcbc6"
+}

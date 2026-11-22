@@ -1,0 +1,22 @@
+pilot 1/12 v3.6.1 64B 128MiB 1pairs retained=False 0.402s
+pilot 2/12 dev3-d6716d33 64B 128MiB 1pairs retained=False 0.182s
+pilot 3/12 v3.6.1 64B 128MiB 2pairs retained=False 0.137s
+pilot 4/12 dev3-d6716d33 64B 128MiB 2pairs retained=False 0.168s
+pilot 5/12 v3.6.1 1024B 128MiB 1pairs retained=False 0.047s
+pilot 6/12 dev3-d6716d33 1024B 128MiB 1pairs retained=False 0.045s
+pilot 7/12 v3.6.1 1024B 128MiB 2pairs retained=False 0.029s
+pilot 8/12 dev3-d6716d33 1024B 128MiB 2pairs retained=False 0.027s
+pilot 9/12 v3.6.1 4096B 128MiB 1pairs retained=False 0.046s
+pilot 10/12 dev3-d6716d33 4096B 128MiB 1pairs retained=False 0.046s
+pilot 11/12 v3.6.1 4096B 128MiB 2pairs retained=False 0.030s
+pilot 12/12 dev3-d6716d33 4096B 128MiB 2pairs retained=False 0.037s
+threads pilot 1 10 {'version': 'v3.6.1', 'mode': 0, 'size': 64, 'cycles': 200, 'rep': 0} 0.017
+threads pilot 2 10 {'version': 'dev3-d6716d33', 'mode': 0, 'size': 64, 'cycles': 200, 'rep': 0} 0.015
+threads pilot 3 10 {'version': 'v3.6.1', 'mode': 1, 'size': 64, 'cycles': 200, 'rep': 0} 0.017
+threads pilot 4 10 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 64, 'cycles': 200, 'rep': 0} 0.017
+threads pilot 5 10 {'version': 'v3.6.1', 'mode': 1, 'size': 4096, 'cycles': 200, 'rep': 0} 0.023
+threads pilot 6 10 {'version': 'dev3-d6716d33', 'mode': 1, 'size': 4096, 'cycles': 200, 'rep': 0} 0.024
+threads pilot 7 10 {'version': 'v3.6.1', 'mode': 2, 'size': 64, 'cycles': 200, 'rep': 0} 0.019
+threads pilot 8 10 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 64, 'cycles': 200, 'rep': 0} 0.019
+threads pilot 9 10 {'version': 'v3.6.1', 'mode': 2, 'size': 4096, 'cycles': 200, 'rep': 0} 0.027
+threads pilot 10 10 {'version': 'dev3-d6716d33', 'mode': 2, 'size': 4096, 'cycles': 200, 'rep': 0} 0.027

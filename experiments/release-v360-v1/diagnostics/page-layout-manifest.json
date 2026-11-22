@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-I/work/extern/mimalloc-v3.6.0/include",
+    "/work/observation/page_layout.cpp",
+    "-ldl",
+    "-o",
+    "/work/build/release-v360-v1/diagnostics/page-layout"
+  ],
+  "source_sha256": "a24e55a21bc69bd65242d9913f282ac9dc4d5949f57992f2853097bb206e1db3",
+  "binary_sha256": "054cf3fcd203b85ce44206e3b68b61639441ad586dcab7be3ebdfcccff77c84d",
+  "library_sha256": "6940d9c7f5436841e61bb00b0c2652e81bc28e37baebd4f51038add668b408bb"
+}

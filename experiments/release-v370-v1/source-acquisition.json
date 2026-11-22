@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-11-17T23:05:24.702191+00:00",
+  "tag": "v3.7.0",
+  "tag_object": "7d589caad1c331b677719adb3c8f082c15400f3d",
+  "commit": "1ed67b5156a763441d2ec3c20221a7b3cd866129",
+  "repository": "https://github.com/microsoft/mimalloc.git",
+  "source_directory": "extern/mimalloc-v3.7.0",
+  "tag_resolution_command": "git ls-remote https://github.com/microsoft/mimalloc.git refs/tags/v3.7.0 refs/tags/v3.7.0^{}",
+  "supplemental_hashes": {
+    "AGENTS.md": "4cf74a66b08c23e96439f3c981cd385a5873504445b8b9e38ce27d20894fbeb4",
+    "README.md": "55daf306147bcb244257451a4391b2e6eba2ee51529c828bf7a41c945492eb96",
+    "observation/run_v370_suite.ps1": "84eea4c7417568041c6d0aa5848d2177014a79212ad2350f50ae821836c7ecd5",
+    "docs/v370-source-notes.md": "9c021a9769375f38378ce5f01b9f9ddad2775369185935818555a66082d2f46c"
+  },
+  "preflight": {
+    "physical_cores": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cpuset": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "numa_node": 0,
+    "available_memory_mib": 30515,
+    "memory_max": 6442450944,
+    "memory_swap_max": 0,
+    "thp": "always [madvise] never"
+  }
+}

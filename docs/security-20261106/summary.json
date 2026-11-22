@@ -1,0 +1,1936 @@
+{
+  "frozen_at": "2026-11-05T23:57:44.434726+00:00",
+  "plan_sha256": "cbe0ed506d871d2ab4cdc3ad026a67108ba4cdd791e2437ed93e27040be30cd5",
+  "valid_workloads": 192,
+  "mode_validations": 6,
+  "cells": [
+    {
+      "family": "local",
+      "size": 64,
+      "profiles": {
+        "OFF": {
+          "seconds": {
+            "n": 5,
+            "median": 1.945555273,
+            "min": 1.884484512,
+            "max": 2.570157624
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 1.945198,
+            "min": 1.88512,
+            "max": 2.569404
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 5.685359925337726,
+            "min": 5.506897117306633,
+            "max": 7.510591634211991
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.23046875,
+            "min": 8.203125,
+            "max": 8.23046875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 5.03125,
+            "min": 5.00390625,
+            "max": 5.1875
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 2.0,
+            "min": 2.0,
+            "max": 2.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 2
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 334184,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "MINIMAL": {
+          "seconds": {
+            "n": 5,
+            "median": 1.80072325,
+            "min": 1.750990888,
+            "max": 1.855352852
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 1.800355,
+            "min": 1.750783,
+            "max": 1.855619
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 5.262127447239021,
+            "min": 5.1167980485675555,
+            "max": 5.421767707404454
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.23046875,
+            "min": 8.171875,
+            "max": 8.23046875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 3.49609375,
+            "min": 3.4296875,
+            "max": 3.5546875
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 11
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 334184,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 0.9227881150000101,
+            "min": 0.6812776273522436,
+            "max": 0.9815205873127388
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 0.9230674717946451,
+            "min": 0.6813965417661061,
+            "max": 0.9812404515362417
+          }
+        },
+        "CHECKED": {
+          "seconds": {
+            "n": 5,
+            "median": 2.814346636,
+            "min": 2.777842113,
+            "max": 3.152040851
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 2.81606,
+            "min": 2.778436,
+            "max": 3.132659
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 8.224168083207903,
+            "min": 8.117493472088917,
+            "max": 9.210988238678954
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.23046875,
+            "min": 8.203125,
+            "max": 8.23046875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 3.484375,
+            "min": 3.39453125,
+            "max": 3.5546875
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 22
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 334184,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 1.4740594020865054,
+            "min": 1.2263998213830951,
+            "max": 1.5187579947002616
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 1.473877525038194,
+            "min": 1.2192162073383555,
+            "max": 1.5187420509377452
+          }
+        },
+        "ON": {
+          "seconds": {
+            "n": 5,
+            "median": 5.122663873,
+            "min": 4.966943703,
+            "max": 6.12137619
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 5.124714,
+            "min": 4.955083,
+            "max": 6.122795
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 14.969601891402828,
+            "min": 14.514551743832552,
+            "max": 17.888068954668313
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.23046875,
+            "min": 8.08984375,
+            "max": 8.23046875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 3.48046875,
+            "min": 3.453125,
+            "max": 3.65234375
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 14
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 334184,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 2.64041506797123,
+            "min": 2.1684290932033514,
+            "max": 3.1463388755648065
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 2.6395604800214607,
+            "min": 2.1672481244677755,
+            "max": 3.147646152216895
+          }
+        },
+        "FULL": {
+          "seconds": {
+            "n": 5,
+            "median": 6.567028647,
+            "min": 6.404256165,
+            "max": 6.78637231
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 6.563006,
+            "min": 6.400735,
+            "max": 6.782784
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 19.190367920325144,
+            "min": 18.71470929527689,
+            "max": 19.83134054588004
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.23046875,
+            "min": 7.984375,
+            "max": 8.23046875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 3.44921875,
+            "min": 3.359375,
+            "max": 3.6171875
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 334184,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 3.368254952092495,
+            "min": 2.616964200247043,
+            "max": 3.4881416139545474
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 3.3667435493500038,
+            "min": 2.618182660258955,
+            "max": 3.486937576534625
+          }
+        },
+        "CHECKED_PAC_WEAK": {
+          "seconds": {
+            "n": 5,
+            "median": 3.206070004,
+            "min": 3.146294682,
+            "max": 3.374802197
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 3.200893,
+            "min": 3.146527,
+            "max": 3.366189
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 9.368873848781659,
+            "min": 9.194196611419532,
+            "max": 9.861948119921399
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.23046875,
+            "min": 8.203125,
+            "max": 8.2734375
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 3.61328125,
+            "min": 3.55078125,
+            "max": 3.6171875
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 334184,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 1.701298144709825,
+            "min": 1.2241640950811972,
+            "max": 1.734621598180624
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 1.6979783780342896,
+            "min": 1.224613567971405,
+            "max": 1.7337521993093707
+          }
+        }
+      },
+      "pac_increment_elapsed": {
+        "n": 5,
+        "median": 1.142131665633118,
+        "min": 0.9981770004668001,
+        "max": 1.1758660872288995
+      }
+    },
+    {
+      "family": "local",
+      "size": 4096,
+      "profiles": {
+        "OFF": {
+          "seconds": {
+            "n": 5,
+            "median": 0.612978985,
+            "min": 0.600331675,
+            "max": 0.646414034
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 0.613005,
+            "min": 0.598423,
+            "max": 0.637161
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 42.23014391809965,
+            "min": 41.35882902061287,
+            "max": 44.53359471450617
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 9.140625,
+            "min": 9.015625,
+            "max": 9.140625
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 9.1640625,
+            "min": 9.0390625,
+            "max": 9.26953125
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 6.0,
+            "min": 6.0,
+            "max": 6.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 14175,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "MINIMAL": {
+          "seconds": {
+            "n": 5,
+            "median": 0.576741754,
+            "min": 0.53857954,
+            "max": 0.590242013
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 0.572579,
+            "min": 0.538749,
+            "max": 0.585974
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 39.73364156194885,
+            "min": 37.10452077821869,
+            "max": 40.663718929122574
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.28515625,
+            "min": 8.28515625,
+            "max": 8.28515625
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 8.02734375,
+            "min": 7.91796875,
+            "max": 8.0703125
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 4.0,
+            "min": 4.0,
+            "max": 4.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 14175,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 0.9151844075977568,
+            "min": 0.8486394000536195,
+            "max": 0.9831931873326524
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 0.9084417098877178,
+            "min": 0.862599876640284,
+            "max": 0.9791969894205269
+          }
+        },
+        "CHECKED": {
+          "seconds": {
+            "n": 5,
+            "median": 0.637583268,
+            "min": 0.599690647,
+            "max": 0.641005182
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 0.635389,
+            "min": 0.599598,
+            "max": 0.641015
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 43.92521412037037,
+            "min": 41.314666487544095,
+            "max": 44.16096106150793
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.28515625,
+            "min": 8.27734375,
+            "max": 8.28515625
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 8.03515625,
+            "min": 7.91015625,
+            "max": 8.06640625
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 4.0,
+            "min": 4.0,
+            "max": 4.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 14175,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 1.0079080346848472,
+            "min": 0.9863388392956828,
+            "max": 1.0507989029737754
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 1.0076949072406698,
+            "min": 0.9972189132730974,
+            "max": 1.0474334430790482
+          }
+        },
+        "ON": {
+          "seconds": {
+            "n": 5,
+            "median": 1.516924478,
+            "min": 1.488325923,
+            "max": 1.581392366
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 1.504181,
+            "min": 1.488693,
+            "max": 1.576115
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 104.5059301973104,
+            "min": 102.53568142361111,
+            "max": 108.94733562059083
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 9.89453125,
+            "min": 9.890625,
+            "max": 10.01171875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 10.046875,
+            "min": 9.9921875,
+            "max": 10.23828125
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 6.0,
+            "min": 6.0,
+            "max": 6.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 14175,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 2.4506319675079427,
+            "min": 2.348174287936329,
+            "max": 2.579847604400337
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 2.4421177478013947,
+            "min": 2.360754974017556,
+            "max": 2.571129109876755
+          }
+        },
+        "FULL": {
+          "seconds": {
+            "n": 5,
+            "median": 12.285469137,
+            "min": 12.044430949,
+            "max": 13.164399392
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 12.244299,
+            "min": 12.082261,
+            "max": 13.149065
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 846.3864870618386,
+            "min": 829.7805713321208,
+            "max": 906.9388910934745
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.375,
+            "min": 8.26953125,
+            "max": 8.38671875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 8.484375,
+            "min": 8.44140625,
+            "max": 8.56640625
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 1806,
+            "min": 594,
+            "max": 2063
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 14175,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 20.246784636507563,
+            "min": 18.632687898914025,
+            "max": 20.889510730564844
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 20.2222477793819,
+            "min": 18.962649942479217,
+            "max": 20.862027933306575
+          }
+        },
+        "CHECKED_PAC_WEAK": {
+          "seconds": {
+            "n": 5,
+            "median": 0.65704065,
+            "min": 0.63853101,
+            "max": 0.748281339
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 0.657048,
+            "min": 0.636823,
+            "max": 0.748255
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 45.26569733796296,
+            "min": 43.99050719246032,
+            "max": 51.551569320436506
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 8.28515625,
+            "min": 8.28515625,
+            "max": 8.28515625
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 8.10546875,
+            "min": 7.94921875,
+            "max": 8.12109375
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 4.0,
+            "min": 4.0,
+            "max": 4.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 14175,
+          "work_unit": "cycles",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 1.0642222501419736,
+            "min": 1.0426041705277593,
+            "max": 1.2207291886197371
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 1.0641686566191473,
+            "min": 1.0424584356015594,
+            "max": 1.220634415706234
+          }
+        }
+      },
+      "pac_increment_elapsed": {
+        "n": 5,
+        "median": 1.0653598304327063,
+        "min": 1.000558373775631,
+        "max": 1.167356146272153
+      }
+    },
+    {
+      "family": "concurrent",
+      "size": 64,
+      "profiles": {
+        "OFF": {
+          "seconds": {
+            "n": 5,
+            "median": 3.254989153,
+            "min": 3.173918329,
+            "max": 3.369370002
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 12.552427225,
+            "min": 12.286708761,
+            "max": 13.196416697
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 7.156076022131137,
+            "min": 6.977842254689512,
+            "max": 7.407541699110584
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 179.38671875,
+            "min": 179.375,
+            "max": 179.4609375
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 179.66796875,
+            "min": 179.64453125,
+            "max": 179.6796875
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 116.0,
+            "min": 116.0,
+            "max": 116.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 7645,
+            "min": 7642,
+            "max": 7722
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 454856704,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "MINIMAL": {
+          "seconds": {
+            "n": 5,
+            "median": 3.585984771,
+            "min": 3.383751739,
+            "max": 3.812871074
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 13.541429533,
+            "min": 13.272898402,
+            "max": 14.421273012
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 7.883768095457158,
+            "min": 7.439159870006005,
+            "max": 8.38257640366668
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 178.4140625,
+            "min": 178.27734375,
+            "max": 178.51171875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 178.68359375,
+            "min": 178.64453125,
+            "max": 178.71875
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 116.0,
+            "min": 116.0,
+            "max": 116.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 7714,
+            "min": 7709,
+            "max": 7753
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 454856704,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 1.1117451226464756,
+            "min": 1.044487873428341,
+            "max": 1.1316272987937643
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 1.074348737916399,
+            "min": 1.0128778440419521,
+            "max": 1.1488832202331292
+          }
+        },
+        "CHECKED": {
+          "seconds": {
+            "n": 5,
+            "median": 8.292978327,
+            "min": 8.118300525,
+            "max": 9.098717488
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 32.515512556,
+            "min": 30.777055931,
+            "max": 34.546014642
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 18.232067932761524,
+            "min": 17.8480397312117,
+            "max": 20.003481113911427
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 176.4921875,
+            "min": 176.30078125,
+            "max": 176.62109375
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 143.26171875,
+            "min": 137.15625,
+            "max": 152.6796875
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 74.0,
+            "min": 66.0,
+            "max": 86.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 7588,
+            "min": 7469,
+            "max": 7712
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 454856704,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 2.5710310545139734,
+            "min": 2.443969859603086,
+            "max": 2.7953142269657203
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 2.5663917879843225,
+            "min": 2.348650393696418,
+            "max": 2.752138213810676
+          }
+        },
+        "ON": {
+          "seconds": {
+            "n": 5,
+            "median": 10.812532185,
+            "min": 10.706301351,
+            "max": 12.381779197
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 42.771042103,
+            "min": 42.289516213,
+            "max": 48.914499884
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 23.77129344234091,
+            "min": 23.53774552919418,
+            "max": 27.22127449835278
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 208.58984375,
+            "min": 208.54296875,
+            "max": 208.66796875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 181.46875,
+            "min": 181.28125,
+            "max": 185.75390625
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 80.0,
+            "min": 78.0,
+            "max": 88.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 7462,
+            "min": 7263,
+            "max": 7571
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 454856704,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 3.328268618234368,
+            "min": 3.177538039646855,
+            "max": 3.8039386968734394
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 3.441891318139953,
+            "min": 3.2248441672559895,
+            "max": 3.8968160505706497
+          }
+        },
+        "FULL": {
+          "seconds": {
+            "n": 5,
+            "median": 12.053257277,
+            "min": 11.94534251,
+            "max": 12.150349875
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 47.278258327,
+            "min": 47.012952819,
+            "max": 47.908375524
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 26.49902083668091,
+            "min": 26.261770805954747,
+            "max": 26.71247838747915
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 196.75,
+            "min": 196.625,
+            "max": 196.75
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 181.44921875,
+            "min": 181.2890625,
+            "max": 183.2265625
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 4226,
+            "min": 4168,
+            "max": 4274
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 454856704,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 3.7030099672961954,
+            "min": 3.555986962516283,
+            "max": 3.8196681213343218
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 3.7664634480284747,
+            "min": 3.5724743553844753,
+            "max": 3.8992033144033598
+          }
+        },
+        "CHECKED_PAC_WEAK": {
+          "seconds": {
+            "n": 5,
+            "median": 8.389547323,
+            "min": 8.23865601,
+            "max": 8.932712975
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 32.993461285,
+            "min": 31.852572989,
+            "max": 34.305277216
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 18.444374347398867,
+            "min": 18.112640613075364,
+            "max": 19.638521091248993
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 176.46875,
+            "min": 176.36328125,
+            "max": 176.6171875
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 149.0390625,
+            "min": 137.53125,
+            "max": 154.78125
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 72.0,
+            "min": 68.0,
+            "max": 90.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 7466,
+            "min": 7273,
+            "max": 7684
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 454856704,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 2.5957366119737983,
+            "min": 2.4813026610121427,
+            "max": 2.7443142066286326
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 2.6028471327084612,
+            "min": 2.4307249614316184,
+            "max": 2.7329596580074975
+          }
+        }
+      },
+      "pac_increment_elapsed": {
+        "n": 5,
+        "median": 1.0116446700078299,
+        "min": 0.9666847364190948,
+        "max": 1.0152754753755924
+      }
+    },
+    {
+      "family": "concurrent",
+      "size": 4096,
+      "profiles": {
+        "OFF": {
+          "seconds": {
+            "n": 5,
+            "median": 0.792676314,
+            "min": 0.778801109,
+            "max": 0.863289072
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 2.03297073,
+            "min": 1.997412237,
+            "max": 2.20335193
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 102.46845759357005,
+            "min": 100.67482401321233,
+            "max": 111.59649670726057
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 141.484375,
+            "min": 141.359375,
+            "max": 141.61328125
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 141.68359375,
+            "min": 141.59765625,
+            "max": 141.93359375
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 116.0,
+            "min": 116.0,
+            "max": 116.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 70,
+            "min": 38,
+            "max": 134
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 7735808,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "MINIMAL": {
+          "seconds": {
+            "n": 5,
+            "median": 0.554052449,
+            "min": 0.548277812,
+            "max": 0.575044131
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 1.487094156,
+            "min": 1.444752454,
+            "max": 1.570005139
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 71.62179425859587,
+            "min": 70.87531283092859,
+            "max": 74.33536755307267
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 132.1171875,
+            "min": 131.56640625,
+            "max": 132.453125
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 132.43359375,
+            "min": 131.890625,
+            "max": 132.80078125
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 116.0,
+            "min": 116.0,
+            "max": 116.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 97,
+            "min": 32,
+            "max": 162
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 7735808,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 0.6972245089121767,
+            "min": 0.6479283708574501,
+            "max": 0.7254463402573677
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 0.7198587352315016,
+            "min": 0.6845686689733673,
+            "max": 0.772271393695865
+          }
+        },
+        "CHECKED": {
+          "seconds": {
+            "n": 5,
+            "median": 0.528514559,
+            "min": 0.498729722,
+            "max": 0.546509742
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 1.616828419,
+            "min": 1.469947767,
+            "max": 1.656185394
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 68.32053729875405,
+            "min": 64.47028183739823,
+            "max": 70.64675622766232
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 132.43359375,
+            "min": 132.3046875,
+            "max": 132.5859375
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 132.78515625,
+            "min": 132.609375,
+            "max": 132.85546875
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 116.0,
+            "min": 116.0,
+            "max": 116.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 209,
+            "min": 144,
+            "max": 226
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 7735808,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 0.6607689961571434,
+            "min": 0.5777088326214791,
+            "max": 0.6894488107537927
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 0.7859005083035021,
+            "min": 0.6671416159106276,
+            "max": 0.8055968740979126
+          }
+        },
+        "ON": {
+          "seconds": {
+            "n": 5,
+            "median": 1.642492899,
+            "min": 1.518500776,
+            "max": 1.814086946
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 5.207818391,
+            "min": 4.709489008,
+            "max": 5.729284169
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 212.3233796650589,
+            "min": 196.29504455126084,
+            "max": 234.5051668810808
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 177.74609375,
+            "min": 176.0390625,
+            "max": 185.87109375
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 178.03125,
+            "min": 176.3046875,
+            "max": 186.2734375
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 116.0,
+            "min": 116.0,
+            "max": 116.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 929,
+            "min": 467,
+            "max": 3039
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 7735808,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 2.032926613980527,
+            "min": 1.9310209799796882,
+            "max": 2.10136674358366
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 2.5343543411468596,
+            "min": 2.346538184793794,
+            "max": 2.60728271036421
+          }
+        },
+        "FULL": {
+          "seconds": {
+            "n": 5,
+            "median": 10.837373111,
+            "min": 10.766994232,
+            "max": 11.422989379
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 26.347556807,
+            "min": 26.270565756,
+            "max": 27.607180031
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 1400.9361544392002,
+            "min": 1391.8383486249918,
+            "max": 1476.6381713455144
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 170.25,
+            "min": 170.125,
+            "max": 170.375
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 13.9609375,
+            "min": 13.25390625,
+            "max": 15.00390625
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 4524,
+            "min": 4082,
+            "max": 6347
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 7735808,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 13.734446567991363,
+            "min": 12.766103535247808,
+            "max": 13.939574079414168
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 13.090783430460037,
+            "min": 12.149781865305558,
+            "max": 13.15230039616504
+          }
+        },
+        "CHECKED_PAC_WEAK": {
+          "seconds": {
+            "n": 5,
+            "median": 0.525397983,
+            "min": 0.504324579,
+            "max": 0.582615085
+          },
+          "cpu_seconds": {
+            "n": 5,
+            "median": 1.580200637,
+            "min": 1.483235704,
+            "max": 1.65358178
+          },
+          "ns_per_object": {
+            "n": 5,
+            "median": 67.91766070202362,
+            "min": 65.19352328806507,
+            "max": 75.3140570448491
+          },
+          "peak_mib": {
+            "n": 5,
+            "median": 132.62109375,
+            "min": 132.1875,
+            "max": 133.2109375
+          },
+          "idle_mib": {
+            "n": 5,
+            "median": 132.84765625,
+            "min": 132.5390625,
+            "max": 133.5390625
+          },
+          "thp_idle_mib": {
+            "n": 5,
+            "median": 116.0,
+            "min": 116.0,
+            "max": 116.0
+          },
+          "minor_faults": {
+            "n": 5,
+            "median": 210,
+            "min": 144,
+            "max": 241
+          },
+          "major_faults": {
+            "n": 5,
+            "median": 0,
+            "min": 0,
+            "max": 0
+          },
+          "work_count": 7735808,
+          "work_unit": "objects",
+          "paired_elapsed_ratio": {
+            "n": 5,
+            "median": 0.6362301611550361,
+            "min": 0.6141904029569367,
+            "max": 0.7480922642086274
+          },
+          "paired_cpu_ratio": {
+            "n": 5,
+            "median": 0.7295902897726422,
+            "min": 0.7198778090797324,
+            "max": 0.8278620453850759
+          }
+        }
+      },
+      "pac_increment_elapsed": {
+        "n": 5,
+        "median": 0.9941031406856665,
+        "min": 0.9228098609082068,
+        "max": 1.1321540032285609
+      }
+    }
+  ],
+  "lifecycle": [
+    {
+      "profile": "OFF",
+      "allocate_ms": {
+        "n": 3,
+        "median": 25.629578,
+        "min": 25.137906,
+        "max": 25.929544
+      },
+      "write_ms": {
+        "n": 3,
+        "median": 8.778697,
+        "min": 8.546157,
+        "max": 9.288532
+      },
+      "reallocate_ms": {
+        "n": 3,
+        "median": 60.329631,
+        "min": 38.334507,
+        "max": 126.167882
+      },
+      "rewrite_ms": {
+        "n": 3,
+        "median": 8.540575,
+        "min": 8.26713,
+        "max": 8.70341
+      },
+      "free_ms": {
+        "n": 3,
+        "median": 1.140218,
+        "min": 1.080281,
+        "max": 1.163902
+      },
+      "baseline_rss_mib": {
+        "n": 3,
+        "median": 5.4453125,
+        "min": 5.390625,
+        "max": 5.45703125
+      },
+      "write_rss_mib": {
+        "n": 3,
+        "median": 141.50390625,
+        "min": 141.44921875,
+        "max": 141.515625
+      },
+      "free_rest_rss_mib": {
+        "n": 3,
+        "median": 141.50390625,
+        "min": 141.44921875,
+        "max": 141.515625
+      },
+      "idle_1_rss_mib": {
+        "n": 3,
+        "median": 141.50390625,
+        "min": 141.44921875,
+        "max": 141.515625
+      }
+    },
+    {
+      "profile": "MINIMAL",
+      "allocate_ms": {
+        "n": 3,
+        "median": 18.841923,
+        "min": 18.821314,
+        "max": 39.018304
+      },
+      "write_ms": {
+        "n": 3,
+        "median": 8.829053,
+        "min": 8.780088,
+        "max": 9.432117
+      },
+      "reallocate_ms": {
+        "n": 3,
+        "median": 48.805112,
+        "min": 21.237561,
+        "max": 301.572464
+      },
+      "rewrite_ms": {
+        "n": 3,
+        "median": 9.333942,
+        "min": 9.159593,
+        "max": 9.478842
+      },
+      "free_ms": {
+        "n": 3,
+        "median": 0.950972,
+        "min": 0.9389,
+        "max": 1.018895
+      },
+      "baseline_rss_mib": {
+        "n": 3,
+        "median": 3.75390625,
+        "min": 3.609375,
+        "max": 3.7578125
+      },
+      "write_rss_mib": {
+        "n": 3,
+        "median": 132.01953125,
+        "min": 131.875,
+        "max": 132.0234375
+      },
+      "free_rest_rss_mib": {
+        "n": 3,
+        "median": 132.01953125,
+        "min": 131.875,
+        "max": 132.0234375
+      },
+      "idle_1_rss_mib": {
+        "n": 3,
+        "median": 132.01953125,
+        "min": 131.875,
+        "max": 132.0234375
+      }
+    },
+    {
+      "profile": "CHECKED",
+      "allocate_ms": {
+        "n": 3,
+        "median": 24.094393,
+        "min": 19.497088,
+        "max": 38.242497
+      },
+      "write_ms": {
+        "n": 3,
+        "median": 8.756428,
+        "min": 8.65232,
+        "max": 8.875271
+      },
+      "reallocate_ms": {
+        "n": 3,
+        "median": 47.627211,
+        "min": 20.083521,
+        "max": 50.779916
+      },
+      "rewrite_ms": {
+        "n": 3,
+        "median": 8.978954,
+        "min": 8.211199,
+        "max": 9.30268
+      },
+      "free_ms": {
+        "n": 3,
+        "median": 1.285826,
+        "min": 1.245538,
+        "max": 1.51858
+      },
+      "baseline_rss_mib": {
+        "n": 3,
+        "median": 3.84375,
+        "min": 3.8203125,
+        "max": 3.96875
+      },
+      "write_rss_mib": {
+        "n": 3,
+        "median": 132.17578125,
+        "min": 132.15234375,
+        "max": 132.23828125
+      },
+      "free_rest_rss_mib": {
+        "n": 3,
+        "median": 132.17578125,
+        "min": 132.15234375,
+        "max": 132.23828125
+      },
+      "idle_1_rss_mib": {
+        "n": 3,
+        "median": 132.17578125,
+        "min": 132.15234375,
+        "max": 132.23828125
+      }
+    },
+    {
+      "profile": "ON",
+      "allocate_ms": {
+        "n": 3,
+        "median": 506.057721,
+        "min": 71.744113,
+        "max": 554.093376
+      },
+      "write_ms": {
+        "n": 3,
+        "median": 19.421509,
+        "min": 18.040268,
+        "max": 22.780658
+      },
+      "reallocate_ms": {
+        "n": 3,
+        "median": 108.410296,
+        "min": 11.903978,
+        "max": 242.159017
+      },
+      "rewrite_ms": {
+        "n": 3,
+        "median": 12.781586,
+        "min": 12.624676,
+        "max": 13.05049
+      },
+      "free_ms": {
+        "n": 3,
+        "median": 7.644271,
+        "min": 7.021884,
+        "max": 7.756524
+      },
+      "baseline_rss_mib": {
+        "n": 3,
+        "median": 3.80859375,
+        "min": 3.734375,
+        "max": 3.90234375
+      },
+      "write_rss_mib": {
+        "n": 3,
+        "median": 174.44921875,
+        "min": 174.3671875,
+        "max": 174.5390625
+      },
+      "free_rest_rss_mib": {
+        "n": 3,
+        "median": 174.44921875,
+        "min": 174.3671875,
+        "max": 174.5390625
+      },
+      "idle_1_rss_mib": {
+        "n": 3,
+        "median": 174.44921875,
+        "min": 174.3671875,
+        "max": 174.5390625
+      }
+    },
+    {
+      "profile": "FULL",
+      "allocate_ms": {
+        "n": 3,
+        "median": 120.442189,
+        "min": 120.434318,
+        "max": 120.916
+      },
+      "write_ms": {
+        "n": 3,
+        "median": 12.7493,
+        "min": 12.739448,
+        "max": 13.545329
+      },
+      "reallocate_ms": {
+        "n": 3,
+        "median": 19.478324,
+        "min": 18.729438,
+        "max": 19.888735
+      },
+      "rewrite_ms": {
+        "n": 3,
+        "median": 13.149476,
+        "min": 12.99703,
+        "max": 13.49136
+      },
+      "free_ms": {
+        "n": 3,
+        "median": 22.528012,
+        "min": 22.166556,
+        "max": 22.828709
+      },
+      "baseline_rss_mib": {
+        "n": 3,
+        "median": 3.8359375,
+        "min": 3.78515625,
+        "max": 3.84375
+      },
+      "write_rss_mib": {
+        "n": 3,
+        "median": 166.8046875,
+        "min": 166.74609375,
+        "max": 166.80859375
+      },
+      "free_rest_rss_mib": {
+        "n": 3,
+        "median": 166.8046875,
+        "min": 166.74609375,
+        "max": 166.80859375
+      },
+      "idle_1_rss_mib": {
+        "n": 3,
+        "median": 166.8046875,
+        "min": 166.74609375,
+        "max": 166.80859375
+      }
+    },
+    {
+      "profile": "CHECKED_PAC_WEAK",
+      "allocate_ms": {
+        "n": 3,
+        "median": 20.516508,
+        "min": 19.164176,
+        "max": 316.540517
+      },
+      "write_ms": {
+        "n": 3,
+        "median": 9.663885,
+        "min": 9.019081,
+        "max": 9.794861
+      },
+      "reallocate_ms": {
+        "n": 3,
+        "median": 43.613847,
+        "min": 18.973525,
+        "max": 66.634184
+      },
+      "rewrite_ms": {
+        "n": 3,
+        "median": 8.764331,
+        "min": 8.223403,
+        "max": 9.215238
+      },
+      "free_ms": {
+        "n": 3,
+        "median": 1.527224,
+        "min": 1.390152,
+        "max": 1.575733
+      },
+      "baseline_rss_mib": {
+        "n": 3,
+        "median": 3.8046875,
+        "min": 3.7890625,
+        "max": 3.921875
+      },
+      "write_rss_mib": {
+        "n": 3,
+        "median": 132.13671875,
+        "min": 132.12109375,
+        "max": 132.25390625
+      },
+      "free_rest_rss_mib": {
+        "n": 3,
+        "median": 132.13671875,
+        "min": 132.12109375,
+        "max": 132.25390625
+      },
+      "idle_1_rss_mib": {
+        "n": 3,
+        "median": 132.13671875,
+        "min": 132.12109375,
+        "max": 132.25390625
+      }
+    }
+  ]
+}

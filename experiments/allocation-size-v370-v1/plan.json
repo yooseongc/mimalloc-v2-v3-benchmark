@@ -1,0 +1,755 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-11-17T23:37:13.916640+00:00",
+  "preparation_sha256": "1b7e9ce556f551243093bf9e2424bffc5fbfd817512115c859be9512e6f5e26f",
+  "seed": 2026111803,
+  "total_bytes": 786650103808,
+  "order": [
+    {
+      "version": "v3.6.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.3",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v2.1.2",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.5.0",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v3.6.1",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    }
+  ],
+  "pilot_hashes": {
+    "results/allocation-size-v370-v1/pilot/000.json": "bda1481da737d3d7cce2ee56e85df4edc0d2b32b119f8f3f540cca5d4fbcebbb",
+    "results/allocation-size-v370-v1/pilot/001.json": "3fc962903a4e21b24db866edc8754d6722f545996830c66cd563223c4bfe56d0",
+    "results/allocation-size-v370-v1/pilot/002.json": "965102c2d649bf11a65292ecda5acda68d8d4e365e503729bf2481b2c3e387f0",
+    "results/allocation-size-v370-v1/pilot/003.json": "4885f2aca8082d95b35b9678f90b14f6557e4e20ddee5d9d2244eac6d991dc0b",
+    "results/allocation-size-v370-v1/pilot/004.json": "d87e3c638053635bf6c2266dc1476d98f47cecb65464492313f4a87934b61694",
+    "results/allocation-size-v370-v1/pilot/005.json": "34bed6619763fb605085c0440badc841ca559ae832c44a8f38012e1a72308e93",
+    "results/allocation-size-v370-v1/pilot/006.json": "5dd1521fa63f0d42f8c3a5cb1e75028a293408825406c6e24e041b26d3947628",
+    "results/allocation-size-v370-v1/pilot/007.json": "1eada9afd60f382ccacd8c8606107990731be1e471a5dcd5d92a9f7c8238df21",
+    "results/allocation-size-v370-v1/pilot/008.json": "52b4435cd3588da0c586079d1973f922a988542b1eba6aba71a53332e16c689e",
+    "results/allocation-size-v370-v1/pilot/009.json": "200e990947942f0d220f5bcd2f6b4b83aaa74d0a43933d649389fa89e474aa62",
+    "results/allocation-size-v370-v1/pilot/010.json": "bbbd49843d466cc0e7553cbe166f7ac6412bc238aa449e7872a87e2b3acb8ea2",
+    "results/allocation-size-v370-v1/pilot/011.json": "57401e762481f175dc17e12d4615eb23145ec8a685e9f0f4b664ca05497c5cff",
+    "results/allocation-size-v370-v1/pilot/012.json": "5955183b789043eef1b125e945b4b99111cc7abc2cfc5290632efe2e9dfaafea",
+    "results/allocation-size-v370-v1/pilot/013.json": "7be7a7b8ddf96f88feba23fc129b1bafff6754dfd0b249c631e60cbf37236b11",
+    "results/allocation-size-v370-v1/pilot/014.json": "0cae2f6f5d84f772c95432697fd0f8a5f441b1aa785d4404a4c35f3a3468f262",
+    "results/allocation-size-v370-v1/pilot/015.json": "d42592339c67d00edf60e06a1577b955ad89744f139a9bb48d24c249107cfffb",
+    "results/allocation-size-v370-v1/pilot/016.json": "430366b4dcfb8242e8be36dc610dab65f5503ecea8d85433777715840c50677b",
+    "results/allocation-size-v370-v1/pilot/017.json": "11e0333a576dd807320b9e714201853da1eca265e42c9d5e24f494b81455c21f",
+    "results/allocation-size-v370-v1/pilot/018.json": "ed2721e85ea05452e0566ee6b3676efda384c75bb3af491a696cc9552607a526",
+    "results/allocation-size-v370-v1/pilot/019.json": "b3f6c72b77e5c7c2697391a3c9a0e228cafe840e601f20b41ae1bedef7b07d9a",
+    "results/allocation-size-v370-v1/pilot/020.json": "a184f2f8b00271b93f917ab3489e9a337cbd8d4f5371f9115c50154f939efa33",
+    "results/allocation-size-v370-v1/pilot/021.json": "26ed6eab5786912aecfdfdd3d765d563f684e3b1a3f5819053827acc68fe7a94",
+    "results/allocation-size-v370-v1/pilot/022.json": "1e41f27bc75ff331283446139776d5e8be74d115601c5257454d13aa72774589",
+    "results/allocation-size-v370-v1/pilot/023.json": "fa448b8a3b1c8d16a7d750dcab87cafd7980d6c8590f1641b6ec189ec36dc97a"
+  }
+}

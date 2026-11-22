@@ -1,0 +1,21 @@
+{
+  "schema_version": "memory-behavior-draft-1",
+  "comparison_id": "memory-behavior-v1",
+  "design_status": "Draft",
+  "execution_status": "Not executed",
+  "execution_enabled": false,
+  "design_path": "docs/memory-behavior-plan.md",
+  "prior_experiments": "Discarded from active work and evidentiary use",
+  "questions": ["Version-specific processing cost and memory lifecycle", "Same-thread versus cross-thread deallocation, including owner reuse"],
+  "comparison_versions": ["v2.1.2", "v3.5.0", "v3.5.3"],
+  "primary_comparison": ["v3.5.0", "v3.5.3"],
+  "provisional_first_observation": {
+    "object_bytes": 4096,
+    "object_count": 32768,
+    "requested_bytes": 134217728,
+    "freeing_threads": ["allocating_thread", "other_thread"],
+    "idle_seconds": 30,
+    "exploratory_repetitions": 3,
+    "total_flows": 18
+  }
+}

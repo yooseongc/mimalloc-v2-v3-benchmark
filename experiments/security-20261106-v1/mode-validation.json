@@ -1,0 +1,32 @@
+{
+  "OFF": {
+    "valid": true,
+    "secure_level": 0,
+    "pac": "OFF"
+  },
+  "MINIMAL": {
+    "valid": true,
+    "secure_level": 1,
+    "pac": "OFF"
+  },
+  "CHECKED": {
+    "valid": true,
+    "secure_level": 2,
+    "pac": "OFF"
+  },
+  "ON": {
+    "valid": true,
+    "secure_level": 4,
+    "pac": "OFF"
+  },
+  "FULL": {
+    "valid": true,
+    "secure_level": 5,
+    "pac": "OFF"
+  },
+  "CHECKED_PAC_WEAK": {
+    "valid": true,
+    "secure_level": 2,
+    "pac": "WEAK"
+  }
+}

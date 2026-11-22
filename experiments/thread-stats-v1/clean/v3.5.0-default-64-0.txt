@@ -1,0 +1,10 @@
+CASE version=30500 count=1000 bytes=64 remote=0
+JSON {"stage":"A_baseline","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_allocated_raw","total":64000,"current":64000,"alloc_count":0}
+JSON {"stage":"A_allocated_repeat","total":64000,"current":64000,"alloc_count":0}
+JSON {"stage":"A_allocated_collected","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_freed_raw","total":0,"current":-64000,"alloc_count":0}
+JSON {"stage":"A_freed_collected","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"A_freed_collected_repeat","total":0,"current":0,"alloc_count":0}
+JSON {"stage":"heap_final","total":64000,"current":0,"alloc_count":0}
+PASS payload checks; statistics captured

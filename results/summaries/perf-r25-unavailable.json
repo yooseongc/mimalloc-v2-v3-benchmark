@@ -1,0 +1,8 @@
+{
+  "schema_version": 2,
+  "profile": "perf",
+  "status": "unavailable",
+  "reason": "perf_event permission denied: No permission to enable task-clock event",
+  "recorded_zero": false,
+  "measurement_contract": "docs/r25-measurement-contract.md"
+}

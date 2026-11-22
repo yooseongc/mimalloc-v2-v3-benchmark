@@ -18,4 +18,9 @@ if ! echo "$mode" | "${writer[@]}" /sys/kernel/mm/transparent_hugepage/enabled >
   rm -f "$state_file"
   exit 1
 fi
+actual="$(sed -n 's/.*\[\([^]]*\)\].*/\1/p' /sys/kernel/mm/transparent_hugepage/enabled)"
+if [[ "$actual" != "$mode" ]]; then
+  echo "THP read-back mismatch: requested=$mode actual=$actual; state retained for restore" >&2
+  exit 1
+fi
 echo "applied THP=$mode; saved prior THP=$current_mode in $state_file"

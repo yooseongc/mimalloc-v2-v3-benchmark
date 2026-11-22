@@ -1,0 +1,946 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-10-24T02:54:08.064192+00:00",
+  "seed": 20261024,
+  "hashes": {
+    "docs/v360-plan.md": "f3fa54736e1f18a6df02ea125ba97e177ee66b61af6811177d30f5d6cba83763",
+    "observation/release_v360.py": "4e3b9884f5b12388c72eea60fcd6b438763405f04ef7de9395ffdbd04294e6d8",
+    "observation/run.py": "1ea9ed28aa600b17ba8648e6f7c5ceb0e97aa2203914df04e59abda029618a0f",
+    "observation/run_concurrent.py": "17a997afbcbe02131bdbe5ba3cf571bab5912b86654ccf95907d0d3f187293b6",
+    "observation/lifecycle.cpp": "3904aced80d9b529e815b721b276912852ae73177d9cfb770cee0d0f7c3aaf52",
+    "observation/concurrent.cpp": "7839df70f6d31cc1234a2dc10e660484517e29beebddb2b4f90557eeb2beae07",
+    "experiments/release-v360-v1/lifecycle/artifacts.json": "ecdf18e874c777919e009dded4c5fffbf24a16e7d5eef4be95c14c1e2e90cfa4",
+    "experiments/release-v360-v1/concurrent/artifacts.json": "881b206482ca7ef0c809ec5b67ea879fdefa6957622042aa9766f174ef0ada4c"
+  },
+  "counts": {
+    "(64, 134217728, 1)": 313590784,
+    "(64, 134217728, 2)": 447661568,
+    "(1024, 134217728, 1)": 127372288,
+    "(1024, 134217728, 2)": 193755136,
+    "(4096, 134217728, 1)": 38198784,
+    "(4096, 134217728, 2)": 66910720,
+    "(4096, 536870912, 2)": 73459200
+  },
+  "concurrent": [
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 313590784,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 447661568,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 127372288,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 193755136,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 38198784,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 66910720,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 73459200,
+      "retained": false,
+      "rep": 2
+    }
+  ],
+  "lifecycle": [
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "rep": 2
+    }
+  ],
+  "collect": [
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "intervention": "collect_force"
+    }
+  ]
+}

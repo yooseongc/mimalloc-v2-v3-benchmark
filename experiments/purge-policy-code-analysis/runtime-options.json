@@ -1,0 +1,79 @@
+{
+  "kind": "read-only option probes; not RSS measurements",
+  "source_sha256": "ba4ee6cbbc5992ce035220571f4e11e6849d7b5dc76cf16f6e6bf6b541a39996",
+  "rows": [
+    {
+      "version": "v3.5.0",
+      "commit": "18b08671c9302247bfb682286e6bf3cc1773f801",
+      "library_sha256": "f4ed50e06db9f79b6185158a1bd4622eaf76786adf3876f859ecff706f20c1d8",
+      "values": {
+        "version": 30500,
+        "allow_thp": 1,
+        "minimal_purge_size_option": 0,
+        "purge_delay": 1000,
+        "arena_purge_mult": 1,
+        "purge_decommits": 1,
+        "os_page_size": 4096
+      },
+      "command": [
+        "gcc",
+        "-I/work/extern/mimalloc-v3.5.0/include",
+        "/work/observation/purge_policy_probe.c",
+        "/work/build/release-v360-v1/lifecycle/v3.5.0/libmimalloc.so.3.5",
+        "-Wl,-rpath,/work/build/release-v360-v1/lifecycle/v3.5.0",
+        "-o",
+        "/work/build/purge-policy-code-analysis/v3.5.0"
+      ],
+      "binary_sha256": "5e879b6b33772019b11df55d1c2cf72e54e682cf3f62263384ccfb7948464ac5"
+    },
+    {
+      "version": "v3.5.3",
+      "commit": "d4881d338125e1cb7c47ba4cfb398d6f7c0c8d45",
+      "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f",
+      "values": {
+        "version": 30503,
+        "allow_thp": 2,
+        "minimal_purge_size_option": 0,
+        "purge_delay": 1000,
+        "arena_purge_mult": 1,
+        "purge_decommits": 1,
+        "os_page_size": 4096
+      },
+      "command": [
+        "gcc",
+        "-I/work/extern/mimalloc-v3.5.3/include",
+        "/work/observation/purge_policy_probe.c",
+        "/work/build/release-v360-v1/lifecycle/v3.5.3/libmimalloc.so.3.5",
+        "-Wl,-rpath,/work/build/release-v360-v1/lifecycle/v3.5.3",
+        "-o",
+        "/work/build/purge-policy-code-analysis/v3.5.3"
+      ],
+      "binary_sha256": "4131b6693d7b6e211c7b1265295d87082c93e451eb0bae1adf87da22824577b9"
+    },
+    {
+      "version": "v3.6.0",
+      "commit": "b18ab4eef383f655e760881b02eff8af02800879",
+      "library_sha256": "6940d9c7f5436841e61bb00b0c2652e81bc28e37baebd4f51038add668b408bb",
+      "values": {
+        "version": 30600,
+        "allow_thp": 2,
+        "minimal_purge_size_option": 0,
+        "purge_delay": 1000,
+        "arena_purge_mult": 1,
+        "purge_decommits": 1,
+        "os_page_size": 4096
+      },
+      "command": [
+        "gcc",
+        "-I/work/extern/mimalloc-v3.6.0/include",
+        "/work/observation/purge_policy_probe.c",
+        "/work/build/release-v360-v1/lifecycle/v3.6.0/libmimalloc.so.3.6",
+        "-Wl,-rpath,/work/build/release-v360-v1/lifecycle/v3.6.0",
+        "-o",
+        "/work/build/purge-policy-code-analysis/v3.6.0"
+      ],
+      "binary_sha256": "07317d207ab6bdd4346e347ba1495f790147bdefa48209ee4ffe7dce0c51a00b"
+    }
+  ],
+  "thp": "always [madvise] never"
+}

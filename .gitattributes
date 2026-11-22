@@ -1,0 +1,25 @@
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+manifests/sources.lock text eol=lf
+# These are the exact bytes hashed by the initial Windows-generated pilot plan.
+experiments/r29-v353-v1/draft-plan.json -text
+experiments/r29-v353-v1/draft-contract.md -text
+# Preserve the exact pre-execution bytes referenced by new raw records.
+experiments/memory-behavior-v1/plan.json -text
+experiments/memory-behavior-v1/collect-plan.json -text
+# Preserve the LF source bytes used by the frozen concurrency experiment.
+observation/concurrent.cpp text eol=lf
+# Frozen experiment hashes refer to the exact bytes used for execution.
+# Preserve both LF and CRLF evidence when committing or checking out snapshots.
+observation/** -text
+experiments/** -text
+docs/** -text
+legacy/retired-2026-09-21/** -text
+# Already committed historical epochs keep their original normalization policy.
+experiments/r27-dev3-snapshot-v1/** text eol=lf
+experiments/r28-memory-return-v1/** text eol=lf

@@ -1,0 +1,265 @@
+{
+  "condition": "THP=madvise; native large OS page request on; service-like/service",
+  "decision": "v3 VmRSS \uba85\ud655 \uac1c\uc120, \ucc98\ub9ac\ub7c9 \uc6b0\uc704 \ubbf8\ud655\uc815",
+  "descriptive": {
+    "v2.1.2": {
+      "peak_anon_huge_pages_bytes": {
+        "maximum": 520093696,
+        "mean": 517856733.8666667,
+        "median": 520093696,
+        "minimum": 507510784,
+        "n": 15,
+        "standard_deviation": 4653508.70822556
+      },
+      "peak_vm_rss_bytes": {
+        "maximum": 1336676352,
+        "mean": 1013614455.4666667,
+        "median": 999587840,
+        "minimum": 747167744,
+        "n": 15,
+        "standard_deviation": 196987393.21142107
+      },
+      "throughput_ops_per_second": {
+        "maximum": 1747462.38915367,
+        "mean": 1270977.1681281612,
+        "median": 1245219.5005525667,
+        "minimum": 1048474.2175073769,
+        "n": 15,
+        "standard_deviation": 178461.53498647944
+      },
+      "vm_rss_0ms_bytes": {
+        "maximum": 1075412992,
+        "mean": 923828770.1333333,
+        "median": 913948672,
+        "minimum": 701825024,
+        "n": 15,
+        "standard_deviation": 127118391.28996791
+      },
+      "vm_rss_1000ms_bytes": {
+        "maximum": 1075412992,
+        "mean": 923828770.1333333,
+        "median": 913948672,
+        "minimum": 701825024,
+        "n": 15,
+        "standard_deviation": 127118391.28996791
+      },
+      "vm_rss_5000ms_bytes": {
+        "maximum": 1075412992,
+        "mean": 923828770.1333333,
+        "median": 913948672,
+        "minimum": 701825024,
+        "n": 15,
+        "standard_deviation": 127118391.28996791
+      },
+      "vm_rss_drop_5000_bytes": {
+        "maximum": 0,
+        "mean": 0,
+        "median": 0,
+        "minimum": 0,
+        "n": 15,
+        "standard_deviation": 0.0
+      },
+      "vm_rss_immediate_release_fraction": {
+        "maximum": 0.1956934089606756,
+        "mean": 0.07882338460851511,
+        "median": 0.06068613154692074,
+        "minimum": 0.0,
+        "n": 15,
+        "standard_deviation": 0.06258925057022927
+      },
+      "vm_rss_retained_0_over_peak": {
+        "maximum": 1.0,
+        "mean": 0.9211766153914849,
+        "median": 0.9393138684530793,
+        "minimum": 0.8043065910393243,
+        "n": 15,
+        "standard_deviation": 0.06258925057022927
+      },
+      "vm_rss_retained_5000_over_0": {
+        "maximum": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1.0,
+        "n": 15,
+        "standard_deviation": 0.0
+      }
+    },
+    "v3.4.3": {
+      "peak_anon_huge_pages_bytes": {
+        "maximum": 520093696,
+        "mean": 469202807.46666664,
+        "median": 459276288,
+        "minimum": 432013312,
+        "n": 15,
+        "standard_deviation": 29599539.71211656
+      },
+      "peak_vm_rss_bytes": {
+        "maximum": 894906368,
+        "mean": 719040238.9333333,
+        "median": 713449472,
+        "minimum": 517644288,
+        "n": 15,
+        "standard_deviation": 130957402.0853461
+      },
+      "throughput_ops_per_second": {
+        "maximum": 1563013.153433355,
+        "mean": 1302069.9505179394,
+        "median": 1296378.582523161,
+        "minimum": 1061312.0017683615,
+        "n": 15,
+        "standard_deviation": 124642.54700004694
+      },
+      "vm_rss_0ms_bytes": {
+        "maximum": 327065600,
+        "mean": 285349205.3333333,
+        "median": 280985600,
+        "minimum": 243924992,
+        "n": 15,
+        "standard_deviation": 23744188.623178907
+      },
+      "vm_rss_1000ms_bytes": {
+        "maximum": 327065600,
+        "mean": 285349205.3333333,
+        "median": 280985600,
+        "minimum": 243924992,
+        "n": 15,
+        "standard_deviation": 23744188.623178907
+      },
+      "vm_rss_5000ms_bytes": {
+        "maximum": 327065600,
+        "mean": 285349205.3333333,
+        "median": 280985600,
+        "minimum": 243924992,
+        "n": 15,
+        "standard_deviation": 23744188.623178907
+      },
+      "vm_rss_drop_5000_bytes": {
+        "maximum": 0,
+        "mean": 0,
+        "median": 0,
+        "minimum": 0,
+        "n": 15,
+        "standard_deviation": 0.0
+      },
+      "vm_rss_immediate_release_fraction": {
+        "maximum": 0.705890160790542,
+        "mean": 0.5881746232661804,
+        "median": 0.6158902756886475,
+        "minimum": 0.4147873838801057,
+        "n": 15,
+        "standard_deviation": 0.09393572299239998
+      },
+      "vm_rss_retained_0_over_peak": {
+        "maximum": 0.5852126161198943,
+        "mean": 0.4118253767338196,
+        "median": 0.3841097243113525,
+        "minimum": 0.29410983920945794,
+        "n": 15,
+        "standard_deviation": 0.09393572299239998
+      },
+      "vm_rss_retained_5000_over_0": {
+        "maximum": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1.0,
+        "n": 15,
+        "standard_deviation": 0.0
+      }
+    }
+  },
+  "design_revision": "tcpio-large-page-v3",
+  "execution_status": "Executed",
+  "experiment_id": "r23",
+  "final_record_count": 30,
+  "half_release_time": {
+    "median_v3_over_v2": null,
+    "paired_count": 0
+  },
+  "invalid_record_count": 0,
+  "paired_count": 15,
+  "paired_ratios": {
+    "peak_anon_huge_pages_bytes": {
+      "maximum": 1.0205761316872428,
+      "median_v3_over_v2": 0.8830645161290323,
+      "minimum": 0.8306451612903226,
+      "paired_bootstrap_median_95ci": [
+        0.8669354838709677,
+        0.9798387096774194
+      ],
+      "paired_count": 15
+    },
+    "peak_vm_rss_bytes": {
+      "maximum": 1.1100792702314515,
+      "median_v3_over_v2": 0.7303811892883447,
+      "minimum": 0.4390494438603287,
+      "paired_bootstrap_median_95ci": [
+        0.6197734244048331,
+        0.8860639881254132
+      ],
+      "paired_count": 15
+    },
+    "throughput_ops_per_second": {
+      "maximum": 1.2047881213628702,
+      "median_v3_over_v2": 1.017374289368165,
+      "minimum": 0.8944473787446451,
+      "paired_bootstrap_median_95ci": [
+        0.9790520902522872,
+        1.0630197741089207
+      ],
+      "paired_count": 15
+    },
+    "vm_rss_0ms_bytes": {
+      "maximum": 0.4382570705657001,
+      "median_v3_over_v2": 0.30798361507986305,
+      "minimum": 0.22688637013048862,
+      "paired_bootstrap_median_95ci": [
+        0.26557632088078664,
+        0.3641677228220472
+      ],
+      "paired_count": 15
+    },
+    "vm_rss_1000ms_bytes": {
+      "maximum": 0.4382570705657001,
+      "median_v3_over_v2": 0.30798361507986305,
+      "minimum": 0.22688637013048862,
+      "paired_bootstrap_median_95ci": [
+        0.26557632088078664,
+        0.3641677228220472
+      ],
+      "paired_count": 15
+    },
+    "vm_rss_5000ms_bytes": {
+      "maximum": 0.4382570705657001,
+      "median_v3_over_v2": 0.30798361507986305,
+      "minimum": 0.22688637013048862,
+      "paired_bootstrap_median_95ci": [
+        0.275668470163883,
+        0.33968694310227626
+      ],
+      "paired_count": 15
+    },
+    "vm_rss_retained_0_over_peak": {
+      "maximum": 0.627875684661109,
+      "median_v3_over_v2": 0.4293756000976417,
+      "minimum": 0.3252940123654924,
+      "paired_bootstrap_median_95ci": [
+        0.36066269355565084,
+        0.5022108305653112
+      ],
+      "paired_count": 15
+    },
+    "vm_rss_retained_5000_over_0": {
+      "maximum": 1.0,
+      "median_v3_over_v2": 1.0,
+      "minimum": 1.0,
+      "paired_bootstrap_median_95ci": [
+        1.0,
+        1.0
+      ],
+      "paired_count": 15
+    }
+  },
+  "throughput_clear_improvement": false,
+  "valid_record_count": 30,
+  "vmrss_no_worse": true
+}

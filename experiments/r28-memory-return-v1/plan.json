@@ -1,0 +1,196 @@
+{
+  "schema_version": 3,
+  "comparison_id": "r28-memory-return-v1",
+  "comparison_versions": [
+    "v2.1.2",
+    "v3.5.0",
+    "dev3-622d421f"
+  ],
+  "design_status": "Frozen",
+  "design_revision": "r28-memory-return-v1",
+  "contract_path": "experiments/r28-memory-return-v1/contract.md",
+  "contract_sha256": "fc902758a0aca2d568102b4d1ba713e5b508ee1b569c18099011e14e28b79154",
+  "result_namespace": "r28-memory-return-v1",
+  "randomization_seed": 20260828,
+  "container_image_digest": "sha256:73353c7a70d01f098f4adc96480273ce5d5b295bea3733c1f2faac2017e05877",
+  "environment": {
+    "cpu_list": "0,2,4,6,8,10,12,14",
+    "numa_nodes": [
+      0
+    ],
+    "thp_mode": "madvise",
+    "network": "disabled",
+    "timeout_seconds": 90
+  },
+  "benchmark": {
+    "path": "/work/build/benchmark-release/benchmark/mimalloc-bench",
+    "sha256": "cae35ae342d94552be35fec06de5f46a7a108496dbb59debc18f6c201aa6528b"
+  },
+  "runner": {
+    "path": "scripts/run_memory_return_r28.py",
+    "sha256": "eb9accd3be2c306bf8b5c06853225af1ae2068a3dc72c1cb53912289569b53e1",
+    "dependencies": [
+      {
+        "path": "scripts/run_active_benchmark.py",
+        "sha256": "275887b027f87a66f97aa7fd9bf6174a0b0fb8da0847d4a26affb10a41a0a91b"
+      }
+    ]
+  },
+  "allocators": [
+    {
+      "version": "v2.1.2",
+      "commit": "43ce4bd7fd34bcc730c1c7471c99995597415488",
+      "mi_version": 212,
+      "library_path": "/work/opt/mimalloc-v2.1.2/release/lib64/libmimalloc.so",
+      "library_sha256": "03a21de3a984a745c1bfe8ae6a6ad2ee79e4202c3364745ccba541e539c51f06"
+    },
+    {
+      "version": "v3.5.0",
+      "commit": "18b08671c9302247bfb682286e6bf3cc1773f801",
+      "mi_version": 30500,
+      "library_path": "/work/opt/mimalloc-v3.5.0/release/lib64/libmimalloc.so",
+      "library_sha256": "f4ed50e06db9f79b6185158a1bd4622eaf76786adf3876f859ecff706f20c1d8"
+    },
+    {
+      "version": "dev3-622d421f",
+      "commit": "622d421f647fc41a2dfe90bc45174770129d78b4",
+      "mi_version": 30500,
+      "library_path": "/work/opt/mimalloc-dev3-622d421f/release/lib64/libmimalloc.so",
+      "library_sha256": "49a1be072b80b98fced4135ae5d835a5fe8576648ca2949a8b9a6a70acdba95d"
+    }
+  ],
+  "block_defaults": {
+    "allocator_name": "mimalloc",
+    "allocation_api": "malloc",
+    "warmup_count": 0,
+    "smoke_warmup_count": 0,
+    "seed": 20260828,
+    "repetitions": 15
+  },
+  "blocks": [
+    {
+      "block_id": "memory-passive-default",
+      "profile": "memory-return",
+      "scenario": "memory_return",
+      "thread_count": 1,
+      "size_bytes": 65536,
+      "size_profile": "fixed",
+      "batch_size": 8192,
+      "free_order": "fifo",
+      "touch_mode": "per-page",
+      "operation_count": 1,
+      "smoke_operation_count": 1,
+      "expected_operation_count": 8192,
+      "idle_ms": 5000,
+      "memory_return_mode": "passive",
+      "memory_action_interval_ms": 10,
+      "reallocate_after_observe": 1,
+      "policy": "upstream-default",
+      "runtime_options": {}
+    },
+    {
+      "block_id": "memory-passive-purge1000",
+      "profile": "memory-return",
+      "scenario": "memory_return",
+      "thread_count": 1,
+      "size_bytes": 65536,
+      "size_profile": "fixed",
+      "batch_size": 8192,
+      "free_order": "fifo",
+      "touch_mode": "per-page",
+      "operation_count": 1,
+      "smoke_operation_count": 1,
+      "expected_operation_count": 8192,
+      "idle_ms": 5000,
+      "memory_return_mode": "passive",
+      "memory_action_interval_ms": 10,
+      "reallocate_after_observe": 1,
+      "policy": "purge-delay-1000",
+      "runtime_options": {
+        "MIMALLOC_PURGE_DELAY": "1000"
+      }
+    },
+    {
+      "block_id": "memory-passive-purge0",
+      "profile": "memory-return",
+      "scenario": "memory_return",
+      "thread_count": 1,
+      "size_bytes": 65536,
+      "size_profile": "fixed",
+      "batch_size": 8192,
+      "free_order": "fifo",
+      "touch_mode": "per-page",
+      "operation_count": 1,
+      "smoke_operation_count": 1,
+      "expected_operation_count": 8192,
+      "idle_ms": 5000,
+      "memory_return_mode": "passive",
+      "memory_action_interval_ms": 10,
+      "reallocate_after_observe": 1,
+      "policy": "purge-delay-0",
+      "runtime_options": {
+        "MIMALLOC_PURGE_DELAY": "0"
+      }
+    },
+    {
+      "block_id": "memory-activity-default",
+      "profile": "memory-return",
+      "scenario": "memory_return",
+      "thread_count": 1,
+      "size_bytes": 65536,
+      "size_profile": "fixed",
+      "batch_size": 8192,
+      "free_order": "fifo",
+      "touch_mode": "per-page",
+      "operation_count": 1,
+      "smoke_operation_count": 1,
+      "expected_operation_count": 8192,
+      "idle_ms": 5000,
+      "memory_return_mode": "allocator-activity",
+      "memory_action_interval_ms": 10,
+      "reallocate_after_observe": 1,
+      "policy": "upstream-default",
+      "runtime_options": {}
+    },
+    {
+      "block_id": "memory-collect-normal-default",
+      "profile": "memory-return",
+      "scenario": "memory_return",
+      "thread_count": 1,
+      "size_bytes": 65536,
+      "size_profile": "fixed",
+      "batch_size": 8192,
+      "free_order": "fifo",
+      "touch_mode": "per-page",
+      "operation_count": 1,
+      "smoke_operation_count": 1,
+      "expected_operation_count": 8192,
+      "idle_ms": 5000,
+      "memory_return_mode": "collect-normal",
+      "memory_action_interval_ms": 10,
+      "reallocate_after_observe": 1,
+      "policy": "upstream-default",
+      "runtime_options": {}
+    },
+    {
+      "block_id": "memory-collect-force-default",
+      "profile": "memory-return",
+      "scenario": "memory_return",
+      "thread_count": 1,
+      "size_bytes": 65536,
+      "size_profile": "fixed",
+      "batch_size": 8192,
+      "free_order": "fifo",
+      "touch_mode": "per-page",
+      "operation_count": 1,
+      "smoke_operation_count": 1,
+      "expected_operation_count": 8192,
+      "idle_ms": 5000,
+      "memory_return_mode": "collect-force",
+      "memory_action_interval_ms": 10,
+      "reallocate_after_observe": 1,
+      "policy": "upstream-default",
+      "runtime_options": {}
+    }
+  ]
+}

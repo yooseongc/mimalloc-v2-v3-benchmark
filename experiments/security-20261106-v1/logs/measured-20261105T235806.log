@@ -1,0 +1,138 @@
+local measured 1 60 ON 64 4.967
+local measured 2 60 FULL 64 6.495
+local measured 3 60 MINIMAL 64 1.801
+local measured 4 60 CHECKED_PAC_WEAK 64 3.186
+local measured 5 60 CHECKED 64 2.814
+local measured 6 60 OFF 64 1.966
+local measured 7 60 MINIMAL 64 1.85
+local measured 8 60 CHECKED 64 2.778
+local measured 9 60 ON 64 5.123
+local measured 10 60 OFF 64 1.884
+local measured 11 60 FULL 64 6.567
+local measured 12 60 CHECKED_PAC_WEAK 64 3.206
+local measured 13 60 ON 64 5.02
+local measured 14 60 CHECKED_PAC_WEAK 64 3.297
+local measured 15 60 OFF 64 1.901
+local measured 16 60 FULL 64 6.404
+local measured 17 60 CHECKED 64 2.804
+local measured 18 60 MINIMAL 64 1.855
+local measured 19 60 CHECKED_PAC_WEAK 64 3.146
+local measured 20 60 MINIMAL 64 1.751
+local measured 21 60 FULL 64 6.726
+local measured 22 60 OFF 64 2.57
+local measured 23 60 ON 64 5.573
+local measured 24 60 CHECKED 64 3.152
+local measured 25 60 CHECKED_PAC_WEAK 64 3.375
+local measured 26 60 OFF 64 1.946
+local measured 27 60 FULL 64 6.786
+local measured 28 60 ON 64 6.121
+local measured 29 60 CHECKED 64 2.955
+local measured 30 60 MINIMAL 64 1.795
+local measured 31 60 OFF 4096 0.63
+local measured 32 60 ON 4096 1.517
+local measured 33 60 FULL 4096 13.164
+local measured 34 60 CHECKED 4096 0.635
+local measured 35 60 CHECKED_PAC_WEAK 4096 0.657
+local measured 36 60 MINIMAL 4096 0.577
+local measured 37 60 CHECKED_PAC_WEAK 4096 0.748
+local measured 38 60 CHECKED 4096 0.641
+local measured 39 60 MINIMAL 4096 0.58
+local measured 40 60 OFF 4096 0.613
+local measured 41 60 ON 4096 1.581
+local measured 42 60 FULL 4096 12.411
+local measured 43 60 OFF 4096 0.607
+local measured 44 60 FULL 4096 12.216
+local measured 45 60 CHECKED 4096 0.638
+local measured 46 60 CHECKED_PAC_WEAK 4096 0.639
+local measured 47 60 ON 4096 1.488
+local measured 48 60 MINIMAL 4096 0.539
+local measured 49 60 FULL 4096 12.285
+local measured 50 60 CHECKED_PAC_WEAK 4096 0.639
+local measured 51 60 OFF 4096 0.6
+local measured 52 60 ON 4096 1.498
+local measured 53 60 CHECKED 4096 0.6
+local measured 54 60 MINIMAL 4096 0.59
+local measured 55 60 OFF 4096 0.646
+local measured 56 60 CHECKED_PAC_WEAK 4096 0.695
+local measured 57 60 ON 4096 1.518
+local measured 58 60 FULL 4096 12.044
+local measured 59 60 CHECKED 4096 0.638
+local measured 60 60 MINIMAL 4096 0.549
+measured 1/60 CHECKED 64B 128MiB 2pairs retained=False 8.118s
+measured 2/60 CHECKED_PAC_WEAK 64B 128MiB 2pairs retained=False 8.239s
+measured 3/60 FULL 64B 128MiB 2pairs retained=False 12.123s
+measured 4/60 ON 64B 128MiB 2pairs retained=False 11.151s
+measured 5/60 OFF 64B 128MiB 2pairs retained=False 3.174s
+measured 6/60 MINIMAL 64B 128MiB 2pairs retained=False 3.384s
+measured 7/60 FULL 64B 128MiB 2pairs retained=False 12.053s
+measured 8/60 OFF 64B 128MiB 2pairs retained=False 3.255s
+measured 9/60 CHECKED_PAC_WEAK 64B 128MiB 2pairs retained=False 8.933s
+measured 10/60 ON 64B 128MiB 2pairs retained=False 12.382s
+measured 11/60 CHECKED 64B 128MiB 2pairs retained=False 9.099s
+measured 12/60 MINIMAL 64B 128MiB 2pairs retained=False 3.660s
+measured 13/60 CHECKED 64B 128MiB 2pairs retained=False 8.705s
+measured 14/60 OFF 64B 128MiB 2pairs retained=False 3.369s
+measured 15/60 FULL 64B 128MiB 2pairs retained=False 11.984s
+measured 16/60 CHECKED_PAC_WEAK 64B 128MiB 2pairs retained=False 8.415s
+measured 17/60 ON 64B 128MiB 2pairs retained=False 10.706s
+measured 18/60 MINIMAL 64B 128MiB 2pairs retained=False 3.813s
+measured 19/60 FULL 64B 128MiB 2pairs retained=False 12.150s
+measured 20/60 MINIMAL 64B 128MiB 2pairs retained=False 3.586s
+measured 21/60 CHECKED 64B 128MiB 2pairs retained=False 8.293s
+measured 22/60 CHECKED_PAC_WEAK 64B 128MiB 2pairs retained=False 8.390s
+measured 23/60 ON 64B 128MiB 2pairs retained=False 10.735s
+measured 24/60 OFF 64B 128MiB 2pairs retained=False 3.226s
+measured 25/60 FULL 64B 128MiB 2pairs retained=False 11.945s
+measured 26/60 CHECKED_PAC_WEAK 64B 128MiB 2pairs retained=False 8.335s
+measured 27/60 OFF 64B 128MiB 2pairs retained=False 3.359s
+measured 28/60 MINIMAL 64B 128MiB 2pairs retained=False 3.509s
+measured 29/60 ON 64B 128MiB 2pairs retained=False 10.813s
+measured 30/60 CHECKED 64B 128MiB 2pairs retained=False 8.210s
+measured 31/60 OFF 4096B 128MiB 2pairs retained=False 0.819s
+measured 32/60 CHECKED 4096B 128MiB 2pairs retained=False 0.536s
+measured 33/60 FULL 4096B 128MiB 2pairs retained=False 11.423s
+measured 34/60 CHECKED_PAC_WEAK 4096B 128MiB 2pairs retained=False 0.514s
+measured 35/60 ON 4096B 128MiB 2pairs retained=False 1.666s
+measured 36/60 MINIMAL 4096B 128MiB 2pairs retained=False 0.554s
+measured 37/60 CHECKED_PAC_WEAK 4096B 128MiB 2pairs retained=False 0.530s
+measured 38/60 MINIMAL 4096B 128MiB 2pairs retained=False 0.559s
+measured 39/60 FULL 4096B 128MiB 2pairs retained=False 11.021s
+measured 40/60 ON 4096B 128MiB 2pairs retained=False 1.814s
+measured 41/60 CHECKED 4096B 128MiB 2pairs retained=False 0.499s
+measured 42/60 OFF 4096B 128MiB 2pairs retained=False 0.863s
+measured 43/60 MINIMAL 4096B 128MiB 2pairs retained=False 0.575s
+measured 44/60 FULL 4096B 128MiB 2pairs retained=False 10.837s
+measured 45/60 ON 4096B 128MiB 2pairs retained=False 1.642s
+measured 46/60 OFF 4096B 128MiB 2pairs retained=False 0.793s
+measured 47/60 CHECKED 4096B 128MiB 2pairs retained=False 0.547s
+measured 48/60 CHECKED_PAC_WEAK 4096B 128MiB 2pairs retained=False 0.504s
+measured 49/60 FULL 4096B 128MiB 2pairs retained=False 10.800s
+measured 50/60 OFF 4096B 128MiB 2pairs retained=False 0.786s
+measured 51/60 CHECKED_PAC_WEAK 4096B 128MiB 2pairs retained=False 0.525s
+measured 52/60 CHECKED 4096B 128MiB 2pairs retained=False 0.529s
+measured 53/60 MINIMAL 4096B 128MiB 2pairs retained=False 0.548s
+measured 54/60 ON 4096B 128MiB 2pairs retained=False 1.519s
+measured 55/60 FULL 4096B 128MiB 2pairs retained=False 10.767s
+measured 56/60 OFF 4096B 128MiB 2pairs retained=False 0.779s
+measured 57/60 MINIMAL 4096B 128MiB 2pairs retained=False 0.553s
+measured 58/60 CHECKED 4096B 128MiB 2pairs retained=False 0.515s
+measured 59/60 CHECKED_PAC_WEAK 4096B 128MiB 2pairs retained=False 0.583s
+measured 60/60 ON 4096B 128MiB 2pairs retained=False 1.579s
+lifecycle measured 1 18 {'version': 'FULL', 'mode': 'same', 'rep': 0}
+lifecycle measured 2 18 {'version': 'ON', 'mode': 'same', 'rep': 0}
+lifecycle measured 3 18 {'version': 'OFF', 'mode': 'same', 'rep': 0}
+lifecycle measured 4 18 {'version': 'CHECKED_PAC_WEAK', 'mode': 'same', 'rep': 0}
+lifecycle measured 5 18 {'version': 'CHECKED', 'mode': 'same', 'rep': 0}
+lifecycle measured 6 18 {'version': 'MINIMAL', 'mode': 'same', 'rep': 0}
+lifecycle measured 7 18 {'version': 'OFF', 'mode': 'same', 'rep': 1}
+lifecycle measured 8 18 {'version': 'CHECKED_PAC_WEAK', 'mode': 'same', 'rep': 1}
+lifecycle measured 9 18 {'version': 'MINIMAL', 'mode': 'same', 'rep': 1}
+lifecycle measured 10 18 {'version': 'CHECKED', 'mode': 'same', 'rep': 1}
+lifecycle measured 11 18 {'version': 'FULL', 'mode': 'same', 'rep': 1}
+lifecycle measured 12 18 {'version': 'ON', 'mode': 'same', 'rep': 1}
+lifecycle measured 13 18 {'version': 'OFF', 'mode': 'same', 'rep': 2}
+lifecycle measured 14 18 {'version': 'ON', 'mode': 'same', 'rep': 2}
+lifecycle measured 15 18 {'version': 'CHECKED', 'mode': 'same', 'rep': 2}
+lifecycle measured 16 18 {'version': 'FULL', 'mode': 'same', 'rep': 2}
+lifecycle measured 17 18 {'version': 'CHECKED_PAC_WEAK', 'mode': 'same', 'rep': 2}
+lifecycle measured 18 18 {'version': 'MINIMAL', 'mode': 'same', 'rep': 2}

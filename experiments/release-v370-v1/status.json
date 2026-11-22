@@ -1,0 +1,35 @@
+{
+  "status": "Complete",
+  "verified_at": "2026-11-17T23:47:46.754346+00:00",
+  "counts": {
+    "release-v370-v1": {
+      "lifecycle/smoke": 12,
+      "concurrent/smoke": 24,
+      "concurrent/pilot": 42,
+      "lifecycle/measured": 36,
+      "lifecycle/collect": 12,
+      "concurrent/measured": 126
+    },
+    "purge-delay-v370-v1": {
+      "defaults": 6,
+      "smoke": 12,
+      "measured": 36
+    },
+    "allocation-size-v370-v1": {
+      "smoke": 24,
+      "pilot": 24,
+      "measured": 72
+    }
+  },
+  "stats": 32,
+  "invalid": 0,
+  "excluded": 0,
+  "plan_sha256": "961b15f3867286fc0fcbf7539ffc8d57021f5cc62754208de51075745dbe3277",
+  "measured_concurrent_seconds_range": [
+    3.061229779,
+    21.122551626
+  ],
+  "process_peak_rss_mib": 558.078125,
+  "measured_concurrent_major_faults": 0,
+  "note": "Three repetitions per measured cell; descriptive median and range only."
+}

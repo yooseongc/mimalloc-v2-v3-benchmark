@@ -1,0 +1,9 @@
+{
+  "hashes": {
+    "docs/allocation-size-plan.md": "33449034410eab517f9bcee3f58603c7321658a6ea2b4a957700c9235d5877d2",
+    "observation/allocation_size.py": "8df688495d56bf16922c1ea85ffedb0c6e30064062726e29a646c9fb804d8d33"
+  },
+  "controller_sha256": "41a1ec15a090ca82b0e9fb2278bd8a2a634a8d53bd943a5a10482905bdbe691c",
+  "source_sha256": "2afa605035212813e8009843a8eb7d7c06b0c3e96b6d2f8b605a240fed593bad",
+  "artifacts_sha256": "7f567f8bba237fa7ea2aa7136cd3a47f8c3066df52e7bb3abf4491e536f10712"
+}

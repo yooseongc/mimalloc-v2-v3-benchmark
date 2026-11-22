@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "comparison_id": "r25-core",
+  "valid_pilot_records": 45,
+  "cells": [
+    {
+      "name": "local-fixed-t8",
+      "valid_records": 9,
+      "matched_repetitions": 3,
+      "pilot_operation_count": 1000000000,
+      "combined_median_elapsed_seconds": 13.977935021,
+      "core_operation_count": 1000000000
+    },
+    {
+      "name": "local-mixed-wide-t1",
+      "valid_records": 9,
+      "matched_repetitions": 3,
+      "pilot_operation_count": 200000000,
+      "combined_median_elapsed_seconds": 16.284315441,
+      "core_operation_count": 200000000
+    },
+    {
+      "name": "local-mixed-wide-t8",
+      "valid_records": 9,
+      "matched_repetitions": 3,
+      "pilot_operation_count": 1047000000,
+      "combined_median_elapsed_seconds": 14.148015548,
+      "core_operation_count": 1047000000
+    },
+    {
+      "name": "remote-fixed-4x4",
+      "valid_records": 9,
+      "matched_repetitions": 3,
+      "pilot_operation_count": 100000000,
+      "combined_median_elapsed_seconds": 18.971168067,
+      "core_operation_count": 100000000
+    },
+    {
+      "name": "remote-mixed-wide-4x4",
+      "valid_records": 9,
+      "matched_repetitions": 3,
+      "pilot_operation_count": 100000000,
+      "combined_median_elapsed_seconds": 17.784147337,
+      "core_operation_count": 100000000
+    }
+  ]
+}

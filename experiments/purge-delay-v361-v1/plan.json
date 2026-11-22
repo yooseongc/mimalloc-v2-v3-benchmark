@@ -1,0 +1,316 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-10-31T01:36:38.094001+00:00",
+  "order": [
+    {
+      "version": "v3.6.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "delay": 10,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "delay": 1000,
+      "size": 1024,
+      "pairs": 2,
+      "cap": 134217728,
+      "objects": 158757888,
+      "retained": false,
+      "rep": 2
+    }
+  ],
+  "seed": 2026103102,
+  "hashes": {
+    "docs/v361-plan.md": "795fbfb939c1c55907d1628fd5bafc1c12bd65486b9a841368c618277549f983",
+    "observation/purge_delay_v361.py": "2bf1de78dfc688b62e7bb73dfb678cc993da30e8c4e9fde69063822b73e5138c",
+    "observation/run_concurrent.py": "17a997afbcbe02131bdbe5ba3cf571bab5912b86654ccf95907d0d3f187293b6",
+    "observation/concurrent.cpp": "7839df70f6d31cc1234a2dc10e660484517e29beebddb2b4f90557eeb2beae07"
+  },
+  "artifacts_sha256": "21492453394d37a8eac820368d5b470cd9fdf3e02ccc24b9708b49d7c4a1a0d1",
+  "generated_controller_sha256": "41a1ec15a090ca82b0e9fb2278bd8a2a634a8d53bd943a5a10482905bdbe691c",
+  "generated_source_sha256": "4ca2baabb25d01e3d2edbbdd9940188d10e7ceace142267c30f3958f5de690e8"
+}
