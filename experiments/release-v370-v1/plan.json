@@ -1,0 +1,1448 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-11-17T23:04:55.224438+00:00",
+  "seed": 20261118,
+  "hashes": {
+    "docs/v370-plan.md": "3c3404d5fa5fcc75d57443c38a5db4a0bf71ff27b03ce0ce3e13f0837cb42ecc",
+    "observation/release_v370.py": "6d30c574d12e7526c50aff4f52163b1e425951a2a49d980a4e5eab9faa1a7de4",
+    "observation/run.py": "1ea9ed28aa600b17ba8648e6f7c5ceb0e97aa2203914df04e59abda029618a0f",
+    "observation/run_concurrent.py": "17a997afbcbe02131bdbe5ba3cf571bab5912b86654ccf95907d0d3f187293b6",
+    "observation/lifecycle.cpp": "3904aced80d9b529e815b721b276912852ae73177d9cfb770cee0d0f7c3aaf52",
+    "observation/concurrent.cpp": "7839df70f6d31cc1234a2dc10e660484517e29beebddb2b4f90557eeb2beae07",
+    "experiments/release-v370-v1/lifecycle/artifacts.json": "fc5710bb38b5344151214d5d41c7e0861232e50b9f6de3b61f4b94183206de1a",
+    "experiments/release-v370-v1/concurrent/artifacts.json": "0f564a852d80f05b566fc37cec63ed95e999dead63c456c03f561166b4f44696"
+  },
+  "pilot_hashes": {
+    "results/release-v370-v1/concurrent/pilot/000.json": "f5ea2b2a3399d79a8ae54531697b3dcb2db8436cce7eaf50001a7711ec77a9bd",
+    "results/release-v370-v1/concurrent/pilot/001.json": "0ffeb1310c74058ebbfb60e182ff8680c4c3c1e09342dd68eec40294eb5527d6",
+    "results/release-v370-v1/concurrent/pilot/002.json": "3811a37d0b99bc46514a160da6738a880ff9fdcb187fbb0b915fb8dd6d5793bd",
+    "results/release-v370-v1/concurrent/pilot/003.json": "1a4a10c33857b396dfbff4a33a5864f33954b2c74043299e27ee049eec10166e",
+    "results/release-v370-v1/concurrent/pilot/004.json": "b0d07fbde3e216323f223c1be7ef0fa24981698e91ea2cb0f48951ac3d0bae88",
+    "results/release-v370-v1/concurrent/pilot/005.json": "c4274d231aff932ae08ba544a3603604ef19a7721d10bb0d340f12ab945406c6",
+    "results/release-v370-v1/concurrent/pilot/006.json": "3e7ae948f49de2a8daa45d820804879971e86410a47b074f704c2a0c24ba4032",
+    "results/release-v370-v1/concurrent/pilot/007.json": "8c5ef0068e9159461fb36aeddf023e2f5c0db6c288f603726dea8e0697e55296",
+    "results/release-v370-v1/concurrent/pilot/008.json": "40aacc67391dd3b64c6de2048457a736c5e79a9923dab10ea1eabb83d5fba208",
+    "results/release-v370-v1/concurrent/pilot/009.json": "80eb0c9aa24850de80e5426b4c3786da29c5588bf0b12865e7430ba1fb3765b3",
+    "results/release-v370-v1/concurrent/pilot/010.json": "1bf850c9a10aac983541d774edda82e905e5525b56e4492df352348a90122cb0",
+    "results/release-v370-v1/concurrent/pilot/011.json": "42d589e16f10af7907aaf1fad8c98beb0d663e82a69c6b24b107cbfd4d58693a",
+    "results/release-v370-v1/concurrent/pilot/012.json": "ccb94961a8d6504ad8883b82002c5eda28b8ded32f13eb5f02bf6b4c1a941226",
+    "results/release-v370-v1/concurrent/pilot/013.json": "96ce37041d439f272c5163308999d8de4dbfd8d96badaf3b468a23acdf6d39f9",
+    "results/release-v370-v1/concurrent/pilot/014.json": "e0dd806471a588cce300442c9ceeb29fb5f6cce792e48874a474e78887840a0e",
+    "results/release-v370-v1/concurrent/pilot/015.json": "a8e3fe483145c615cc6076b8245c255c9089a90e6472c6765ec747afe5d3c049",
+    "results/release-v370-v1/concurrent/pilot/016.json": "b339cc2d192ba92c14e170b9572cfed2d5bf955321abe5698d2db70843984543",
+    "results/release-v370-v1/concurrent/pilot/017.json": "8457ee938d558ac3f616aacfd0d7e98c1bfa3e1f5c73040806b9660b9535fa26",
+    "results/release-v370-v1/concurrent/pilot/018.json": "2ab3b3041cdbe356456fd7af8c8288123c587a0e77c98df0a38aa2bcb9fd75a4",
+    "results/release-v370-v1/concurrent/pilot/019.json": "af72dca9e709ad9bcd9390acfb126a577ebb099273797bf61e78ffe40f032125",
+    "results/release-v370-v1/concurrent/pilot/020.json": "b9cdcbe3dbb286e10277bc3e95f848f8f6382ddd5b6cb5c78c555c5b6a7c1f77",
+    "results/release-v370-v1/concurrent/pilot/021.json": "b26cc5fd60a0799dee4c80f208ca7ffc8e703b59c76685f3d5c001805fd7354e",
+    "results/release-v370-v1/concurrent/pilot/022.json": "79683191ff1045512c7790b95e017c4cd79977af11a85cad438c026838d5390f",
+    "results/release-v370-v1/concurrent/pilot/023.json": "5826bb655a97bef25078c1d76c8227914402dfe4786569418f6bd48d400a250b",
+    "results/release-v370-v1/concurrent/pilot/024.json": "c4ab80ef89615e317f073c6d0802ca026725845acfe7dab719c48d4a4857db70",
+    "results/release-v370-v1/concurrent/pilot/025.json": "e7dbf7ee4ae9833f7fe0f13a3626f3e63313045261c71609027a97b5943c4950",
+    "results/release-v370-v1/concurrent/pilot/026.json": "242b10899043b5f86c9fe5bc41f8921f78d56115851886c0ade88723a1c9a19d",
+    "results/release-v370-v1/concurrent/pilot/027.json": "79427b987aab712ffe59acb8bd3718c6ed85bd858a786a76890861a33860d494",
+    "results/release-v370-v1/concurrent/pilot/028.json": "15e3d47fb9d420d707fa81fba79f8cd1a7e034aa291092af30bbe6be6511cb00",
+    "results/release-v370-v1/concurrent/pilot/029.json": "ecc90caca0c3f92b103893ea954d0278fc19390b4a577ac143e32f02c883d2a2",
+    "results/release-v370-v1/concurrent/pilot/030.json": "c7a9c39ad0c249ecb9980a338de23dedd7d952ba1b39149fb3db8ea77545d2a6",
+    "results/release-v370-v1/concurrent/pilot/031.json": "988edcc541779851d2a2367728f3585004ba71cccbb038ebbc3adc41800c2e54",
+    "results/release-v370-v1/concurrent/pilot/032.json": "aecba380ac430abdc3fd57599b793753cc1075b237c5ac51c335abca6204b433",
+    "results/release-v370-v1/concurrent/pilot/033.json": "1b3247196fe0f01ba1da9986db3699226b2ad94b1b6b457c8e5b1c3b3281e5db",
+    "results/release-v370-v1/concurrent/pilot/034.json": "7e38b4cc133decf006acee72f8b0106fad822a2dbda5b9ab0536ea9c55fd0309",
+    "results/release-v370-v1/concurrent/pilot/035.json": "f6757d0c898518acc59487b00342b3c8b14026552f51a1be4e13e07e6f42010b",
+    "results/release-v370-v1/concurrent/pilot/036.json": "d3715f59cace537387b08cb0da0b7f81d434dc6593038ceb0572392ce2405b63",
+    "results/release-v370-v1/concurrent/pilot/037.json": "f7c105edf4ce365f792cf8daeafb6c3f60c31d9ee2b3ae5cc41735b3b5abf5b3",
+    "results/release-v370-v1/concurrent/pilot/038.json": "e7c8e65df1a42dfd88b44868042cf9378500c9ec045dadb8261f115eebf08459",
+    "results/release-v370-v1/concurrent/pilot/039.json": "dd3f1128fa1deba0d671666fd5b4a525cadfc3c5fd541bad3219562a7fb9db4f",
+    "results/release-v370-v1/concurrent/pilot/040.json": "6987ea78ad2b13389211d5ad0d4b238addb0c768730821f2e5d9a7ea376171ce",
+    "results/release-v370-v1/concurrent/pilot/041.json": "8f8d4393d15b08e9b79b313084a3620e395e1c1e4561d4b09605122ec0e9eff4"
+  },
+  "counts": {
+    "(64, 134217728, 1)": 340769792,
+    "(64, 134217728, 2)": 582666752,
+    "(1024, 134217728, 1)": 114261504,
+    "(1024, 134217728, 2)": 220001792,
+    "(4096, 134217728, 1)": 40485376,
+    "(4096, 134217728, 2)": 77835264,
+    "(4096, 536870912, 2)": 95145472
+  },
+  "concurrent": [
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.7.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 340769792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.7.0",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 64,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 582666752,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.7.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.7.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 114261504,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.7.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.7.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 1024,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 220001792,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 1,
+      "objects": 40485376,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 77835264,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.7.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "size": 4096,
+      "cap": 536870912,
+      "pairs": 2,
+      "objects": 95145472,
+      "retained": false,
+      "rep": 2
+    }
+  ],
+  "lifecycle": [
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.7.0",
+      "mode": "remote",
+      "rep": 0
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.7.0",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "rep": 1
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.7.0",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "rep": 1
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.7.0",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "rep": 2
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.7.0",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "rep": 2
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "rep": 2
+    }
+  ],
+  "collect": [
+    {
+      "version": "v2.1.2",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.7.0",
+      "mode": "same",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.7.0",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.0",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.0",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v2.1.2",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.5.3",
+      "mode": "remote",
+      "intervention": "collect_force"
+    },
+    {
+      "version": "v3.6.1",
+      "mode": "remote",
+      "intervention": "collect_force"
+    }
+  ]
+}

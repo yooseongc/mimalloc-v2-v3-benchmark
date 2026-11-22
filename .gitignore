@@ -17,6 +17,7 @@
 /results/allocation-size-v361-v1/
 /results/dev3-20261106-v1/
 /results/security-20261106-v1/
+/results/realloc-20261110-v1/
 /results/allocation-size-v1/
 /results/profiling-diagnostic-v1/
 /results/purge-delay-v1/
@@ -33,3 +34,9 @@
 /container/*.tar
 __pycache__/
 *.py[cod]
+
+/results/release-v370-v1/
+/results/purge-delay-v370-v1/
+/results/allocation-size-v370-v1/
+/results/v370-large-pages-v1/
+/results/dev3-20261122-v1/

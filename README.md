@@ -1,11 +1,35 @@
 # mimalloc의 처리 비용과 메모리 흐름 이해하기
 
-최신 후속: [dev3 보안 모드 성능·메모리 비용](docs/security-20261106-report.md).
+## 2026-11-22 dev3와 v3.7.0 비교
+
+dev3 `15d1247d`와 v3.7.0에서 보안 모드와 내부 large page를 교차해 본 측정 120회를 수행했습니다.
+dev3의 보안 ON에서 256 KiB 객체를 스레드 간에 인계할 때 내부 large page를 켜면 처리량이
+10.33에서 167.78 GiB/s로, 해제 1초 뒤 RSS가 22.7에서 179.5 MiB로 증가했습니다.
+별도 시스템 호출 계수로 singleton guard의 비용을 확인했고, 4 KiB 원격 해제는 프로세스 THP 옵션을 바꿔 비교했습니다.
+[측정 보고서](docs/dev3-20261122-report.md) · [원인 분석](docs/dev3-20261122-mechanisms.md) · [전체 결과표](experiments/dev3-20261122-v1/tables.md)
+
+## 앞선 성능 실험
+
+[v3.7.0 large page ON A/B](docs/v370-large-pages-report.md).
+256 KiB 처리량은 기본 대비66.5% 증가해 v3.6.1 수준으로 회복했고 RSS는38.6% 감소했습니다.
+64 KiB는6.5% 느려졌고, 4·16 KiB 저하는 해결되지 않았습니다. 별도 새 빌드·36회 측정입니다.
+
+[v3.7.0을 추가한 여섯 릴리스 비교](docs/v370-report.md).
+기존 결과를 보존하고 새 빌드·동결 계획으로 458개 기록을 검증했습니다.
+v3.6.1 대비 기본 4 KiB·2쌍 처리량은 약 4.7–6.8% 낮았고,
+별도 동일 바이트 비교의 256 KiB에서는 약 39.6% 낮았습니다.
+purge delay10/mult1의 RSS는 낮았지만 작업 중 생존량도 달랐습니다.
+각 조건 3회의 탐색 관찰이며, 모든 조건의 개선이나 특정 수정의 단독 효과를 뜻하지 않습니다.
+[계획](docs/v370-plan.md) · [소스 변경점](docs/v370-source-notes.md) ·
+[코드 분석](docs/v370-code-analysis.md) · [재현](observation/RELEASE_V370.md).
+현재 식별자는 `release-v370-v1`, `purge-delay-v370-v1`, `allocation-size-v370-v1`입니다.
+
+앞선 후속: [dev3 보안 모드 성능·메모리 비용](docs/security-20261106-report.md).
 OFF/MINIMAL/CHECKED/ON/FULL과 CHECKED+PAC=WEAK를 비교했습니다.
 ON은 조건별 약 2.0–3.3배, FULL은 약 3.4–20.2배 시간이 필요했습니다.
 CHECKED 비용은 객체 크기와 해제 방식에 따라 크게 달랐습니다.
 [전체 수치](docs/security-20261106/tables.md) · [재현](observation/SECURITY_20261106.md).
-현재 후속 식별자는 `security-20261106-v1`이며 기존 결과는 보존합니다.
+당시 후속 식별자는 `security-20261106-v1`이며 기존 결과는 보존합니다.
 
 앞선 후속: [dev3 d6716d33과 v3.6.1 직접 측정](docs/dev3-20261106-report.md).
 일반 Release의 remote-free·메모리 수명·스레드 생성/종료를 조건당 5회 비교하고

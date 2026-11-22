@@ -2,6 +2,16 @@
 
 ## 0. Active memory-behavior planning override (2026-09-21)
 
+2026-11-18 사용자가 large page ON 검증을 승인했다. `docs/v370-large-pages-plan.md`,
+`v370-large-pages-v1`에서 v3.6.1 기본/v3.7.0 기본/v3.7.0 MI_ENABLE_LARGE_PAGES=1을
+새로 빌드·측정한다. 기존 동결 결과는 보존하며 OS THP 설정이나 upstream 소스는 변경하지 않는다.
+
+2026-11-18 v3.7.0 후속은 `docs/v370-plan.md`, `release-v370-v1`을 따른다.
+기존 다섯 릴리스에 v3.7.0 (`1ed67b5156a763441d2ec3c20221a7b3cd866129`)을
+추가하고 여섯 버전을 현재 환경에서 새로 빌드·비교한다. purge-delay-v370-v1과
+allocation-size-v370-v1은 별도 namespace다. 기존 동결 실행기·계획·결과와
+진행 중 사용자 변경은 보존한다. 하드웨어 MTE/PAC 및 방어 효과는 범위 밖이다.
+
 2026-11-06 보안 모드 후속은 `docs/security-20261106-plan.md`, `security-20261106-v1`을 따른다.
 고정 dev3 d6716d33 내부에서 OFF/MINIMAL/CHECKED/ON/FULL 및 CHECKED+PAC=WEAK의
 처리 비용과 RSS를 비교한다. 기존 동결 소스·실행기·결과는 변경하지 않는다.

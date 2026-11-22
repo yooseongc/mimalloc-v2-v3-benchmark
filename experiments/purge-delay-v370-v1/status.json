@@ -1,0 +1,12 @@
+{
+  "status": "Complete",
+  "counts": {
+    "defaults": 6,
+    "smoke": 12,
+    "measured": 36
+  },
+  "invalid": 0,
+  "excluded": 0,
+  "frozen_hashes_verified": true,
+  "premeasurement_failure": null
+}

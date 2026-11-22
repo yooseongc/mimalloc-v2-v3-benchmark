@@ -1,0 +1,12 @@
+pilot 1 12 v361-default 4 0.205 39.097
+pilot 2 12 v361-default 16 0.056 143.968
+pilot 3 12 v361-default 64 0.054 147.342
+pilot 4 12 v361-default 256 0.04 199.211
+pilot 5 12 v370-default 4 0.197 40.584
+pilot 6 12 v370-default 16 0.061 130.671
+pilot 7 12 v370-default 64 0.045 176.737
+pilot 8 12 v370-default 256 0.066 120.433
+pilot 9 12 v370-large 4 0.217 36.895
+pilot 10 12 v370-large 16 0.057 139.437
+pilot 11 12 v370-large 64 0.041 196.49
+pilot 12 12 v370-large 256 0.044 181.035

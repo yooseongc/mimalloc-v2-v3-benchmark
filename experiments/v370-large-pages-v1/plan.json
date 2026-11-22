@@ -1,0 +1,383 @@
+{
+  "status": "Frozen",
+  "frozen_at": "2026-11-18T01:30:23.202115+00:00",
+  "preparation_sha256": "786ec6bce6e4194ef3ae6613a0bed91ae1b7842947564b302eb74c8a81d36eba",
+  "total_bytes": 786650103808,
+  "seed": 2026111804,
+  "order": [
+    {
+      "version": "v370-default",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 0,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 1,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 4096,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 192053248,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 262144,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 3000832,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v370-large",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v370-default",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 65536,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 12003328,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    },
+    {
+      "version": "v361-default",
+      "size": 16384,
+      "cap": 134217728,
+      "pairs": 2,
+      "objects": 48013312,
+      "retained": false,
+      "rep": 2,
+      "delay": 1000
+    }
+  ],
+  "pilot_hashes": {
+    "results/v370-large-pages-v1/pilot/000.json": "034824525e14aedf6621454ba612526561d5e25437bbe9ccf8bb071470c3bcac",
+    "results/v370-large-pages-v1/pilot/001.json": "b677071823f167804fd8465b9ece2550db1f0d15bc7c31b823c4bbd9d29dbaf1",
+    "results/v370-large-pages-v1/pilot/002.json": "ed206e6e4e4bdfcae16f3575793a321044134b5821d091bbf4352c61f7702c00",
+    "results/v370-large-pages-v1/pilot/003.json": "f1b80fd5916fd589fa4071e1fad583483b72faf6c02cd83aef6b2537c90bad1c",
+    "results/v370-large-pages-v1/pilot/004.json": "89be9770823b48fed5373331cebba33acfc1a7b80cf8df7b2053f17d45d5dd65",
+    "results/v370-large-pages-v1/pilot/005.json": "e9d0a9d8b1dd6b3a913e53009e6948f6c9d6f550798175c153db475e83fcfe8c",
+    "results/v370-large-pages-v1/pilot/006.json": "6a964083f81933ac146ab52401aa3e77f2430e9241ff27239bba68a95c91336c",
+    "results/v370-large-pages-v1/pilot/007.json": "ae6666947711d22938e6f4619841d8ef6fc9e24238daeb40fde59740a765ebe7",
+    "results/v370-large-pages-v1/pilot/008.json": "bd735f56ccfa7eb079901498ddc4b54a7e65d86a719e363ea7a0585abdff04bf",
+    "results/v370-large-pages-v1/pilot/009.json": "f75edc213e09536f3fdb9f16ae64c202487a964935ef14725805a0bda871dd5a",
+    "results/v370-large-pages-v1/pilot/010.json": "aba019943f4268ad5db9564608091c913cdf8633c34a4bbaa66f78281f8e11dd",
+    "results/v370-large-pages-v1/pilot/011.json": "7e6f5ef6440a5a13c3907b20be8ce8b26065f62f71f4edc1268f1d69aa461546"
+  }
+}

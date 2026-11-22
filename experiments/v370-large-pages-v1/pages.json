@@ -1,0 +1,227 @@
+{
+  "v361-default": {
+    "command": [
+      "cc",
+      "-DMI_BUILD_RELEASE",
+      "-DMI_CMAKE_BUILD_TYPE=release",
+      "-DMI_DEFAULT_ALLOW_THP=2",
+      "-DMI_GUARDED=0",
+      "-DMI_HAS_EXECINFOH=1",
+      "-DMI_HAS_UNISTDH=1",
+      "-DMI_MALLOC_OVERRIDE",
+      "-DMI_PROFILE=1",
+      "-DMI_SHARED_LIB",
+      "-DMI_SHARED_LIB_EXPORT",
+      "-DMI_STATS=1",
+      "-DNDEBUG=1",
+      "-Dmimalloc_EXPORTS",
+      "-I/work/extern/mimalloc-v3.6.1/include",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-fPIC",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unknown-pragmas",
+      "-fvisibility=hidden",
+      "-Wstrict-prototypes",
+      "-ftls-model=initial-exec",
+      "-fno-builtin-malloc",
+      "/work/build/v370-large-pages-v1/pages.c",
+      "-L/work/build/v370-large-pages-v1/v361-default",
+      "-Wl,-rpath,/work/build/v370-large-pages-v1/v361-default",
+      "-lmimalloc",
+      "-o",
+      "/work/build/v370-large-pages-v1/v361-default-pages"
+    ],
+    "observations": [
+      {
+        "request": 4096,
+        "usable": 4096,
+        "block_size": 4096,
+        "reserved": 15,
+        "capacity": 2,
+        "slice_count": 1,
+        "block_offset": 4096
+      },
+      {
+        "request": 16384,
+        "usable": 16384,
+        "block_size": 16384,
+        "reserved": 31,
+        "capacity": 1,
+        "slice_count": 8,
+        "block_offset": 256
+      },
+      {
+        "request": 65536,
+        "usable": 65536,
+        "block_size": 65536,
+        "reserved": 63,
+        "capacity": 1,
+        "slice_count": 64,
+        "block_offset": 3456
+      },
+      {
+        "request": 262144,
+        "usable": 262144,
+        "block_size": 262144,
+        "reserved": 15,
+        "capacity": 1,
+        "slice_count": 64,
+        "block_offset": 1920
+      }
+    ]
+  },
+  "v370-default": {
+    "command": [
+      "cc",
+      "-DMI_BUILD_RELEASE",
+      "-DMI_CMAKE_BUILD_TYPE=release",
+      "-DMI_DEFAULT_ALLOW_THP=2",
+      "-DMI_GUARDED=0",
+      "-DMI_HAS_EXECINFOH=1",
+      "-DMI_HAS_UNISTDH=1",
+      "-DMI_MALLOC_OVERRIDE",
+      "-DMI_PROFILE=1",
+      "-DMI_SECURE=0",
+      "-DMI_SHARED_LIB",
+      "-DMI_SHARED_LIB_EXPORT",
+      "-DMI_STATS=1",
+      "-DNDEBUG=1",
+      "-Dmimalloc_EXPORTS",
+      "-I/work/extern/mimalloc-v3.7.0/include",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-fPIC",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unknown-pragmas",
+      "-fvisibility=hidden",
+      "-Wstrict-prototypes",
+      "-ftls-model=initial-exec",
+      "-fno-builtin-malloc",
+      "/work/build/v370-large-pages-v1/pages.c",
+      "-L/work/build/v370-large-pages-v1/v370-default",
+      "-Wl,-rpath,/work/build/v370-large-pages-v1/v370-default",
+      "-lmimalloc",
+      "-o",
+      "/work/build/v370-large-pages-v1/v370-default-pages"
+    ],
+    "observations": [
+      {
+        "request": 4096,
+        "usable": 4096,
+        "block_size": 4096,
+        "reserved": 15,
+        "capacity": 1,
+        "slice_count": 1,
+        "block_offset": 4096
+      },
+      {
+        "request": 16384,
+        "usable": 16384,
+        "block_size": 16384,
+        "reserved": 31,
+        "capacity": 1,
+        "slice_count": 8,
+        "block_offset": 3072
+      },
+      {
+        "request": 65536,
+        "usable": 65536,
+        "block_size": 65536,
+        "reserved": 7,
+        "capacity": 1,
+        "slice_count": 8,
+        "block_offset": 1536
+      },
+      {
+        "request": 262144,
+        "usable": 262144,
+        "block_size": 262144,
+        "reserved": 1,
+        "capacity": 1,
+        "slice_count": 5,
+        "block_offset": 3456
+      }
+    ]
+  },
+  "v370-large": {
+    "command": [
+      "cc",
+      "-DMI_BUILD_RELEASE",
+      "-DMI_CMAKE_BUILD_TYPE=release",
+      "-DMI_DEFAULT_ALLOW_THP=2",
+      "-DMI_GUARDED=0",
+      "-DMI_HAS_EXECINFOH=1",
+      "-DMI_HAS_UNISTDH=1",
+      "-DMI_MALLOC_OVERRIDE",
+      "-DMI_PROFILE=1",
+      "-DMI_SECURE=0",
+      "-DMI_SHARED_LIB",
+      "-DMI_SHARED_LIB_EXPORT",
+      "-DMI_STATS=1",
+      "-DNDEBUG=1",
+      "-Dmimalloc_EXPORTS",
+      "-I/work/extern/mimalloc-v3.7.0/include",
+      "-DMI_ENABLE_LARGE_PAGES=1",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-fPIC",
+      "-Wall",
+      "-Wextra",
+      "-Wno-unknown-pragmas",
+      "-fvisibility=hidden",
+      "-Wstrict-prototypes",
+      "-ftls-model=initial-exec",
+      "-fno-builtin-malloc",
+      "/work/build/v370-large-pages-v1/pages.c",
+      "-L/work/build/v370-large-pages-v1/v370-large",
+      "-Wl,-rpath,/work/build/v370-large-pages-v1/v370-large",
+      "-lmimalloc",
+      "-o",
+      "/work/build/v370-large-pages-v1/v370-large-pages"
+    ],
+    "observations": [
+      {
+        "request": 4096,
+        "usable": 4096,
+        "block_size": 4096,
+        "reserved": 15,
+        "capacity": 1,
+        "slice_count": 1,
+        "block_offset": 4096
+      },
+      {
+        "request": 16384,
+        "usable": 16384,
+        "block_size": 16384,
+        "reserved": 31,
+        "capacity": 1,
+        "slice_count": 8,
+        "block_offset": 128
+      },
+      {
+        "request": 65536,
+        "usable": 65536,
+        "block_size": 65536,
+        "reserved": 63,
+        "capacity": 1,
+        "slice_count": 64,
+        "block_offset": 2432
+      },
+      {
+        "request": 262144,
+        "usable": 262144,
+        "block_size": 262144,
+        "reserved": 15,
+        "capacity": 1,
+        "slice_count": 64,
+        "block_offset": 768
+      }
+    ]
+  }
+}

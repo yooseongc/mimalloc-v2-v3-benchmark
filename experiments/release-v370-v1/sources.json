@@ -1,0 +1,56 @@
+{
+  "v2.1.2": {
+    "commit": "43ce4bd7fd34bcc730c1c7471c99995597415488",
+    "describe": "v2.1.2",
+    "clean_tracked_content": true,
+    "windows_filemode_ignored": true,
+    "header_sha256": "687351cb99538ddd7d589af70366da66ba98162e016f00f8d8b7514ae1061f62",
+    "cmake_sha256": "d95da728695551e5cf72cc30c0b18be89312d9be492dcfcff5260a84907a7468",
+    "library_sha256": "03a21de3a984a745c1bfe8ae6a6ad2ee79e4202c3364745ccba541e539c51f06"
+  },
+  "v3.5.0": {
+    "commit": "18b08671c9302247bfb682286e6bf3cc1773f801",
+    "describe": "v3.5.0",
+    "clean_tracked_content": true,
+    "windows_filemode_ignored": true,
+    "header_sha256": "af34f215cb6fe9e4e97bf08d78bfda877ab4cdd63c9222640c483d7d6a4488a5",
+    "cmake_sha256": "9b38dd30d4c503ffbef7c809dab3642b563adca9633615134902ce3a503fe4fd",
+    "library_sha256": "f4ed50e06db9f79b6185158a1bd4622eaf76786adf3876f859ecff706f20c1d8"
+  },
+  "v3.5.3": {
+    "commit": "d4881d338125e1cb7c47ba4cfb398d6f7c0c8d45",
+    "describe": "v3.5.3",
+    "clean_tracked_content": true,
+    "windows_filemode_ignored": true,
+    "header_sha256": "8ec1bff9902bab6682e3ecbf7613ccc915e082ca743fdd0c396d3954323fe8bf",
+    "cmake_sha256": "f06ff097ad6f5714547934da4d0dacd043aa3f960cc663a547fc288795747169",
+    "library_sha256": "eef10ef42815bcd2cbebd6a537f74c2f7597c1644b5aabc87d4cc21e449caf0f"
+  },
+  "v3.6.0": {
+    "commit": "b18ab4eef383f655e760881b02eff8af02800879",
+    "describe": "v3.6.0",
+    "clean_tracked_content": true,
+    "windows_filemode_ignored": true,
+    "header_sha256": "4d39f26142f20ba51c809ab9ca406e6b522c2da9305bd32258aa93514c11ae99",
+    "cmake_sha256": "03c9746d4de004339b1db944d5c50d5d23d90afab8028ec69660df693b08263c",
+    "library_sha256": "6940d9c7f5436841e61bb00b0c2652e81bc28e37baebd4f51038add668b408bb"
+  },
+  "v3.6.1": {
+    "commit": "56dc5eb80145f9a3ba7ca23d47c6a248b9d8586c",
+    "describe": "v3.6.1",
+    "clean_tracked_content": true,
+    "windows_filemode_ignored": true,
+    "header_sha256": "cb0ea5563aad14b2e367f69bcd50220c08dc193b561763e66eb474bcc7f48c2b",
+    "cmake_sha256": "d089302b3a45d23503f10eb270453e25775bfcdd8ce8336e8a4a49e84abe401d",
+    "library_sha256": "562624caaaa20ebdb2742bf19443dcb4b9d649efabb9e6a54d5fcfdd3d23c5e0"
+  },
+  "v3.7.0": {
+    "commit": "1ed67b5156a763441d2ec3c20221a7b3cd866129",
+    "describe": "v3.7.0",
+    "clean_tracked_content": true,
+    "windows_filemode_ignored": true,
+    "header_sha256": "02b0ff4c69b64c9a3ab7fc933118558729cbdeb8b4680f56bd87cdfc95207138",
+    "cmake_sha256": "069f59bb44bc54a1312d865684c7b55b55d8e80bca3b91bc0b86eb2da7edd7ad",
+    "library_sha256": "4f7fc7c67eb00e38f5b768f3625df6b74e8defc58323afd39dab83f17f2e578c"
+  }
+}
